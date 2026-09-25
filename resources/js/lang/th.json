@@ -1,0 +1,3094 @@
+{
+  "Plan switched!": "เปลี่ยนแผนสำเร็จ!",
+  "Delete": "ลบ",
+  "Import Clients": "นำเข้าลูกค้า",
+  "Billing History": "ประวัติการเรียกเก็บเงิน",
+  "Net Total": "ยอดสุทธิ",
+  "Transaction Type": "ประเภทรายการ",
+  "Transaction Description": "รายละเอียดธุรกรรม",
+  "Amount": "จำนวน",
+  "Currency": "สกุลเงิน",
+  "Created At": "สร้าง At",
+  "Payment Status": "สถานะการชำระเงิน",
+  "Stripe Fee": "ค่าธรรมเนียมลาย",
+  "You are on trial version! Your trial ends": "คุณอยู่ในเวอร์ชันทดลอง! สิ้นสุดการทดลองใช้ของคุณ",
+  "domains": {
+    "index": {
+      "breadcrumbs_current": "โดเมนทั้งหมด",
+      "breadcrumbs_active": "โดเมนทั้งหมด",
+      "breadcrumbs_first": "แผงควบคุม",
+      "page_title": "โดเมนทั้งหมด",
+      "delete_warning": "คุณแน่ใจหรือไม่ว่าต้องการลบโดเมนนี้",
+      "delete_failed": "ลบไม่สำเร็จ"
+    },
+    "list": {
+      "index": {
+        "breadcrumbs_current": "การจัดการโดเมน",
+        "breadcrumbs_active": "การจัดการโดเมน",
+        "breadcrumbs_first": "แผงควบคุม",
+        "page_title": "การจัดการโดเมน",
+        "delete_warning": "คุณแน่ใจหรือไม่ว่าต้องการลบโดเมนนี้",
+        "delete_failed": "การลบล้มเหลว"
+      }
+    },
+    "create": {
+      "breadcrumbs_current": "สร้างโดเมน",
+      "breadcrumbs_active": "สร้างโดเมน",
+      "breadcrumbs_first": "แผงควบคุม",
+      "breadcrumbs_second": "การจัดการโดเมน",
+      "page_title": "สร้างโดเมน",
+      "form_title": "สร้างโดเมน",
+      "success_msg": "สร้างสำเร็จแล้ว"
+    },
+    "no_action_available": "ไม่มีการดำเนินการใดๆ",
+    "domain": "โดเมน",
+    "domain_placeholder": "ป้อนโดเมน",
+    "make_primary": "ทำให้เป็นประถม",
+    "make_primary_success_msg": "ทำหลักสำเร็จ"
+  },
+  "message": {
+    "billing_page": "หน้าการเรียกเก็บเงิน"
+  },
+  "why_us_cards": "ทำไมเราการ์ด",
+  "features": "คุณสมบัติ",
+  "explorers": "นักสำรวจ",
+  "all_features": "คุณสมบัติทั้งหมด",
+  "software_overview_images": "ภาพภาพรวมซอฟต์แวร์",
+  "testimonials": "ข้อความรับรอง",
+  "brands": "แบรนด์",
+  "ok": "ตกลง",
+  "cancel": "ยกเลิก",
+  "error_alert_title": "อ๊ะ...",
+  "error_alert_text": "บางอย่างผิดพลาด! กรุณาลองอีกครั้ง.",
+  "token_expired_alert_title": "เซสชั่นหมดอายุ!",
+  "token_expired_alert_text": "กรุณาเข้าสู่ระบบอีกครั้งเพื่อดำเนินการต่อ",
+  "login": "เข้าสู่ระบบ",
+  "register": "ลงทะเบียน",
+  "page_not_found": "ไม่พบหน้านี้",
+  "go_home": "กลับบ้าน",
+  "logout": "ออกจากระบบ",
+  "email": "อีเมล",
+  "remember_me": "จดจำฉัน",
+  "password": "รหัสผ่าน",
+  "forgot_password": "ลืมรหัสผ่านหรือไม่?",
+  "confirm_password": "ยืนยันรหัสผ่าน",
+  "name": "ชื่อ",
+  "toggle_navigation": "ไม่ต้องสลับช่องทาง",
+  "home": "บ้าน",
+  "you_are_logged_in": "คุณเข้าสู่ระบบ!",
+  "reset_password": "รีเซ็ตรหัสผ่าน",
+  "send_password_reset_link": "ส่งลิ้งค์",
+  "profile": "ประวัติโดยย่อ",
+  "your_info": "ข้อมูลของคุณ",
+  "info_updated": "ข้อมูลของคุณได้รับการปรับปรุง!",
+  "update": "อัปเดต",
+  "your_password": "รหัสผ่านของคุณ",
+  "password_updated": "อัปเดตรหัสผ่านของคุณแล้ว!",
+  "new_password": "รหัสผ่านใหม่",
+  "login_with": "เข้าสู่ระบบด้วย",
+  "register_with": "ลงทะเบียนกับ",
+  "verify_email": "ตรวจสอบอีเมล์",
+  "send_verification_link": "ส่งลิงค์ยืนยัน",
+  "resend_verification_link": "ส่งลิงค์ยืนยันอีกครั้ง?",
+  "failed_to_verify_email": "ไม่สามารถยืนยันอีเมล",
+  "verify_email_address": "เราส่งอีเมลถึงคุณพร้อมลิงก์ยืนยันแล้ว",
+  "reset_email_text": "กรุณากรอกอีเมลเพื่อรับลิงค์รีเซ็ตรหัสผ่าน!",
+  "sorry": "เสียใจ",
+  "no_data_found": "ไม่พบข้อมูล",
+  "login_txt": "กรุณาเข้าสู่ระบบเพื่อดำเนินการต่อเซสชั่นของคุณ!",
+  "email_placeholder": "ใส่อีเมลล์ของคุณ",
+  "password_placeholder": "ใส่รหัสผ่านของคุณ",
+  "developed_by": "พัฒนาโดย",
+  "per_page": "ต่อหน้า",
+  "available": "มีอยู่",
+  "find": "หา",
+  "domain": "โดเมน",
+  "primary_domain": "โดเมนหลัก",
+  "register_invite": "ไม่มีบัญชี? คลิกที่นี่!",
+  "already_registered": "ลงทะเบียนเรียบร้อยแล้ว?",
+  "register_policy": "ฉันยอมรับข้อกำหนดในการให้บริการและนโยบายความเป็นส่วนตัว",
+  "register_page_title": "สมัครฟรีทันที 14 วัน ไม่ต้องใช้บัตรเครดิต...",
+  "register_next_step": "อีกก้าวหนึ่ง👍",
+  "email_sent": "เราได้ส่งอีเมลไปที่",
+  "confirm_account": "โปรดคลิกลิงก์ยืนยันในนั้นเพื่อสิ้นสุดบัญชีของคุณ",
+  "check_email": "หากไม่ได้รับอีเมล โปรดตรวจสอบโฟลเดอร์สแปมของคุณหรือ",
+  "please": "โปรด",
+  "common": {
+    "id": "ไอดี",
+    "fallback": "รั้งท้าย",
+    "send_mail": "ส่งอีเมล์",
+    "subscribed_at": "สมัครสมาชิกที่",
+    "primary": "หลัก",
+    "business-start": "การเริ่มต้นธุรกิจ",
+    "content": "เนื้อหา",
+    "information": "ข้อมูล",
+    "need_help": "ต้องการความช่วยเหลือ",
+    "true": "จริง",
+    "false": "เท็จ",
+    "points": "คะแนน",
+    "point_placeholder": "ใส่คะแนน",
+    "button_text": "ข้อความปุ่ม",
+    "button_text_placeholder": "ใส่ข้อความปุ่ม",
+    "button_link": "ปุ่มลิงค์",
+    "button_link_placeholder": "เข้าสู่ปุ่มลิงค์",
+    "about_us_tagline": "เกี่ยวกับเรา สโลแกน",
+    "about_us_tagline_placeholder": "ใส่สโลแกนเกี่ยวกับเรา",
+    "about_us_description": "เกี่ยวกับเรา คำอธิบาย",
+    "about_us_description_placeholder": "ป้อนรายละเอียดเกี่ยวกับเรา",
+    "about_us_title": "เกี่ยวกับเรา",
+    "about_us_title_placeholder": "ใส่เกี่ยวกับเรา title",
+    "why_us_tagline": "ทำไมเราถึงติดแท็กไลน์",
+    "why_us_tagline_placeholder": "ป้อนว่าทำไมเราสโลแกน",
+    "why_us_description": "ทำไมถึงเป็นเรา Description",
+    "why_us_description_placeholder": "ป้อนเหตุผลที่เราอธิบาย",
+    "why_us_title": "ทำไมเราชื่อ",
+    "why_us_title_placeholder": "ใส่ชื่อเราทำไม",
+    "business_start_section_tagline": "สโลแกนเริ่มต้นธุรกิจ",
+    "business_start_section_tagline_placeholder": "ป้อนสโลแกนส่วนเริ่มต้นธุรกิจ",
+    "business_start_section_description": "คำอธิบายส่วนการเริ่มต้นธุรกิจ",
+    "business_start_section_description_placeholder": "ป้อนคำอธิบายส่วนเริ่มต้นธุรกิจ",
+    "business_start_section_title": "ชื่อหมวดการเริ่มต้นธุรกิจ",
+    "business_start_section_title_placeholder": "ป้อนชื่อส่วนการเริ่มต้นธุรกิจ",
+    "business_start_support_list": "รายการสนับสนุนการเริ่มต้นธุรกิจ",
+    "business_start_support_item_placeholder": "ป้อนรายการสนับสนุนการเริ่มต้นธุรกิจ",
+    "features_section_tagline": "สโลแกนส่วนคุณสมบัติ",
+    "features_section_tagline_placeholder": "ใส่สโลแกนส่วนคุณสมบัติ",
+    "features_section_description": "คำอธิบายส่วนคุณสมบัติ",
+    "features_section_description_placeholder": "ป้อนคำอธิบายส่วนคุณสมบัติ",
+    "features_section_title": "ชื่อส่วนคุณสมบัติ",
+    "features_section_title_placeholder": "ป้อนชื่อส่วนคุณสมบัติ",
+    "all_features_section_tagline": "สโลแกนส่วนคุณสมบัติทั้งหมด",
+    "all_features_section_tagline_placeholder": "ใส่สโลแกนส่วนคุณสมบัติทั้งหมด",
+    "all_features_section_title": "ชื่อส่วนคุณสมบัติทั้งหมด",
+    "all_features_section_title_placeholder": "ป้อนชื่อส่วนคุณสมบัติทั้งหมด",
+    "get_started_box_title": "เริ่มต้น ชื่อกล่อง",
+    "get_started_box_title_placeholder": "ป้อนชื่อช่องเริ่มต้น",
+    "get_started_box_description": "เริ่มต้นคำอธิบายกล่อง",
+    "get_started_box_description_placeholder": "ป้อนคำอธิบายกล่องเริ่มต้น",
+    "get_started_box_button_text": "เริ่มข้อความปุ่มกล่อง",
+    "get_started_box_button_text_placeholder": "ป้อนข้อความปุ่มกล่องเริ่มต้น",
+    "get_started_box_button_link": "เริ่มต้นลิงก์ปุ่มกล่อง",
+    "get_started_box_button_link_placeholder": "ใส่ลิงค์ปุ่มกล่องเริ่มต้น",
+    "all_features_and_get_started": "คุณสมบัติทั้งหมดและเริ่มต้น",
+    "software_overview_section_tagline": "สโลแกนส่วนภาพรวมซอฟต์แวร์",
+    "software_overview_section_tagline_placeholder": "เข้าสู่สโลแกนส่วนภาพรวมซอฟต์แวร์",
+    "software_overview_section_title": "ชื่อหัวข้อภาพรวมซอฟต์แวร์",
+    "software_overview_section_title_placeholder": "ป้อนชื่อหัวข้อภาพรวมซอฟต์แวร์",
+    "pricing_plan_section_tagline": "สโลแกนส่วนแผนราคา",
+    "pricing_plan_section_tagline_placeholder": "ป้อนสโลแกนส่วนแผนการกำหนดราคา",
+    "pricing_plan_section_title": "ชื่อส่วนแผนราคา",
+    "pricing_plan_section_title_placeholder": "ป้อนชื่อส่วนแผนการกำหนดราคา",
+    "software_overview_and_pricing_plan": "ภาพรวมซอฟต์แวร์และแผนราคา",
+    "testimonial_and_newsletter": "ข้อความรับรองและจดหมายข่าว",
+    "testimonial_section_tagline": "คำรับรองมาตราสโลแกน",
+    "testimonial_section_tagline_placeholder": "ป้อนคำรับรองส่วนสโลแกน",
+    "testimonial_section_title": "หัวข้อรับรอง",
+    "testimonial_section_title_placeholder": "ป้อนชื่อส่วนรับรอง",
+    "newsletter_section_tagline": "สโลแกนส่วนจดหมายข่าว",
+    "newsletter_section_tagline_placeholder": "ใส่สโลแกนส่วนจดหมายข่าว",
+    "newsletter_section_title": "หัวข้อจดหมายข่าว",
+    "newsletter_section_title_placeholder": "ใส่ชื่อหัวข้อจดหมายข่าว",
+    "newsletter_section_description": "คำอธิบายหมวดจดหมายข่าว",
+    "newsletter_section_description_placeholder": "ป้อนคำอธิบายหัวข้อจดหมายข่าว",
+    "about_us": "เกี่ยวกับเรา",
+    "why-us": "ทำไมต้องเป็นเรา",
+    "business_start": "การเริ่มต้นธุรกิจ",
+    "features": "คุณสมบัติ",
+    "all-features-and-get-started": "คุณสมบัติทั้งหมด & เริ่มต้น",
+    "software-overview-and-pricing-plan": "ภาพรวมซอฟต์แวร์ & แผนราคา",
+    "testimonial-and-newsletter": "ข้อความรับรอง & จดหมายข่าว",
+    "hero": "ฮีโร่",
+    "hero_tagline": "แท็กไลน์ฮีโร่",
+    "hero_tagline_placeholder": "ใส่สโลแกนฮีโร่ของคุณ",
+    "hero_title": "ชื่อฮีโร่",
+    "hero_title_placeholder": "ใส่ชื่อฮีโร่ของคุณ",
+    "hero_description": "คำอธิบายฮีโร่",
+    "hero_description_placeholder": "ใส่คำอธิบายฮีโร่ของคุณ",
+    "hero_demo_button_text": "ข้อความปุ่มสาธิตฮีโร่",
+    "hero_demo_button_text_placeholder": "ป้อนข้อความปุ่มสาธิตฮีโร่",
+    "hero_demo_button_link": "ลิงค์ปุ่มสาธิตฮีโร่",
+    "hero_demo_button_link_placeholder": "ป้อนลิงค์ไปยังหน้าสาธิต",
+    "hero_get_started_button_text": "ข้อความปุ่มเริ่มต้นของฮีโร่",
+    "hero_get_started_button_text_placeholder": "ป้อนข้อความปุ่มเริ่มต้นของฮีโร่",
+    "hero_get_started_button_link": "ลิงค์ปุ่มเริ่มต้นฮีโร่",
+    "hero_get_started_button_link_placeholder": "ป้อนลิงก์ไปยังหน้าหรือเทมเพลตหน้า",
+    "company_placeholder": "ใส่ชื่อบริษัทของคุณ",
+    "domain_placeholder": "ใส่ชื่อโดเมนของคุณ",
+    "password_confirmation": "ยืนยันรหัสผ่านของคุณ",
+    "password_confirmation_placeholder": "ยืนยันรหัสผ่านของคุณ",
+    "ban": "ห้าม",
+    "ban_success": "ผู้ใช้ถูกแบนเรียบร้อยแล้ว",
+    "unban": "เลิกแบน",
+    "unban_success": "ยกเลิกการแบนผู้ใช้เรียบร้อยแล้ว",
+    "tenant_id": "รหัสผู้เช่า",
+    "domain": "โดเมน",
+    "company": "บริษัท",
+    "plan": "วางแผน",
+    "trial_ends_at": "สิ้นสุดการทดลองใช้ที่",
+    "banned": "ห้าม",
+    "clients_limit": "ขีดจำกัดลูกค้า",
+    "suppliers_limit": "ขีดจำกัดซัพพลายเออร์",
+    "employee_limit": "ขีดจำกัดพนักงาน",
+    "domains_limit": "ขีดจำกัดโดเมน",
+    "purchases_limit": "ขีดจำกัดการซื้อ",
+    "invoices_limit": "วงเงินใบแจ้งหนี้",
+    "to": "ถึง",
+    "from": "จาก",
+    "s_no": "#",
+    "more_info": "ข้อมูลเพิ่มเติม",
+    "name": "ชื่อ",
+    "name_placeholder": "ใส่ชื่อ",
+    "password": "รหัสผ่าน",
+    "password_placeholder": "ใส่รหัสผ่านของคุณ",
+    "default_password": "รหัสผ่าน (รหัสผ่านเริ่มต้น: 12345678)",
+    "code": "รหัส",
+    "code_placeholder": "ใส่รหัส",
+    "product_name": "ชื่อผลิตภัณฑ์",
+    "product_name_placeholder": "เลือกสินค้า",
+    "sub_category_code": "รหัสหมวดย่อย",
+    "sub_category": "หมวดหมู่ย่อย",
+    "sub_category_name": "ชื่อหมวดย่อย",
+    "category": "หมวดหมู่",
+    "category_name": "ชื่อหมวดหมู่",
+    "category_name_placeholder": "เลือกหมวดหมู่",
+    "account": "บัญชี",
+    "account_placeholder": "เลือกบัญชี",
+    "available_balance": "ยอดเงินคงเหลือ",
+    "amount": "จำนวน",
+    "amount_placeholder": "ใส่จำนวนเงิน",
+    "cheque_no": "ตรวจสอบเลขที่",
+    "cheque_placeholder": "ใส่หมายเลขเช็ค",
+    "voucher_no": "หมายเลขบัตรกำนัล",
+    "voucher_placeholder": "ใส่หมายเลขบัตรกำนัล",
+    "receipt_no": "เลขที่ใบเสร็จ",
+    "receipt_no_placeholder": "ป้อนใบเสร็จเลขที่",
+    "date": "วันที่",
+    "note": "บันทึก",
+    "created_by": "สร้างโดย",
+    "choose_file": "เลือกไฟล์",
+    "image_alt": "แนบรูปภาพ",
+    "note_placeholder": "เขียนบันทึกของคุณที่นี่!",
+    "status": "สถานะ",
+    "action": "การกระทำ",
+    "active": "คล่องแคล่ว",
+    "in_active": "ไม่ใช้งาน",
+    "expired": "หมดอายุ",
+    "email": "อีเมล",
+    "email_placeholder": "ใส่อีเมลล์ของคุณ",
+    "phone": "โทรศัพท์",
+    "address": "ที่อยู่",
+    "address_placeholder": "ใส่ที่อยู่",
+    "modal_header": "แนบภาพตัวอย่าง",
+    "modal_body": "เนื้อหาเริ่มต้น",
+    "export_table": "ส่งออกตาราง",
+    "print_table": "พิมพ์ตาราง",
+    "delete_title": "คุณแน่ใจไหม?",
+    "update_title": "คุณแน่ใจไหม?",
+    "delete_confirm_text": "ยืนยัน",
+    "update_confirm_text": "ยืนยัน",
+    "deleted": "ลบแล้ว!",
+    "updated": "อัพเดท!",
+    "delete_success": "ลบเรียบร้อยแล้ว",
+    "update_success": "อัปเดตเรียบร้อยแล้ว",
+    "failed": "ล้มเหลว!",
+    "delete_failed": "มีบางอย่างผิดปกติ",
+    "update_failed": "มีบางอย่างผิดปกติ",
+    "error_msg": "อ๊ะ...มีบางอย่างผิดพลาด 😔",
+    "image_error": "โปรดเลือกภาพขนาดย่อที่ถูกต้องซึ่งมีขนาดน้อยกว่า 2 MB",
+    "close": "ปิด I",
+    "search": "ค้นหา...",
+    "create": "สร้าง",
+    "view": "ดู",
+    "edit": "แก้ไข",
+    "delete": "ลบ",
+    "image": "ภาพ",
+    "preview": "ดูตัวอย่าง",
+    "no_preview": "ไม่มีตัวอย่าง",
+    "save": "บันทึก",
+    "save_changes": "บันทึกการเปลี่ยนแปลง",
+    "back": "กลับ",
+    "print": "พิมพ์",
+    "reset": "รีเซ็ต",
+    "supplier": "ผู้ผลิต",
+    "supplier_placeholder": "เลือกซัพพลายเออร์",
+    "products": "สินค้า",
+    "select_products": "เลือกผลิตภัณฑ์",
+    "select_products_placeholder": "ค้นหาสินค้า",
+    "reference": "อ้างอิง",
+    "reference_placeholder": "ใส่ข้อมูลอ้างอิง",
+    "quantity": "ปริมาณ",
+    "purchase_price": "ราคาซื้อ",
+    "unit_price": "ราคาต่อหน่วย",
+    "unit_cost": "ต้นทุนต่อหน่วย",
+    "unit_tax": "ภาษีต่อหน่วย",
+    "tax": "ภาษี",
+    "subtotal": "ยอดรวม",
+    "return_subtotal": "ส่งคืนยอดรวม",
+    "new_subtotal": "ยอดรวมใหม่",
+    "return_amount": "คืนจำนวนเงิน",
+    "return_cost": "ต้นทุนการคืนสินค้า",
+    "total": "ทั้งหมด",
+    "net_total": "ยอดสุทธิ",
+    "due": "เนื่องจาก",
+    "transport": "ขนส่ง",
+    "add_payment": "เพิ่มการชำระเงิน?",
+    "add_payment_placeholder": "เลือกตัวเลือก",
+    "yes": "ใช่",
+    "no": "ไม่",
+    "paid": "จ่าย",
+    "total_paid": "ทั้งหมดที่จ่าย",
+    "paid_amount": "จำนวนเงินที่ชำระ",
+    "paid_amount_placeholder": "ใส่จำนวนเงิน",
+    "total_due": "ครบกำหนดทั้งหมด",
+    "account_receivable": "ลูกหนี้",
+    "account_payable": "เจ้าหนี้การค้า",
+    "total_price": "ราคารวม",
+    "return_price": "ราคาส่งกลับ",
+    "price": "ราคา",
+    "total_return": "ผลตอบแทนรวม",
+    "discount": "การลดราคา",
+    "discount_placeholder": "ใส่ส่วนลด",
+    "supplier_details": "รายละเอียดซัพพลายเออร์",
+    "client_details": "รายละเอียดลูกค้า",
+    "supplier_id": "รหัสซัพพลายเออร์",
+    "client_id": "รหัสลูกค้า",
+    "client_name": "ชื่อลูกค้า",
+    "supplier_name": "ชื่อผู้ผลิต",
+    "company_name": "ชื่อ บริษัท",
+    "company_name_placeholder": "ใส่ชื่อบริษัท",
+    "contact_number": "เบอร์ติดต่อ",
+    "contact_number_placeholder": "ใส่เบอร์ติดต่อ",
+    "payment_history": "ประวัติการชำระเงิน",
+    "payment_date": "วันจ่าย",
+    "empty_payment": "ยังไม่มีการชำระเงิน!",
+    "empty_payment_msg": "คุณยังไม่ได้/ไม่ได้เพิ่มการชำระเงินใดๆ สำหรับการซื้อนี้ หลังจากเพิ่มการชำระเงินแล้ว คุณจะเห็นรายการที่นี่",
+    "purchases": "การซื้อ",
+    "purchases_placeholder": "เลือกซื้อสินค้า",
+    "total_tax": "ภาษีทั้งหมด",
+    "invoice_tax": "ใบกำกับภาษี",
+    "transport_cost": "ค่าเดินทาง",
+    "transport_cost_placeholder": "ใส่ค่าขนส่ง",
+    "total_discount": "ส่วนลดทั้งหมด",
+    "discount_type": "ประเภทส่วนลด",
+    "fixed": "แก้ไขแล้ว",
+    "percentage": "เปอร์เซ็นต์",
+    "client": "ลูกค้า",
+    "client_placeholder": "เลือกลูกค้า",
+    "payment_terms": "เงื่อนไขการชำระเงิน",
+    "payment_terms_placeholder": "ระบุเงื่อนไขการชำระเงิน",
+    "po_reference": "ใบสั่งซื้ออ้างอิง",
+    "po_reference_placeholder": "ป้อนการอ้างอิงใบสั่งซื้อ",
+    "invoice_qty": "จำนวนใบแจ้งหนี้",
+    "current_qty": "จำนวนปัจจุบัน",
+    "return_qty": "จำนวนคืน",
+    "invoices": "ใบแจ้งหนี้",
+    "invoices_placeholder": "เลือกใบแจ้งหนี้",
+    "return_reason": "เหตุผลในการคืนสินค้า",
+    "return_reason_placeholder": "ใส่เหตุผล",
+    "invoice_due": "ครบกำหนดใบแจ้งหนี้",
+    "non_invoice_due": "ไม่ใช่ใบแจ้งหนี้ที่สอง",
+    "invoice_date": "วันที่ออกใบแจ้งหนี้",
+    "invoice_no": "เลขที่ใบแจ้งหนี้",
+    "invoice_return_no": "เลขที่ใบกำกับสินค้าคืน",
+    "return_no": "ส่งคืนNo",
+    "return_products": "คืนสินค้า",
+    "insufficient_stock": "สต็อกไม่เพียงพอ",
+    "invoice_products": "ผลิตภัณฑ์ใบแจ้งหนี้",
+    "created_at": "สร้าง At",
+    "reason": "เหตุผล",
+    "type": "พิมพ์",
+    "credit": "เครดิต",
+    "debit": "เดบิต",
+    "payment_type": "ประเภทการชำระเงิน",
+    "invoice_total": "ยอดรวมใบแจ้งหนี้",
+    "invoice_details": "รายละเอียดใบแจ้งหนี้",
+    "payment_details": "รายละเอียดการจ่ายเงิน",
+    "ref_no": "อ้างอิง ไม่",
+    "reference_no": "เลขอ้างอิง",
+    "payable": "เจ้าหนี้",
+    "interest": "ความสนใจ",
+    "installment": "ค่างวดเงินผ่อน",
+    "error": "ข้อผิดพลาด!",
+    "per": "ต่อ",
+    "day": "วัน",
+    "week": "สัปดาห์",
+    "month": "เดือน",
+    "year": "ปี",
+    "daily": "รายวัน",
+    "monthly": "รายเดือน",
+    "yearly": "รายปี",
+    "employee": "พนักงาน",
+    "employee_placeholder": "เลือกพนักงาน",
+    "designation": "การกำหนด",
+    "designation_placeholder": "ใส่ชื่อ",
+    "emp_name": "ชื่อเอ็ม",
+    "emp_id": "Emp ID",
+    "employee_details": "รายละเอียดพนักงาน",
+    "department": "แผนก",
+    "department_placeholder": "แผนก",
+    "balance": "สมดุล",
+    "salary": "เงินเดือน",
+    "salary_placeholder": "ใส่เงินเดือน",
+    "profile_picture": "รูปประวัติ",
+    "role": "บทบาท",
+    "role_placeholder": "เลือกบทบาท",
+    "unit": "หน่วย",
+    "unit_placeholder": "เลือกหน่วย",
+    "brand": "ยี่ห้อ",
+    "brand_placeholder": "เลือกแบรนด์",
+    "item_code": "รหัสสินค้า",
+    "item_code_placeholder": "ใส่รหัสสินค้า",
+    "item_model": "รุ่นสินค้า",
+    "item_model_placeholder": "ใส่รุ่น",
+    "item_name": "ชื่อสินค้า",
+    "item_name_placeholder": "ใส่ชื่อ",
+    "rendering_fails": "การแสดงผลล้มเหลว",
+    "product": "ผลิตภัณฑ์",
+    "transactions": "ธุรกรรม",
+    "empty_table": "ขออภัย 😔 ไม่พบข้อมูล",
+    "stock_alert_msg": "สต็อกน้อยกว่าจำนวนการแจ้งเตือน!",
+    "stock_notification": "การแจ้งเตือนปริมาณสินค้า",
+    "stock_notification_empty": "ไม่มีการแจ้งเตือน",
+    "delete_warning": "คุณจะไม่สามารถกลับมาที่นี่ได้!",
+    "update_warning": "คุณจะไม่สามารถกลับมาที่นี่ได้!",
+    "add_balance": "เพิ่มยอดคงเหลือ",
+    "remove_balance": "ลบยอดคงเหลือ",
+    "qty": "จำนวน",
+    "item": "สิ่งของ",
+    "sold_by": "ขายโดย",
+    "all_features": "คุณสมบัติทั้งหมด",
+    "success_msg": "ความสำเร็จ!",
+    "software_overview": "ภาพรวมซอฟต์แวร์",
+    "business_start_support_list_placeholder": "รายการสนับสนุนการเริ่มต้นธุรกิจ",
+    "explorers": "นักสำรวจ",
+    "points_placeholder": "คะแนน",
+    "why_us": "ทำไมต้องเป็นเรา",
+    "stripe_public_key": "กุญแจสาธารณะลาย",
+    "stripe_private_key": "กุญแจส่วนตัวลาย",
+    "plan_placeholder": "วางแผน",
+    "download": "ดาวน์โหลด",
+    "commission": "คณะกรรมการ",
+    "invoice_tax_placeholder": "ใบกำกับภาษี",
+    "requested_domain": "โดเมนที่ร้องขอ",
+    "pending": "รอดำเนินการ",
+    "connected": "เชื่อมต่อแล้ว",
+    "rejected": "ถูกปฏิเสธ",
+    "removed": "ลบออก",
+    "tenant": "ผู้เช่า",
+    "welcome_mail": "ส่งจดหมายต้อนรับ",
+    "tenant_name": "ชื่อผู้เช่า",
+    "tenant_email": "อีเมลผู้เช่า",
+    "modified_by": "ดัดแปลงโดย",
+    "host": "เจ้าภาพ",
+    "value": "ค่า",
+    "custom_html": "HTML ที่กำหนดเอง",
+    "custom_html_placeholder": "HTML ที่กำหนดเอง (คุณสามารถเพิ่มแท็กที่เกี่ยวข้องกับ SEO, Google Analytics, รหัสพิกเซลของ Facebook ฯลฯ ได้ที่นี่)",
+    "pricing_plan": "แผนราคา"
+  },
+  "topbar": {
+    "new_invoice": "ใบแจ้งหนี้ใหม่",
+    "new_expense": "ค่าใช้จ่ายใหม่",
+    "new_purchase": "ซื้อใหม่",
+    "new_quotation": "ใบเสนอราคาใหม่",
+    "profile": "ประวัติโดยย่อ",
+    "setup": "ติดตั้ง",
+    "logout": "ออกจากระบบ"
+  },
+  "sidebar": {
+    "Billing History": "ประวัติการเรียกเก็บเงิน",
+    "tenant": {
+      "settings": "การตั้งค่า"
+    },
+    "domain_management": "การจัดการโดเมน",
+    "domain": "โดเมน",
+    "domain_request": "คำขอโดเมน",
+    "newsletters": {
+      "create": "สมาชิก"
+    },
+    "pages": {
+      "create": "หน้า"
+    },
+    "items": "รายการ",
+    "dashboard": "แผงควบคุม",
+    "activities": "กิจกรรม",
+    "expenses": "ค่าใช้จ่าย",
+    "categories": "หมวดหมู่",
+    "sub_categories": "หมวดหมู่ย่อย",
+    "expenses_list": "รายการค่าใช้จ่าย",
+    "purchases": "การซื้อ",
+    "purchases_list": "รายการซื้อ",
+    "returns_list": "รายการคืนสินค้า",
+    "sales": "ฝ่ายขาย",
+    "quotations_list": "รายการใบเสนอราคา",
+    "invoices_list": "รายการใบแจ้งหนี้",
+    "accounting": "การบัญชี",
+    "cashbook": "หนังสือเล่มเงินสด",
+    "accounts": "บัญชี",
+    "balance_adjustments": "การปรับสมดุล",
+    "balance_transfers": "การโอนยอดคงเหลือ",
+    "transaction_history": "ประวัติการทำรายการ",
+    "payments": "การชำระเงิน",
+    "suppliers": "ซัพพลายเออร์",
+    "non_purchase": "ไม่ซื้อ",
+    "purchase": "ซื้อ",
+    "clients": "ลูกค้า",
+    "non_invoice": "ไม่ใช่ใบแจ้งหนี้",
+    "invoice": "ใบแจ้งหนี้",
+    "loan_management": "การจัดการสินเชื่อ",
+    "authorities": "เจ้าหน้าที่",
+    "loans": "เงินกู้",
+    "asset_management": "การจัดการสินทรัพย์",
+    "types": "ประเภท",
+    "assets": "ทรัพย์สิน",
+    "payroll": "เงินเดือน",
+    "people": "ผู้คน",
+    "employees_list": "รายชื่อพนักงาน",
+    "employees": "พนักงาน",
+    "departments": "หน่วยงาน",
+    "increments": "เพิ่มขึ้น",
+    "product": "ผลิตภัณฑ์",
+    "products": "สินค้า",
+    "products_list": "รายการสินค้า",
+    "barcode": "บาร์โค้ด",
+    "inventory_uppercase": "รายการสิ่งของ",
+    "inventory": "รายการสิ่งของ",
+    "view_inventory": "ดูสินค้าคงคลัง",
+    "inventory_adjustment": "การปรับสินค้าคงคลัง",
+    "reports": "รายงาน",
+    "balance_sheet": "งบดุล",
+    "summary_report": "รายงานสรุป",
+    "profit_loss_report": "รายงานกำไร/ขาดทุน",
+    "expense_report": "รายงานค่าใช้จ่าย",
+    "product_report": "รายงานรายการ",
+    "inventory_report": "รายงานสินค้าคงคลัง",
+    "account": "บัญชีผู้ใช้",
+    "account_sm": "บัญชี",
+    "setup": "ติดตั้ง",
+    "database_backup": "สำรองฐานข้อมูล",
+    "profile": "ประวัติโดยย่อ",
+    "logout": "ออกจากระบบ",
+    "pricing": "ราคา",
+    "tenants": "ผู้เช่า",
+    "overview": "ภาพรวม",
+    "saas": "SAAS",
+    "back_landing": "ไปที่หน้า Landing Page",
+    "landing_page": "หน้า Landing Page",
+    "cms": "CMS",
+    "promotion": "การส่งเสริม",
+    "plans": "แผน",
+    "pricing_plans": "แผนการตั้งราคา",
+    "plan_features": "คุณสมบัติแผน",
+    "domains": "การจัดการโดเมน",
+    "all_domains": "โดเมนทั้งหมด",
+    "domain_requests": "คำขอโดเมน"
+  },
+  "dashboard": {
+    "stock_alert": "การแจ้งเตือนสต็อก",
+    "recent_activities": "กิจกรรมล่าสุด",
+    "page_title": "แผงควบคุม",
+    "breadcrumbs_current": "แผงควบคุม",
+    "breadcrumbs_active": "แผงควบคุม",
+    "bar_chart_title": "การขายเทียบกับการซื้อ",
+    "bar_chart_tooltip": "ยอดขายและการซื้อรายเดือนหลังจากหักต้นทุนการส่งคืนสินค้า",
+    "pie_chart_title": "สินค้าขายดี",
+    "line_chart_title": "การชำระเงินที่ส่งแล้วกับการชำระเงินที่ได้รับ",
+    "line_chart_tooltip": "การชำระเงินที่ส่ง = การชำระเงินของผู้จัดหา + การชำระเงินกู้<br/> การชำระเงินที่ได้รับ = การชำระเงินของลูกค้า + เงินกู้ที่ได้รับ",
+    "top_clients_title": "ลูกค้า 5 อันดับแรก",
+    "summary": "สรุป",
+    "summary_option_1": "วันนี้",
+    "summary_option_2": "7 วันที่ผ่านมา",
+    "summary_option_3": "เดือนนี้",
+    "summary_option_4": "ปีนี้",
+    "summery_items": {
+      "purchase": "ซื้อ",
+      "purchase_return": "ซื้อคืน",
+      "sales": "ฝ่ายขาย",
+      "sales_return": "ผลตอบแทนจากการขาย",
+      "payment_received": "การชำระเงินของลูกค้า",
+      "payment_sent": "การชำระเงินของผู้จัดหา",
+      "expense": "ค่าใช้จ่าย",
+      "balance_transfers": "การโอนยอดคงเหลือ"
+    },
+    "today": "วันนี้",
+    "last_7_days": "7 วันที่ผ่านมา",
+    "this_month": "เดือนนี้",
+    "this_year": "ปีนี้"
+  },
+  "expenses": {
+    "categories": {
+      "index": {
+        "page_title": "หมวดหมู่ค่าใช้จ่าย",
+        "breadcrumbs_current": "หมวดหมู่ค่าใช้จ่าย",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ค่าใช้จ่าย",
+        "breadcrumbs_active": "หมวดหมู่",
+        "delete_warning": "หมวดหมู่ย่อยทั้งหมดสำหรับหมวดหมู่นี้จะถูกลบ!"
+      },
+      "create": {
+        "page_title": "สร้างหมวดค่าใช้จ่าย",
+        "form_title": "สร้างหมวดหมู่ค่าใช้จ่าย",
+        "breadcrumbs_current": "สร้างหมวดค่าใช้จ่าย",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "หมวดหมู่",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มหมวดหมู่เรียบร้อยแล้ว 👍"
+      },
+      "edit": {
+        "page_title": "แก้ไขหมวดค่าใช้จ่าย",
+        "form_title": "แก้ไขหมวดหมู่",
+        "breadcrumbs_current": "แก้ไขหมวดค่าใช้จ่าย",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "หมวดหมู่",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัปเดตหมวดหมู่เรียบร้อยแล้ว 👍"
+      }
+    },
+    "sub_categories": {
+      "index": {
+        "page_title": "หมวดหมู่ย่อยค่าใช้จ่าย",
+        "breadcrumbs_current": "หมวดหมู่ย่อยค่าใช้จ่าย",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ค่าใช้จ่าย",
+        "breadcrumbs_active": "หมวดหมู่ย่อย",
+        "delete_warning": "ค่าใช้จ่ายทั้งหมดสำหรับหมวดนี้จะถูกลบ!"
+      },
+      "create": {
+        "page_title": "สร้างหมวดย่อยค่าใช้จ่าย",
+        "form_title": "สร้างหมวดย่อยค่าใช้จ่าย",
+        "breadcrumbs_current": "สร้างหมวดย่อยค่าใช้จ่าย",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "หมวดหมู่ย่อย",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มหมวดย่อยเรียบร้อยแล้ว 👍"
+      },
+      "edit": {
+        "page_title": "แก้ไขหมวดย่อยค่าใช้จ่าย",
+        "form_title": "แก้ไขหมวดย่อยค่าใช้จ่าย",
+        "breadcrumbs_current": "แก้ไขหมวดย่อยค่าใช้จ่าย",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "หมวดหมู่ย่อย",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัปเดตหมวดย่อยเรียบร้อยแล้ว 👍"
+      }
+    },
+    "list": {
+      "common": {
+        "expense_reason": "เหตุผลค่าใช้จ่าย",
+        "expense_reason_placeholder": "ใส่เหตุผล"
+      },
+      "index": {
+        "page_title": "ค่าใช้จ่าย",
+        "breadcrumbs_current": "ค่าใช้จ่าย",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ค่าใช้จ่าย",
+        "breadcrumbs_active": "ค่าใช้จ่าย",
+        "delete_warning": "คุณจะไม่สามารถกลับมาที่นี่ได้!"
+      },
+      "create": {
+        "page_title": "สร้างรายจ่าย",
+        "form_title": "สร้างรายจ่าย",
+        "breadcrumbs_current": "สร้างรายจ่าย",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ค่าใช้จ่าย",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มรายจ่ายเรียบร้อยแล้ว 👍"
+      },
+      "edit": {
+        "page_title": "แก้ไขค่าใช้จ่าย",
+        "form_title": "แก้ไขค่าใช้จ่าย",
+        "breadcrumbs_current": "แก้ไขค่าใช้จ่าย",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ค่าใช้จ่าย",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัพเดทรายจ่ายเรียบร้อยแล้ว 👍"
+      },
+      "view": {
+        "page_title": "รายละเอียดค่าใช้จ่าย",
+        "breadcrumbs_current": "รายละเอียดค่าใช้จ่าย",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ค่าใช้จ่าย",
+        "breadcrumbs_active": "รายละเอียด",
+        "expense_details": "รายละเอียดค่าใช้จ่าย"
+      }
+    }
+  },
+  "purchases": {
+    "list": {
+      "common": {
+        "po_reference": "ใบสั่งซื้ออ้างอิง",
+        "po_reference_placeholder": "ป้อนข้อมูลอ้างอิงใบสั่งซื้อ",
+        "payment_terms": "เงื่อนไขการชำระเงิน",
+        "payment_terms_placeholder": "ระบุเงื่อนไขการชำระเงิน",
+        "purchase_tax": "ภาษีซื้อ",
+        "purchase_total": "ยอดซื้อ",
+        "purchase_subtotal": "ยอดรวมซื้อ",
+        "purchase_tax_placeholder": "เลือกประเภทภาษี",
+        "total_tax": "ภาษีทั้งหมด",
+        "discount": "การลดราคา",
+        "discount_placeholder": "ใส่ส่วนลด",
+        "transport_cost": "ค่าเดินทาง",
+        "transport_cost_placeholder": "ใส่ค่าขนส่ง",
+        "purchase_date": "วันที่ซื้อ",
+        "po_date": "วันที่สั่งซื้อ",
+        "purchased_qty": "จำนวนที่ซื้อ",
+        "returned_qty": "จำนวนที่ส่งคืน",
+        "current_qty": "จำนวนปัจจุบัน",
+        "purchase_no": "ซื้อNo",
+        "return_no": "ส่งคืนNo",
+        "purchase_no_placeholder": "ป้อนหมายเลขซื้อ",
+        "purchase_products": "ซื้อสินค้า",
+        "purchase_due": "ซื้อครบกำหนด"
+      },
+      "index": {
+        "page_title": "การซื้อ",
+        "breadcrumbs_current": "การซื้อ",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "การซื้อ",
+        "breadcrumbs_active": "การซื้อ",
+        "delete_warning": "คุณจะไม่สามารถกลับมาที่นี่ได้!"
+      },
+      "create": {
+        "page_title": "สร้างการซื้อ",
+        "form_title": "สร้างการซื้อ",
+        "breadcrumbs_current": "สร้างการซื้อ",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "การซื้อ",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มการซื้อเรียบร้อยแล้ว 👍"
+      },
+      "edit": {
+        "page_title": "แก้ไขการสั่งซื้อ",
+        "form_title": "แก้ไขการซื้อ",
+        "breadcrumbs_current": "แก้ไขการซื้อ",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "การซื้อ",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัปเดตการสั่งซื้อเรียบร้อยแล้ว 👍"
+      },
+      "view": {
+        "page_title": "รายละเอียดการซื้อ",
+        "breadcrumbs_current": "รายละเอียดการซื้อ",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "การซื้อ",
+        "breadcrumbs_active": "รายละเอียด"
+      }
+    },
+    "returns": {
+      "common": {
+        "return_reason": "เหตุผลในการคืนสินค้า",
+        "return_reason_placeholder": "ใส่เหตุผล",
+        "return_date": "วันเดินทางกลับ",
+        "purchase_return_no": "ซื้อคืนNo",
+        "return_products": "คืนสินค้า"
+      },
+      "index": {
+        "page_title": "ซื้อคืน",
+        "breadcrumbs_current": "ซื้อคืน",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "การซื้อ",
+        "breadcrumbs_active": "ซื้อคืน",
+        "delete_warning": "คุณจะไม่สามารถกลับมาที่นี่ได้!"
+      },
+      "create": {
+        "page_title": "สร้างผลตอบแทนการซื้อ",
+        "form_title": "สร้างผลตอบแทนการซื้อ",
+        "breadcrumbs_current": "สร้างผลตอบแทนการซื้อ",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ซื้อคืน",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มการคืนสินค้าเรียบร้อยแล้ว 👍"
+      },
+      "edit": {
+        "page_title": "แก้ไขการคืนสินค้า",
+        "form_title": "แก้ไขการคืนสินค้าที่ซื้อ",
+        "breadcrumbs_current": "แก้ไขการคืนสินค้า",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ซื้อคืน",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัปเดตการคืนสินค้าเรียบร้อยแล้ว 👍"
+      },
+      "view": {
+        "page_title": "ซื้อรายละเอียดการคืนสินค้า",
+        "breadcrumbs_current": "ซื้อรายละเอียดการคืนสินค้า",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ซื้อคืน",
+        "breadcrumbs_active": "รายละเอียด"
+      }
+    }
+  },
+  "sales": {
+    "common": {
+      "quotation_no": "ใบเสนอราคา",
+      "quotation_date": "วันที่เสนอราคา",
+      "delivery_place": "สถานที่จัดส่ง",
+      "delivery_place_placeholder": "ระบุสถานที่จัดส่ง",
+      "quotation_tax": "ภาษีใบเสนอราคา",
+      "quotation_tax_placeholder": "เลือกประเภทภาษี",
+      "return_date": "วันเดินทางกลับ",
+      "new_due": "ใหม่",
+      "client_advance": "ลูกค้าล่วงหน้า",
+      "invoice_total": "ยอดรวมใบแจ้งหนี้",
+      "before_return": "ก่อนกลับ",
+      "invoice_return": "การคืนใบแจ้งหนี้",
+      "invoice_tax": "ใบกำกับภาษี",
+      "invoice_tax_placeholder": "เลือกประเภทภาษี"
+    },
+    "quotations": {
+      "index": {
+        "page_title": "ใบเสนอราคา",
+        "create_invoice": "สร้างใบแจ้งหนี้",
+        "breadcrumbs_current": "ใบเสนอราคา",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ใบเสนอราคา",
+        "breadcrumbs_active": "ใบเสนอราคา",
+        "delete_warning": "คุณจะไม่สามารถกลับมาที่นี่ได้!",
+        "delete_failed": "ขออภัย คุณไม่สามารถลบใบเสนอราคานี้ได้!"
+      },
+      "create": {
+        "page_title": "สร้างใบเสนอราคา",
+        "form_title": "สร้างใบเสนอราคา",
+        "breadcrumbs_current": "สร้างใบเสนอราคา",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ใบเสนอราคา",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มใบเสนอราคาเรียบร้อยแล้ว👍"
+      },
+      "edit": {
+        "page_title": "แก้ไขใบเสนอราคา",
+        "form_title": "แก้ไขใบเสนอราคา",
+        "breadcrumbs_current": "แก้ไขใบเสนอราคา",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ใบเสนอราคา",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัพเดทใบเสนอราคาเรียบร้อยแล้ว 👍"
+      },
+      "view": {
+        "page_title": "รายละเอียดใบเสนอราคา",
+        "breadcrumbs_current": "รายละเอียดใบเสนอราคา",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ใบเสนอราคา",
+        "breadcrumbs_active": "รายละเอียด",
+        "expense_details": "รายละเอียดค่าใช้จ่าย"
+      },
+      "invoice": {
+        "page_title": "ใบเสนอราคาใบแจ้งหนี้",
+        "form_title": "สร้างใบเสนอราคาเพื่อออกใบแจ้งหนี้",
+        "breadcrumbs_current": "ใบเสนอราคาใบแจ้งหนี้",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ใบเสนอราคา",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "สร้างใบแจ้งหนี้เรียบร้อยแล้ว 👍"
+      }
+    },
+    "invoices": {
+      "index": {
+        "page_title": "ใบแจ้งหนี้",
+        "breadcrumbs_current": "ใบแจ้งหนี้",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ฝ่ายขาย",
+        "breadcrumbs_active": "ใบแจ้งหนี้",
+        "delete_warning": "คุณจะไม่สามารถกลับมาที่นี่ได้!",
+        "delete_failed": "ขออภัย คุณไม่สามารถลบใบแจ้งหนี้นี้ได้!"
+      },
+      "create": {
+        "page_title": "สร้างใบแจ้งหนี้",
+        "form_title": "สร้างใบแจ้งหนี้",
+        "breadcrumbs_current": "สร้างใบแจ้งหนี้",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ใบแจ้งหนี้",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มใบแจ้งหนี้เรียบร้อยแล้ว 👍"
+      },
+      "edit": {
+        "page_title": "แก้ไขใบแจ้งหนี้",
+        "form_title": "แก้ไขใบแจ้งหนี้",
+        "breadcrumbs_current": "แก้ไขใบแจ้งหนี้",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ใบแจ้งหนี้",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัพเดทใบแจ้งหนี้เรียบร้อยแล้ว 👍"
+      },
+      "view": {
+        "page_title": "รายละเอียดใบแจ้งหนี้",
+        "breadcrumbs_current": "รายละเอียดใบแจ้งหนี้",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ใบแจ้งหนี้",
+        "breadcrumbs_active": "รายละเอียด",
+        "invoice_details": "รายละเอียดใบแจ้งหนี้"
+      }
+    },
+    "returns": {
+      "index": {
+        "page_title": "การคืนใบแจ้งหนี้",
+        "breadcrumbs_current": "การคืนใบแจ้งหนี้",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ใบแจ้งหนี้",
+        "breadcrumbs_active": "การคืนใบแจ้งหนี้",
+        "delete_warning": "คุณจะไม่สามารถกลับมาที่นี่ได้!",
+        "delete_failed": "มีบางอย่างผิดปกติ"
+      },
+      "create": {
+        "page_title": "สร้างการคืนใบแจ้งหนี้",
+        "form_title": "สร้างการคืนใบแจ้งหนี้",
+        "breadcrumbs_current": "สร้างการคืนใบแจ้งหนี้",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "การคืนใบแจ้งหนี้",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มการคืนใบแจ้งหนี้เรียบร้อยแล้ว👍"
+      },
+      "edit": {
+        "page_title": "แก้ไขการคืนใบแจ้งหนี้",
+        "form_title": "แก้ไขการคืนใบแจ้งหนี้",
+        "breadcrumbs_current": "แก้ไขการคืนใบแจ้งหนี้",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "การคืนใบแจ้งหนี้",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัปเดตการคืนใบแจ้งหนี้เรียบร้อยแล้ว👍"
+      },
+      "view": {
+        "page_title": "รายละเอียดการคืนใบแจ้งหนี้",
+        "breadcrumbs_current": "รายละเอียดการคืนใบแจ้งหนี้",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "การคืนใบแจ้งหนี้",
+        "breadcrumbs_active": "รายละเอียด",
+        "invoice_details": "รายละเอียดใบแจ้งหนี้"
+      }
+    }
+  },
+  "cashbook": {
+    "common": {
+      "account_number": "หมายเลขบัญชี",
+      "account_number_placeholder": "ใส่เลขบัญชี",
+      "branch_name": "ชื่อสาขา",
+      "branch_name_placeholder": "ใส่ชื่อสาขา",
+      "bank_name": "ชื่อธนาคาร",
+      "bank_name_placeholder": "ใส่ชื่อธนาคาร",
+      "transactions": "ธุรกรรม",
+      "account_details": "รายละเอียดบัญชี",
+      "total_transactions": "รวมธุรกรรม",
+      "debit_amount": "จำนวนเงินเดบิต",
+      "credit_amount": "วงเงิน",
+      "from_account": "จากบัญชี",
+      "to_account": "สู่บัญชี",
+      "transfer_reason": "เหตุผลในการโอน"
+    },
+    "accounts": {
+      "index": {
+        "page_title": "บัญชี",
+        "breadcrumbs_current": "บัญชี",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "หนังสือเล่มเงินสด",
+        "breadcrumbs_third": "บัญชี",
+        "breadcrumbs_active": "บัญชี",
+        "delete_warning": "คุณจะไม่สามารถกลับมาที่นี่ได้!",
+        "delete_failed": "ขออภัย คุณไม่สามารถลบบัญชีนี้ได้!"
+      },
+      "create": {
+        "page_title": "สร้างบัญชี",
+        "form_title": "สร้างบัญชี",
+        "breadcrumbs_current": "สร้างบัญชี",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "หนังสือเล่มเงินสด",
+        "breadcrumbs_third": "บัญชี",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มบัญชีเรียบร้อยแล้ว 👍"
+      },
+      "edit": {
+        "page_title": "แก้ไขบัญชี",
+        "form_title": "แก้ไขบัญชี",
+        "breadcrumbs_current": "แก้ไขบัญชี",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "หนังสือเล่มเงินสด",
+        "breadcrumbs_third": "บัญชี",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัพเดทบัญชีเรียบร้อยแล้ว 👍"
+      },
+      "view": {
+        "page_title": "ธุรกรรมบัญชี",
+        "breadcrumbs_current": "ธุรกรรมบัญชี",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "บัญชี",
+        "breadcrumbs_active": "ธุรกรรม",
+        "empty_transaction": "ยังไม่มีการทำธุรกรรม!",
+        "empty_transaction_msg": "คุณยังไม่ได้ทำธุรกรรมใดๆ โดยใช้บัญชีนี้ หลังจากทำธุรกรรมแล้ว คุณจะเห็นรายการที่นี่"
+      }
+    },
+    "balances": {
+      "index": {
+        "page_title": "การปรับสมดุล",
+        "add_balance": "สร้าง",
+        "breadcrumbs_current": "การปรับสมดุล",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "หนังสือเล่มเงินสด",
+        "breadcrumbs_active": "การปรับเปลี่ยน",
+        "delete_warning": "คุณจะไม่สามารถกลับมาที่นี่ได้!",
+        "delete_failed": "ขออภัย คุณไม่สามารถลบธุรกรรมนี้ได้"
+      },
+      "create": {
+        "page_title": "สร้างการปรับปรุง",
+        "form_title": "สร้างการปรับปรุง",
+        "breadcrumbs_current": "สร้างการปรับปรุง",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "หนังสือเล่มเงินสด",
+        "breadcrumbs_third": "การปรับเปลี่ยน",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มการปรับเรียบร้อยแล้ว 👍"
+      },
+      "edit": {
+        "page_title": "แก้ไขยอดคงเหลือ",
+        "form_title": "แก้ไขยอดคงเหลือ",
+        "breadcrumbs_current": "แก้ไขยอดคงเหลือ",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "หนังสือเล่มเงินสด",
+        "breadcrumbs_third": "ยอดคงเหลือ",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัพเดทยอดคงเหลือเรียบร้อยแล้ว 👍"
+      }
+    },
+    "transfers": {
+      "index": {
+        "page_title": "การโอนยอดคงเหลือ",
+        "add_transfer": "เพิ่มการโอน",
+        "breadcrumbs_current": "การโอนยอดคงเหลือ",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "หนังสือเล่มเงินสด",
+        "breadcrumbs_active": "การโอนยอดคงเหลือ",
+        "delete_warning": "คุณจะไม่สามารถกลับมาที่นี่ได้!",
+        "delete_failed": "ขออภัย คุณไม่สามารถลบการโอนนี้ได้!"
+      },
+      "create": {
+        "page_title": "สร้างการโอน",
+        "form_title": "สร้างการโอนยอดคงเหลือ",
+        "breadcrumbs_current": "สร้างการโอน",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "หนังสือเล่มเงินสด",
+        "breadcrumbs_third": "การโอนยอดคงเหลือ",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มการโอนยอดคงเหลือเรียบร้อยแล้ว 👍"
+      },
+      "edit": {
+        "page_title": "แก้ไขการโอนยอดคงเหลือ",
+        "form_title": "แก้ไขการโอนยอดคงเหลือ",
+        "breadcrumbs_current": "แก้ไขการโอนยอดคงเหลือ",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "หนังสือเล่มเงินสด",
+        "breadcrumbs_third": "การโอนยอดคงเหลือ",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัพเดทการโอนเงินเรียบร้อยแล้ว 👍"
+      },
+      "view": {
+        "page_title": "รายละเอียดการโอนยอดคงเหลือ",
+        "breadcrumbs_current": "รายละเอียดการโอนเงิน",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "หนังสือเล่มเงินสด",
+        "breadcrumbs_third": "การโอนยอดคงเหลือ",
+        "breadcrumbs_active": "รายละเอียด"
+      }
+    },
+    "transactions": {
+      "index": {
+        "page_title": "ประวัติการทำรายการ",
+        "breadcrumbs_current": "ประวัติการทำรายการ",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "หนังสือเล่มเงินสด",
+        "breadcrumbs_active": "ประวัติศาสตร์"
+      }
+    }
+  },
+  "payments": {
+    "common": {
+      "due_paid": "ชำระแล้ว",
+      "due_added": "ครบกำหนดที่เพิ่ม",
+      "current_due": "ครบกำหนดปัจจุบัน",
+      "non_invoice_paid": "ไม่ใช่ใบแจ้งหนี้ที่จ่าย",
+      "non_invoice_total": "ยอดรวมที่ไม่ใช่ใบแจ้งหนี้",
+      "add_due": "เพิ่มวันครบกำหนด",
+      "add_payment": "เพิ่มการชำระเงิน",
+      "total_payment": "การชำระเงินทั้งหมด",
+      "total_advance": "ยอดรวม (คืนใบแจ้งหนี้)",
+      "available_advance": "มีจำหน่ายล่วงหน้า (ซื้อคืน)",
+      "select_invoice": "เลือกใบแจ้งหนี้",
+      "select_purchase": "เลือกซื้อ",
+      "select_purchase_placeholder": "ค้นหาหมายเลขการซื้อ",
+      "select_invoice_placeholder": "ค้นหาหมายเลขใบแจ้งหนี้",
+      "invoice_subtotal": "ยอดรวมใบแจ้งหนี้",
+      "non_purchase_total": "ไม่รวมยอดซื้อ",
+      "non_purchase_due": "ไม่ครบกำหนดซื้อ",
+      "non_purchase_paid": "ไม่ชำระเงินค่าซื้อ",
+      "purchase_details": "รายละเอียดการซื้อ"
+    },
+    "clients": {
+      "invoice": {
+        "index": {
+          "page_title": "การชำระเงินตามใบแจ้งหนี้",
+          "breadcrumbs_current": "การชำระเงินตามใบแจ้งหนี้",
+          "breadcrumbs_first": "แผงควบคุม",
+          "breadcrumbs_second": "การชำระเงิน",
+          "breadcrumbs_active": "การชำระเงินตามใบแจ้งหนี้",
+          "delete_warning": "คุณจะไม่สามารถกลับมาที่นี่ได้!",
+          "delete_failed": "ขออภัย คุณไม่สามารถลบการชำระเงินนี้ได้!"
+        },
+        "create": {
+          "page_title": "สร้างการชำระเงินตามใบแจ้งหนี้ของลูกค้า",
+          "form_title": "สร้างการชำระเงินตามใบแจ้งหนี้",
+          "breadcrumbs_current": "สร้างการชำระเงิน",
+          "breadcrumbs_first": "แผงควบคุม",
+          "breadcrumbs_second": "การชำระเงิน",
+          "breadcrumbs_third": "การชำระเงินตามใบแจ้งหนี้",
+          "breadcrumbs_active": "สร้าง",
+          "success_msg": "เพิ่มการชำระเงินตามใบแจ้งหนี้เรียบร้อยแล้ว👍"
+        },
+        "edit": {
+          "page_title": "แก้ไขการชำระใบแจ้งหนี้ของลูกค้า",
+          "form_title": "แก้ไขการชำระใบแจ้งหนี้",
+          "breadcrumbs_current": "แก้ไขการชำระเงิน",
+          "breadcrumbs_first": "แผงควบคุม",
+          "breadcrumbs_second": "การชำระเงิน",
+          "breadcrumbs_third": "การชำระเงินตามใบแจ้งหนี้",
+          "breadcrumbs_active": "แก้ไข",
+          "success_msg": "อัปเดตการชำระใบแจ้งหนี้เรียบร้อยแล้ว👍"
+        },
+        "view": {
+          "page_title": "รายละเอียดการชำระเงินตามใบแจ้งหนี้",
+          "breadcrumbs_current": "รายละเอียดการชำระเงินตามใบแจ้งหนี้",
+          "breadcrumbs_first": "แผงควบคุม",
+          "breadcrumbs_second": "การชำระเงิน",
+          "breadcrumbs_third": "การชำระเงินตามใบแจ้งหนี้",
+          "breadcrumbs_active": "รายละเอียด"
+        }
+      },
+      "non_invoice": {
+        "index": {
+          "page_title": "การชำระเงินที่ไม่ใช่ใบแจ้งหนี้ของลูกค้า",
+          "breadcrumbs_current": "การชำระเงินที่ไม่ใช่ใบแจ้งหนี้",
+          "breadcrumbs_first": "แผงควบคุม",
+          "breadcrumbs_second": "การชำระเงิน",
+          "breadcrumbs_active": "การชำระเงินที่ไม่ใช่ใบแจ้งหนี้",
+          "delete_warning": "คุณจะไม่สามารถกลับมาที่นี่ได้!",
+          "delete_failed": "ขออภัย คุณไม่สามารถลบการชำระเงินนี้ได้!"
+        },
+        "create": {
+          "page_title": "สร้างการชำระเงินที่ไม่ใช่ใบแจ้งหนี้",
+          "form_title": "สร้างการชำระเงินที่ไม่ใช่ใบแจ้งหนี้",
+          "breadcrumbs_current": "สร้างการชำระเงิน",
+          "breadcrumbs_first": "แผงควบคุม",
+          "breadcrumbs_second": "การชำระเงิน",
+          "breadcrumbs_third": "การชำระเงินที่ไม่ใช่ใบแจ้งหนี้",
+          "breadcrumbs_active": "สร้าง",
+          "success_msg": "เพิ่มการชำระเงินเรียบร้อยแล้ว 👍"
+        },
+        "edit": {
+          "page_title": "แก้ไขการคืนใบแจ้งหนี้",
+          "form_title": "แก้ไขการชำระเงินที่ไม่ใช่ใบแจ้งหนี้",
+          "breadcrumbs_current": "แก้ไขการชำระเงิน",
+          "breadcrumbs_first": "แผงควบคุม",
+          "breadcrumbs_second": "การชำระเงิน",
+          "breadcrumbs_third": "การชำระเงินที่ไม่ใช่ใบแจ้งหนี้",
+          "breadcrumbs_active": "แก้ไข",
+          "success_msg": "อัพเดทการชำระเงินเรียบร้อยแล้ว 👍"
+        }
+      }
+    },
+    "suppliers": {
+      "purchase": {
+        "index": {
+          "page_title": "ซื้อการชำระเงิน",
+          "breadcrumbs_current": "ซื้อการชำระเงิน",
+          "breadcrumbs_first": "แผงควบคุม",
+          "breadcrumbs_second": "การชำระเงิน",
+          "breadcrumbs_active": "ซื้อการชำระเงิน",
+          "delete_warning": "คุณจะไม่สามารถกลับมาที่นี่ได้!",
+          "delete_failed": "มีบางอย่างผิดปกติ"
+        },
+        "create": {
+          "page_title": "สร้างการชำระเงินซื้อซัพพลายเออร์",
+          "form_title": "สร้างการชำระเงินซื้อ",
+          "breadcrumbs_current": "สร้างการชำระเงิน",
+          "breadcrumbs_first": "แผงควบคุม",
+          "breadcrumbs_second": "การชำระเงิน",
+          "breadcrumbs_third": "ซื้อการชำระเงิน",
+          "breadcrumbs_active": "สร้าง",
+          "success_msg": "เพิ่มการชำระเงินของซัพพลายเออร์เรียบร้อยแล้ว👍"
+        },
+        "edit": {
+          "page_title": "แก้ไขการชำระเงินซื้อของผู้จัดหา",
+          "form_title": "แก้ไขการชำระเงินการซื้อ",
+          "breadcrumbs_current": "แก้ไขการชำระเงิน",
+          "breadcrumbs_first": "แผงควบคุม",
+          "breadcrumbs_second": "การชำระเงิน",
+          "breadcrumbs_third": "ซื้อการชำระเงิน",
+          "breadcrumbs_active": "แก้ไข",
+          "success_msg": "อัพเดทการชำระเงินเรียบร้อยแล้ว 👍"
+        },
+        "view": {
+          "page_title": "รายละเอียดการชำระเงินในการซื้อซัพพลายเออร์",
+          "breadcrumbs_current": "ซื้อรายละเอียดการชำระเงิน",
+          "breadcrumbs_first": "แผงควบคุม",
+          "breadcrumbs_second": "การชำระเงิน",
+          "breadcrumbs_third": "ซื้อการชำระเงิน",
+          "breadcrumbs_active": "รายละเอียด"
+        }
+      },
+      "non_purchase": {
+        "index": {
+          "page_title": "การชำระเงินที่ไม่ซื้อของซัพพลายเออร์",
+          "breadcrumbs_current": "การชำระเงินที่ไม่ได้ซื้อ",
+          "breadcrumbs_first": "แผงควบคุม",
+          "breadcrumbs_second": "การชำระเงิน",
+          "breadcrumbs_active": "การชำระเงินที่ไม่ได้ซื้อ",
+          "delete_warning": "คุณจะไม่สามารถกลับมาที่นี่ได้!",
+          "delete_failed": "ขออภัย คุณไม่สามารถลบการชำระเงินนี้ได้!"
+        },
+        "create": {
+          "page_title": "สร้างการชำระเงินที่ไม่ได้ซื้อ",
+          "form_title": "สร้างการชำระเงินที่ไม่ซื้อ",
+          "breadcrumbs_current": "สร้างการชำระเงิน",
+          "breadcrumbs_first": "แผงควบคุม",
+          "breadcrumbs_second": "การชำระเงิน",
+          "breadcrumbs_third": "การชำระเงินที่ไม่ได้ซื้อ",
+          "breadcrumbs_active": "สร้าง",
+          "success_msg": "เพิ่มการชำระเงินเรียบร้อยแล้ว 👍"
+        },
+        "edit": {
+          "page_title": "แก้ไขการชำระเงินที่ไม่ได้ซื้อ",
+          "form_title": "แก้ไขการชำระเงินที่ไม่ได้ซื้อ",
+          "breadcrumbs_current": "แก้ไขการชำระเงิน",
+          "breadcrumbs_first": "แผงควบคุม",
+          "breadcrumbs_second": "การชำระเงิน",
+          "breadcrumbs_third": "การชำระเงินที่ไม่ได้ซื้อ",
+          "breadcrumbs_active": "แก้ไข",
+          "success_msg": "อัพเดทการชำระเงินเรียบร้อยแล้ว 👍"
+        }
+      }
+    }
+  },
+  "loans": {
+    "common": {
+      "authority": "อำนาจ",
+      "loan": "เงินกู้",
+      "loan_placeholder": "เลือกสินเชื่อ",
+      "loan_authority": "หน่วยงานสินเชื่อ",
+      "authority_placeholder": "เลือกหน่วยงาน",
+      "cc_limit": "CC Limit",
+      "cc_placeholder": "ใส่ cc เงินกู้วงเงิน",
+      "cash_credit_limit": "วงเงินสินเชื่อเงินสด (CC)",
+      "cash_credit_loan": "สินเชื่อเงินสด (CC) สินเชื่อ",
+      "interetest_paid": "ดอกเบี้ยที่จ่าย",
+      "total_payable": "เจ้าหนี้รวม",
+      "total_loan": "สินเชื่อรวม",
+      "cc_term": "CC + เทอม",
+      "cc_taken": "CC ยืมตัว",
+      "available_cc": "สินเชื่อ CC ที่มีอยู่",
+      "all_loans": "สินเชื่อทั้งหมด",
+      "empty_loan": "ยังไม่มีเงินกู้!",
+      "empty_loan_msg": "คุณยังไม่ได้เพิ่มเงินกู้ใด ๆ สำหรับหน่วยงานนี้ หลังจากเพิ่มเงินกู้แล้ว คุณจะเห็นรายการที่นี่",
+      "authority_details": "รายละเอียดอำนาจหน้าที่",
+      "payable_amount": "จำนวนเงินที่ต้องชำระ",
+      "duration": "ระยะเวลา",
+      "duration_placeholder": "ใส่ระยะเวลา",
+      "interest_rate_placeholder": "ป้อนอัตราดอกเบี้ยเป็นเปอร์เซ็นต์",
+      "available_amount": "จำนวนที่มีอยู่",
+      "term_loan": "เงินกู้ระยะยาว",
+      "loan_type": "ประเภทสินเชื่อ",
+      "loan_reason": "เหตุผลเงินกู้",
+      "loan_date": "วันที่ยืม",
+      "Loan_account": "บัญชีเงินกู้",
+      "Loan_payments": "การชำระคืนเงินกู้",
+      "empty_payment_msg": "คุณยังไม่ได้เพิ่มการชำระเงินสำหรับเงินกู้นี้ หลังจากเพิ่มการชำระเงินแล้ว คุณจะเห็นรายการที่นี่",
+      "loan_amount": "วงเงินกู้",
+      "loan_ref": "อ้างอิงเงินกู้",
+      "payment_ref": "การชำระเงิน",
+      "amount_paid": "จำนวนเงินที่จ่าย"
+    },
+    "authorities": {
+      "index": {
+        "page_title": "เจ้าหน้าที่สินเชื่อ",
+        "breadcrumbs_current": "เจ้าหน้าที่สินเชื่อ",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "การจัดการสินเชื่อ",
+        "breadcrumbs_active": "เจ้าหน้าที่",
+        "delete_warning": "คุณจะไม่สามารถกลับมาที่นี่ได้!",
+        "delete_failed": "ขออภัย คุณไม่สามารถลบสิทธิ์นี้"
+      },
+      "create": {
+        "page_title": "สร้างหน่วยงานสินเชื่อ",
+        "form_title": "สร้างหน่วยงานสินเชื่อ",
+        "breadcrumbs_current": "สร้างหน่วยงานสินเชื่อ",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "เจ้าหน้าที่สินเชื่อ",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มอำนาจสินเชื่อเรียบร้อยแล้ว 👍"
+      },
+      "edit": {
+        "page_title": "แก้ไขหน่วยงานสินเชื่อ",
+        "form_title": "แก้ไขสิทธิ์สินเชื่อ",
+        "breadcrumbs_current": "แก้ไขอำนาจ",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "เจ้าหน้าที่สินเชื่อ",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัปเดตอำนาจสินเชื่อเรียบร้อยแล้ว👍"
+      },
+      "view": {
+        "page_title": "ดูหน่วยงานสินเชื่อ",
+        "breadcrumbs_current": "รายละเอียดอำนาจหน้าที่",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "เจ้าหน้าที่สินเชื่อ",
+        "breadcrumbs_active": "รายละเอียด"
+      }
+    },
+    "payments": {
+      "index": {
+        "page_title": "การชำระคืนเงินกู้",
+        "breadcrumbs_current": "การชำระคืนเงินกู้",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "การจัดการสินเชื่อ",
+        "breadcrumbs_active": "การชำระคืนเงินกู้",
+        "delete_warning": "คุณจะไม่สามารถกลับมาที่นี่ได้!",
+        "delete_failed": "มีบางอย่างผิดปกติ"
+      },
+      "create": {
+        "page_title": "สร้างการชำระคืนเงินกู้",
+        "form_title": "สร้างการชำระสินเชื่อ",
+        "breadcrumbs_current": "สร้างการชำระคืนเงินกู้",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "การชำระคืนเงินกู้",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มเงินกู้ยืมเรียบร้อยแล้ว 👍"
+      },
+      "edit": {
+        "page_title": "แก้ไขการชำระคืนเงินกู้",
+        "form_title": "แก้ไขการชำระคืนเงินกู้",
+        "breadcrumbs_current": "แก้ไขการชำระคืนเงินกู้",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "การชำระคืนเงินกู้",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัพเดทการชำระเงินเรียบร้อยแล้ว 👍"
+      },
+      "view": {
+        "page_title": "รายละเอียดการชำระคืนเงินกู้",
+        "breadcrumbs_current": "รายละเอียดการชำระคืนเงินกู้",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "การชำระคืนเงินกู้",
+        "breadcrumbs_active": "รายละเอียด"
+      }
+    },
+    "list": {
+      "index": {
+        "page_title": "เงินกู้",
+        "breadcrumbs_current": "เงินกู้",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "การจัดการสินเชื่อ",
+        "breadcrumbs_active": "เงินกู้",
+        "delete_warning": "คุณจะไม่สามารถกลับมาที่นี่ได้!",
+        "delete_failed": "ขออภัย คุณไม่สามารถลบเงินกู้นี้ได้"
+      },
+      "create": {
+        "page_title": "สร้างเงินกู้",
+        "form_title": "สร้างเงินกู้",
+        "breadcrumbs_current": "สร้างเงินกู้",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "เงินกู้",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "กู้เพิ่มสำเร็จ👍"
+      },
+      "edit": {
+        "page_title": "แก้ไขเงินกู้",
+        "form_title": "แก้ไขเงินกู้",
+        "breadcrumbs_current": "แก้ไขเงินกู้",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "เงินกู้",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัพเดทเงินกู้เรียบร้อยแล้ว 👍"
+      },
+      "view": {
+        "page_title": "รายละเอียดสินเชื่อ",
+        "breadcrumbs_current": "รายละเอียดสินเชื่อ",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "เงินกู้",
+        "breadcrumbs_active": "รายละเอียด"
+      }
+    }
+  },
+  "assets": {
+    "common": {
+      "asset_name": "ชื่อสินทรัพย์",
+      "asset_name_placeholder": "ป้อนชื่อสินทรัพย์",
+      "asset_type": "ประเภทสินทรัพย์",
+      "asset_type_placeholder": "เลือกประเภทสินทรัพย์",
+      "asset_cost": "ต้นทุนสินทรัพย์",
+      "asset_cost_placeholder": "ป้อนต้นทุนสินทรัพย์",
+      "current_value": "มูลค่าปัจจุบัน",
+      "depreciation": "ค่าเสื่อมราคา",
+      "depreciation_type": "ประเภทค่าเสื่อมราคา",
+      "salvage_value": "มูลค่าของช่วยเหลือ",
+      "salvage_value_placeholder": "มูลค่าของช่วยเหลือ",
+      "useful_life": "ชีวิตที่มีประโยชน์",
+      "remaining_life": "ชีวิตที่เหลืออยู่",
+      "useful_life_placeholder": "เข้าสู่ชีวิตที่มีประโยชน์",
+      "added_date": "วันที่เพิ่ม",
+      "expired_date": "วันหมดอายุ"
+    },
+    "types": {
+      "index": {
+        "page_title": "ประเภทสินทรัพย์",
+        "breadcrumbs_current": "ประเภทสินทรัพย์",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "การจัดการสินทรัพย์",
+        "breadcrumbs_active": "ประเภทสินทรัพย์",
+        "delete_warning": "คุณจะไม่สามารถกลับมาที่นี่ได้!",
+        "delete_failed": "มีบางอย่างผิดปกติ"
+      },
+      "create": {
+        "page_title": "สร้างประเภทสินทรัพย์",
+        "form_title": "สร้างประเภทสินทรัพย์",
+        "breadcrumbs_current": "สร้างประเภทสินทรัพย์",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ประเภทสินทรัพย์",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มประเภทเนื้อหาเรียบร้อยแล้ว 👍"
+      },
+      "edit": {
+        "page_title": "แก้ไขประเภทเนื้อหา",
+        "form_title": "แก้ไขประเภทเนื้อหา",
+        "breadcrumbs_current": "แก้ไขประเภทเนื้อหา",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ประเภทสินทรัพย์",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัปเดตประเภทเนื้อหาเรียบร้อยแล้ว 👍"
+      }
+    },
+    "list": {
+      "index": {
+        "page_title": "ทรัพย์สิน",
+        "breadcrumbs_current": "ทรัพย์สิน",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "การจัดการสินทรัพย์",
+        "breadcrumbs_active": "ทรัพย์สิน",
+        "delete_warning": "คุณจะไม่สามารถกลับมาที่นี่ได้!",
+        "delete_failed": "มีบางอย่างผิดปกติ"
+      },
+      "create": {
+        "page_title": "สร้างสินทรัพย์",
+        "form_title": "สร้างสินทรัพย์",
+        "breadcrumbs_current": "สร้างสินทรัพย์",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ทรัพย์สิน",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มเนื้อหาเรียบร้อยแล้ว 👍"
+      },
+      "edit": {
+        "page_title": "แก้ไขเนื้อหา",
+        "form_title": "แก้ไขเนื้อหา",
+        "breadcrumbs_current": "แก้ไขเนื้อหา",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ทรัพย์สิน",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัปเดตเนื้อหาเรียบร้อยแล้ว 👍"
+      },
+      "view": {
+        "page_title": "รายละเอียดทรัพย์สิน",
+        "breadcrumbs_current": "รายละเอียดทรัพย์สิน",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ทรัพย์สิน",
+        "breadcrumbs_active": "รายละเอียด"
+      }
+    }
+  },
+  "payroll": {
+    "common": {
+      "salary_date": "วันที่เงินเดือน",
+      "total_salary": "เงินเดือนทั้งหมด",
+      "advance": "ก้าวหน้า",
+      "advance_placeholder": "ใส่จำนวน advacne",
+      "others": "คนอื่น",
+      "others_placeholder": "ใส่จำนวนเงินอื่น ๆ",
+      "travel_allowance": "ค่าเดินทาง(TA)",
+      "travel_allowance_placeholder": "ใส่ค่าเดินทาง",
+      "festival_bonus": "โบนัสเทศกาล",
+      "festival_bonus_placeholder": "ใส่โบนัสเทศกาล",
+      "commission": "คณะกรรมการ",
+      "commission_placeholder": "ป้อนค่าคอมมิชชั่น",
+      "bonus": "โบนัส",
+      "bonus_placeholder": "ใส่โบนัส",
+      "food_bill": "ค่าอาหาร",
+      "food_bill_placeholder": "ใส่บิลค่าอาหาร",
+      "mobile_bill": "บิลมือถือ",
+      "mobile_bill_placeholder": "ใส่บิลมือถือ",
+      "deduction_reason": "เหตุผลในการหักเงิน",
+      "deduction_reason_placeholder": "ใส่เหตุผลการหักเงิน",
+      "deduction_amount": "จำนวนเงินที่หัก",
+      "deduction_amount_placeholder": "ใส่จำนวนเงินที่หัก",
+      "present_salary": "เงินเดือนปัจจุบัน",
+      "salary_month": "เดือนเงินเดือน",
+      "salary_month_placeholder": "เลือกเดือนเงินเดือน"
+    },
+    "index": {
+      "page_title": "เงินเดือนพนักงาน",
+      "breadcrumbs_current": "เงินเดือนพนักงาน",
+      "breadcrumbs_first": "แผงควบคุม",
+      "breadcrumbs_second": "เงินเดือน",
+      "breadcrumbs_active": "เงินเดือน",
+      "delete_warning": "คุณจะไม่สามารถกลับมาที่นี่ได้!",
+      "delete_failed": "มีบางอย่างผิดปกติ"
+    },
+    "create": {
+      "page_title": "สร้างเงินเดือน",
+      "form_title": "สร้างเงินเดือนพนักงาน",
+      "breadcrumbs_current": "สร้างเงินเดือน",
+      "breadcrumbs_first": "แผงควบคุม",
+      "breadcrumbs_second": "เงินเดือน",
+      "breadcrumbs_active": "สร้าง",
+      "success_msg": "เพิ่มเงินเดือนเรียบร้อยแล้ว 👍"
+    },
+    "edit": {
+      "page_title": "แก้ไขเงินเดือน",
+      "form_title": "แก้ไขเงินเดือน",
+      "breadcrumbs_current": "แก้ไขเงินเดือน",
+      "breadcrumbs_first": "แผงควบคุม",
+      "breadcrumbs_second": "เงินเดือน",
+      "breadcrumbs_active": "แก้ไข",
+      "success_msg": "อัพเดทเงินเดือนเรียบร้อยแล้ว 👍"
+    },
+    "view": {
+      "page_title": "รายละเอียดเงินเดือน",
+      "breadcrumbs_current": "รายละเอียดเงินเดือน",
+      "breadcrumbs_first": "แผงควบคุม",
+      "breadcrumbs_second": "เงินเดือน",
+      "breadcrumbs_active": "รายละเอียด"
+    }
+  },
+  "clients": {
+    "common": {
+      "non_invoice_transactions": "ธุรกรรมที่ไม่ใช่ใบแจ้งหนี้"
+    },
+    "index": {
+      "page_title": "ลูกค้า",
+      "breadcrumbs_current": "ลูกค้า",
+      "breadcrumbs_first": "แผงควบคุม",
+      "breadcrumbs_second": "ลูกค้า",
+      "breadcrumbs_active": "ลูกค้า",
+      "delete_warning": "คุณจะไม่สามารถกลับมาที่นี่ได้!",
+      "delete_failed": "ขออภัย คุณไม่สามารถลบลูกค้ารายนี้"
+    },
+    "create": {
+      "page_title": "สร้างลูกค้า",
+      "form_title": "สร้างลูกค้า",
+      "breadcrumbs_current": "สร้างลูกค้า",
+      "breadcrumbs_first": "แผงควบคุม",
+      "breadcrumbs_second": "ลูกค้า",
+      "breadcrumbs_active": "สร้าง",
+      "success_msg": "เพิ่มลูกค้าเรียบร้อยแล้ว 👍"
+    },
+    "edit": {
+      "page_title": "แก้ไขลูกค้า",
+      "form_title": "แก้ไขลูกค้า",
+      "breadcrumbs_current": "แก้ไขลูกค้า",
+      "breadcrumbs_first": "แผงควบคุม",
+      "breadcrumbs_second": "ลูกค้า",
+      "breadcrumbs_active": "แก้ไข",
+      "success_msg": "อัพเดทลูกค้าเรียบร้อยแล้ว 👍"
+    },
+    "view": {
+      "page_title": "รายละเอียดลูกค้า",
+      "breadcrumbs_current": "รายละเอียดลูกค้า",
+      "breadcrumbs_first": "แผงควบคุม",
+      "breadcrumbs_second": "ลูกค้า",
+      "breadcrumbs_active": "รายละเอียด"
+    }
+  },
+  "suppliers": {
+    "common": {
+      "non_purchase_transactions": "ธุรกรรมที่ไม่ซื้อ"
+    },
+    "index": {
+      "page_title": "ซัพพลายเออร์",
+      "breadcrumbs_current": "ซัพพลายเออร์",
+      "breadcrumbs_first": "แผงควบคุม",
+      "breadcrumbs_second": "ซัพพลายเออร์",
+      "breadcrumbs_active": "ซัพพลายเออร์",
+      "delete_warning": "คุณจะไม่สามารถกลับมาที่นี่ได้!",
+      "delete_failed": "ขออภัย คุณไม่สามารถลบซัพพลายเออร์รายนี้"
+    },
+    "create": {
+      "page_title": "สร้างซัพพลายเออร์",
+      "form_title": "สร้างซัพพลายเออร์",
+      "breadcrumbs_current": "สร้างซัพพลายเออร์",
+      "breadcrumbs_first": "แผงควบคุม",
+      "breadcrumbs_second": "ซัพพลายเออร์",
+      "breadcrumbs_active": "สร้าง",
+      "success_msg": "เพิ่มซัพพลายเออร์เรียบร้อยแล้ว 👍"
+    },
+    "edit": {
+      "page_title": "แก้ไขผู้จัดจำหน่าย",
+      "form_title": "แก้ไขซัพพลายเออร์",
+      "breadcrumbs_current": "แก้ไขผู้จัดจำหน่าย",
+      "breadcrumbs_first": "แผงควบคุม",
+      "breadcrumbs_second": "ซัพพลายเออร์",
+      "breadcrumbs_active": "แก้ไข",
+      "success_msg": "อัพเดทซัพพลายเออร์เรียบร้อยแล้ว 👍"
+    },
+    "view": {
+      "page_title": "รายละเอียดซัพพลายเออร์",
+      "breadcrumbs_current": "รายละเอียดซัพพลายเออร์",
+      "breadcrumbs_first": "แผงควบคุม",
+      "breadcrumbs_second": "ซัพพลายเออร์",
+      "breadcrumbs_active": "รายละเอียด"
+    }
+  },
+  "employees": {
+    "common": {
+      "increment_date": "เพิ่มวันที่",
+      "increment_amount": "จำนวนเงินที่เพิ่มขึ้น",
+      "increment_amount_placeholder": "ใส่จำนวนเงินที่เพิ่มขึ้น",
+      "increment_reason": "เพิ่มเหตุผล",
+      "increment_reason_placeholder": "ใส่เหตุผล",
+      "basic_salary": "เงินเดือนทั่วไป",
+      "current_salary": "เงินเดือนปัจจุบัน",
+      "incremented_salary": "เงินเดือนที่เพิ่มขึ้น",
+      "birth_date": "วันที่เกิด",
+      "join_date": "เข้าร่วมวันที่",
+      "employee_name": "ชื่อพนักงาน",
+      "employee_name_placeholder": "ใส่ชื่อพนักงาน",
+      "gender": "เพศ",
+      "gender_placeholder": "เลือกเพศ",
+      "male": "ชาย",
+      "female": "หญิง",
+      "transgender": "แปลงเพศ",
+      "other": "อื่น",
+      "blood_group": "กรุ๊ปเลือด",
+      "blood_group_placeholder": "เลือกกรุ๊ปเลือด",
+      "religion": "ศาสนา",
+      "religion_placeholder": "เลือกศาสนา",
+      "islam": "อิสลาม",
+      "hinduism": "ศาสนาฮินดู",
+      "buddhists": "ชาวพุทธ",
+      "christians": "คริสเตียน",
+      "animists": "นักเคลื่อนไหว",
+      "appointment_date": "วันที่ได้รับการแต่งตั้ง",
+      "allow_login": "อนุญาตให้พนักงานเข้าสู่ระบบ",
+      "increment_history": "ประวัติที่เพิ่มขึ้น"
+    },
+    "departments": {
+      "index": {
+        "page_title": "หน่วยงาน",
+        "breadcrumbs_current": "หน่วยงาน",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "พนักงาน",
+        "breadcrumbs_active": "หน่วยงาน",
+        "delete_warning": "คุณจะไม่สามารถกลับมาที่นี่ได้!",
+        "delete_failed": "มีบางอย่างผิดปกติ"
+      },
+      "create": {
+        "page_title": "สร้างแผนก",
+        "form_title": "สร้างแผนก",
+        "breadcrumbs_current": "สร้างแผนก",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "หน่วยงาน",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มแผนกเรียบร้อยแล้ว 👍"
+      },
+      "edit": {
+        "page_title": "แก้ไขแผนก",
+        "form_title": "แก้ไขแผนก",
+        "breadcrumbs_current": "แก้ไขแผนก",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "หน่วยงาน",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัพเดทแผนกเรียบร้อยแล้ว 👍"
+      }
+    },
+    "increments": {
+      "index": {
+        "page_title": "การขึ้นเงินเดือนพนักงาน",
+        "breadcrumbs_current": "เงินเดือนที่เพิ่มขึ้น",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "พนักงาน",
+        "breadcrumbs_active": "เพิ่มขึ้น",
+        "delete_warning": "คุณจะไม่สามารถกลับมาที่นี่ได้!",
+        "delete_failed": "มีบางอย่างผิดปกติ"
+      },
+      "create": {
+        "page_title": "สร้างการขึ้นเงินเดือน",
+        "form_title": "เพิ่มเงินเดือน",
+        "breadcrumbs_current": "สร้างการขึ้นเงินเดือน",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "เพิ่มขึ้น",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มได้สำเร็จ👍"
+      },
+      "edit": {
+        "page_title": "แก้ไขการขึ้นเงินเดือน",
+        "form_title": "แก้ไขการขึ้นเงินเดือน",
+        "breadcrumbs_current": "แก้ไขการขึ้นเงินเดือน",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "เพิ่มขึ้น",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "ปรับปรุงส่วนเพิ่มเรียบร้อยแล้ว 👍"
+      },
+      "view": {
+        "page_title": "รายละเอียดที่เพิ่มขึ้น",
+        "breadcrumbs_current": "รายละเอียดที่เพิ่มขึ้น",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "เพิ่มขึ้น",
+        "breadcrumbs_active": "รายละเอียด"
+      }
+    },
+    "list": {
+      "index": {
+        "page_title": "พนักงาน",
+        "breadcrumbs_current": "พนักงาน",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_active": "พนักงาน",
+        "delete_warning": "คุณจะไม่สามารถกลับมาที่นี่ได้!",
+        "delete_failed": "มีบางอย่างผิดปกติ"
+      },
+      "create": {
+        "page_title": "สร้างพนักงาน",
+        "form_title": "สร้างพนักงาน",
+        "breadcrumbs_current": "สร้างพนักงาน",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "พนักงาน",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มพนักงานเรียบร้อยแล้ว 👍"
+      },
+      "edit": {
+        "page_title": "แก้ไขพนักงาน",
+        "form_title": "แก้ไขพนักงาน",
+        "breadcrumbs_current": "แก้ไขพนักงาน",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "พนักงาน",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัพเดทพนักงานเรียบร้อยแล้ว 👍"
+      },
+      "view": {
+        "page_title": "รายละเอียดพนักงาน",
+        "breadcrumbs_current": "รายละเอียดพนักงาน",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "พนักงาน",
+        "breadcrumbs_active": "รายละเอียด"
+      }
+    }
+  },
+  "products": {
+    "categories": {
+      "index": {
+        "page_title": "หมวดหมู่สินค้า",
+        "breadcrumbs_current": "หมวดหมู่สินค้า",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "สินค้า",
+        "breadcrumbs_active": "หมวดหมู่",
+        "delete_warning": "หมวดหมู่ย่อยทั้งหมดสำหรับหมวดหมู่นี้จะถูกลบ!"
+      },
+      "create": {
+        "page_title": "สร้างหมวดหมู่สินค้า",
+        "form_title": "สร้างหมวดหมู่สินค้า",
+        "breadcrumbs_current": "สร้างหมวดหมู่",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "สินค้า",
+        "breadcrumbs_third": "หมวดหมู่",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มหมวดหมู่เรียบร้อยแล้ว 👍"
+      },
+      "edit": {
+        "page_title": "แก้ไขหมวดหมู่สินค้า",
+        "form_title": "แก้ไขหมวดหมู่สินค้า",
+        "breadcrumbs_current": "แก้ไขหมวดหมู่สินค้า",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "สินค้า",
+        "breadcrumbs_third": "หมวดหมู่",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัปเดตหมวดหมู่เรียบร้อยแล้ว 👍"
+      }
+    },
+    "sub_categories": {
+      "index": {
+        "page_title": "หมวดหมู่ย่อยสินค้า",
+        "breadcrumbs_current": "หมวดหมู่ย่อยสินค้า",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "สินค้า",
+        "breadcrumbs_active": "หมวดหมู่ย่อย",
+        "delete_warning": "สินค้าในหมวดนี้ทั้งหมดจะถูกลบ!"
+      },
+      "create": {
+        "page_title": "สร้างหมวดย่อยสินค้า",
+        "form_title": "สร้างหมวดหมู่ย่อยของผลิตภัณฑ์",
+        "breadcrumbs_current": "สร้างหมวดย่อย",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "สินค้า",
+        "breadcrumbs_third": "หมวดหมู่ย่อย",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มหมวดย่อยเรียบร้อยแล้ว 👍"
+      },
+      "edit": {
+        "page_title": "แก้ไขหมวดย่อยสินค้า",
+        "form_title": "แก้ไขหมวดย่อยสินค้า",
+        "breadcrumbs_current": "แก้ไขหมวดย่อยสินค้า",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "สินค้า",
+        "breadcrumbs_third": "หมวดหมู่ย่อย",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัปเดตหมวดย่อยเรียบร้อยแล้ว 👍"
+      }
+    },
+    "list": {
+      "common": {
+        "alert_quantity": "ปริมาณการแจ้งเตือน",
+        "alert_quantity_placeholder": "ป้อนปริมาณการแจ้งเตือน",
+        "selling_price": "ราคาขาย",
+        "selling_price_placeholder": "ใส่ราคาขาย",
+        "regular_price": "ราคาปกติ",
+        "regular_price_placeholder": "ใส่ราคาปกติ",
+        "tax_type": "ประเภทภาษี",
+        "exclusive": "พิเศษ",
+        "inclusive": "รวมแล้ว",
+        "product_tax": "ภาษีสินค้า",
+        "tax_placeholder": "เลือกภาษี",
+        "barcode_symbology": "สัญลักษณ์บาร์โค้ด",
+        "tax_amount": "จำนวนภาษี",
+        "avg_purchase_price": "เฉลี่ย ราคาซื้อ",
+        "avg_selling_price": "เฉลี่ย ราคาขาย",
+        "stock": "คลังสินค้า",
+        "inventory_value": "มูลค่าสินค้าคงคลัง",
+        "generate_barcode": "สร้างบาร์โค้ด"
+      },
+      "index": {
+        "page_title": "สินค้า",
+        "breadcrumbs_current": "สินค้า",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "สินค้า",
+        "breadcrumbs_active": "สินค้า",
+        "delete_warning": "คุณจะไม่สามารถกลับมาที่นี่ได้!"
+      },
+      "create": {
+        "page_title": "สร้างผลิตภัณฑ์",
+        "form_title": "สร้างผลิตภัณฑ์",
+        "breadcrumbs_current": "สร้างผลิตภัณฑ์",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "สินค้า",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มสินค้าเรียบร้อย👍"
+      },
+      "edit": {
+        "page_title": "แก้ไขสินค้า",
+        "form_title": "แก้ไขสินค้า",
+        "breadcrumbs_current": "แก้ไขสินค้า",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "สินค้า",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัพเดทสินค้าเรียบร้อย👍"
+      },
+      "view": {
+        "page_title": "รายละเอียดสินค้า",
+        "breadcrumbs_current": "รายละเอียดสินค้า",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "สินค้า",
+        "breadcrumbs_active": "รายละเอียด",
+        "expense_details": "รายละเอียดสินค้า"
+      },
+      "barcode": {
+        "page_title": "พิมพ์บาร์โค้ด",
+        "generate_barcode": "สร้างบาร์โค้ด",
+        "print_barcode": "พิมพ์บาร์โค้ด",
+        "paper_size": "ขนาดกระดาษ",
+        "print_qty": "พิมพ์จำนวน",
+        "breadcrumbs_current": "พิมพ์บาร์โค้ด",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "สินค้า",
+        "breadcrumbs_active": "แก้ไข",
+        "page_option_0": "แผ่นละ 40 (a4) (1.799 * 1.003)",
+        "page_option_1": "แผ่นละ 30 (2.625*1)",
+        "page_option_2": "แผ่นละ 24 (a4) (2.48 * 1.334)",
+        "page_option_3": "แผ่นละ 20 (4*1)",
+        "page_option_4": "แผ่นละ 18 (a4) (2.5 * 1.835)",
+        "page_option_5": "แผ่นละ 14 (4*1.33)",
+        "page_option_6": "แผ่นละ 12 (a4) (2.5 * 2.834)",
+        "page_option_7": "แผ่นละ 10 แผ่น (4 * 2)"
+      }
+    }
+  },
+  "inventory": {
+    "common": {
+      "inventory_history": "ประวัติสินค้าคงคลัง",
+      "adjustment_no": "การปรับปรุงหมายเลข",
+      "adjustment_date": "วันที่ปรับปรุง",
+      "adjustment_type": "ประเภทการปรับ",
+      "increment": "เพิ่มขึ้น",
+      "decrement": "ลดลง",
+      "adjustment_reason": "เหตุผลในการปรับปรุง",
+      "adjusted_products": "สินค้าปรับปรุง"
+    },
+    "index": {
+      "page_title": "รายการสิ่งของ",
+      "breadcrumbs_current": "รายการสิ่งของ",
+      "breadcrumbs_first": "แผงควบคุม",
+      "breadcrumbs_second": "สินค้า",
+      "breadcrumbs_active": "รายการสิ่งของ"
+    },
+    "history": {
+      "page_title": "ประวัติสินค้าคงคลัง",
+      "breadcrumbs_current": "ประวัติสินค้าคงคลัง",
+      "breadcrumbs_first": "แผงควบคุม",
+      "breadcrumbs_second": "รายการสิ่งของ",
+      "breadcrumbs_active": "ประวัติศาสตร์"
+    },
+    "adjustments": {
+      "index": {
+        "page_title": "การปรับสินค้าคงคลัง",
+        "breadcrumbs_current": "การปรับสินค้าคงคลัง",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "รายการสิ่งของ",
+        "breadcrumbs_active": "การปรับเปลี่ยน",
+        "delete_warning": "คุณจะไม่สามารถกลับมาที่นี่ได้!",
+        "delete_failed": "มีบางอย่างผิดปกติ"
+      },
+      "create": {
+        "page_title": "สร้างการปรับปรุง",
+        "form_title": "สร้างการปรับปรุง",
+        "breadcrumbs_current": "สร้างการปรับปรุง",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "การปรับเปลี่ยน",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มการปรับเรียบร้อยแล้ว 👍"
+      },
+      "edit": {
+        "page_title": "แก้ไขการปรับปรุง",
+        "form_title": "แก้ไขการปรับค่า",
+        "breadcrumbs_current": "แก้ไขการปรับค่า",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "การปรับเปลี่ยน",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัพเดทเรียบร้อยแล้วครับ👍"
+      },
+      "view": {
+        "page_title": "รายละเอียดการปรับปรุง",
+        "breadcrumbs_current": "รายละเอียดการปรับปรุง",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "การปรับเปลี่ยน",
+        "breadcrumbs_active": "รายละเอียด"
+      }
+    }
+  },
+  "reports": {
+    "stock_in": "สต็อกสินค้า",
+    "stock_out": "สินค้าหมด",
+    "total_quantity": "ปริมาณทั้งหมด",
+    "incomes": "รายได้",
+    "liabilities": "หนี้สิน",
+    "security_asset": "หลักทรัพย์/สินทรัพย์ทั้งหมด",
+    "supplier_dues": "ค่าธรรมเนียมของซัพพลายเออร์",
+    "client_dues": "ค่าธรรมเนียมของลูกค้า",
+    "bank_loan": "สินเชื่อธนาคาร",
+    "bank_balance": "ยอดคงเหลือในธนาคาร",
+    "income_liabilities": "(รายได้-หนี้สิน)",
+    "total_asset": "รวมสินทรัพย์",
+    "view_report": "ดูรายงาน",
+    "monthly_summery": "สรุปรายเดือน",
+    "particulars": "รายละเอียด",
+    "opening_balance": "ยอดยกมา",
+    "invoice_sales": "การขายใบแจ้งหนี้",
+    "invoice_dues": "ใบแจ้งหนี้ค่า",
+    "accounts_collection": "การเก็บบัญชี",
+    "general": "ทั่วไป",
+    "loan_interest": "ดอกเบี้ยเงินกู้",
+    "asset_depreciation": "ค่าเสื่อมราคาสินทรัพย์",
+    "transfer": "โอนย้าย",
+    "transfer_from": "โอนยอดคงเหลือจาก",
+    "closing_balance": "ปิดยอด",
+    "report_type": "ประเภทรายงาน",
+    "gross_profit_Loss": "กำไร/ขาดทุนขั้นต้น",
+    "net_profit_Loss": "กำไร/ขาดทุนสุทธิ",
+    "sold_qty": "ขายจำนวน",
+    "profit": "กำไร",
+    "loss": "การสูญเสีย",
+    "total_sales_avg": "ยอดขายรวม (เฉลี่ย)",
+    "total_purchased_avg": "ยอดซื้อทั้งหมด (เฉลี่ย)",
+    "income_statement": "งบกำไรขาดทุน",
+    "total_sales": "ยอดขายทั้งหมด",
+    "cost_of_goods_sold": "ต้นทุนขาย",
+    "positive_adjusted": "ปรับเป็นบวก",
+    "negative_adjusted": "ปรับค่าลบ",
+    "total_adjusted": "ปรับทั้งหมด",
+    "gross_profit": "กำไรขั้นต้น",
+    "gross_loss": "ขาดทุนขั้นต้น",
+    "operating_expenses": "ค่าใช้จ่ายในการดำเนินงาน",
+    "salaries": "เงินเดือน",
+    "general_expenses": "ค่าใช้จ่ายทั่วไป",
+    "total_expense": "ค่าใช้จ่ายทั้งหมด",
+    "net_profit": "กำไรสุทธิ",
+    "net_loss": "ขาดทุนสุทธิ",
+    "date_range": "ช่วงวันที่",
+    "stock_in_hand": "สต็อกในมือ",
+    "balance_sheet": {
+      "page_title": "งบดุล",
+      "breadcrumbs_current": "งบดุล",
+      "breadcrumbs_first": "แผงควบคุม",
+      "breadcrumbs_second": "รายงาน",
+      "breadcrumbs_active": "งบดุล"
+    },
+    "summary": {
+      "page_title": "รายงานสรุป",
+      "breadcrumbs_current": "รายงานสรุป",
+      "breadcrumbs_first": "แผงควบคุม",
+      "breadcrumbs_second": "รายงาน",
+      "breadcrumbs_active": "รายงานสรุป"
+    },
+    "profit_loss": {
+      "empty_msg_title": "กำไร/ขาดทุนเปล่า!",
+      "empty_msg_text": "ขออภัย ไม่พบกำไร/ขาดทุนสำหรับหมวดหมู่และช่วงวันที่ที่คุณเลือก",
+      "page_title": "รายงานกำไร/ขาดทุน",
+      "breadcrumbs_current": "รายงานกำไร/ขาดทุน",
+      "breadcrumbs_first": "แผงควบคุม",
+      "breadcrumbs_second": "รายงาน",
+      "breadcrumbs_active": "รายงานกำไร/ขาดทุน"
+    },
+    "expense": {
+      "empty_msg_title": "ค่าใช้จ่ายเปล่า!",
+      "empty_msg_text": "ขออภัย ไม่พบค่าใช้จ่ายสำหรับหมวดหมู่และช่วงวันที่ที่คุณเลือก",
+      "page_title": "รายงานค่าใช้จ่าย",
+      "breadcrumbs_current": "รายงานค่าใช้จ่าย",
+      "breadcrumbs_first": "แผงควบคุม",
+      "breadcrumbs_second": "รายงาน",
+      "breadcrumbs_active": "รายงานค่าใช้จ่าย"
+    },
+    "product": {
+      "empty_msg_title": "ว่างเปล่า!",
+      "empty_msg_text": "ขออภัย ไม่พบสินค้าในสต็อกหรือสินค้าหมดสำหรับรายการที่คุณเลือกและช่วงวันที่",
+      "page_title": "รายงานรายการ",
+      "breadcrumbs_current": "รายงานรายการ",
+      "breadcrumbs_first": "แผงควบคุม",
+      "breadcrumbs_second": "รายงาน",
+      "breadcrumbs_active": "รายงานรายการ"
+    },
+    "inventory": {
+      "empty_msg_title": "สินค้าคงคลังว่างเปล่า!",
+      "empty_msg_text": "ขออภัย ไม่พบสินค้าคงคลังสำหรับหมวดหมู่และช่วงวันที่ที่คุณเลือก",
+      "page_title": "รายงานสินค้าคงคลัง",
+      "breadcrumbs_current": "รายงานสินค้าคงคลัง",
+      "breadcrumbs_first": "แผงควบคุม",
+      "breadcrumbs_second": "รายงาน",
+      "breadcrumbs_active": "รายงานสินค้าคงคลัง"
+    }
+  },
+  "setup": {
+    "common": {
+      "sort_code": "รหัสสั้น",
+      "sort_code_placeholder": "ใส่รหัสสั้น"
+    },
+    "index": {
+      "page_title": "ติดตั้ง",
+      "breadcrumbs_current": "ติดตั้ง",
+      "breadcrumbs_first": "แผงควบคุม",
+      "breadcrumbs_active": "ติดตั้ง",
+      "menu": {
+        "item_one": {
+          "title": "ทั่วไป",
+          "description": "การตั้งค่าทั่วไป เช่น ชื่อเว็บไซต์ คำอธิบายเว็บไซต์ ที่อยู่ และอื่นๆ",
+          "link_text": "เปลี่ยนการตั้งค่า"
+        },
+        "item_two": {
+          "title": "สกุลเงิน",
+          "description": "จัดการสกุลเงินประเภทต่างๆ ที่คุณจะใช้ในระบบ",
+          "link_text": "สกุลเงิน"
+        },
+        "item_three": {
+          "title": "หน่วย",
+          "description": "จัดการประเภทหน่วยสำหรับการวัดที่คุณจะใช้ในระบบ",
+          "link_text": "หน่วย"
+        },
+        "item_four": {
+          "title": "บทบาทและการอนุญาต",
+          "description": "จัดการบทบาทและการอนุญาตสำหรับผู้ใช้ที่จะเข้าใช้ระบบ",
+          "link_text": "บทบาทและการอนุญาต"
+        },
+        "item_five": {
+          "title": "อัตราภาษีมูลค่าเพิ่ม",
+          "description": "จัดการอัตราภาษีมูลค่าเพิ่มสำหรับการจัดการภาษีมูลค่าเพิ่มที่คุณจะใช้ในระบบ",
+          "link_text": "อัตราภาษีมูลค่าเพิ่ม"
+        },
+        "item_six": {
+          "title": "แบรนด์",
+          "description": "จัดการแบรนด์ที่คุณจะใช้ในระบบ",
+          "link_text": "แบรนด์"
+        },
+        "item_seven": {
+          "title": "วิธีการชำระเงิน",
+          "description": "จัดการวิธีการชำระเงินที่คุณจะใช้ในระบบ",
+          "link_text": "วิธีการชำระเงิน"
+        },
+        "item_eight": {
+          "title": "สิทธิ์ของผู้ใช้",
+          "description": "จัดการสิทธิ์ที่คุณจะมอบหมายในบทบาท",
+          "link_text": "สิทธิ์ของผู้ใช้"
+        }
+      }
+    },
+    "general_settings": {
+      "index": {
+        "page_title": "การตั้งค่าทั่วไป",
+        "breadcrumbs_current": "การตั้งค่าทั่วไป",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ติดตั้ง",
+        "breadcrumbs_active": "อัปเดตการตั้งค่าทั่วไป",
+        "form_title": "อัปเดตการตั้งค่าทั่วไป",
+        "success_message": "อัปเดตการตั้งค่าเรียบร้อยแล้ว 👍",
+        "company_info": {
+          "info_title": "เพิ่มข้อมูลบริษัทของคุณ",
+          "company_tagline": "สโลแกนบริษัท",
+          "company_tagline_placeholder": "สโลแกนบริษัท",
+          "email_address": "ที่อยู่อีเมล",
+          "email_address_placeholder": "ใส่ที่อยู่อีเมล",
+          "phone_number": "หมายเลขโทรศัพท์",
+          "phone_number_placeholder": "หมายเลขโทรศัพท์"
+        },
+        "code_prefixes": {
+          "prefix_title": "เพิ่มรหัสนำหน้า",
+          "client_prefix": "คำนำหน้าลูกค้า",
+          "client_prefix_placeholder": "ป้อนคำนำหน้าไคลเอ็นต์",
+          "supplier_prefix": "คำนำหน้าซัพพลายเออร์",
+          "supplier_prefix_placeholder": "ป้อนคำนำหน้าซัพพลายเออร์",
+          "employee_prefix": "คำนำหน้าพนักงาน",
+          "employee_prefix_placeholder": "ใส่คำนำหน้าพนักงาน",
+          "product_category_prefix": "หมวดหมู่สินค้า คำนำหน้า",
+          "product_category_prefix_placeholder": "ป้อนคำนำหน้าหมวดหมู่สินค้า",
+          "product_sub_category_prefix": "คำนำหน้าหมวดหมู่ย่อยของผลิตภัณฑ์",
+          "product_sub_category_prefix_placeholder": "ป้อนคำนำหน้าหมวดหมู่ย่อย",
+          "product_prefix": "คำนำหน้าสินค้า",
+          "product_prefix_placeholder": "ใส่คำนำหน้าสินค้า",
+          "expense_category_prefix": "คำนำหน้าหมวดค่าใช้จ่าย",
+          "expense_category_prefix_placeholder": "ป้อนคำนำหน้าหมวดหมู่ค่าใช้จ่าย",
+          "expense_sub_category_prefix": "คำนำหน้าหมวดย่อยค่าใช้จ่าย",
+          "expense_sub_category_prefix_placeholder": "ป้อนคำนำหน้าหมวดหมู่ย่อยค่าใช้จ่าย",
+          "purchase_prefix": "ซื้อคำนำหน้า",
+          "purchase_prefix_placeholder": "ป้อนคำนำหน้าการซื้อ",
+          "purchase_return_prefix": "ซื้อคำนำหน้าคืน",
+          "purchase_return_prefix_placeholder": "ป้อนคำนำหน้าการคืนสินค้าที่ซื้อ",
+          "quotation_prefix": "คำนำหน้าใบเสนอราคา",
+          "quotation_prefix_placeholder": "ใส่คำนำหน้าใบเสนอราคา",
+          "invoice_prefix": "คำนำหน้าใบแจ้งหนี้",
+          "invoice_prefix_placeholder": "ป้อนคำนำหน้าใบแจ้งหนี้",
+          "invoice_return_prefix": "คำนำหน้าการคืนใบแจ้งหนี้",
+          "invoice_return_prefix_placeholder": "ป้อนคำนำหน้าการคืนใบแจ้งหนี้",
+          "invoice_adjustment_prefix": "คำนำหน้าการปรับสินค้าคงคลัง",
+          "invoice_adjustment_prefix_placeholder": "ป้อนคำนำหน้าการปรับปรุงสินค้าคงคลัง"
+        },
+        "default_elements": {
+          "default_elements_title": "เพิ่มองค์ประกอบเริ่มต้นของคุณ",
+          "default_currency": "สกุลเงินเริ่มต้น",
+          "select_a_currency": "เลือกสกุลเงิน",
+          "default_language": "ภาษาเริ่มต้น",
+          "english_en": "สเปน (อังกฤษ)",
+          "hindi_hi": "ไม่ (สวัสดี)",
+          "bangla_bn": "บางลา (พันล้าน)",
+          "copyright_text": "ข้อความลิขสิทธิ์",
+          "copyright_text_placeholder": "ข้อความลิขสิทธิ์",
+          "default_client": "ลูกค้าเริ่มต้น",
+          "default_account": "บัญชีเริ่มต้น",
+          "select_a_account": "เลือกบัญชี",
+          "select_a_client": "เลือกลูกค้า",
+          "default_vat_rate": "อัตราภาษีมูลค่าเพิ่มเริ่มต้น",
+          "select_a_vat_rate": "เลือกอัตราภาษีมูลค่าเพิ่ม"
+        },
+        "logo": {
+          "white_logo": "โลโก้สีขาว",
+          "black_logo": "โลโก้สีดำ",
+          "small_logo": "โลโก้ขนาดเล็ก",
+          "favicon": "Favicon"
+        },
+        "trial_day_count_placeholder": "จำนวนวันทดลอง"
+      }
+    },
+    "currencies": {
+      "common": {
+        "symbol": "เครื่องหมาย",
+        "symbol_placeholder": "ใส่สัญลักษณ์",
+        "currency_position": "ตำแหน่งสกุลเงิน",
+        "position_drop_down_item_one": "จัดชิดซ้าย",
+        "position_drop_down_item_two": "จัดชิดขวา"
+      },
+      "index": {
+        "page_title": "สกุลเงิน",
+        "breadcrumbs_current": "สกุลเงิน",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ติดตั้ง",
+        "breadcrumbs_active": "สกุลเงิน",
+        "table": {
+          "position": "ตำแหน่ง",
+          "preview": "ดูตัวอย่าง"
+        }
+      },
+      "create": {
+        "page_title": "สร้างสกุลเงิน",
+        "breadcrumbs_current": "สร้างสกุลเงิน",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ติดตั้ง",
+        "breadcrumbs_third": "สกุลเงิน",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มสกุลเงินเรียบร้อยแล้ว 👍",
+        "form_title": "สร้างสกุลเงิน"
+      },
+      "edit": {
+        "page_title": "แก้ไขสกุลเงิน",
+        "breadcrumbs_current": "แก้ไขสกุลเงิน",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ติดตั้ง",
+        "breadcrumbs_third": "สกุลเงิน",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัปเดตสกุลเงินเรียบร้อยแล้ว 👍",
+        "form_title": "แก้ไขสกุลเงิน"
+      }
+    },
+    "units": {
+      "index": {
+        "page_title": "หน่วย",
+        "breadcrumbs_current": "หน่วย",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ติดตั้ง",
+        "breadcrumbs_active": "หน่วย"
+      },
+      "create": {
+        "page_title": "สร้างหน่วย",
+        "breadcrumbs_current": "สร้างหน่วย",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ติดตั้ง",
+        "breadcrumbs_third": "หน่วย",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มหน่วยสำเร็จแล้ว👍",
+        "form_title": "สร้างหน่วย"
+      },
+      "edit": {
+        "page_title": "แก้ไขหน่วย",
+        "breadcrumbs_current": "แก้ไขหน่วย",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ติดตั้ง",
+        "breadcrumbs_third": "หน่วย",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัพเดทยูนิตเรียบร้อยแล้ว 👍",
+        "form_title": "แก้ไขหน่วย"
+      }
+    },
+    "permissions": {
+      "common": {
+        "slug": "กระสุน",
+        "slug_placeholder": "ใส่ทาก",
+        "guard_name": "ชื่อยาม",
+        "guard_name_placeholder": "ใส่ชื่อยาม"
+      },
+      "index": {
+        "page_title": "สิทธิ์",
+        "breadcrumbs_current": "สิทธิ์",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ติดตั้ง",
+        "breadcrumbs_active": "สิทธิ์"
+      },
+      "create": {
+        "page_title": "สร้างการอนุญาต",
+        "form_title": "สร้างการอนุญาต",
+        "breadcrumbs_current": "สร้างการอนุญาต",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ติดตั้ง",
+        "breadcrumbs_third": "สิทธิ์",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มการอนุญาตเรียบร้อยแล้ว👍"
+      },
+      "edit": {
+        "page_title": "แก้ไขสิทธิ์",
+        "form_title": "แก้ไขการอนุญาต",
+        "breadcrumbs_current": "แก้ไขสิทธิ์",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ติดตั้ง",
+        "breadcrumbs_third": "สิทธิ์",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัพเดทการอนุญาตเรียบร้อยแล้ว 👍"
+      }
+    },
+    "role_and_permission": {
+      "index": {
+        "page_title": "บทบาทและการอนุญาต",
+        "breadcrumbs_current": "บทบาทและการอนุญาต",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ติดตั้ง",
+        "breadcrumbs_active": "บทบาทและการอนุญาต",
+        "role_name": "ชื่อบทบาท"
+      },
+      "create": {
+        "page_title": "สร้างบทบาท",
+        "breadcrumbs_current": "สร้างบทบาท",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ติดตั้ง",
+        "breadcrumbs_third": "บทบาทและการอนุญาต",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มบทบาทเรียบร้อยแล้ว 👍",
+        "form_title": "สร้างบทบาท",
+        "select_permission": "เลือกสิทธิ์:"
+      },
+      "edit": {
+        "page_title": "แก้ไขบทบาท",
+        "breadcrumbs_current": "แก้ไขบทบาท",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ติดตั้ง",
+        "breadcrumbs_third": "บทบาทและการอนุญาต",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัปเดตบทบาทสำเร็จแล้ว👍",
+        "form_title": "แก้ไขบทบาท",
+        "update_permission": "อัปเดตสิทธิ์:"
+      }
+    },
+    "vat_rates": {
+      "common": {
+        "rate_in_percent": "อัตรา(คำนวณเป็น%)",
+        "rate_palceholder": "ใส่อัตรา"
+      },
+      "index": {
+        "page_title": "อัตราภาษีมูลค่าเพิ่ม",
+        "breadcrumbs_current": "อัตราภาษีมูลค่าเพิ่ม",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ติดตั้ง",
+        "breadcrumbs_active": "อัตราภาษีมูลค่าเพิ่ม",
+        "rate": "ประเมินค่า"
+      },
+      "create": {
+        "page_title": "สร้างอัตราภาษีมูลค่าเพิ่ม",
+        "breadcrumbs_current": "สร้างอัตราภาษีมูลค่าเพิ่ม",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ติดตั้ง",
+        "breadcrumbs_third": "อัตราภาษีมูลค่าเพิ่ม",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มอัตราภาษีมูลค่าเพิ่มเรียบร้อยแล้ว 👍",
+        "form_title": "สร้างอัตราภาษีมูลค่าเพิ่ม"
+      },
+      "edit": {
+        "page_title": "แก้ไขอัตราภาษีมูลค่าเพิ่ม",
+        "breadcrumbs_current": "แก้ไขอัตราภาษีมูลค่าเพิ่ม",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ติดตั้ง",
+        "breadcrumbs_third": "อัตราภาษีมูลค่าเพิ่ม",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัพเดทอัตราภาษีเรียบร้อยแล้ว 👍",
+        "form_title": "แก้ไขอัตราภาษีมูลค่าเพิ่ม"
+      }
+    },
+    "brands": {
+      "common": {
+        "brand_name": "ชื่อแบรนด์",
+        "brand_name_placeholder": "ใส่ชื่อแบรนด์"
+      },
+      "index": {
+        "page_title": "แบรนด์",
+        "breadcrumbs_current": "แบรนด์",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ติดตั้ง",
+        "breadcrumbs_active": "แบรนด์",
+        "brand_logo_view": "ดูโลโก้แบรนด์"
+      },
+      "create": {
+        "page_title": "สร้างแบรนด์",
+        "breadcrumbs_current": "สร้างแบรนด์",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ติดตั้ง",
+        "breadcrumbs_third": "แบรนด์",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มแบรนด์สำเร็จ👍",
+        "form_title": "สร้างแบรนด์"
+      },
+      "view": {
+        "page_title": "รายละเอียดแบรนด์",
+        "breadcrumbs_current": "รายละเอียดแบรนด์",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ติดตั้ง",
+        "breadcrumbs_third": "แบรนด์",
+        "breadcrumbs_active": "รายละเอียด"
+      },
+      "edit": {
+        "page_title": "แก้ไขแบรนด์",
+        "breadcrumbs_current": "แก้ไขแบรนด์",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ติดตั้ง",
+        "breadcrumbs_third": "แบรนด์",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัพเดทแบรนด์เรียบร้อยแล้ว 👍",
+        "form_title": "แก้ไขแบรนด์"
+      }
+    },
+    "payment_methods": {
+      "index": {
+        "page_title": "วิธีการชำระเงิน",
+        "breadcrumbs_current": "วิธีการชำระเงิน",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ติดตั้ง",
+        "breadcrumbs_active": "วิธีการชำระเงิน"
+      },
+      "create": {
+        "page_title": "สร้างวิธีการชำระเงิน",
+        "breadcrumbs_current": "สร้างวิธีการชำระเงิน",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ติดตั้ง",
+        "breadcrumbs_third": "วิธีการชำระเงิน",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มวิธีการชำระเงินเรียบร้อยแล้ว 👍",
+        "form_title": "สร้างวิธีการชำระเงิน"
+      },
+      "edit": {
+        "page_title": "แก้ไขวิธีการชำระเงิน",
+        "breadcrumbs_current": "แก้ไขวิธีการชำระเงิน",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ติดตั้ง",
+        "breadcrumbs_third": "วิธีการชำระเงิน",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัปเดตวิธีการชำระเงินเรียบร้อยแล้ว 👍",
+        "form_title": "แก้ไขวิธีการชำระเงิน"
+      }
+    },
+    "plans": {
+      "view": {
+        "page_title": "แผน"
+      }
+    },
+    "advanced_settings": {
+      "index": {
+        "page_title": "การตั้งค่าการชำระเงิน",
+        "breadcrumbs_first": "ติดตั้ง",
+        "breadcrumbs_second": "การตั้งค่าการชำระเงิน",
+        "breadcrumbs_current": "การตั้งค่าการชำระเงิน",
+        "breadcrumbs_active": "การตั้งค่าการชำระเงิน"
+      }
+    }
+  },
+  "user_profile": {
+    "form_title": "อัพเดทโปรไฟล์ของคุณ",
+    "page_title": "อัปเดตโปรไฟล์",
+    "breadcrumbs_current": "อัปเดตโปรไฟล์",
+    "breadcrumbs_first": "แผงควบคุม",
+    "breadcrumbs_active": "อัปเดต",
+    "current_password": "รหัสผ่านปัจจุบัน",
+    "current_password_placeholder": "ใส่รหัสผ่านปัจจุบัน",
+    "new_password": "รหัสผ่านใหม่",
+    "new_password_placeholder": "ใส่รหัสผ่านใหม่",
+    "confirm_password": "ยืนยันรหัสผ่าน",
+    "confirm_password_placeholder": "ใส่ยืนยันรหัสผ่าน",
+    "success_msg": "อัพเดทโปรไฟล์เรียบร้อยแล้ว 👍"
+  },
+  "stock_alert": {
+    "page_title": "สินค้าแจ้งเตือนสต็อก",
+    "breadcrumbs_current": "สินค้าแจ้งเตือนสต็อก",
+    "breadcrumbs_first": "แผงควบคุม",
+    "breadcrumbs_active": "สินค้าแจ้งเตือน"
+  },
+  "backup": {
+    "page_title": "สำรองฐานข้อมูล",
+    "breadcrumbs_current": "สำรองฐานข้อมูล",
+    "breadcrumbs_first": "แผงควบคุม",
+    "breadcrumbs_active": "สำรอง",
+    "export": "ส่งออก",
+    "format": "รูปแบบ",
+    "format_sql": "SQL (.sql)",
+    "success_msg": "สำรองข้อมูลเรียบร้อยแล้ว 👍"
+  },
+  "permission_denied": {
+    "page_title": "ถูกปฏิเสธ",
+    "breadcrumbs_current": "ถูกปฏิเสธ",
+    "breadcrumbs_first": "แผงควบคุม",
+    "breadcrumbs_active": "ถูกปฏิเสธ",
+    "error_msg": "คุณไม่ได้รับอนุญาตให้ดูหน้านี้",
+    "error_code": "รหัสข้อผิดพลาด: 403 ต้องห้าม"
+  },
+  "error_not_found": {
+    "error_404": "404",
+    "error_404_title": "ไม่พบหน้านี้",
+    "error_404_msg": "ขออภัย ไม่พบ URL ที่ร้องขอบนเซิร์ฟเวอร์นี้ นั่นคือทั้งหมดที่เรารู้!",
+    "back_to_dashboard": "กลับไปที่แดชบอร์ด",
+    "back_to_login": "กลับไปเข้าสู่ระบบ"
+  },
+  "sidebar_control": {
+    "customize_wharf": "ปรับแต่ง Wharf",
+    "dark_mode": "โหมดมืด",
+    "header_options": "ตัวเลือกส่วนหัว",
+    "fixed": "แก้ไขแล้ว",
+    "no_border": "ไม่มีพรมแดน",
+    "sidebar_options": "ตัวเลือกแถบด้านข้าง",
+    "sidebar_dark": "แถบด้านข้างมืด",
+    "collapsed": "แถบด้านข้างยุบ",
+    "sidebar_fixed": "แก้ไขแถบด้านข้าง",
+    "sidebar_mini": "แถบด้านข้าง มินิ",
+    "nav_flat_style": "การนำทางแบบแบน",
+    "nav_legacy_style": "การนำทางสไตล์ดั้งเดิม",
+    "nav_child_indent": "Nav เยื้องเด็ก",
+    "disable_hover": "ปิดใช้งาน Hover/Focus Auto-Expand"
+  },
+  "pos": {
+    "page_title": "POS",
+    "breadcrumbs_current": "สร้างการขาย",
+    "breadcrumbs_first": "แผงควบคุม",
+    "breadcrumbs_second": "ใบแจ้งหนี้",
+    "breadcrumbs_active": "POS",
+    "available": "มีอยู่",
+    "pos": "POS",
+    "complete_order": "บันทึก",
+    "complete_order_and_add_payment": "บันทึกและชำระเงิน",
+    "add_payment": "เพิ่มการชำระเงิน",
+    "invoice_receipt": "ใบเสร็จรับเงินใบแจ้งหนี้",
+    "not_enough_items": "ไอเทมไม่พอ!",
+    "receipt_text": "ขอขอบคุณสำหรับการช้อปปิ้งกับเรา. โปรดมาอีกครั้ง!"
+  },
+  "billing": {
+    "form_title": "การตั้งค่าการเรียกเก็บเงิน",
+    "name": "ชื่อ",
+    "name_placeholder": "ชื่อบนบัตร",
+    "invoice": "ใบแจ้งหนี้",
+    "page_title": "การเรียกเก็บเงิน",
+    "card_details": "รายละเอียดบัตร",
+    "breadcrumbs_current": "การตั้งค่าการเรียกเก็บเงิน",
+    "breadcrumbs_first": "แผงควบคุม",
+    "breadcrumbs_active": "การตั้งค่าการเรียกเก็บเงิน"
+  },
+  "settings": {
+    "name": "การตั้งค่าหน้า Landing Page",
+    "breadcrumbs_current": "การตั้งค่าหน้า Landing Page",
+    "breadcrumbs_first": "แผงควบคุม",
+    "breadcrumbs_active": "การตั้งค่าหน้า Landing Page",
+    "success_msg": "อัปเดตการตั้งค่าหน้า Landing Page สำเร็จแล้ว👍",
+    "form_title": "การตั้งค่าหน้า Landing Page",
+    "page_title": "การตั้งค่าหน้า Landing Page"
+  },
+  "central": {
+    "current_plan": "แผนปัจจุบัน",
+    "trial_start": "เริ่มทดลองได้ที่",
+    "trial_end": "สิ้นสุดการทดลองใช้ที่",
+    "tenant_id": "รหัสผู้เช่า",
+    "used": "ใช้แล้ว",
+    "remaining": "ที่เหลืออยู่",
+    "pages": {
+      "edit": {
+        "page_title": "แก้ไขหน้า",
+        "breadcrumbs_current": "แก้ไขหน้า",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "หน้า",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัพเดทเพจเรียบร้อยแล้ว 👍",
+        "form_title": "แก้ไขหน้า"
+      },
+      "name": "หน้า",
+      "slug": "กระสุน",
+      "type": "พิมพ์",
+      "index": {
+        "page_title": "หน้า",
+        "breadcrumbs_current": "หน้า",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_active": "หน้า",
+        "delete_confirm_button": "ลบ",
+        "brand_logo_view": "ดูโลโก้แบรนด์"
+      },
+      "create": {
+        "page_title": "สร้างเพจ",
+        "breadcrumbs_current": "สร้างเพจ",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "หน้า",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มหน้าสำเร็จ👍",
+        "form_title": "สร้างเพจ"
+      },
+      "name_placeholder": "ชื่อเพจ",
+      "content": "เนื้อหา",
+      "information": "ข้อมูล",
+      "need_help": "ต้องการความช่วยเหลือ"
+    },
+    "newsletters": {
+      "subject": "เรื่อง",
+      "subject_placeholder": "ใส่หัวเรื่อง",
+      "greeting": "การทักทาย",
+      "greeting_placeholder": "ใส่คำทักทาย",
+      "body": "ร่างกาย",
+      "create": {
+        "page_title": "ส่งอีเมล์",
+        "breadcrumbs_current": "ส่งอีเมล์",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ส่งอีเมล์",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "ส่งจดหมายเรียบร้อยแล้ว 👍",
+        "form_title": "ส่งอีเมล์"
+      }
+    },
+    "setting_images": {
+      "index": {
+        "delete_confirm_button": "ลบ",
+        "page_title": "รูปภาพการตั้งค่าส่วนหน้า",
+        "breadcrumbs_current": "รูปภาพการตั้งค่าส่วนหน้า",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ติดตั้ง",
+        "breadcrumbs_active": "รูปภาพการตั้งค่าส่วนหน้า"
+      },
+      "edit": {
+        "page_title": "แก้ไขรูปภาพการตั้งค่าส่วนหน้า",
+        "breadcrumbs_current": "แก้ไขรูปภาพการตั้งค่าส่วนหน้า",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ติดตั้ง",
+        "breadcrumbs_third": "รูปภาพการตั้งค่าส่วนหน้า",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัปเดตรูปภาพการตั้งค่าส่วนหน้าสำเร็จแล้ว👍",
+        "form_title": "แก้ไขรูปภาพการตั้งค่าส่วนหน้า",
+        "image": "ภาพ",
+        "title": "ชื่อ",
+        "title_placeholder": "ชื่อ",
+        "description": "คำอธิบาย",
+        "description_placeholder": "คำอธิบาย"
+      },
+      "create": {
+        "page_title": "สร้างอิมเมจการตั้งค่าส่วนหน้า",
+        "breadcrumbs_current": "สร้างอิมเมจการตั้งค่าส่วนหน้า",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ติดตั้ง",
+        "breadcrumbs_third": "รูปภาพการตั้งค่าส่วนหน้า",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มรูปภาพการตั้งค่าส่วนหน้าสำเร็จแล้ว👍",
+        "form_title": "สร้างอิมเมจการตั้งค่าส่วนหน้า",
+        "image": "ภาพ",
+        "title": "ชื่อ",
+        "title_placeholder": "ชื่อ",
+        "description": "คำอธิบาย",
+        "description_placeholder": "คำอธิบาย"
+      },
+      "image": "ภาพ",
+      "title": "ชื่อ",
+      "title_placeholder": "ใส่ชื่อ",
+      "description": "คำอธิบาย",
+      "description_placeholder": "ใส่คำอธิบาย",
+      "name": "ชื่อ",
+      "name_placeholder": "ใส่ชื่อ",
+      "type": "พิมพ์",
+      "image_align_left": "จัดชิดซ้าย"
+    },
+    "tenants": {
+      "create": {
+        "page_title": "สร้างผู้เช่า",
+        "breadcrumbs_current": "สร้างผู้เช่า",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ผู้เช่า",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มผู้เช่าเรียบร้อยแล้ว 👍",
+        "form_title": "สร้างผู้เช่า"
+      },
+      "edit": {
+        "page_title": "แก้ไขผู้เช่า",
+        "breadcrumbs_current": "แก้ไขผู้เช่า",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ผู้เช่า",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัพเดทผู้เช่าเรียบร้อยแล้ว 👍",
+        "form_title": "แก้ไขผู้เช่า"
+      },
+      "index": {
+        "deleted": "ถูกลบ",
+        "delete_title": "ลบผู้เช่า",
+        "delete_warning": "คุณแน่ใจหรือไม่ว่าต้องการลบผู้เช่ารายนี้",
+        "delete_success": "ลบผู้เช่าเรียบร้อยแล้ว 👍",
+        "delete_confirm_text": "ใช่ ลบทิ้ง!",
+        "page_title": "ผู้เช่า",
+        "breadcrumbs_current": "ผู้เช่า",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_active": "ผู้เช่า",
+        "s_no": "ส.โน",
+        "domain": "โดเมน",
+        "name_and_email": "ชื่อและอีเมล",
+        "plan": "วางแผน",
+        "trial_ends_at": "สิ้นสุดการทดลองใช้ที่",
+        "banned": "ห้าม",
+        "send_email": "ส่งอีเมล",
+        "action": "การกระทำ",
+        "false": "เท็จ",
+        "true": "จริง",
+        "create": "สร้าง",
+        "edit": "แก้ไข",
+        "delete": "ลบ",
+        "ban": "ห้าม",
+        "unban": "เลิกแบน",
+        "view": "ดู",
+        "export_table": "ส่งออกตาราง",
+        "print_table": "ส่งออก PDF",
+        "send_notification": "ส่งอีเมล",
+        "impersonate": "ปลอมตัว",
+        "failed": "ล้มเหลว",
+        "on_trial": "อยู่ในช่วงทดลอง",
+        "is_subscribed": "สมัครสมาชิกแล้ว"
+      },
+      "view": {
+        "breadcrumbs_current": "รายละเอียดผู้เช่า",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "ผู้เช่า",
+        "breadcrumbs_active": "รายละเอียด",
+        "page_title": "รายละเอียดผู้เช่า"
+      }
+    },
+    "send_notification": {
+      "create": {
+        "success_msg": "ส่งการแจ้งเตือนเรียบร้อยแล้ว 👍",
+        "page_title": "ส่งการแจ้งเตือน"
+      },
+      "page_title": "ส่งการแจ้งเตือน",
+      "breadcrumbs_current": "ส่งการแจ้งเตือน",
+      "breadcrumbs_first": "แผงควบคุม",
+      "breadcrumbs_active": "ส่งการแจ้งเตือน",
+      "form_title": "ส่งการแจ้งเตือน",
+      "subject": "เรื่อง",
+      "subject_placeholder": "ใส่หัวเรื่อง",
+      "message": "ข้อความ",
+      "message_placeholder": "ใส่ข้อความ",
+      "send": "ส่ง",
+      "success_msg": "ส่งการแจ้งเตือนเรียบร้อยแล้ว 👍",
+      "greeting": "การทักทาย",
+      "greeting_placeholder": "ใส่คำทักทาย",
+      "body": "ร่างกาย"
+    },
+    "plans_items": {
+      "create": {
+        "page_title": "สร้างรายการ",
+        "breadcrumbs_current": "สร้างรายการ",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "รายการ",
+        "breadcrumbs_active": "สร้าง",
+        "success_msg": "เพิ่มรายการสำเร็จแล้ว👍",
+        "form_title": "สร้างรายการ"
+      },
+      "edit": {
+        "page_title": "แก้ไขรายการ",
+        "breadcrumbs_current": "แก้ไขรายการ",
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "รายการ",
+        "breadcrumbs_active": "แก้ไข",
+        "success_msg": "อัพเดทรายการสำเร็จ 👍",
+        "form_title": "แก้ไขแผน"
+      },
+      "index": {
+        "breadcrumbs_first": "บ้าน",
+        "breadcrumbs_current": "รายการแผน",
+        "page_title": "รายการแผน",
+        "delete_confirm_button": "ลบ"
+      },
+      "name": "ชื่อ",
+      "name_placeholder": "ชื่อรายการ",
+      "plan": "วางแผน",
+      "item": "สิ่งของ"
+    },
+    "dashboard": {
+      "summery_items": {
+        "tenants_count": "ผู้เช่า",
+        "domains_count": "โดเมน",
+        "on_trial_tenants_count": "เกี่ยวกับผู้เช่าทดลอง",
+        "pending_amount": "จำนวนเงินที่รอดำเนินการ",
+        "available_amount": "จำนวนที่มีอยู่"
+      },
+      "top_plans": "แผนยอดนิยม",
+      "subscription_count": "การสมัครรับข้อมูล",
+      "top_clients_title": "ลูกค้าชั้นนำ"
+    },
+    "plans": {
+      "image": "ภาพ",
+      "name": "ชื่อ",
+      "amount": "จำนวน",
+      "currency": "สกุลเงิน",
+      "interval": "ช่วงเวลา",
+      "description": "คำอธิบาย",
+      "status": "สถานะ",
+      "action": "การกระทำ",
+      "index": {
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_active": "แผน",
+        "breadcrumbs_current": "แผน",
+        "page_title": "แผน",
+        "delete_confirm_button": "ลบ"
+      },
+      "create": {
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "แผน",
+        "breadcrumbs_current": "สร้างแผน",
+        "form_title": "สร้างแผน",
+        "page_title": "สร้างแผน",
+        "success_msg": "เพิ่มแผนสำเร็จแล้ว👍"
+      },
+      "edit": {
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "แผน",
+        "breadcrumbs_current": "แก้ไขแผน",
+        "form_title": "แก้ไขแผน",
+        "page_title": "แก้ไขแผน",
+        "success_msg": "อัพเดทเรียบร้อยแล้ว"
+      },
+      "limit_clients": "จำกัดลูกค้า",
+      "limit_suppliers": "จำกัดซัพพลายเออร์",
+      "limit_employees": "จำกัดพนักงาน",
+      "limit_domains": "จำกัดโดเมน",
+      "limit_purchases": "จำกัดการซื้อ",
+      "limit_invoices": "จำกัดใบแจ้งหนี้",
+      "0_means_unlimited": "0 หมายถึง ไม่จำกัด",
+      "name_placeholder": "ป้อนชื่อแผน",
+      "description_placeholder": "ป้อนคำอธิบายแผน",
+      "amount_placeholder": "จำนวน",
+      "limit_clients_placeholder": "จำกัดลูกค้า",
+      "limit_employees_placeholder": "จำกัดพนักงาน",
+      "limit_domains_placeholder": "จำกัดโดเมน",
+      "limit_purchases_placeholder": "จำกัดการซื้อ",
+      "limit_invoices_placeholder": "จำกัดใบแจ้งหนี้",
+      "limit_suppliers_placeholder": "จำกัดซัพพลายเออร์"
+    },
+    "setup": {
+      "general_settings": {
+        "index": {
+          "default_elements": {
+            "facebook_link": "ลิงค์เฟสบุ๊ค",
+            "twitter_link": "ลิงค์ทวิตเตอร์",
+            "instagram_link": "ลิงค์อินสตาแกรม",
+            "linkedin_link": "ลิงค์ LinkedIn",
+            "default_language": "ภาษาเริ่มต้น",
+            "copyright_text": "ข้อความลิขสิทธิ์",
+            "default_elements_title": "องค์ประกอบเริ่มต้น",
+            "english_en": "ภาษาอังกฤษ",
+            "hindi_hi": "ไม่",
+            "copyright_text_placeholder": "ข้อความลิขสิทธิ์",
+            "facebook_link_placeholder": "ลิงค์เฟสบุ๊ค",
+            "instagram_link_placeholder": "ลิงค์อินสตาแกรม",
+            "twitter_link_placeholder": "ลิงค์ทวิตเตอร์",
+            "linkedin_link_placeholder": "LinkedIn Link"
+          },
+          "company_info": {
+            "company_tagline": "สโลแกนบริษัท",
+            "trial_day_count": "จำนวนวันทดลอง"
+          }
+        }
+      },
+      "index": {
+        "menu": {
+          "item_one": {
+            "title": "การตั้งค่าทั่วไป",
+            "description": "การตั้งค่าทั่วไป เช่น ชื่อเว็บไซต์ คำอธิบายเว็บไซต์ ที่อยู่ และอื่นๆ",
+            "link_text": "เปลี่ยนการตั้งค่า"
+          },
+          "item_two": {
+            "title": "การตั้งค่าการชำระเงิน",
+            "description": "จัดการการตั้งค่าการชำระเงิน เพิ่มข้อมูลแถบของคุณ",
+            "link_text": "เปลี่ยนการตั้งค่า"
+          },
+          "item_three": {
+            "title": "บทบาทและการอนุญาต",
+            "description": "จัดการบทบาทและการอนุญาตเพื่อมอบหมายให้กับพนักงาน",
+            "link_text": "บทบาทและการอนุญาต"
+          },
+          "item_four": {
+            "title": "การจัดการผู้ใช้",
+            "description": "สร้างผู้ใช้ระบบและกำหนดบทบาทส่วนบุคคลให้กับผู้ใช้",
+            "link_text": "จัดการผู้ใช้"
+          }
+        }
+      },
+      "user_management": {
+        "index": {
+          "breadcrumbs_first": "แผงควบคุม",
+          "breadcrumbs_second": "ติดตั้ง",
+          "breadcrumbs_current": "ผู้ใช้",
+          "page_title": "ผู้ใช้",
+          "delete_confirm_button": "ยืนยัน"
+        },
+        "create": {
+          "breadcrumbs_first": "แผงควบคุม",
+          "breadcrumbs_second": "ติดตั้ง",
+          "breadcrumbs_third": "ผู้ใช้",
+          "breadcrumbs_current": "สร้าง",
+          "form_title": "สร้างผู้ใช้ใหม่",
+          "page_title": "สร้างผู้ใช้",
+          "success_msg": "สร้างสำเร็จแล้ว"
+        },
+        "edit": {
+          "breadcrumbs_first": "แผงควบคุม",
+          "breadcrumbs_second": "ติดตั้ง",
+          "breadcrumbs_third": "ผู้ใช้",
+          "breadcrumbs_current": "แก้ไข",
+          "form_title": "แก้ไขผู้ใช้",
+          "page_title": "แก้ไขผู้ใช้",
+          "success_msg": "อัพเดทเรียบร้อยแล้ว"
+        }
+      }
+    },
+    "features": {
+      "create": {
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "คุณสมบัติ",
+        "breadcrumbs_current": "สร้าง",
+        "form_title": "สร้างคุณลักษณะ",
+        "page_title": "ลักษณะเฉพาะ",
+        "success_msg": "สร้างสำเร็จแล้ว"
+      },
+      "name": "ชื่อ",
+      "name_placeholder": "ชื่อ",
+      "edit": {
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_second": "คุณสมบัติ",
+        "breadcrumbs_current": "แก้ไข",
+        "form_title": "แก้ไขคุณสมบัติ",
+        "page_title": "ลักษณะเฉพาะ",
+        "success_msg": "อัพเดทเรียบร้อยแล้ว"
+      },
+      "index": {
+        "breadcrumbs_first": "แผงควบคุม",
+        "breadcrumbs_current": "คุณสมบัติ",
+        "page_title": "คุณสมบัติ",
+        "delete_confirm_button": "ยืนยัน"
+      }
+    }
+  },
+  "You Are Subscribed!": "คุณสมัครรับข้อมูล!",
+  "You Have Cancelled the Subscription!": "คุณได้ยกเลิกการสมัครรับข้อมูลแล้ว!",
+  "You Have Resumed the Subscription!": "คุณได้ดำเนินการสมัครรับข้อมูลต่อแล้ว!",
+  "find_domain": "ค้นหาโดเมน",
+  "Sign Up Instantly Free for": "ลงทะเบียนฟรีทันทีสำหรับ",
+  "days, no credit card required": "วันไม่ต้องใช้บัตรเครดิต",
+  "Central Admin": "ผู้ดูแลระบบส่วนกลาง",
+  "Login as super manager": "เข้าสู่ระบบในฐานะผู้จัดการระดับสูง",
+  "Login as super salesman": "เข้าสู่ระบบเป็นซุปเปอร์เซลแมน",
+  "Something went wrong, please try again!": "เกิดข้อผิดพลาด โปรดลองอีกครั้ง!",
+  "Send": "ส่ง",
+  "We've sent an email to": "เราได้ส่งอีเมลไปที่",
+  "Please click the confirmation link in it to finalize your account": "โปรดคลิกลิงก์ยืนยันในนั้นเพื่อสิ้นสุดบัญชีของคุณ",
+  "Didn't get the email? Please check your spam folder or": "หากไม่ได้รับอีเมล โปรดตรวจสอบโฟลเดอร์สแปมของคุณหรือ",
+  "Resend Verification": "ส่งการยืนยันอีกครั้ง",
+  "Don't have any account? Click here!": "ไม่มีบัญชี? คลิกที่นี่!",
+  "You are not allowed to do this in demo version": "คุณไม่ได้รับอนุญาตให้ทำเช่นนี้ในเวอร์ชันสาธิต",
+  "Sent To": "ส่งไปยัง",
+  "All": "ทั้งหมด",
+  "Tenants": "ผู้เช่า",
+  "Subscribers": "สมาชิก",
+  "pages": {
+    "name_placeholder": "ชื่อ"
+  },
+  "plans": {
+    "limit_suppliers_placeholder": "จำกัดซัพพลายเออร์",
+    "index": {
+      "brand_logo_view": "โลโก้แผน"
+    },
+    "view_title": "ดูแผน",
+    "name": "ชื่อ",
+    "api_id": "รหัส API",
+    "amount": "จำนวน",
+    "currency": "สกุลเงิน",
+    "interval": "ช่วงเวลา",
+    "product_id": "รหัสสินค้า",
+    "description": "คำอธิบาย",
+    "created_at": "สร้าง At",
+    "updated_at": "อัปเดตที่"
+  },
+  "Pricing features": "คุณสมบัติการกำหนดราคา",
+  "Select pricing features": "เลือกคุณสมบัติการกำหนดราคา",
+  "title": "ชื่อ",
+  "Save": "บันทึก",
+  "Close": "ปิด I",
+  "tenants": {
+    "create": {
+      "success_msg": "สร้างสำเร็จแล้ว"
+    },
+    "edit": {
+      "success_msg": "อัพเดทเรียบร้อยแล้ว"
+    },
+    "index": {
+      "delete_failed": "การลบล้มเหลว",
+      "ban_failed": "แบนล้มเหลว"
+    }
+  },
+  "Select a status": "เลือกสถานะ",
+  "subscription_invoices": {
+    "create": {
+      "success_msg": "สร้างสำเร็จแล้ว"
+    },
+    "list": {
+      "index": {
+        "page_title": "ใบสมัครสมาชิก"
+      }
+    }
+  },
+  "retry": "ลองอีกครั้ง",
+  "Subscribed to": "สมัครสมาชิกกับ",
+  "Plan": "วางแผน",
+  "Switch My Plan": "เปลี่ยนแผนของฉัน",
+  "Cancel Subscription": "ยกเลิกการสมัครสมาชิก",
+  "Manual subscription by Admin is active": "การสมัครด้วยตนเองโดยผู้ดูแลระบบเปิดใช้งานอยู่",
+  "You can cancel it from the admin": "สามารถยกเลิกได้จากแอดมิน",
+  "Manually subscribed by": "สมัครด้วยตนเองโดย",
+  "Manually subscribed at": "สมัครด้วยตนเองที่",
+  "You have cancelled your subscription and your account is still active until": "คุณได้ยกเลิกการสมัครและบัญชีของคุณยังใช้งานได้จนถึง",
+  "Or, You Can": "หรือคุณทำได้",
+  "Resume Subscription": "สมัครสมาชิกต่อ",
+  "Admin have cancelled your subscription": "แอดมินได้ยกเลิกการสมัครของคุณแล้ว",
+  "Contact to Admin for re enable the subscription": "ติดต่อผู้ดูแลระบบเพื่อเปิดใช้งานการสมัครสมาชิกอีกครั้ง",
+  "You are on Trial Period for the": "คุณอยู่ในช่วงทดลองใช้งานสำหรับ",
+  "plan": "วางแผน",
+  "You have": "คุณมี",
+  "days left on your trial": "วันที่เหลือในการทดลองใช้ของคุณ",
+  "Client Limit": "ขีดจำกัดลูกค้า",
+  "Domains Limit": "ขีดจำกัดโดเมน",
+  "Employee Limit": "ขีดจำกัดพนักงาน",
+  "Supplier Limit": "ขีดจำกัดซัพพลายเออร์",
+  "Subscribe to a plan below": "สมัครสมาชิกแผนด้านล่าง",
+  "Switch Plan": "เปลี่ยนแผน",
+  "Subscribe": "ติดตาม",
+  "newsletter": {
+    "success_msg": "สมัครสมาชิกสำเร็จ",
+    "error_msg": "เกิดข้อผิดพลาด โปรดลองอีกครั้ง!"
+  },
+  "Client limit": "ขีดจำกัดลูกค้า",
+  "Domain limit": "ขีดจำกัดโดเมน",
+  "Employees limit": "ขีดจำกัดพนักงาน",
+  "Suppliers limit": "ขีดจำกัดซัพพลายเออร์",
+  "Purchase limit": "จำกัดการซื้อ",
+  "Invoice limit": "วงเงินในใบแจ้งหนี้",
+  "Newsletter": "จดหมายข่าว",
+  "Upload Your CSV file": "อัปโหลดไฟล์ CSV ของคุณ",
+  "Download Demo CSV File": "ดาวน์โหลดไฟล์สาธิต CSV",
+  "domain-requests": {
+    "create": {
+      "form_title": "สร้างคำขอโดเมน",
+      "page_title": "คำขอโดเมน",
+      "success_msg": "สร้างคำขอโดเมนสำเร็จแล้ว",
+      "breadcrumbs_first": "แผงควบคุม",
+      "breadcrumbs_second": "คำขอโดเมน",
+      "breadcrumbs_current": "สร้าง",
+      "breadcrumbs_active": "สร้าง"
+    },
+    "domain": "โดเมน",
+    "index": {
+      "page_title": "คำขอโดเมน",
+      "delete_warning": "คุณต้องการลบคำขอโดเมนนี้จริงหรือ",
+      "delete_failed": "ลบไม่สำเร็จ",
+      "delete_success": "ลบเรียบร้อยแล้ว",
+      "breadcrumbs_first": "แผงควบคุม",
+      "breadcrumbs_current": "คำขอโดเมน",
+      "breadcrumbs_active": "คำขอโดเมน",
+      "delete_confirm_button": "ยืนยัน",
+      "delete_cancel_button": "ยกเลิก"
+    }
+  },
+  "Instructions": "คำแนะนำ",
+  "Download the zip folder": "ดาวน์โหลดโฟลเดอร์ zip",
+  "Populate the products\\.csv with your product information": "เติม products\\.csv ด้วยข้อมูลผลิตภัณฑ์ของคุณ",
+  "You can get the ids related to product to their corresponding CSV file": "คุณสามารถรับรหัสที่เกี่ยวข้องกับผลิตภัณฑ์ไปยังไฟล์ CSV ที่เกี่ยวข้องได้",
+  "Example: sub_cat_id in sub-categories\\.csv": "ตัวอย่าง: sub_cat_id ในหมวดหมู่ย่อย\\.csv",
+  "Download Template": "ดาวน์โหลดเทมเพลต",
+  "no_action_available": "ไม่มีการดำเนินการใดๆ",
+  "Subscriber": "สมาชิก",
+  "Users": "ผู้ใช้",
+  "User": "ผู้ใช้",
+  "You need to add an A record to your DNS with IP": "คุณต้องเพิ่มระเบียน A ลงใน DNS ของคุณด้วย IP",
+  "template": {
+    "home": "บ้าน",
+    "about": "เกี่ยวกับเรา",
+    "features": "คุณสมบัติ",
+    "modules": "โมดูล",
+    "pricing": "ราคา",
+    "contact": "ติดต่อ",
+    "sign_in": "เข้าสู่ระบบ",
+    "register": "ลงทะเบียน",
+    "information": "ข้อมูล",
+    "need_help": "ต้องการความช่วยเหลือ?",
+    "contact_us": "ติดต่อเรา",
+    "whats_included": "มีอะไรให้บ้าง",
+    "buy_now": "ซื้อเลย"
+  },
+  "impersonate": {
+    "title": "เรากำลังสร้างไซต์ของคุณ",
+    "des": "โปรดรอสักครู่ในขณะที่โรบ็อต 🤖 ของเราสร้างเว็บไซต์ของคุณ<br> ไม่ควรเกินหนึ่งนาที"
+  }
+}

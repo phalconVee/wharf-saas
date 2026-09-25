@@ -1,0 +1,3094 @@
+{
+  "Plan switched!": "计划切换成功！",
+  "Delete": "删除",
+  "Import Clients": "导入客户",
+  "Billing History": "帐单历史",
+  "Net Total": "净总值",
+  "Transaction Type": "交易类型",
+  "Transaction Description": "交易说明",
+  "Amount": "数量",
+  "Currency": "货币",
+  "Created At": "创建于",
+  "Payment Status": "支付状态",
+  "Stripe Fee": "条纹费",
+  "You are on trial version! Your trial ends": "你是试用版！您的试用期结束",
+  "domains": {
+    "index": {
+      "breadcrumbs_current": "所有域",
+      "breadcrumbs_active": "所有域",
+      "breadcrumbs_first": "仪表板",
+      "page_title": "所有域",
+      "delete_warning": "您确定要删除此域吗？",
+      "delete_failed": "删除失败"
+    },
+    "list": {
+      "index": {
+        "breadcrumbs_current": "域管理",
+        "breadcrumbs_active": "域管理",
+        "breadcrumbs_first": "仪表板",
+        "page_title": "域管理",
+        "delete_warning": "您确定要删除此域吗？",
+        "delete_failed": "删除失败"
+      }
+    },
+    "create": {
+      "breadcrumbs_current": "创建域",
+      "breadcrumbs_active": "创建域",
+      "breadcrumbs_first": "仪表板",
+      "breadcrumbs_second": "域管理",
+      "page_title": "创建域",
+      "form_title": "创建域",
+      "success_msg": "成功创建"
+    },
+    "no_action_available": "没有可用的操作",
+    "domain": "领域",
+    "domain_placeholder": "输入域",
+    "make_primary": "成为主要",
+    "make_primary_success_msg": "成功转为小学"
+  },
+  "message": {
+    "billing_page": "计费页面"
+  },
+  "why_us_cards": "为什么选择我们的卡片",
+  "features": "特征",
+  "explorers": "探险家",
+  "all_features": "所有功能",
+  "software_overview_images": "软件概览图片",
+  "testimonials": "感言",
+  "brands": "品牌",
+  "ok": "好的",
+  "cancel": "取消",
+  "error_alert_title": "哎呀...",
+  "error_alert_text": "出问题了！请再试一次。",
+  "token_expired_alert_title": "会话已过期！",
+  "token_expired_alert_text": "请重新登录以继续。",
+  "login": "登录",
+  "register": "登记",
+  "page_not_found": "网页未找到",
+  "go_home": "回家",
+  "logout": "登出",
+  "email": "电子邮件",
+  "remember_me": "记得我",
+  "password": "密码",
+  "forgot_password": "忘记密码了吗？",
+  "confirm_password": "确认密码",
+  "name": "姓名",
+  "toggle_navigation": "切换导航",
+  "home": "家",
+  "you_are_logged_in": "您已登录！",
+  "reset_password": "重设密码",
+  "send_password_reset_link": "发送链接",
+  "profile": "轮廓",
+  "your_info": "您的信息",
+  "info_updated": "您的信息已更新！",
+  "update": "更新",
+  "your_password": "你的密码",
+  "password_updated": "您的密码已更新！",
+  "new_password": "新密码",
+  "login_with": "登录",
+  "register_with": "注册",
+  "verify_email": "验证邮件",
+  "send_verification_link": "发送验证链接",
+  "resend_verification_link": "重新发送验证链接？",
+  "failed_to_verify_email": "无法验证电子邮件。",
+  "verify_email_address": "我们向您发送了一封包含验证链接的电子邮件。",
+  "reset_email_text": "请输入您的邮箱以获取密码重置链接！",
+  "sorry": "对不起",
+  "no_data_found": "没有找到数据",
+  "login_txt": "请登录以继续您的会话！",
+  "email_placeholder": "输入你的电子邮箱地址",
+  "password_placeholder": "输入您的密码",
+  "developed_by": "由开发",
+  "per_page": "每页",
+  "available": "可用的",
+  "find": "寻找",
+  "domain": "领域",
+  "primary_domain": "主域",
+  "register_invite": "没有任何帐户？点击这里！",
+  "already_registered": "已经登记了？",
+  "register_policy": "我同意服务条款和隐私政策。",
+  "register_page_title": "立即免费注册 14 天，无需信用卡……",
+  "register_next_step": "再迈一步👍",
+  "email_sent": "我们已发送电子邮件至",
+  "confirm_account": "请单击其中的确认链接以完成您的帐户。",
+  "check_email": "没收到邮件？请检查您的垃圾邮件文件夹或",
+  "please": "请",
+  "common": {
+    "id": "ID",
+    "fallback": "倒退",
+    "send_mail": "发邮件",
+    "subscribed_at": "订阅于",
+    "primary": "基本的",
+    "business-start": "业务开始",
+    "content": "内容",
+    "information": "信息",
+    "need_help": "需要帮忙",
+    "true": "真的",
+    "false": "错误的",
+    "points": "积分",
+    "point_placeholder": "输入点",
+    "button_text": "按钮文本",
+    "button_text_placeholder": "输入按钮文本",
+    "button_link": "按钮链接",
+    "button_link_placeholder": "输入按钮链接",
+    "about_us_tagline": "关于我们标语",
+    "about_us_tagline_placeholder": "输入关于我们的标语",
+    "about_us_description": "关于我们 描述",
+    "about_us_description_placeholder": "输入关于我们的描述",
+    "about_us_title": "关于我们 标题",
+    "about_us_title_placeholder": "输入关于我们的标题",
+    "why_us_tagline": "为什么选择我们",
+    "why_us_tagline_placeholder": "输入为什么我们的标语",
+    "why_us_description": "为什么选择我们",
+    "why_us_description_placeholder": "输入为什么我们描述",
+    "why_us_title": "为什么选择我们",
+    "why_us_title_placeholder": "输入为什么我们标题",
+    "business_start_section_tagline": "业务开始部分标语",
+    "business_start_section_tagline_placeholder": "输入业务开始部分标语",
+    "business_start_section_description": "业务开始部分说明",
+    "business_start_section_description_placeholder": "输入业务开始部分说明",
+    "business_start_section_title": "业务开始部分标题",
+    "business_start_section_title_placeholder": "输入业务开始部分标题",
+    "business_start_support_list": "业务启动支持列表",
+    "business_start_support_item_placeholder": "输入业务启动支持列表",
+    "features_section_tagline": "功能部分标语",
+    "features_section_tagline_placeholder": "输入功能部分标语",
+    "features_section_description": "功能部分说明",
+    "features_section_description_placeholder": "输入功能部分描述",
+    "features_section_title": "功能部分标题",
+    "features_section_title_placeholder": "输入功能部分标题",
+    "all_features_section_tagline": "所有功能部分标语",
+    "all_features_section_tagline_placeholder": "输入所有功能部分标语",
+    "all_features_section_title": "所有功能部分标题",
+    "all_features_section_title_placeholder": "输入所有功能部分标题",
+    "get_started_box_title": "开始使用框标题",
+    "get_started_box_title_placeholder": "输入入门框标题",
+    "get_started_box_description": "开始使用框说明",
+    "get_started_box_description_placeholder": "输入入门框说明",
+    "get_started_box_button_text": "开始框按钮文本",
+    "get_started_box_button_text_placeholder": "输入开始框按钮文本",
+    "get_started_box_button_link": "开始框按钮链接",
+    "get_started_box_button_link_placeholder": "输入入门框按钮链接",
+    "all_features_and_get_started": "所有功能并开始使用",
+    "software_overview_section_tagline": "软件概述部分标语",
+    "software_overview_section_tagline_placeholder": "进入软件概述部分标语",
+    "software_overview_section_title": "软件概述部分标题",
+    "software_overview_section_title_placeholder": "输入软件概述部分标题",
+    "pricing_plan_section_tagline": "定价计划部分标语",
+    "pricing_plan_section_tagline_placeholder": "输入定价计划部分标语",
+    "pricing_plan_section_title": "定价计划部分标题",
+    "pricing_plan_section_title_placeholder": "输入定价计划部分标题",
+    "software_overview_and_pricing_plan": "软件概述和定价计划",
+    "testimonial_and_newsletter": "推荐信和通讯",
+    "testimonial_section_tagline": "推荐部分标语",
+    "testimonial_section_tagline_placeholder": "输入推荐部分标语",
+    "testimonial_section_title": "推荐部分标题",
+    "testimonial_section_title_placeholder": "输入推荐部分标题",
+    "newsletter_section_tagline": "通讯部分标语",
+    "newsletter_section_tagline_placeholder": "输入时事通讯部分标语",
+    "newsletter_section_title": "通讯部分标题",
+    "newsletter_section_title_placeholder": "输入时事通讯部分标题",
+    "newsletter_section_description": "时事通讯部分说明",
+    "newsletter_section_description_placeholder": "输入时事通讯部分说明",
+    "about_us": "关于我们",
+    "why-us": "为什么是我们",
+    "business_start": "业务开始",
+    "features": "特征",
+    "all-features-and-get-started": "所有功能和开始",
+    "software-overview-and-pricing-plan": "软件概述和定价计划",
+    "testimonial-and-newsletter": "推荐信和时事通讯",
+    "hero": "英雄",
+    "hero_tagline": "英雄标语",
+    "hero_tagline_placeholder": "输入你的英雄标语",
+    "hero_title": "英雄称号",
+    "hero_title_placeholder": "输入你的英雄称号",
+    "hero_description": "英雄说明",
+    "hero_description_placeholder": "输入你的英雄描述",
+    "hero_demo_button_text": "英雄演示按钮文本",
+    "hero_demo_button_text_placeholder": "输入英雄演示按钮文本",
+    "hero_demo_button_link": "英雄演示按钮链接",
+    "hero_demo_button_link_placeholder": "输入演示页面的链接",
+    "hero_get_started_button_text": "英雄开始按钮文本",
+    "hero_get_started_button_text_placeholder": "输入英雄入门按钮文本",
+    "hero_get_started_button_link": "英雄入门按钮链接",
+    "hero_get_started_button_link_placeholder": "输入指向页面或页面模板的链接",
+    "company_placeholder": "输入您的公司名称",
+    "domain_placeholder": "输入您的域名",
+    "password_confirmation": "确认你的密码",
+    "password_confirmation_placeholder": "确认你的密码",
+    "ban": "禁止",
+    "ban_success": "用户封禁成功",
+    "unban": "解禁",
+    "unban_success": "用户已成功解禁",
+    "tenant_id": "租户编号",
+    "domain": "领域",
+    "company": "公司",
+    "plan": "计划",
+    "trial_ends_at": "试用结束于",
+    "banned": "禁止",
+    "clients_limit": "客户限制",
+    "suppliers_limit": "供应商限制",
+    "employee_limit": "员工限制",
+    "domains_limit": "域限制",
+    "purchases_limit": "购买限额",
+    "invoices_limit": "发票限额",
+    "to": "至",
+    "from": "从",
+    "s_no": "#",
+    "more_info": "更多信息",
+    "name": "姓名",
+    "name_placeholder": "输入名称",
+    "password": "密码",
+    "password_placeholder": "输入您的密码",
+    "default_password": "密码（默认密码：12345678）",
+    "code": "代码",
+    "code_placeholder": "输入代码",
+    "product_name": "产品名称",
+    "product_name_placeholder": "选择一个产品",
+    "sub_category_code": "子类别代码",
+    "sub_category": "子类别",
+    "sub_category_name": "子类别名称",
+    "category": "类别",
+    "category_name": "分类名称",
+    "category_name_placeholder": "选择一个类别",
+    "account": "帐户",
+    "account_placeholder": "选择一个帐户",
+    "available_balance": "可用余额",
+    "amount": "数量",
+    "amount_placeholder": "输入金额",
+    "cheque_no": "检查编号",
+    "cheque_placeholder": "输入支票号码",
+    "voucher_no": "凭证号",
+    "voucher_placeholder": "输入凭证号",
+    "receipt_no": "收据编号",
+    "receipt_no_placeholder": "输入收据编号",
+    "date": "日期",
+    "note": "笔记",
+    "created_by": "由...制作",
+    "choose_file": "选择文件",
+    "image_alt": "附加图片",
+    "note_placeholder": "在这里写下你的笔记！",
+    "status": "地位",
+    "action": "行动",
+    "active": "积极的",
+    "in_active": "不活跃",
+    "expired": "已到期",
+    "email": "电子邮件",
+    "email_placeholder": "输入你的电子邮箱地址",
+    "phone": "电话",
+    "address": "地址",
+    "address_placeholder": "输入地址",
+    "modal_header": "附加图像预览",
+    "modal_body": "默认正文",
+    "export_table": "导出表",
+    "print_table": "打印表",
+    "delete_title": "你确定吗？",
+    "update_title": "你确定吗？",
+    "delete_confirm_text": "确认",
+    "update_confirm_text": "确认",
+    "deleted": "已删除！",
+    "updated": "更新！",
+    "delete_success": "删除成功。",
+    "update_success": "更新成功。",
+    "failed": "失败的！",
+    "delete_failed": "出了点问题。",
+    "update_failed": "出了点问题。",
+    "error_msg": "哎呀...出了点问题😔",
+    "image_error": "请选择大小小于 2 MB 的有效缩略图",
+    "close": "关",
+    "search": "搜索...",
+    "create": "创造",
+    "view": "看法",
+    "edit": "编辑",
+    "delete": "删除",
+    "image": "图片",
+    "preview": "预习",
+    "no_preview": "无预览",
+    "save": "节省",
+    "save_changes": "保存更改",
+    "back": "后退",
+    "print": "打印",
+    "reset": "重置",
+    "supplier": "供应商",
+    "supplier_placeholder": "选择供应商",
+    "products": "产品",
+    "select_products": "选择产品",
+    "select_products_placeholder": "搜索产品",
+    "reference": "参考",
+    "reference_placeholder": "输入参考",
+    "quantity": "数量",
+    "purchase_price": "购买价格",
+    "unit_price": "单价",
+    "unit_cost": "单位成本",
+    "unit_tax": "单位税",
+    "tax": "税",
+    "subtotal": "小计",
+    "return_subtotal": "返回小计",
+    "new_subtotal": "新小计",
+    "return_amount": "退货金额",
+    "return_cost": "退货成本",
+    "total": "全部的",
+    "net_total": "净总值",
+    "due": "到期的",
+    "transport": "运输",
+    "add_payment": "添加付款？",
+    "add_payment_placeholder": "选择一个选项",
+    "yes": "是的",
+    "no": "不",
+    "paid": "有薪酬的",
+    "total_paid": "总支付",
+    "paid_amount": "已付金额",
+    "paid_amount_placeholder": "输入金额",
+    "total_due": "到期总额",
+    "account_receivable": "应收帐款",
+    "account_payable": "应付账款",
+    "total_price": "总价",
+    "return_price": "退货价格",
+    "price": "价格",
+    "total_return": "总回报",
+    "discount": "折扣",
+    "discount_placeholder": "输入折扣",
+    "supplier_details": "供应商详情",
+    "client_details": "客户详情",
+    "supplier_id": "供应商编号",
+    "client_id": "客户编号",
+    "client_name": "客户名称",
+    "supplier_name": "供应商名称",
+    "company_name": "公司名称",
+    "company_name_placeholder": "输入公司名称",
+    "contact_number": "联系电话",
+    "contact_number_placeholder": "输入联系电话",
+    "payment_history": "支付历史",
+    "payment_date": "付款日期",
+    "empty_payment": "尚无付款可用！",
+    "empty_payment_msg": "您尚未/没有为此购买添加任何付款。添加付款后，您将在此处看到列表。",
+    "purchases": "购买",
+    "purchases_placeholder": "选择购买",
+    "total_tax": "总税额",
+    "invoice_tax": "发票税",
+    "transport_cost": "运输成本",
+    "transport_cost_placeholder": "输入运输成本",
+    "total_discount": "总折扣",
+    "discount_type": "折扣类型",
+    "fixed": "固定的",
+    "percentage": "百分比",
+    "client": "客户",
+    "client_placeholder": "选择客户",
+    "payment_terms": "付款条件",
+    "payment_terms_placeholder": "输入付款条件",
+    "po_reference": "采购订单参考",
+    "po_reference_placeholder": "输入采购订单参考",
+    "invoice_qty": "发票数量",
+    "current_qty": "当前数量",
+    "return_qty": "退货数量",
+    "invoices": "发票",
+    "invoices_placeholder": "选择发票",
+    "return_reason": "退货原因",
+    "return_reason_placeholder": "输入原因",
+    "invoice_due": "到期发票",
+    "non_invoice_due": "非发票二",
+    "invoice_date": "发票日期",
+    "invoice_no": "发票号码",
+    "invoice_return_no": "发票退货编号",
+    "return_no": "退货编号",
+    "return_products": "退货产品",
+    "insufficient_stock": "库存不足",
+    "invoice_products": "发票产品",
+    "created_at": "创建于",
+    "reason": "原因",
+    "type": "类型",
+    "credit": "信用",
+    "debit": "借方",
+    "payment_type": "付款方式",
+    "invoice_total": "发票总额",
+    "invoice_details": "发票明细",
+    "payment_details": "付款详情",
+    "ref_no": "参考。不",
+    "reference_no": "参考编号",
+    "payable": "应付",
+    "interest": "兴趣",
+    "installment": "分期付款",
+    "error": "错误！",
+    "per": "每",
+    "day": "天",
+    "week": "星期",
+    "month": "月",
+    "year": "年",
+    "daily": "日常的",
+    "monthly": "月刊",
+    "yearly": "每年",
+    "employee": "员工",
+    "employee_placeholder": "选择员工",
+    "designation": "指定",
+    "designation_placeholder": "输入名称",
+    "emp_name": "企业名称",
+    "emp_id": "员工编号",
+    "employee_details": "员工详情",
+    "department": "部门",
+    "department_placeholder": "部门",
+    "balance": "平衡",
+    "salary": "薪水",
+    "salary_placeholder": "输入工资",
+    "profile_picture": "个人资料图片",
+    "role": "角色",
+    "role_placeholder": "选择角色",
+    "unit": "单元",
+    "unit_placeholder": "选择单位",
+    "brand": "牌",
+    "brand_placeholder": "选择品牌",
+    "item_code": "项目代码",
+    "item_code_placeholder": "输入商品代码",
+    "item_model": "项目型号",
+    "item_model_placeholder": "输入型号",
+    "item_name": "项目名",
+    "item_name_placeholder": "输入名称",
+    "rendering_fails": "渲染失败。",
+    "product": "产品",
+    "transactions": "交易",
+    "empty_table": "对不起😔没有找到数据",
+    "stock_alert_msg": "库存低于警戒数量！",
+    "stock_notification": "产品数量警报",
+    "stock_notification_empty": "没有可用的通知",
+    "delete_warning": "你将无法回到这里！",
+    "update_warning": "你将无法回到这里！",
+    "add_balance": "添加余额",
+    "remove_balance": "删除余额",
+    "qty": "数量",
+    "item": "物品",
+    "sold_by": "所售",
+    "all_features": "所有功能",
+    "success_msg": "成功！",
+    "software_overview": "软件概述",
+    "business_start_support_list_placeholder": "业务启动支持列表",
+    "explorers": "探险家",
+    "points_placeholder": "积分",
+    "why_us": "为什么是我们",
+    "stripe_public_key": "条带公钥",
+    "stripe_private_key": "条带私钥",
+    "plan_placeholder": "计划",
+    "download": "下载",
+    "commission": "委员会",
+    "invoice_tax_placeholder": "发票税",
+    "requested_domain": "请求的域",
+    "pending": "待办的",
+    "connected": "连接的",
+    "rejected": "被拒绝",
+    "removed": "已移除",
+    "tenant": "租户",
+    "welcome_mail": "发送欢迎邮件",
+    "tenant_name": "租户名称",
+    "tenant_email": "租户电子邮件",
+    "modified_by": "修改者",
+    "host": "主持人",
+    "value": "价值",
+    "custom_html": "自定义 HTML",
+    "custom_html_placeholder": "自定义 HTML（您可以在此处添加 SEO 相关标签、谷歌分析、Facebook 像素代码等。）",
+    "pricing_plan": "定价计划"
+  },
+  "topbar": {
+    "new_invoice": "新发票",
+    "new_expense": "新费用",
+    "new_purchase": "新购买",
+    "new_quotation": "新报价",
+    "profile": "轮廓",
+    "setup": "设置",
+    "logout": "登出"
+  },
+  "sidebar": {
+    "Billing History": "帐单历史",
+    "tenant": {
+      "settings": "设置"
+    },
+    "domain_management": "域管理",
+    "domain": "领域",
+    "domain_request": "域请求",
+    "newsletters": {
+      "create": "订户"
+    },
+    "pages": {
+      "create": "页面"
+    },
+    "items": "项目",
+    "dashboard": "仪表板",
+    "activities": "活动",
+    "expenses": "花费",
+    "categories": "类别",
+    "sub_categories": "子类别",
+    "expenses_list": "费用清单",
+    "purchases": "购买",
+    "purchases_list": "采购清单",
+    "returns_list": "退货清单",
+    "sales": "销售量",
+    "quotations_list": "报价单",
+    "invoices_list": "发票清单",
+    "accounting": "会计",
+    "cashbook": "现金簿",
+    "accounts": "账户",
+    "balance_adjustments": "平衡调整",
+    "balance_transfers": "余额转账",
+    "transaction_history": "交易记录",
+    "payments": "付款",
+    "suppliers": "供应商",
+    "non_purchase": "非购买",
+    "purchase": "购买",
+    "clients": "客户",
+    "non_invoice": "非发票",
+    "invoice": "发票",
+    "loan_management": "贷款管理",
+    "authorities": "当局",
+    "loans": "贷款",
+    "asset_management": "资产管理",
+    "types": "类型",
+    "assets": "资产",
+    "payroll": "工资单",
+    "people": "人们",
+    "employees_list": "员工名单",
+    "employees": "雇员",
+    "departments": "部门",
+    "increments": "增量",
+    "product": "产品",
+    "products": "产品",
+    "products_list": "产品列表",
+    "barcode": "条码",
+    "inventory_uppercase": "存货",
+    "inventory": "存货",
+    "view_inventory": "查看库存",
+    "inventory_adjustment": "库存调整",
+    "reports": "报告",
+    "balance_sheet": "资产负债表",
+    "summary_report": "总结报告",
+    "profit_loss_report": "损益报告",
+    "expense_report": "费用报表",
+    "product_report": "项目报告",
+    "inventory_report": "库存报告",
+    "account": "帐户",
+    "account_sm": "帐户",
+    "setup": "设置",
+    "database_backup": "数据库备份",
+    "profile": "轮廓",
+    "logout": "登出",
+    "pricing": "价钱",
+    "tenants": "租户",
+    "overview": "概述",
+    "saas": "SaaS",
+    "back_landing": "转到登陆页面",
+    "landing_page": "登陆页面",
+    "cms": "内容管理系统",
+    "promotion": "晋升",
+    "plans": "计划",
+    "pricing_plans": "定价计划",
+    "plan_features": "计划功能",
+    "domains": "域管理",
+    "all_domains": "所有域",
+    "domain_requests": "域请求"
+  },
+  "dashboard": {
+    "stock_alert": "股票警报",
+    "recent_activities": "近期活动",
+    "page_title": "仪表板",
+    "breadcrumbs_current": "仪表板",
+    "breadcrumbs_active": "仪表板",
+    "bar_chart_title": "销售与购买",
+    "bar_chart_tooltip": "扣除退货成本后的每月销售和采购。",
+    "pie_chart_title": "畅销产品",
+    "line_chart_title": "已发送付款与已收到付款",
+    "line_chart_tooltip": "已发送付款 = 供应商付款 + 贷款付款<br/>收到的付款=客户付款+收到的贷款",
+    "top_clients_title": "前 5 名客户",
+    "summary": "概括",
+    "summary_option_1": "今天",
+    "summary_option_2": "过去 7 天",
+    "summary_option_3": "这个月",
+    "summary_option_4": "今年",
+    "summery_items": {
+      "purchase": "购买",
+      "purchase_return": "购买退货",
+      "sales": "销售量",
+      "sales_return": "销售退货",
+      "payment_received": "客户付款",
+      "payment_sent": "供应商付款",
+      "expense": "费用",
+      "balance_transfers": "余额转账"
+    },
+    "today": "今天",
+    "last_7_days": "过去 7 天",
+    "this_month": "这个月",
+    "this_year": "今年"
+  },
+  "expenses": {
+    "categories": {
+      "index": {
+        "page_title": "费用类别",
+        "breadcrumbs_current": "费用类别",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "花费",
+        "breadcrumbs_active": "类别",
+        "delete_warning": "此类别的所有子类别都将被删除！"
+      },
+      "create": {
+        "page_title": "创建费用类别",
+        "form_title": "创建费用类别",
+        "breadcrumbs_current": "创建费用类别",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "类别",
+        "breadcrumbs_active": "创造",
+        "success_msg": "分类添加成功👍"
+      },
+      "edit": {
+        "page_title": "编辑费用类别",
+        "form_title": "编辑类别",
+        "breadcrumbs_current": "编辑费用类别",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "类别",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "分类更新成功👍"
+      }
+    },
+    "sub_categories": {
+      "index": {
+        "page_title": "费用子类别",
+        "breadcrumbs_current": "费用子类别",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "花费",
+        "breadcrumbs_active": "子类别",
+        "delete_warning": "此类别的所有费用将被删除！"
+      },
+      "create": {
+        "page_title": "创建费用子类别",
+        "form_title": "创建费用子类别",
+        "breadcrumbs_current": "创建费用子类别",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "子类别",
+        "breadcrumbs_active": "创造",
+        "success_msg": "子类添加成功👍"
+      },
+      "edit": {
+        "page_title": "编辑费用子类别",
+        "form_title": "编辑费用子类别",
+        "breadcrumbs_current": "编辑费用子类别",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "子类别",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "子分类更新成功👍"
+      }
+    },
+    "list": {
+      "common": {
+        "expense_reason": "费用原因",
+        "expense_reason_placeholder": "输入原因"
+      },
+      "index": {
+        "page_title": "花费",
+        "breadcrumbs_current": "花费",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "花费",
+        "breadcrumbs_active": "花费",
+        "delete_warning": "你将无法回到这里！"
+      },
+      "create": {
+        "page_title": "创建费用",
+        "form_title": "创建费用",
+        "breadcrumbs_current": "创建费用",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "花费",
+        "breadcrumbs_active": "创造",
+        "success_msg": "费用添加成功👍"
+      },
+      "edit": {
+        "page_title": "编辑费用",
+        "form_title": "编辑费用",
+        "breadcrumbs_current": "编辑费用",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "花费",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "费用更新成功👍"
+      },
+      "view": {
+        "page_title": "费用明细",
+        "breadcrumbs_current": "费用明细",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "花费",
+        "breadcrumbs_active": "细节",
+        "expense_details": "费用明细"
+      }
+    }
+  },
+  "purchases": {
+    "list": {
+      "common": {
+        "po_reference": "采购订单参考",
+        "po_reference_placeholder": "输入采购订单参考",
+        "payment_terms": "付款条件",
+        "payment_terms_placeholder": "输入付款条件",
+        "purchase_tax": "购置税",
+        "purchase_total": "采购总额",
+        "purchase_subtotal": "采购小计",
+        "purchase_tax_placeholder": "选择税种",
+        "total_tax": "总税额",
+        "discount": "折扣",
+        "discount_placeholder": "输入折扣",
+        "transport_cost": "运输成本",
+        "transport_cost_placeholder": "输入运输成本",
+        "purchase_date": "购买日期",
+        "po_date": "采购订单日期",
+        "purchased_qty": "购买数量",
+        "returned_qty": "退货数量",
+        "current_qty": "当前数量",
+        "purchase_no": "采购编号",
+        "return_no": "退货编号",
+        "purchase_no_placeholder": "输入购买编号",
+        "purchase_products": "购买产品",
+        "purchase_due": "采购到期"
+      },
+      "index": {
+        "page_title": "购买",
+        "breadcrumbs_current": "购买",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "购买",
+        "breadcrumbs_active": "购买",
+        "delete_warning": "你将无法回到这里！"
+      },
+      "create": {
+        "page_title": "创建采购",
+        "form_title": "创建购买",
+        "breadcrumbs_current": "创建采购",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "购买",
+        "breadcrumbs_active": "创造",
+        "success_msg": "购买添加成功👍"
+      },
+      "edit": {
+        "page_title": "编辑购买",
+        "form_title": "编辑购买",
+        "breadcrumbs_current": "编辑购买",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "购买",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "购买更新成功👍"
+      },
+      "view": {
+        "page_title": "购买详情",
+        "breadcrumbs_current": "购买详情",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "购买",
+        "breadcrumbs_active": "细节"
+      }
+    },
+    "returns": {
+      "common": {
+        "return_reason": "退货原因",
+        "return_reason_placeholder": "输入原因",
+        "return_date": "归期",
+        "purchase_return_no": "采购退货编号",
+        "return_products": "退货产品"
+      },
+      "index": {
+        "page_title": "购买退货",
+        "breadcrumbs_current": "购买退货",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "购买",
+        "breadcrumbs_active": "购买退货",
+        "delete_warning": "你将无法回到这里！"
+      },
+      "create": {
+        "page_title": "创建采购退货",
+        "form_title": "创建采购退货",
+        "breadcrumbs_current": "创建采购退货",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "购买退货",
+        "breadcrumbs_active": "创造",
+        "success_msg": "购买退货添加成功👍"
+      },
+      "edit": {
+        "page_title": "编辑采购退货",
+        "form_title": "编辑购买退货",
+        "breadcrumbs_current": "编辑采购退货",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "购买退货",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "购买退货更新成功👍"
+      },
+      "view": {
+        "page_title": "购买退货详情",
+        "breadcrumbs_current": "购买退货详情",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "购买退货",
+        "breadcrumbs_active": "细节"
+      }
+    }
+  },
+  "sales": {
+    "common": {
+      "quotation_no": "报价单号",
+      "quotation_date": "报价日期",
+      "delivery_place": "交货地点",
+      "delivery_place_placeholder": "输入送货地点",
+      "quotation_tax": "报价税",
+      "quotation_tax_placeholder": "选择税种",
+      "return_date": "归期",
+      "new_due": "新到期",
+      "client_advance": "客户提前",
+      "invoice_total": "发票总额",
+      "before_return": "返回前",
+      "invoice_return": "发票退回",
+      "invoice_tax": "发票税",
+      "invoice_tax_placeholder": "选择税种"
+    },
+    "quotations": {
+      "index": {
+        "page_title": "报价单",
+        "create_invoice": "创建发票",
+        "breadcrumbs_current": "报价单",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "报价单",
+        "breadcrumbs_active": "报价单",
+        "delete_warning": "你将无法回到这里！",
+        "delete_failed": "对不起，您不能删除此报价！"
+      },
+      "create": {
+        "page_title": "创建报价",
+        "form_title": "创建报价",
+        "breadcrumbs_current": "创建报价",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "报价单",
+        "breadcrumbs_active": "创造",
+        "success_msg": "报价添加成功👍"
+      },
+      "edit": {
+        "page_title": "编辑报价",
+        "form_title": "编辑报价",
+        "breadcrumbs_current": "编辑报价",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "报价单",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "报价更新成功👍"
+      },
+      "view": {
+        "page_title": "报价详情",
+        "breadcrumbs_current": "报价详情",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "报价单",
+        "breadcrumbs_active": "细节",
+        "expense_details": "费用明细"
+      },
+      "invoice": {
+        "page_title": "报价单",
+        "form_title": "创建报价单到发票",
+        "breadcrumbs_current": "报价单",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "报价单",
+        "breadcrumbs_active": "创造",
+        "success_msg": "发票创建成功👍"
+      }
+    },
+    "invoices": {
+      "index": {
+        "page_title": "发票",
+        "breadcrumbs_current": "发票",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "销售量",
+        "breadcrumbs_active": "发票",
+        "delete_warning": "你将无法回到这里！",
+        "delete_failed": "抱歉，您无法删除此发票！"
+      },
+      "create": {
+        "page_title": "创建发票",
+        "form_title": "创建发票",
+        "breadcrumbs_current": "创建发票",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "发票",
+        "breadcrumbs_active": "创造",
+        "success_msg": "发票添加成功👍"
+      },
+      "edit": {
+        "page_title": "编辑发票",
+        "form_title": "编辑发票",
+        "breadcrumbs_current": "编辑发票",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "发票",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "发票更新成功👍"
+      },
+      "view": {
+        "page_title": "发票明细",
+        "breadcrumbs_current": "发票明细",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "发票",
+        "breadcrumbs_active": "细节",
+        "invoice_details": "发票明细"
+      }
+    },
+    "returns": {
+      "index": {
+        "page_title": "发票退货",
+        "breadcrumbs_current": "发票退货",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "发票",
+        "breadcrumbs_active": "发票退货",
+        "delete_warning": "你将无法回到这里！",
+        "delete_failed": "出了点问题。"
+      },
+      "create": {
+        "page_title": "创建发票退货",
+        "form_title": "创建发票退货",
+        "breadcrumbs_current": "创建发票退货",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "发票退货",
+        "breadcrumbs_active": "创造",
+        "success_msg": "发票退货添加成功👍"
+      },
+      "edit": {
+        "page_title": "编辑发票退回",
+        "form_title": "编辑发票退货",
+        "breadcrumbs_current": "编辑发票退回",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "发票退货",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "发票退货更新成功👍"
+      },
+      "view": {
+        "page_title": "发票退货详情",
+        "breadcrumbs_current": "发票退货详情",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "发票退货",
+        "breadcrumbs_active": "细节",
+        "invoice_details": "发票明细"
+      }
+    }
+  },
+  "cashbook": {
+    "common": {
+      "account_number": "帐号",
+      "account_number_placeholder": "输入帐号",
+      "branch_name": "分店名称",
+      "branch_name_placeholder": "输入分支名称",
+      "bank_name": "银行名称",
+      "bank_name_placeholder": "输入银行名称",
+      "transactions": "交易",
+      "account_details": "帐户详细资料",
+      "total_transactions": "总交易",
+      "debit_amount": "借方金额",
+      "credit_amount": "信用额度",
+      "from_account": "从帐户",
+      "to_account": "记帐",
+      "transfer_reason": "转移原因"
+    },
+    "accounts": {
+      "index": {
+        "page_title": "账户",
+        "breadcrumbs_current": "账户",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "现金簿",
+        "breadcrumbs_third": "账户",
+        "breadcrumbs_active": "账户",
+        "delete_warning": "你将无法回到这里！",
+        "delete_failed": "抱歉，您无法删除此帐户！"
+      },
+      "create": {
+        "page_title": "创建账户",
+        "form_title": "创建一个帐户",
+        "breadcrumbs_current": "创建账户",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "现金簿",
+        "breadcrumbs_third": "账户",
+        "breadcrumbs_active": "创造",
+        "success_msg": "账号添加成功👍"
+      },
+      "edit": {
+        "page_title": "编辑帐户",
+        "form_title": "编辑帐户",
+        "breadcrumbs_current": "编辑帐户",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "现金簿",
+        "breadcrumbs_third": "账户",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "账号更新成功👍"
+      },
+      "view": {
+        "page_title": "账户交易",
+        "breadcrumbs_current": "账户交易",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "账户",
+        "breadcrumbs_active": "交易",
+        "empty_transaction": "暂无交易！",
+        "empty_transaction_msg": "您尚未使用此帐户进行任何交易。完成交易后，您将在此处看到列表。"
+      }
+    },
+    "balances": {
+      "index": {
+        "page_title": "平衡调整",
+        "add_balance": "创造",
+        "breadcrumbs_current": "平衡调整",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "现金簿",
+        "breadcrumbs_active": "调整",
+        "delete_warning": "你将无法回到这里！",
+        "delete_failed": "抱歉，您无法删除此交易"
+      },
+      "create": {
+        "page_title": "创建调整",
+        "form_title": "创建调整",
+        "breadcrumbs_current": "创建调整",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "现金簿",
+        "breadcrumbs_third": "调整",
+        "breadcrumbs_active": "创造",
+        "success_msg": "调整添加成功👍"
+      },
+      "edit": {
+        "page_title": "编辑余额",
+        "form_title": "编辑余额",
+        "breadcrumbs_current": "编辑余额",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "现金簿",
+        "breadcrumbs_third": "天平",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "余额更新成功👍"
+      }
+    },
+    "transfers": {
+      "index": {
+        "page_title": "余额转账",
+        "add_transfer": "添加转移",
+        "breadcrumbs_current": "余额转账",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "现金簿",
+        "breadcrumbs_active": "余额转账",
+        "delete_warning": "你将无法回到这里！",
+        "delete_failed": "抱歉，您无法删除此转移！"
+      },
+      "create": {
+        "page_title": "创建转移",
+        "form_title": "创建余额转账",
+        "breadcrumbs_current": "创建转移",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "现金簿",
+        "breadcrumbs_third": "余额转账",
+        "breadcrumbs_active": "创造",
+        "success_msg": "余额转账添加成功👍"
+      },
+      "edit": {
+        "page_title": "编辑余额转移",
+        "form_title": "编辑余额转移",
+        "breadcrumbs_current": "编辑余额转移",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "现金簿",
+        "breadcrumbs_third": "余额转账",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "转移更新成功👍"
+      },
+      "view": {
+        "page_title": "余额转账明细",
+        "breadcrumbs_current": "转账详情",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "现金簿",
+        "breadcrumbs_third": "余额转账",
+        "breadcrumbs_active": "细节"
+      }
+    },
+    "transactions": {
+      "index": {
+        "page_title": "交易记录",
+        "breadcrumbs_current": "交易记录",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "现金簿",
+        "breadcrumbs_active": "历史"
+      }
+    }
+  },
+  "payments": {
+    "common": {
+      "due_paid": "到期支付",
+      "due_added": "由于添加",
+      "current_due": "当前到期",
+      "non_invoice_paid": "非发票支付",
+      "non_invoice_total": "非发票总计",
+      "add_due": "添加到期",
+      "add_payment": "添加付款",
+      "total_payment": "总付款",
+      "total_advance": "总预付款（发票退回）",
+      "available_advance": "可用预付款（购买退货）",
+      "select_invoice": "选择发票",
+      "select_purchase": "选择购买",
+      "select_purchase_placeholder": "搜索采购编号",
+      "select_invoice_placeholder": "搜索发票号码",
+      "invoice_subtotal": "发票小计",
+      "non_purchase_total": "非采购总额",
+      "non_purchase_due": "非采购到期",
+      "non_purchase_paid": "非购买支付",
+      "purchase_details": "购买详情"
+    },
+    "clients": {
+      "invoice": {
+        "index": {
+          "page_title": "发票付款",
+          "breadcrumbs_current": "发票付款",
+          "breadcrumbs_first": "仪表板",
+          "breadcrumbs_second": "付款",
+          "breadcrumbs_active": "发票付款",
+          "delete_warning": "你将无法回到这里！",
+          "delete_failed": "抱歉，您无法删除此付款！"
+        },
+        "create": {
+          "page_title": "创建客户发票付款",
+          "form_title": "创建发票付款",
+          "breadcrumbs_current": "创建付款",
+          "breadcrumbs_first": "仪表板",
+          "breadcrumbs_second": "付款",
+          "breadcrumbs_third": "发票付款",
+          "breadcrumbs_active": "创造",
+          "success_msg": "发票付款添加成功👍"
+        },
+        "edit": {
+          "page_title": "编辑客户发票付款",
+          "form_title": "编辑发票付款",
+          "breadcrumbs_current": "编辑付款",
+          "breadcrumbs_first": "仪表板",
+          "breadcrumbs_second": "付款",
+          "breadcrumbs_third": "发票付款",
+          "breadcrumbs_active": "编辑",
+          "success_msg": "发票付款更新成功👍"
+        },
+        "view": {
+          "page_title": "发票付款明细",
+          "breadcrumbs_current": "发票付款明细",
+          "breadcrumbs_first": "仪表板",
+          "breadcrumbs_second": "付款",
+          "breadcrumbs_third": "发票付款",
+          "breadcrumbs_active": "细节"
+        }
+      },
+      "non_invoice": {
+        "index": {
+          "page_title": "客户非发票付款",
+          "breadcrumbs_current": "非发票付款",
+          "breadcrumbs_first": "仪表板",
+          "breadcrumbs_second": "付款",
+          "breadcrumbs_active": "非发票付款",
+          "delete_warning": "你将无法回到这里！",
+          "delete_failed": "抱歉，您无法删除此付款！"
+        },
+        "create": {
+          "page_title": "创建非发票付款",
+          "form_title": "创建非发票付款",
+          "breadcrumbs_current": "创建付款",
+          "breadcrumbs_first": "仪表板",
+          "breadcrumbs_second": "付款",
+          "breadcrumbs_third": "非发票付款",
+          "breadcrumbs_active": "创造",
+          "success_msg": "支付成功👍"
+        },
+        "edit": {
+          "page_title": "编辑发票退回",
+          "form_title": "编辑非发票付款",
+          "breadcrumbs_current": "编辑付款",
+          "breadcrumbs_first": "仪表板",
+          "breadcrumbs_second": "付款",
+          "breadcrumbs_third": "非发票付款",
+          "breadcrumbs_active": "编辑",
+          "success_msg": "付款更新成功👍"
+        }
+      }
+    },
+    "suppliers": {
+      "purchase": {
+        "index": {
+          "page_title": "购买付款",
+          "breadcrumbs_current": "购买付款",
+          "breadcrumbs_first": "仪表板",
+          "breadcrumbs_second": "付款",
+          "breadcrumbs_active": "购买付款",
+          "delete_warning": "你将无法回到这里！",
+          "delete_failed": "出了点问题。"
+        },
+        "create": {
+          "page_title": "创建供应商采购付款",
+          "form_title": "创建采购付款",
+          "breadcrumbs_current": "创建付款",
+          "breadcrumbs_first": "仪表板",
+          "breadcrumbs_second": "付款",
+          "breadcrumbs_third": "购买付款",
+          "breadcrumbs_active": "创造",
+          "success_msg": "供应商付款添加成功👍"
+        },
+        "edit": {
+          "page_title": "编辑供应商采购付款",
+          "form_title": "编辑购买付款",
+          "breadcrumbs_current": "编辑付款",
+          "breadcrumbs_first": "仪表板",
+          "breadcrumbs_second": "付款",
+          "breadcrumbs_third": "购买付款",
+          "breadcrumbs_active": "编辑",
+          "success_msg": "付款更新成功👍"
+        },
+        "view": {
+          "page_title": "供应商采购付款明细",
+          "breadcrumbs_current": "购买付款明细",
+          "breadcrumbs_first": "仪表板",
+          "breadcrumbs_second": "付款",
+          "breadcrumbs_third": "购买付款",
+          "breadcrumbs_active": "细节"
+        }
+      },
+      "non_purchase": {
+        "index": {
+          "page_title": "供应商非采购付款",
+          "breadcrumbs_current": "非购买付款",
+          "breadcrumbs_first": "仪表板",
+          "breadcrumbs_second": "付款",
+          "breadcrumbs_active": "非购买付款",
+          "delete_warning": "你将无法回到这里！",
+          "delete_failed": "抱歉，您无法删除此付款！"
+        },
+        "create": {
+          "page_title": "创建非采购付款",
+          "form_title": "创建非购买付款",
+          "breadcrumbs_current": "创建付款",
+          "breadcrumbs_first": "仪表板",
+          "breadcrumbs_second": "付款",
+          "breadcrumbs_third": "非购买付款",
+          "breadcrumbs_active": "创造",
+          "success_msg": "支付成功👍"
+        },
+        "edit": {
+          "page_title": "编辑非购买付款",
+          "form_title": "编辑非购买付款",
+          "breadcrumbs_current": "编辑付款",
+          "breadcrumbs_first": "仪表板",
+          "breadcrumbs_second": "付款",
+          "breadcrumbs_third": "非购买付款",
+          "breadcrumbs_active": "编辑",
+          "success_msg": "付款更新成功👍"
+        }
+      }
+    }
+  },
+  "loans": {
+    "common": {
+      "authority": "权威",
+      "loan": "贷款",
+      "loan_placeholder": "选择贷款",
+      "loan_authority": "贷款当局",
+      "authority_placeholder": "选择权威",
+      "cc_limit": "抄送限制",
+      "cc_placeholder": "输入抄送贷款限额",
+      "cash_credit_limit": "现金信用（CC）贷款限额",
+      "cash_credit_loan": "现金信用（CC）贷款",
+      "interetest_paid": "利息已付",
+      "total_payable": "应付总额",
+      "total_loan": "总贷款",
+      "cc_term": "抄送+学期",
+      "cc_taken": "CC贷款",
+      "available_cc": "可用CC贷款",
+      "all_loans": "所有贷款",
+      "empty_loan": "还没有贷款！",
+      "empty_loan_msg": "您尚未为此权限添加任何贷款。添加贷款后，您将在此处看到列表。",
+      "authority_details": "权限详情",
+      "payable_amount": "应付金额",
+      "duration": "期间",
+      "duration_placeholder": "输入持续时间",
+      "interest_rate_placeholder": "输入百分比利率",
+      "available_amount": "可用金额",
+      "term_loan": "定期贷款",
+      "loan_type": "贷款类型",
+      "loan_reason": "贷款原因",
+      "loan_date": "贷款日期",
+      "Loan_account": "贷款账户",
+      "Loan_payments": "贷款支付",
+      "empty_payment_msg": "您尚未为此贷款添加任何付款。添加付款后，您将在此处看到列表。",
+      "loan_amount": "贷款额度",
+      "loan_ref": "贷款参考。",
+      "payment_ref": "付款参考。",
+      "amount_paid": "支付的金额"
+    },
+    "authorities": {
+      "index": {
+        "page_title": "贷款当局",
+        "breadcrumbs_current": "贷款当局",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "贷款管理",
+        "breadcrumbs_active": "当局",
+        "delete_warning": "你将无法回到这里！",
+        "delete_failed": "抱歉，您无法删除此权限。"
+      },
+      "create": {
+        "page_title": "创建贷款机构",
+        "form_title": "创建贷款机构",
+        "breadcrumbs_current": "创建贷款机构",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "贷款当局",
+        "breadcrumbs_active": "创造",
+        "success_msg": "贷款权限添加成功👍"
+      },
+      "edit": {
+        "page_title": "编辑贷款机构",
+        "form_title": "修改贷款权限",
+        "breadcrumbs_current": "编辑权限",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "贷款当局",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "贷款授权更新成功👍"
+      },
+      "view": {
+        "page_title": "查看贷款授权",
+        "breadcrumbs_current": "权限详情",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "贷款当局",
+        "breadcrumbs_active": "细节"
+      }
+    },
+    "payments": {
+      "index": {
+        "page_title": "贷款支付",
+        "breadcrumbs_current": "贷款支付",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "贷款管理",
+        "breadcrumbs_active": "贷款支付",
+        "delete_warning": "你将无法回到这里！",
+        "delete_failed": "出了点问题。"
+      },
+      "create": {
+        "page_title": "创建贷款支付",
+        "form_title": "创建贷款支付",
+        "breadcrumbs_current": "创建贷款支付",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "贷款支付",
+        "breadcrumbs_active": "创造",
+        "success_msg": "贷款支付成功添加👍"
+      },
+      "edit": {
+        "page_title": "编辑贷款支付",
+        "form_title": "修改贷款支付",
+        "breadcrumbs_current": "编辑贷款支付",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "贷款支付",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "付款更新成功👍"
+      },
+      "view": {
+        "page_title": "贷款支付明细",
+        "breadcrumbs_current": "贷款支付明细",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "贷款支付",
+        "breadcrumbs_active": "细节"
+      }
+    },
+    "list": {
+      "index": {
+        "page_title": "贷款",
+        "breadcrumbs_current": "贷款",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "贷款管理",
+        "breadcrumbs_active": "贷款",
+        "delete_warning": "你将无法回到这里！",
+        "delete_failed": "抱歉，您无法删除此贷款。"
+      },
+      "create": {
+        "page_title": "创建贷款",
+        "form_title": "创建贷款",
+        "breadcrumbs_current": "创建贷款",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "贷款",
+        "breadcrumbs_active": "创造",
+        "success_msg": "贷款添加成功👍"
+      },
+      "edit": {
+        "page_title": "编辑贷款",
+        "form_title": "编辑贷款",
+        "breadcrumbs_current": "编辑贷款",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "贷款",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "贷款更新成功👍"
+      },
+      "view": {
+        "page_title": "贷款详情",
+        "breadcrumbs_current": "贷款详情",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "贷款",
+        "breadcrumbs_active": "细节"
+      }
+    }
+  },
+  "assets": {
+    "common": {
+      "asset_name": "资产名称",
+      "asset_name_placeholder": "输入资产名称",
+      "asset_type": "资产类型",
+      "asset_type_placeholder": "选择资产类型",
+      "asset_cost": "资产成本",
+      "asset_cost_placeholder": "输入资产成本",
+      "current_value": "当前值",
+      "depreciation": "折旧",
+      "depreciation_type": "折旧类型",
+      "salvage_value": "残值",
+      "salvage_value_placeholder": "残值",
+      "useful_life": "有用的生活",
+      "remaining_life": "剩余寿命",
+      "useful_life_placeholder": "进入使用寿命",
+      "added_date": "添加日期",
+      "expired_date": "到期日"
+    },
+    "types": {
+      "index": {
+        "page_title": "资产类型",
+        "breadcrumbs_current": "资产类型",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "资产管理",
+        "breadcrumbs_active": "资产类型",
+        "delete_warning": "你将无法回到这里！",
+        "delete_failed": "出了点问题。"
+      },
+      "create": {
+        "page_title": "创建资产类型",
+        "form_title": "创建资产类型",
+        "breadcrumbs_current": "创建资产类型",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "资产类型",
+        "breadcrumbs_active": "创造",
+        "success_msg": "资产类型添加成功👍"
+      },
+      "edit": {
+        "page_title": "编辑资产类型",
+        "form_title": "编辑资产类型",
+        "breadcrumbs_current": "编辑资产类型",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "资产类型",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "资产类型更新成功👍"
+      }
+    },
+    "list": {
+      "index": {
+        "page_title": "资产",
+        "breadcrumbs_current": "资产",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "资产管理",
+        "breadcrumbs_active": "资产",
+        "delete_warning": "你将无法回到这里！",
+        "delete_failed": "出了点问题。"
+      },
+      "create": {
+        "page_title": "创建资产",
+        "form_title": "创建资产",
+        "breadcrumbs_current": "创建资产",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "资产",
+        "breadcrumbs_active": "创造",
+        "success_msg": "资产添加成功👍"
+      },
+      "edit": {
+        "page_title": "编辑资产",
+        "form_title": "编辑资产",
+        "breadcrumbs_current": "编辑资产",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "资产",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "资产更新成功👍"
+      },
+      "view": {
+        "page_title": "资产详情",
+        "breadcrumbs_current": "资产详情",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "资产",
+        "breadcrumbs_active": "细节"
+      }
+    }
+  },
+  "payroll": {
+    "common": {
+      "salary_date": "工资日期",
+      "total_salary": "总工资",
+      "advance": "进步",
+      "advance_placeholder": "输入advacne金额",
+      "others": "其他",
+      "others_placeholder": "输入其他金额",
+      "travel_allowance": "旅行津贴(TA)",
+      "travel_allowance_placeholder": "输入旅行津贴",
+      "festival_bonus": "节日奖金",
+      "festival_bonus_placeholder": "输入节日奖金",
+      "commission": "委员会",
+      "commission_placeholder": "输入佣金",
+      "bonus": "奖金",
+      "bonus_placeholder": "输入奖金",
+      "food_bill": "食品法案",
+      "food_bill_placeholder": "输入食品账单",
+      "mobile_bill": "手机账单",
+      "mobile_bill_placeholder": "输入移动账单",
+      "deduction_reason": "扣减原因",
+      "deduction_reason_placeholder": "输入扣款原因",
+      "deduction_amount": "扣除金额",
+      "deduction_amount_placeholder": "输入扣除金额",
+      "present_salary": "目前工资",
+      "salary_month": "工资月份",
+      "salary_month_placeholder": "选择工资月份"
+    },
+    "index": {
+      "page_title": "员工工资单",
+      "breadcrumbs_current": "员工工资单",
+      "breadcrumbs_first": "仪表板",
+      "breadcrumbs_second": "工资单",
+      "breadcrumbs_active": "工资单",
+      "delete_warning": "你将无法回到这里！",
+      "delete_failed": "出了点问题。"
+    },
+    "create": {
+      "page_title": "创建工资单",
+      "form_title": "创建员工工资单",
+      "breadcrumbs_current": "创建工资单",
+      "breadcrumbs_first": "仪表板",
+      "breadcrumbs_second": "工资单",
+      "breadcrumbs_active": "创造",
+      "success_msg": "工资单添加成功👍"
+    },
+    "edit": {
+      "page_title": "编辑工资单",
+      "form_title": "编辑工资单",
+      "breadcrumbs_current": "编辑工资单",
+      "breadcrumbs_first": "仪表板",
+      "breadcrumbs_second": "工资单",
+      "breadcrumbs_active": "编辑",
+      "success_msg": "工资单更新成功👍"
+    },
+    "view": {
+      "page_title": "工资明细",
+      "breadcrumbs_current": "工资明细",
+      "breadcrumbs_first": "仪表板",
+      "breadcrumbs_second": "工资单",
+      "breadcrumbs_active": "细节"
+    }
+  },
+  "clients": {
+    "common": {
+      "non_invoice_transactions": "非发票交易"
+    },
+    "index": {
+      "page_title": "客户",
+      "breadcrumbs_current": "客户",
+      "breadcrumbs_first": "仪表板",
+      "breadcrumbs_second": "客户",
+      "breadcrumbs_active": "客户",
+      "delete_warning": "你将无法回到这里！",
+      "delete_failed": "抱歉，您无法删除此客户端。"
+    },
+    "create": {
+      "page_title": "创建客户端",
+      "form_title": "创建客户端",
+      "breadcrumbs_current": "创建客户端",
+      "breadcrumbs_first": "仪表板",
+      "breadcrumbs_second": "客户",
+      "breadcrumbs_active": "创造",
+      "success_msg": "客户添加成功👍"
+    },
+    "edit": {
+      "page_title": "编辑客户端",
+      "form_title": "编辑客户端",
+      "breadcrumbs_current": "编辑客户端",
+      "breadcrumbs_first": "仪表板",
+      "breadcrumbs_second": "客户",
+      "breadcrumbs_active": "编辑",
+      "success_msg": "客户端更新成功👍"
+    },
+    "view": {
+      "page_title": "客户详情",
+      "breadcrumbs_current": "客户详情",
+      "breadcrumbs_first": "仪表板",
+      "breadcrumbs_second": "客户",
+      "breadcrumbs_active": "细节"
+    }
+  },
+  "suppliers": {
+    "common": {
+      "non_purchase_transactions": "非购买交易"
+    },
+    "index": {
+      "page_title": "供应商",
+      "breadcrumbs_current": "供应商",
+      "breadcrumbs_first": "仪表板",
+      "breadcrumbs_second": "供应商",
+      "breadcrumbs_active": "供应商",
+      "delete_warning": "你将无法回到这里！",
+      "delete_failed": "抱歉，您无法删除此供应商。"
+    },
+    "create": {
+      "page_title": "创建供应商",
+      "form_title": "创建供应商",
+      "breadcrumbs_current": "创建供应商",
+      "breadcrumbs_first": "仪表板",
+      "breadcrumbs_second": "供应商",
+      "breadcrumbs_active": "创造",
+      "success_msg": "供应商添加成功👍"
+    },
+    "edit": {
+      "page_title": "编辑供应商",
+      "form_title": "编辑供应商",
+      "breadcrumbs_current": "编辑供应商",
+      "breadcrumbs_first": "仪表板",
+      "breadcrumbs_second": "供应商",
+      "breadcrumbs_active": "编辑",
+      "success_msg": "供应商更新成功👍"
+    },
+    "view": {
+      "page_title": "供应商详情",
+      "breadcrumbs_current": "供应商详情",
+      "breadcrumbs_first": "仪表板",
+      "breadcrumbs_second": "供应商",
+      "breadcrumbs_active": "细节"
+    }
+  },
+  "employees": {
+    "common": {
+      "increment_date": "递增日期",
+      "increment_amount": "增量金额",
+      "increment_amount_placeholder": "输入增量金额",
+      "increment_reason": "增量原因",
+      "increment_reason_placeholder": "输入原因",
+      "basic_salary": "基础工资",
+      "current_salary": "当前工资",
+      "incremented_salary": "加薪",
+      "birth_date": "出生日期",
+      "join_date": "加入日期",
+      "employee_name": "员工姓名",
+      "employee_name_placeholder": "输入员工姓名",
+      "gender": "性别",
+      "gender_placeholder": "选择性别",
+      "male": "男性",
+      "female": "女性",
+      "transgender": "跨性别",
+      "other": "其他",
+      "blood_group": "血型",
+      "blood_group_placeholder": "选择血型",
+      "religion": "宗教",
+      "religion_placeholder": "选择一个宗教",
+      "islam": "伊斯兰教",
+      "hinduism": "印度教",
+      "buddhists": "佛教徒",
+      "christians": "基督徒",
+      "animists": "万物有灵论者",
+      "appointment_date": "约会日期",
+      "allow_login": "允许员工登录",
+      "increment_history": "增量历史"
+    },
+    "departments": {
+      "index": {
+        "page_title": "部门",
+        "breadcrumbs_current": "部门",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "雇员",
+        "breadcrumbs_active": "部门",
+        "delete_warning": "你将无法回到这里！",
+        "delete_failed": "出了点问题。"
+      },
+      "create": {
+        "page_title": "创建部门",
+        "form_title": "创建部门",
+        "breadcrumbs_current": "创建部门",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "部门",
+        "breadcrumbs_active": "创造",
+        "success_msg": "部门添加成功👍"
+      },
+      "edit": {
+        "page_title": "编辑部门",
+        "form_title": "编辑部门",
+        "breadcrumbs_current": "编辑部门",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "部门",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "部门更新成功👍"
+      }
+    },
+    "increments": {
+      "index": {
+        "page_title": "员工加薪",
+        "breadcrumbs_current": "加薪",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "雇员",
+        "breadcrumbs_active": "增量",
+        "delete_warning": "你将无法回到这里！",
+        "delete_failed": "出了点问题。"
+      },
+      "create": {
+        "page_title": "创建工资增量",
+        "form_title": "创建加薪",
+        "breadcrumbs_current": "创建工资增量",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "增量",
+        "breadcrumbs_active": "创造",
+        "success_msg": "增量添加成功👍"
+      },
+      "edit": {
+        "page_title": "编辑加薪",
+        "form_title": "修改加薪",
+        "breadcrumbs_current": "编辑加薪",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "增量",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "增量更新成功👍"
+      },
+      "view": {
+        "page_title": "增量详细信息",
+        "breadcrumbs_current": "增量详细信息",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "增量",
+        "breadcrumbs_active": "细节"
+      }
+    },
+    "list": {
+      "index": {
+        "page_title": "雇员",
+        "breadcrumbs_current": "雇员",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_active": "雇员",
+        "delete_warning": "你将无法回到这里！",
+        "delete_failed": "出了点问题。"
+      },
+      "create": {
+        "page_title": "创建员工",
+        "form_title": "创建员工",
+        "breadcrumbs_current": "创建员工",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "雇员",
+        "breadcrumbs_active": "创造",
+        "success_msg": "员工添加成功👍"
+      },
+      "edit": {
+        "page_title": "编辑员工",
+        "form_title": "编辑员工",
+        "breadcrumbs_current": "编辑员工",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "雇员",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "员工更新成功👍"
+      },
+      "view": {
+        "page_title": "员工详情",
+        "breadcrumbs_current": "员工详情",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "雇员",
+        "breadcrumbs_active": "细节"
+      }
+    }
+  },
+  "products": {
+    "categories": {
+      "index": {
+        "page_title": "产品类别",
+        "breadcrumbs_current": "产品类别",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "产品",
+        "breadcrumbs_active": "类别",
+        "delete_warning": "此类别的所有子类别都将被删除！"
+      },
+      "create": {
+        "page_title": "创建产品类别",
+        "form_title": "创建产品类别",
+        "breadcrumbs_current": "创建类别",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "产品",
+        "breadcrumbs_third": "类别",
+        "breadcrumbs_active": "创造",
+        "success_msg": "分类添加成功👍"
+      },
+      "edit": {
+        "page_title": "编辑产品类别",
+        "form_title": "编辑产品类别",
+        "breadcrumbs_current": "编辑产品类别",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "产品",
+        "breadcrumbs_third": "类别",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "分类更新成功👍"
+      }
+    },
+    "sub_categories": {
+      "index": {
+        "page_title": "产品子类别",
+        "breadcrumbs_current": "产品子类别",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "产品",
+        "breadcrumbs_active": "子类别",
+        "delete_warning": "该类别的所有产品将被删除！"
+      },
+      "create": {
+        "page_title": "创建产品子类别",
+        "form_title": "创建产品子类别",
+        "breadcrumbs_current": "创建子类别",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "产品",
+        "breadcrumbs_third": "子类别",
+        "breadcrumbs_active": "创造",
+        "success_msg": "子类添加成功👍"
+      },
+      "edit": {
+        "page_title": "编辑产品子类别",
+        "form_title": "编辑产品子类别",
+        "breadcrumbs_current": "编辑产品子类别",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "产品",
+        "breadcrumbs_third": "子类别",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "子分类更新成功👍"
+      }
+    },
+    "list": {
+      "common": {
+        "alert_quantity": "警报数量",
+        "alert_quantity_placeholder": "输入警报数量",
+        "selling_price": "售价",
+        "selling_price_placeholder": "输入售价",
+        "regular_price": "正常价格",
+        "regular_price_placeholder": "输入正常价格",
+        "tax_type": "税种",
+        "exclusive": "独家的",
+        "inclusive": "包括的",
+        "product_tax": "产品税",
+        "tax_placeholder": "选择税种",
+        "barcode_symbology": "条码符号",
+        "tax_amount": "税额",
+        "avg_purchase_price": "平均购买价格",
+        "avg_selling_price": "平均售价",
+        "stock": "库存",
+        "inventory_value": "库存价值",
+        "generate_barcode": "生成条码"
+      },
+      "index": {
+        "page_title": "产品",
+        "breadcrumbs_current": "产品",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "产品",
+        "breadcrumbs_active": "产品",
+        "delete_warning": "你将无法回到这里！"
+      },
+      "create": {
+        "page_title": "创建产品",
+        "form_title": "创建产品",
+        "breadcrumbs_current": "创建产品",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "产品",
+        "breadcrumbs_active": "创造",
+        "success_msg": "产品添加成功👍"
+      },
+      "edit": {
+        "page_title": "编辑产品",
+        "form_title": "编辑产品",
+        "breadcrumbs_current": "编辑产品",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "产品",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "产品更新成功👍"
+      },
+      "view": {
+        "page_title": "产品详情",
+        "breadcrumbs_current": "产品详情",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "产品",
+        "breadcrumbs_active": "细节",
+        "expense_details": "产品详情"
+      },
+      "barcode": {
+        "page_title": "打印条码",
+        "generate_barcode": "生成条码",
+        "print_barcode": "打印条码",
+        "paper_size": "纸张尺寸",
+        "print_qty": "打印数量",
+        "breadcrumbs_current": "打印条码",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "产品",
+        "breadcrumbs_active": "编辑",
+        "page_option_0": "每张 40 个 (a4) (1.799 * 1.003)",
+        "page_option_1": "每张 30 个 (2.625 * 1)",
+        "page_option_2": "每张 24 个 (a4) (2.48 * 1.334)",
+        "page_option_3": "每张 20 个 (4 * 1)",
+        "page_option_4": "每张 18 个 (a4) (2.5 * 1.835)",
+        "page_option_5": "每张 14 个 (4 * 1.33)",
+        "page_option_6": "每张 12 个 (a4) (2.5 * 2.834)",
+        "page_option_7": "每张 10 个 (4 * 2)"
+      }
+    }
+  },
+  "inventory": {
+    "common": {
+      "inventory_history": "库存历史",
+      "adjustment_no": "调整号",
+      "adjustment_date": "调整日期",
+      "adjustment_type": "调整类型",
+      "increment": "增量",
+      "decrement": "递减",
+      "adjustment_reason": "调整原因",
+      "adjusted_products": "调整产品"
+    },
+    "index": {
+      "page_title": "存货",
+      "breadcrumbs_current": "存货",
+      "breadcrumbs_first": "仪表板",
+      "breadcrumbs_second": "产品",
+      "breadcrumbs_active": "存货"
+    },
+    "history": {
+      "page_title": "库存历史",
+      "breadcrumbs_current": "库存历史",
+      "breadcrumbs_first": "仪表板",
+      "breadcrumbs_second": "存货",
+      "breadcrumbs_active": "历史"
+    },
+    "adjustments": {
+      "index": {
+        "page_title": "库存调整",
+        "breadcrumbs_current": "库存调整",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "存货",
+        "breadcrumbs_active": "调整",
+        "delete_warning": "你将无法回到这里！",
+        "delete_failed": "出了点问题。"
+      },
+      "create": {
+        "page_title": "创建调整",
+        "form_title": "创建调整",
+        "breadcrumbs_current": "创建调整",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "调整",
+        "breadcrumbs_active": "创造",
+        "success_msg": "调整添加成功👍"
+      },
+      "edit": {
+        "page_title": "编辑调整",
+        "form_title": "编辑调整",
+        "breadcrumbs_current": "编辑调整",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "调整",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "调整更新成功👍"
+      },
+      "view": {
+        "page_title": "调整详情",
+        "breadcrumbs_current": "调整详情",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "调整",
+        "breadcrumbs_active": "细节"
+      }
+    }
+  },
+  "reports": {
+    "stock_in": "进货",
+    "stock_out": "脱销",
+    "total_quantity": "总数（量",
+    "incomes": "收入",
+    "liabilities": "负债",
+    "security_asset": "总安全/资产",
+    "supplier_dues": "供应商会费",
+    "client_dues": "客户的会费",
+    "bank_loan": "银行贷款",
+    "bank_balance": "银行存款余额",
+    "income_liabilities": "（收入 - 负债）",
+    "total_asset": "总资产",
+    "view_report": "查看报告",
+    "monthly_summery": "每月总结",
+    "particulars": "细节",
+    "opening_balance": "期初余额",
+    "invoice_sales": "发票销售",
+    "invoice_dues": "发票费用",
+    "accounts_collection": "帐户收集",
+    "general": "一般的",
+    "loan_interest": "贷款利息",
+    "asset_depreciation": "资产折旧",
+    "transfer": "转移",
+    "transfer_from": "余额转出",
+    "closing_balance": "期末余额",
+    "report_type": "报告类型",
+    "gross_profit_Loss": "毛利/亏损",
+    "net_profit_Loss": "净利润/亏损",
+    "sold_qty": "售出数量",
+    "profit": "利润",
+    "loss": "失利",
+    "total_sales_avg": "总销售额（平均）",
+    "total_purchased_avg": "总购买量（平均）",
+    "income_statement": "收入证明",
+    "total_sales": "总销售额",
+    "cost_of_goods_sold": "销货成本",
+    "positive_adjusted": "正调整",
+    "negative_adjusted": "负调整",
+    "total_adjusted": "总调整",
+    "gross_profit": "毛利",
+    "gross_loss": "总损失",
+    "operating_expenses": "营业费用",
+    "salaries": "薪水",
+    "general_expenses": "基本开销",
+    "total_expense": "总费用",
+    "net_profit": "净利",
+    "net_loss": "净亏损",
+    "date_range": "日期范围",
+    "stock_in_hand": "库存在手",
+    "balance_sheet": {
+      "page_title": "资产负债表",
+      "breadcrumbs_current": "资产负债表",
+      "breadcrumbs_first": "仪表板",
+      "breadcrumbs_second": "报告",
+      "breadcrumbs_active": "资产负债表"
+    },
+    "summary": {
+      "page_title": "总结报告",
+      "breadcrumbs_current": "总结报告",
+      "breadcrumbs_first": "仪表板",
+      "breadcrumbs_second": "报告",
+      "breadcrumbs_active": "总结报告"
+    },
+    "profit_loss": {
+      "empty_msg_title": "空盈亏！",
+      "empty_msg_text": "抱歉，没有找到您选择的类别和日期范围的利润/损失。",
+      "page_title": "损益报告",
+      "breadcrumbs_current": "损益报告",
+      "breadcrumbs_first": "仪表板",
+      "breadcrumbs_second": "报告",
+      "breadcrumbs_active": "损益报告"
+    },
+    "expense": {
+      "empty_msg_title": "空费！",
+      "empty_msg_text": "抱歉，没有找到您选择的类别和日期范围的费用。",
+      "page_title": "费用报表",
+      "breadcrumbs_current": "费用报表",
+      "breadcrumbs_first": "仪表板",
+      "breadcrumbs_second": "报告",
+      "breadcrumbs_active": "费用报表"
+    },
+    "product": {
+      "empty_msg_title": "空的！",
+      "empty_msg_text": "抱歉，在您选择的项目和日期范围内没有找到库存或库存。",
+      "page_title": "项目报告",
+      "breadcrumbs_current": "项目报告",
+      "breadcrumbs_first": "仪表板",
+      "breadcrumbs_second": "报告",
+      "breadcrumbs_active": "项目报告"
+    },
+    "inventory": {
+      "empty_msg_title": "清空库存！",
+      "empty_msg_text": "抱歉，没有找到您选择的类别和日期范围的库存。",
+      "page_title": "库存报告",
+      "breadcrumbs_current": "库存报告",
+      "breadcrumbs_first": "仪表板",
+      "breadcrumbs_second": "报告",
+      "breadcrumbs_active": "库存报告"
+    }
+  },
+  "setup": {
+    "common": {
+      "sort_code": "短代码",
+      "sort_code_placeholder": "输入短代码"
+    },
+    "index": {
+      "page_title": "设置",
+      "breadcrumbs_current": "设置",
+      "breadcrumbs_first": "仪表板",
+      "breadcrumbs_active": "设置",
+      "menu": {
+        "item_one": {
+          "title": "一般的",
+          "description": "常规设置，例如站点标题、站点描述、地址等。",
+          "link_text": "修改设置"
+        },
+        "item_two": {
+          "title": "货币",
+          "description": "管理您将在系统中使用的各种类型的货币。",
+          "link_text": "货币"
+        },
+        "item_three": {
+          "title": "单位",
+          "description": "管理要在系统中使用的测量单位类型。",
+          "link_text": "单位"
+        },
+        "item_four": {
+          "title": "角色和权限",
+          "description": "管理要使用系统的用户的角色和权限。",
+          "link_text": "角色和权限"
+        },
+        "item_five": {
+          "title": "增值税税率",
+          "description": "管理您将在系统中使用的增值税管理的增值税税率。",
+          "link_text": "增值税税率"
+        },
+        "item_six": {
+          "title": "品牌",
+          "description": "管理您将在系统中使用的品牌。",
+          "link_text": "品牌"
+        },
+        "item_seven": {
+          "title": "支付方式",
+          "description": "管理您将在系统中使用的付款方式。",
+          "link_text": "支付方式"
+        },
+        "item_eight": {
+          "title": "用户权限",
+          "description": "管理您要在角色中分配的权限。",
+          "link_text": "用户权限"
+        }
+      }
+    },
+    "general_settings": {
+      "index": {
+        "page_title": "通用设置",
+        "breadcrumbs_current": "通用设置",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "设置",
+        "breadcrumbs_active": "更新常规设置",
+        "form_title": "更新常规设置",
+        "success_message": "设置更新成功👍",
+        "company_info": {
+          "info_title": "添加您的公司信息",
+          "company_tagline": "公司标语",
+          "company_tagline_placeholder": "公司标语",
+          "email_address": "电子邮件地址",
+          "email_address_placeholder": "输入电子邮件地址",
+          "phone_number": "电话号码",
+          "phone_number_placeholder": "电话号码"
+        },
+        "code_prefixes": {
+          "prefix_title": "添加代码前缀",
+          "client_prefix": "客户端前缀",
+          "client_prefix_placeholder": "输入客户端前缀",
+          "supplier_prefix": "供应商前缀",
+          "supplier_prefix_placeholder": "输入供应商前缀",
+          "employee_prefix": "员工前缀",
+          "employee_prefix_placeholder": "输入员工前缀",
+          "product_category_prefix": "产品类别前缀",
+          "product_category_prefix_placeholder": "输入产品类别前缀",
+          "product_sub_category_prefix": "产品子类别前缀",
+          "product_sub_category_prefix_placeholder": "输入子类别前缀",
+          "product_prefix": "产品前缀",
+          "product_prefix_placeholder": "输入产品前缀",
+          "expense_category_prefix": "费用类别前缀",
+          "expense_category_prefix_placeholder": "输入费用类别前缀",
+          "expense_sub_category_prefix": "费用子类别前缀",
+          "expense_sub_category_prefix_placeholder": "输入费用子类别前缀",
+          "purchase_prefix": "采购前缀",
+          "purchase_prefix_placeholder": "输入购买前缀",
+          "purchase_return_prefix": "采购退货前缀",
+          "purchase_return_prefix_placeholder": "输入采购退货前缀",
+          "quotation_prefix": "引号前缀",
+          "quotation_prefix_placeholder": "输入引号前缀",
+          "invoice_prefix": "发票前缀",
+          "invoice_prefix_placeholder": "输入发票前缀",
+          "invoice_return_prefix": "发票退回前缀",
+          "invoice_return_prefix_placeholder": "输入发票退货前缀",
+          "invoice_adjustment_prefix": "库存调整前缀",
+          "invoice_adjustment_prefix_placeholder": "输入库存调整前缀"
+        },
+        "default_elements": {
+          "default_elements_title": "添加您的默认元素",
+          "default_currency": "默认货币",
+          "select_a_currency": "选择货币",
+          "default_language": "默认语言",
+          "english_en": "西班牙语 (zh)",
+          "hindi_hi": "没有（嗨）",
+          "bangla_bn": "孟加拉语 (十亿)",
+          "copyright_text": "版权文本",
+          "copyright_text_placeholder": "版权文本",
+          "default_client": "默认客户端",
+          "default_account": "默认帐户",
+          "select_a_account": "选择一个帐户",
+          "select_a_client": "选择客户",
+          "default_vat_rate": "默认增值税率",
+          "select_a_vat_rate": "选择增值税率"
+        },
+        "logo": {
+          "white_logo": "白色标志",
+          "black_logo": "黑色徽标",
+          "small_logo": "小标志",
+          "favicon": "网站图标"
+        },
+        "trial_day_count_placeholder": "试用天数"
+      }
+    },
+    "currencies": {
+      "common": {
+        "symbol": "象征",
+        "symbol_placeholder": "输入符号",
+        "currency_position": "货币头寸",
+        "position_drop_down_item_one": "左对齐",
+        "position_drop_down_item_two": "右对齐"
+      },
+      "index": {
+        "page_title": "货币",
+        "breadcrumbs_current": "货币",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "设置",
+        "breadcrumbs_active": "货币",
+        "table": {
+          "position": "位置",
+          "preview": "预习"
+        }
+      },
+      "create": {
+        "page_title": "创建货币",
+        "breadcrumbs_current": "创建货币",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "设置",
+        "breadcrumbs_third": "货币",
+        "breadcrumbs_active": "创造",
+        "success_msg": "加币成功👍",
+        "form_title": "创建货币"
+      },
+      "edit": {
+        "page_title": "编辑货币",
+        "breadcrumbs_current": "编辑货币",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "设置",
+        "breadcrumbs_third": "货币",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "货币更新成功👍",
+        "form_title": "编辑货币"
+      }
+    },
+    "units": {
+      "index": {
+        "page_title": "单位",
+        "breadcrumbs_current": "单位",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "设置",
+        "breadcrumbs_active": "单位"
+      },
+      "create": {
+        "page_title": "创建单位",
+        "breadcrumbs_current": "创建单位",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "设置",
+        "breadcrumbs_third": "单位",
+        "breadcrumbs_active": "创造",
+        "success_msg": "单位添加成功👍",
+        "form_title": "创建单位"
+      },
+      "edit": {
+        "page_title": "编辑单位",
+        "breadcrumbs_current": "编辑单位",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "设置",
+        "breadcrumbs_third": "单位",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "单位更新成功👍",
+        "form_title": "编辑单位"
+      }
+    },
+    "permissions": {
+      "common": {
+        "slug": "蛞蝓",
+        "slug_placeholder": "输入蛞蝓",
+        "guard_name": "守卫名称",
+        "guard_name_placeholder": "输入警卫姓名"
+      },
+      "index": {
+        "page_title": "权限",
+        "breadcrumbs_current": "权限",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "设置",
+        "breadcrumbs_active": "权限"
+      },
+      "create": {
+        "page_title": "创建权限",
+        "form_title": "创建权限",
+        "breadcrumbs_current": "创建权限",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "设置",
+        "breadcrumbs_third": "权限",
+        "breadcrumbs_active": "创造",
+        "success_msg": "权限添加成功👍"
+      },
+      "edit": {
+        "page_title": "编辑权限",
+        "form_title": "编辑权限",
+        "breadcrumbs_current": "编辑权限",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "设置",
+        "breadcrumbs_third": "权限",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "权限更新成功👍"
+      }
+    },
+    "role_and_permission": {
+      "index": {
+        "page_title": "角色和权限",
+        "breadcrumbs_current": "角色和权限",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "设置",
+        "breadcrumbs_active": "角色和权限",
+        "role_name": "角色名称"
+      },
+      "create": {
+        "page_title": "创建角色",
+        "breadcrumbs_current": "创建角色",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "设置",
+        "breadcrumbs_third": "角色和权限",
+        "breadcrumbs_active": "创造",
+        "success_msg": "角色添加成功👍",
+        "form_title": "创建角色",
+        "select_permission": "选择权限："
+      },
+      "edit": {
+        "page_title": "编辑角色",
+        "breadcrumbs_current": "编辑角色",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "设置",
+        "breadcrumbs_third": "角色和权限",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "角色更新成功👍",
+        "form_title": "编辑角色",
+        "update_permission": "更新权限："
+      }
+    },
+    "vat_rates": {
+      "common": {
+        "rate_in_percent": "费率（以%计算）",
+        "rate_palceholder": "输入费率"
+      },
+      "index": {
+        "page_title": "增值税税率",
+        "breadcrumbs_current": "增值税税率",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "设置",
+        "breadcrumbs_active": "增值税税率",
+        "rate": "速度"
+      },
+      "create": {
+        "page_title": "创建增值税率",
+        "breadcrumbs_current": "创建增值税率",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "设置",
+        "breadcrumbs_third": "增值税税率",
+        "breadcrumbs_active": "创造",
+        "success_msg": "增值税率添加成功👍",
+        "form_title": "创建增值税税率"
+      },
+      "edit": {
+        "page_title": "修改增值税率",
+        "breadcrumbs_current": "修改增值税率",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "设置",
+        "breadcrumbs_third": "增值税率",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "增值税税率更新成功👍",
+        "form_title": "修改增值税税率"
+      }
+    },
+    "brands": {
+      "common": {
+        "brand_name": "品牌",
+        "brand_name_placeholder": "输入品牌名称"
+      },
+      "index": {
+        "page_title": "品牌",
+        "breadcrumbs_current": "品牌",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "设置",
+        "breadcrumbs_active": "品牌",
+        "brand_logo_view": "品牌标志视图"
+      },
+      "create": {
+        "page_title": "创建品牌",
+        "breadcrumbs_current": "创建品牌",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "设置",
+        "breadcrumbs_third": "品牌",
+        "breadcrumbs_active": "创造",
+        "success_msg": "品牌添加成功👍",
+        "form_title": "打造品牌"
+      },
+      "view": {
+        "page_title": "品牌详情",
+        "breadcrumbs_current": "品牌详情",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "设置",
+        "breadcrumbs_third": "品牌",
+        "breadcrumbs_active": "细节"
+      },
+      "edit": {
+        "page_title": "编辑品牌",
+        "breadcrumbs_current": "编辑品牌",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "设置",
+        "breadcrumbs_third": "品牌",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "品牌更新成功👍",
+        "form_title": "编辑品牌"
+      }
+    },
+    "payment_methods": {
+      "index": {
+        "page_title": "支付方式",
+        "breadcrumbs_current": "支付方式",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "设置",
+        "breadcrumbs_active": "支付方式"
+      },
+      "create": {
+        "page_title": "创建付款方式",
+        "breadcrumbs_current": "创建付款方式",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "设置",
+        "breadcrumbs_third": "支付方式",
+        "breadcrumbs_active": "创造",
+        "success_msg": "付款方式添加成功👍",
+        "form_title": "创建付款方式"
+      },
+      "edit": {
+        "page_title": "编辑付款方式",
+        "breadcrumbs_current": "修改付款方式",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "设置",
+        "breadcrumbs_third": "支付方式",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "付款方式更新成功👍",
+        "form_title": "修改付款方式"
+      }
+    },
+    "plans": {
+      "view": {
+        "page_title": "计划"
+      }
+    },
+    "advanced_settings": {
+      "index": {
+        "page_title": "付款设置",
+        "breadcrumbs_first": "设置",
+        "breadcrumbs_second": "付款设置",
+        "breadcrumbs_current": "付款设置",
+        "breadcrumbs_active": "付款设置"
+      }
+    }
+  },
+  "user_profile": {
+    "form_title": "更新您的个人资料",
+    "page_title": "更新个人信息",
+    "breadcrumbs_current": "更新个人信息",
+    "breadcrumbs_first": "仪表板",
+    "breadcrumbs_active": "更新",
+    "current_password": "当前密码",
+    "current_password_placeholder": "输入当前密码",
+    "new_password": "新密码",
+    "new_password_placeholder": "输入新密码",
+    "confirm_password": "确认密码",
+    "confirm_password_placeholder": "输入确认密码",
+    "success_msg": "资料更新成功👍"
+  },
+  "stock_alert": {
+    "page_title": "股票警报产品",
+    "breadcrumbs_current": "股票警报产品",
+    "breadcrumbs_first": "仪表板",
+    "breadcrumbs_active": "警报产品"
+  },
+  "backup": {
+    "page_title": "数据库备份",
+    "breadcrumbs_current": "数据库备份",
+    "breadcrumbs_first": "仪表板",
+    "breadcrumbs_active": "备份",
+    "export": "出口",
+    "format": "格式",
+    "format_sql": "SQL (.sql)",
+    "success_msg": "备份下载成功👍"
+  },
+  "permission_denied": {
+    "page_title": "没有权限",
+    "breadcrumbs_current": "没有权限",
+    "breadcrumbs_first": "仪表板",
+    "breadcrumbs_active": "没有权限",
+    "error_msg": "您无权查看此页面。",
+    "error_code": "错误代码：403 禁止。"
+  },
+  "error_not_found": {
+    "error_404": "404",
+    "error_404_title": "网页未找到",
+    "error_404_msg": "抱歉，在此服务器上找不到请求的 URL。我们知道的就这些！",
+    "back_to_dashboard": "返回仪表板",
+    "back_to_login": "回到登入"
+  },
+  "sidebar_control": {
+    "customize_wharf": "自定义精度",
+    "dark_mode": "黑暗模式",
+    "header_options": "标题选项",
+    "fixed": "固定的",
+    "no_border": "无边界",
+    "sidebar_options": "边栏选项",
+    "sidebar_dark": "侧边栏深色",
+    "collapsed": "侧边栏收起",
+    "sidebar_fixed": "侧边栏固定",
+    "sidebar_mini": "边栏迷你",
+    "nav_flat_style": "导航平面样式",
+    "nav_legacy_style": "导航传统风格",
+    "nav_child_indent": "导航子缩进",
+    "disable_hover": "禁用悬停/焦点自动扩展"
+  },
+  "pos": {
+    "page_title": "POS",
+    "breadcrumbs_current": "创建销售",
+    "breadcrumbs_first": "仪表板",
+    "breadcrumbs_second": "发票",
+    "breadcrumbs_active": "POS",
+    "available": "可用的",
+    "pos": "POS",
+    "complete_order": "节省",
+    "complete_order_and_add_payment": "保存和付款",
+    "add_payment": "添加付款",
+    "invoice_receipt": "发票收据",
+    "not_enough_items": "没有足够的项目！",
+    "receipt_text": "感谢您与我们购物。欢迎再来！"
+  },
+  "billing": {
+    "form_title": "计费设置",
+    "name": "姓名",
+    "name_placeholder": "卡片上的名字",
+    "invoice": "发票",
+    "page_title": "计费",
+    "card_details": "卡详情",
+    "breadcrumbs_current": "计费设置",
+    "breadcrumbs_first": "仪表板",
+    "breadcrumbs_active": "计费设置"
+  },
+  "settings": {
+    "name": "登陆页面设置",
+    "breadcrumbs_current": "登陆页面设置",
+    "breadcrumbs_first": "仪表板",
+    "breadcrumbs_active": "登陆页面设置",
+    "success_msg": "登陆页面设置更新成功👍",
+    "form_title": "登陆页面设置",
+    "page_title": "登陆页面设置"
+  },
+  "central": {
+    "current_plan": "当前计划",
+    "trial_start": "试用开始于",
+    "trial_end": "试用结束于",
+    "tenant_id": "租户编号",
+    "used": "用过的",
+    "remaining": "其余的",
+    "pages": {
+      "edit": {
+        "page_title": "编辑页面",
+        "breadcrumbs_current": "编辑页面",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "页面",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "页面更新成功👍",
+        "form_title": "编辑页面"
+      },
+      "name": "页面",
+      "slug": "蛞蝓",
+      "type": "类型",
+      "index": {
+        "page_title": "页面",
+        "breadcrumbs_current": "页面",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_active": "页面",
+        "delete_confirm_button": "删除",
+        "brand_logo_view": "品牌标志视图"
+      },
+      "create": {
+        "page_title": "创建页面",
+        "breadcrumbs_current": "创建页面",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "页面",
+        "breadcrumbs_active": "创造",
+        "success_msg": "页面添加成功👍",
+        "form_title": "创建一个页面"
+      },
+      "name_placeholder": "页面名称",
+      "content": "内容",
+      "information": "信息",
+      "need_help": "需要帮忙"
+    },
+    "newsletters": {
+      "subject": "主题",
+      "subject_placeholder": "输入主题",
+      "greeting": "问候",
+      "greeting_placeholder": "输入问候语",
+      "body": "身体",
+      "create": {
+        "page_title": "发邮件",
+        "breadcrumbs_current": "发邮件",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "发邮件",
+        "breadcrumbs_active": "创造",
+        "success_msg": "邮件发送成功👍",
+        "form_title": "发邮件"
+      }
+    },
+    "setting_images": {
+      "index": {
+        "delete_confirm_button": "删除",
+        "page_title": "前端设置图像",
+        "breadcrumbs_current": "前端设置图像",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "设置",
+        "breadcrumbs_active": "前端设置图像"
+      },
+      "edit": {
+        "page_title": "编辑前端设置图像",
+        "breadcrumbs_current": "编辑前端设置图像",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "设置",
+        "breadcrumbs_third": "前端设置图像",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "前端设置图片更新成功👍",
+        "form_title": "编辑前端设置图像",
+        "image": "图片",
+        "title": "标题",
+        "title_placeholder": "标题",
+        "description": "描述",
+        "description_placeholder": "描述"
+      },
+      "create": {
+        "page_title": "创建前端设置图像",
+        "breadcrumbs_current": "创建前端设置图像",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "设置",
+        "breadcrumbs_third": "前端设置图像",
+        "breadcrumbs_active": "创造",
+        "success_msg": "前端设置图片添加成功👍",
+        "form_title": "创建前端设置图像",
+        "image": "图片",
+        "title": "标题",
+        "title_placeholder": "标题",
+        "description": "描述",
+        "description_placeholder": "描述"
+      },
+      "image": "图片",
+      "title": "标题",
+      "title_placeholder": "输入标题",
+      "description": "描述",
+      "description_placeholder": "输入描述",
+      "name": "姓名",
+      "name_placeholder": "输入名字",
+      "type": "类型",
+      "image_align_left": "左对齐"
+    },
+    "tenants": {
+      "create": {
+        "page_title": "创建租户",
+        "breadcrumbs_current": "创建租户",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "租户",
+        "breadcrumbs_active": "创造",
+        "success_msg": "租户添加成功👍",
+        "form_title": "创建租户"
+      },
+      "edit": {
+        "page_title": "编辑租户",
+        "breadcrumbs_current": "编辑租户",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "租户",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "租户更新成功👍",
+        "form_title": "编辑租户"
+      },
+      "index": {
+        "deleted": "已删除",
+        "delete_title": "删除租户",
+        "delete_warning": "您确定要删除此租户吗？",
+        "delete_success": "租户删除成功👍",
+        "delete_confirm_text": "是的，删除它！",
+        "page_title": "租户",
+        "breadcrumbs_current": "租户",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_active": "租户",
+        "s_no": "编号",
+        "domain": "领域",
+        "name_and_email": "姓名和电子邮件",
+        "plan": "计划",
+        "trial_ends_at": "试用结束于",
+        "banned": "禁止",
+        "send_email": "发送电子邮件",
+        "action": "行动",
+        "false": "错误的",
+        "true": "真的",
+        "create": "创造",
+        "edit": "编辑",
+        "delete": "删除",
+        "ban": "禁止",
+        "unban": "解禁",
+        "view": "看法",
+        "export_table": "导出表",
+        "print_table": "导出 PDF",
+        "send_notification": "发送电子邮件",
+        "impersonate": "模仿",
+        "failed": "失败的",
+        "on_trial": "审判中",
+        "is_subscribed": "已订阅"
+      },
+      "view": {
+        "breadcrumbs_current": "租户详情",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "租户",
+        "breadcrumbs_active": "细节",
+        "page_title": "租户详情"
+      }
+    },
+    "send_notification": {
+      "create": {
+        "success_msg": "通知发送成功👍",
+        "page_title": "发送通知"
+      },
+      "page_title": "发送通知",
+      "breadcrumbs_current": "发送通知",
+      "breadcrumbs_first": "仪表板",
+      "breadcrumbs_active": "发送通知",
+      "form_title": "发送通知",
+      "subject": "主题",
+      "subject_placeholder": "输入主题",
+      "message": "信息",
+      "message_placeholder": "输入信息",
+      "send": "发送",
+      "success_msg": "通知发送成功👍",
+      "greeting": "问候",
+      "greeting_placeholder": "输入问候语",
+      "body": "身体"
+    },
+    "plans_items": {
+      "create": {
+        "page_title": "创建项目",
+        "breadcrumbs_current": "创建项目",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "项目",
+        "breadcrumbs_active": "创造",
+        "success_msg": "项目添加成功👍",
+        "form_title": "创建一个项目"
+      },
+      "edit": {
+        "page_title": "编辑项目",
+        "breadcrumbs_current": "编辑项目",
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "项目",
+        "breadcrumbs_active": "编辑",
+        "success_msg": "商品更新成功👍",
+        "form_title": "编辑计划"
+      },
+      "index": {
+        "breadcrumbs_first": "家",
+        "breadcrumbs_current": "计划项目",
+        "page_title": "计划项目",
+        "delete_confirm_button": "删除"
+      },
+      "name": "姓名",
+      "name_placeholder": "项目名称",
+      "plan": "计划",
+      "item": "物品"
+    },
+    "dashboard": {
+      "summery_items": {
+        "tenants_count": "租户",
+        "domains_count": "域",
+        "on_trial_tenants_count": "关于试租者",
+        "pending_amount": "待处理金额",
+        "available_amount": "可用金额"
+      },
+      "top_plans": "热门计划",
+      "subscription_count": "订阅",
+      "top_clients_title": "顶级客户"
+    },
+    "plans": {
+      "image": "图片",
+      "name": "姓名",
+      "amount": "数量",
+      "currency": "货币",
+      "interval": "间隔",
+      "description": "描述",
+      "status": "地位",
+      "action": "行动",
+      "index": {
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_active": "计划",
+        "breadcrumbs_current": "计划",
+        "page_title": "计划",
+        "delete_confirm_button": "删除"
+      },
+      "create": {
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "计划",
+        "breadcrumbs_current": "创建计划",
+        "form_title": "创建计划",
+        "page_title": "创建计划",
+        "success_msg": "计划添加成功👍"
+      },
+      "edit": {
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "计划",
+        "breadcrumbs_current": "编辑计划",
+        "form_title": "编辑计划",
+        "page_title": "编辑计划",
+        "success_msg": "成功更新"
+      },
+      "limit_clients": "限制客户",
+      "limit_suppliers": "限制供应商",
+      "limit_employees": "限制员工",
+      "limit_domains": "限制域",
+      "limit_purchases": "限购",
+      "limit_invoices": "限制发票",
+      "0_means_unlimited": "0 表示无限制",
+      "name_placeholder": "输入计划名称",
+      "description_placeholder": "输入计划说明",
+      "amount_placeholder": "数量",
+      "limit_clients_placeholder": "限制客户",
+      "limit_employees_placeholder": "限制员工",
+      "limit_domains_placeholder": "限制域",
+      "limit_purchases_placeholder": "限购",
+      "limit_invoices_placeholder": "限制发票",
+      "limit_suppliers_placeholder": "限制供应商"
+    },
+    "setup": {
+      "general_settings": {
+        "index": {
+          "default_elements": {
+            "facebook_link": "脸书链接",
+            "twitter_link": "推特链接",
+            "instagram_link": "Instagram 链接",
+            "linkedin_link": "领英链接",
+            "default_language": "默认语言",
+            "copyright_text": "版权文本",
+            "default_elements_title": "默认元素",
+            "english_en": "英语",
+            "hindi_hi": "没有",
+            "copyright_text_placeholder": "版权文本",
+            "facebook_link_placeholder": "脸书链接",
+            "instagram_link_placeholder": "Instagram 链接",
+            "twitter_link_placeholder": "推特链接",
+            "linkedin_link_placeholder": "领英链接"
+          },
+          "company_info": {
+            "company_tagline": "公司标语",
+            "trial_day_count": "试用天数"
+          }
+        }
+      },
+      "index": {
+        "menu": {
+          "item_one": {
+            "title": "通用设置",
+            "description": "常规设置，例如站点标题、站点描述、地址等。",
+            "link_text": "修改设置"
+          },
+          "item_two": {
+            "title": "付款设置",
+            "description": "管理付款设置。添加您的条纹信息。",
+            "link_text": "更改设置"
+          },
+          "item_three": {
+            "title": "角色和权限",
+            "description": "管理角色和权限以将它们分配给员工。",
+            "link_text": "角色和权限"
+          },
+          "item_four": {
+            "title": "用户管理",
+            "description": "创建系统用户并为用户分配个人角色。",
+            "link_text": "管理用户"
+          }
+        }
+      },
+      "user_management": {
+        "index": {
+          "breadcrumbs_first": "仪表板",
+          "breadcrumbs_second": "设置",
+          "breadcrumbs_current": "用户",
+          "page_title": "用户",
+          "delete_confirm_button": "确认"
+        },
+        "create": {
+          "breadcrumbs_first": "仪表板",
+          "breadcrumbs_second": "设置",
+          "breadcrumbs_third": "用户",
+          "breadcrumbs_current": "创造",
+          "form_title": "创建一个新用户",
+          "page_title": "创建用户",
+          "success_msg": "成功创建"
+        },
+        "edit": {
+          "breadcrumbs_first": "仪表板",
+          "breadcrumbs_second": "设置",
+          "breadcrumbs_third": "用户",
+          "breadcrumbs_current": "编辑",
+          "form_title": "编辑用户",
+          "page_title": "编辑用户",
+          "success_msg": "成功更新"
+        }
+      }
+    },
+    "features": {
+      "create": {
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "特征",
+        "breadcrumbs_current": "创造",
+        "form_title": "特征创建",
+        "page_title": "特征",
+        "success_msg": "成功创建"
+      },
+      "name": "姓名",
+      "name_placeholder": "姓名",
+      "edit": {
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_second": "特征",
+        "breadcrumbs_current": "编辑",
+        "form_title": "功能编辑",
+        "page_title": "特征",
+        "success_msg": "成功更新"
+      },
+      "index": {
+        "breadcrumbs_first": "仪表板",
+        "breadcrumbs_current": "特征",
+        "page_title": "特征",
+        "delete_confirm_button": "确认"
+      }
+    }
+  },
+  "You Are Subscribed!": "您已订阅！",
+  "You Have Cancelled the Subscription!": "您已取消订阅！",
+  "You Have Resumed the Subscription!": "您已恢复订阅！",
+  "find_domain": "查找域",
+  "Sign Up Instantly Free for": "立即免费注册",
+  "days, no credit card required": "天，无需信用卡",
+  "Central Admin": "中央管理员",
+  "Login as super manager": "以超级管理员身份登录",
+  "Login as super salesman": "以超级推销员身份登录",
+  "Something went wrong, please try again!": "出了点问题，请重试！",
+  "Send": "发送",
+  "We've sent an email to": "我们已发送电子邮件至",
+  "Please click the confirmation link in it to finalize your account": "请单击其中的确认链接以完成您的帐户",
+  "Didn't get the email? Please check your spam folder or": "没收到邮件？请检查您的垃圾邮件文件夹或",
+  "Resend Verification": "重新发送验证",
+  "Don't have any account? Click here!": "没有任何帐户？点击这里！",
+  "You are not allowed to do this in demo version": "您不能在演示版中执行此操作",
+  "Sent To": "发给",
+  "All": "全部",
+  "Tenants": "租户",
+  "Subscribers": "订户",
+  "pages": {
+    "name_placeholder": "姓名"
+  },
+  "plans": {
+    "limit_suppliers_placeholder": "限制供应商",
+    "index": {
+      "brand_logo_view": "计划标志"
+    },
+    "view_title": "查看计划",
+    "name": "姓名",
+    "api_id": "API 编号",
+    "amount": "数量",
+    "currency": "货币",
+    "interval": "间隔",
+    "product_id": "产品编号",
+    "description": "描述",
+    "created_at": "创建于",
+    "updated_at": "更新于"
+  },
+  "Pricing features": "定价功能",
+  "Select pricing features": "选择定价功能",
+  "title": "标题",
+  "Save": "节省",
+  "Close": "关",
+  "tenants": {
+    "create": {
+      "success_msg": "成功创建"
+    },
+    "edit": {
+      "success_msg": "成功更新"
+    },
+    "index": {
+      "delete_failed": "删除失败",
+      "ban_failed": "禁令失败"
+    }
+  },
+  "Select a status": "选择状态",
+  "subscription_invoices": {
+    "create": {
+      "success_msg": "成功创建"
+    },
+    "list": {
+      "index": {
+        "page_title": "订阅发票"
+      }
+    }
+  },
+  "retry": "重试",
+  "Subscribed to": "订阅",
+  "Plan": "计划",
+  "Switch My Plan": "切换我的计划",
+  "Cancel Subscription": "取消订阅",
+  "Manual subscription by Admin is active": "管理员手动订阅有效",
+  "You can cancel it from the admin": "您可以从管理员处取消它",
+  "Manually subscribed by": "手动订阅",
+  "Manually subscribed at": "手动订阅",
+  "You have cancelled your subscription and your account is still active until": "您已取消订阅，并且您的帐户仍然有效，直到",
+  "Or, You Can": "或者，你可以",
+  "Resume Subscription": "继续订阅",
+  "Admin have cancelled your subscription": "管理员已取消您的订阅",
+  "Contact to Admin for re enable the subscription": "联系管理员重新启用订阅",
+  "You are on Trial Period for the": "您正处于试用期",
+  "plan": "计划",
+  "You have": "你有",
+  "days left on your trial": "您的试用期还剩多少天",
+  "Client Limit": "客户限额",
+  "Domains Limit": "域限制",
+  "Employee Limit": "员工限额",
+  "Supplier Limit": "供应商限制",
+  "Subscribe to a plan below": "订阅以下计划",
+  "Switch Plan": "切换计划",
+  "Subscribe": "订阅",
+  "newsletter": {
+    "success_msg": "订阅成功",
+    "error_msg": "出了点问题，请重试！"
+  },
+  "Client limit": "客户限制",
+  "Domain limit": "域限制",
+  "Employees limit": "员工限制",
+  "Suppliers limit": "供应商限制",
+  "Purchase limit": "购买限额",
+  "Invoice limit": "发票限额",
+  "Newsletter": "通讯",
+  "Upload Your CSV file": "上传您的 CSV 文件",
+  "Download Demo CSV File": "下载演示 CSV 文件",
+  "domain-requests": {
+    "create": {
+      "form_title": "域请求创建",
+      "page_title": "域请求",
+      "success_msg": "域请求成功创建",
+      "breadcrumbs_first": "仪表板",
+      "breadcrumbs_second": "域请求",
+      "breadcrumbs_current": "创造",
+      "breadcrumbs_active": "创造"
+    },
+    "domain": "领域",
+    "index": {
+      "page_title": "域请求",
+      "delete_warning": "您真的要删除此域请求吗？",
+      "delete_failed": "删除失败",
+      "delete_success": "已成功删除",
+      "breadcrumbs_first": "仪表板",
+      "breadcrumbs_current": "域请求",
+      "breadcrumbs_active": "域请求",
+      "delete_confirm_button": "确认",
+      "delete_cancel_button": "取消"
+    }
+  },
+  "Instructions": "指示",
+  "Download the zip folder": "下载 zip 文件夹",
+  "Populate the products\\.csv with your product information": "使用您的产品信息填充 products\\.csv",
+  "You can get the ids related to product to their corresponding CSV file": "您可以将与产品相关的 id 获取到其相应的 CSV 文件",
+  "Example: sub_cat_id in sub-categories\\.csv": "示例：子类别\\.csv 中的 sub_cat_id",
+  "Download Template": "下载模板",
+  "no_action_available": "没有可用的操作",
+  "Subscriber": "订户",
+  "Users": "用户",
+  "User": "用户",
+  "You need to add an A record to your DNS with IP": "您需要使用 IP 将 A 记录添加到您的 DNS",
+  "template": {
+    "home": "家",
+    "about": "关于我们",
+    "features": "特征",
+    "modules": "模块",
+    "pricing": "价钱",
+    "contact": "接触",
+    "sign_in": "登入",
+    "register": "登记",
+    "information": "信息",
+    "need_help": "需要帮忙？",
+    "contact_us": "联系我们",
+    "whats_included": "包括什么",
+    "buy_now": "立即购买"
+  },
+  "impersonate": {
+    "title": "我们正在建立您的网站",
+    "des": "请稍候，我们的 🤖 机器人正在构建您的网站。<br>它不应该超过一分钟。"
+  }
+}

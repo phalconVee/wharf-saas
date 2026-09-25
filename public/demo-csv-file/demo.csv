@@ -1,0 +1,4 @@
+name,phone,email,company_name,address
+alice,+1 202 555 0101,alice@example.com,Wharf Demo,New York
+bob,+1 202 555 0102,bob@example.com,Wharf Demo,Chicago
+charlie,+1 202 555 0103,charlie@example.com,Wharf Demo,Los Angeles

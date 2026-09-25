@@ -1,0 +1,3094 @@
+{
+  "Plan switched!": "План успешно переключен!",
+  "Delete": "Удалить",
+  "Import Clients": "Импорт клиентов",
+  "Billing History": "История платежей",
+  "Net Total": "Чистая сумма",
+  "Transaction Type": "Тип операции",
+  "Transaction Description": "Описание транзакции",
+  "Amount": "Количество",
+  "Currency": "Валюта",
+  "Created At": "Создано на",
+  "Payment Status": "Статус платежа",
+  "Stripe Fee": "Плата за полосу",
+  "You are on trial version! Your trial ends": "Вы находитесь на пробной версии! Ваш пробный период заканчивается",
+  "domains": {
+    "index": {
+      "breadcrumbs_current": "Все домены",
+      "breadcrumbs_active": "Все домены",
+      "breadcrumbs_first": "Приборная доска",
+      "page_title": "Все домены",
+      "delete_warning": "Вы уверены, что хотите удалить этот домен?",
+      "delete_failed": "Не удалось удалить"
+    },
+    "list": {
+      "index": {
+        "breadcrumbs_current": "Управление доменом",
+        "breadcrumbs_active": "Управление доменом",
+        "breadcrumbs_first": "Приборная доска",
+        "page_title": "Управление доменом",
+        "delete_warning": "Вы уверены, что хотите удалить этот домен?",
+        "delete_failed": "Не удалось удалить"
+      }
+    },
+    "create": {
+      "breadcrumbs_current": "Создать домен",
+      "breadcrumbs_active": "Создать домен",
+      "breadcrumbs_first": "Приборная доска",
+      "breadcrumbs_second": "Управление доменом",
+      "page_title": "Создать домен",
+      "form_title": "Создать домен",
+      "success_msg": "Создано успешно"
+    },
+    "no_action_available": "Нет доступных действий",
+    "domain": "Домен",
+    "domain_placeholder": "Введите домен",
+    "make_primary": "Сделать начальное",
+    "make_primary_success_msg": "Успешно сделано основным"
+  },
+  "message": {
+    "billing_page": "Платежная страница"
+  },
+  "why_us_cards": "Почему мы карты",
+  "features": "Функции",
+  "explorers": "Исследователи",
+  "all_features": "Все функции",
+  "software_overview_images": "Обзорные изображения программного обеспечения",
+  "testimonials": "Отзывы",
+  "brands": "Бренды",
+  "ok": "Ok",
+  "cancel": "Отмена",
+  "error_alert_title": "Ой...",
+  "error_alert_text": "Что-то пошло не так! Пожалуйста, попробуйте еще раз.",
+  "token_expired_alert_title": "Сессия просрочена!",
+  "token_expired_alert_text": "Пожалуйста, войдите снова, чтобы продолжить.",
+  "login": "Авторизоваться",
+  "register": "регистр",
+  "page_not_found": "Страница не найдена",
+  "go_home": "Идти домой",
+  "logout": "Выйти",
+  "email": "Эл. адрес",
+  "remember_me": "Запомните меня",
+  "password": "Пароль",
+  "forgot_password": "Забыли свой пароль?",
+  "confirm_password": "Подтвердить Пароль",
+  "name": "Имя",
+  "toggle_navigation": "Переключить навигацию",
+  "home": "Дом",
+  "you_are_logged_in": "Вы вошли в систему!",
+  "reset_password": "Сброс пароля",
+  "send_password_reset_link": "Отправить ссылку",
+  "profile": "Профиль",
+  "your_info": "Ваша информация",
+  "info_updated": "Ваша информация обновлена!",
+  "update": "Обновлять",
+  "your_password": "Ваш пароль",
+  "password_updated": "Ваш пароль был обновлен!",
+  "new_password": "Новый пароль",
+  "login_with": "Зайдите в учетную запись, используя",
+  "register_with": "Зарегистрируйтесь с",
+  "verify_email": "подтвердить электронную почту",
+  "send_verification_link": "Отправить ссылку для подтверждения",
+  "resend_verification_link": "Повторно отправить ссылку для подтверждения?",
+  "failed_to_verify_email": "Не удалось подтвердить электронную почту.",
+  "verify_email_address": "Мы отправили вам электронное письмо со ссылкой для подтверждения.",
+  "reset_email_text": "Пожалуйста, введите свой адрес электронной почты, чтобы получить ссылку для сброса пароля!",
+  "sorry": "Извиняюсь",
+  "no_data_found": "Данные не найдены",
+  "login_txt": "Пожалуйста, войдите, чтобы продолжить сеанс!",
+  "email_placeholder": "Введите ваш адрес электронной почты",
+  "password_placeholder": "Введите свой пароль",
+  "developed_by": "Разработан",
+  "per_page": "На страницу",
+  "available": "Доступный",
+  "find": "Находить",
+  "domain": "Домен",
+  "primary_domain": "Основной домен",
+  "register_invite": "У вас нет аккаунта? Кликните сюда!",
+  "already_registered": "Уже зарегистрирован?",
+  "register_policy": "Я согласен с Условиями обслуживания и Политикой конфиденциальности.",
+  "register_page_title": "Зарегистрируйтесь мгновенно бесплатно в течение 14 дней, кредитная карта не требуется…",
+  "register_next_step": "Еще один шаг 👍",
+  "email_sent": "Мы отправили письмо на",
+  "confirm_account": "Пожалуйста, нажмите на ссылку подтверждения в нем, чтобы завершить свою учетную запись.",
+  "check_email": "Не получили письмо? Пожалуйста, проверьте папку со спамом или",
+  "please": "Пожалуйста",
+  "common": {
+    "id": "Идентификатор",
+    "fallback": "Отступать",
+    "send_mail": "Отправить почту",
+    "subscribed_at": "Подписан на",
+    "primary": "Начальный",
+    "business-start": "Бизнес Старт",
+    "content": "Содержание",
+    "information": "Информация",
+    "need_help": "Нужна помощь",
+    "true": "Истинный",
+    "false": "ЛОЖЬ",
+    "points": "Точки",
+    "point_placeholder": "Введите баллы",
+    "button_text": "Текст кнопки",
+    "button_text_placeholder": "Введите текст кнопки",
+    "button_link": "Ссылка на кнопку",
+    "button_link_placeholder": "Введите ссылку на кнопку",
+    "about_us_tagline": "О нас",
+    "about_us_tagline_placeholder": "Введите слоган о нас",
+    "about_us_description": "О нас Описание",
+    "about_us_description_placeholder": "Введите описание нас",
+    "about_us_title": "О нас",
+    "about_us_title_placeholder": "Введите название о нас",
+    "why_us_tagline": "Почему мы",
+    "why_us_tagline_placeholder": "Введите слоган, почему мы",
+    "why_us_description": "Почему мы Описание",
+    "why_us_description_placeholder": "Введите почему мы описание",
+    "why_us_title": "Почему мы",
+    "why_us_title_placeholder": "Введите почему мы заголовок",
+    "business_start_section_tagline": "Слоган раздела «Начало бизнеса»",
+    "business_start_section_tagline_placeholder": "Введите слоган раздела «Начало бизнеса»",
+    "business_start_section_description": "Раздел «Начало бизнеса» Описание",
+    "business_start_section_description_placeholder": "Введите описание раздела старта бизнеса",
+    "business_start_section_title": "Название раздела «Начало бизнеса»",
+    "business_start_section_title_placeholder": "Введите название раздела для начала бизнеса",
+    "business_start_support_list": "Список поддержки запуска бизнеса",
+    "business_start_support_item_placeholder": "Введите список поддержки для начала бизнеса",
+    "features_section_tagline": "Слоган функционального раздела",
+    "features_section_tagline_placeholder": "Введите слоган раздела функций",
+    "features_section_description": "Описание раздела функций",
+    "features_section_description_placeholder": "Введите описание раздела функций",
+    "features_section_title": "Название раздела функций",
+    "features_section_title_placeholder": "Введите название раздела функций",
+    "all_features_section_tagline": "Слоган раздела «Все функции»",
+    "all_features_section_tagline_placeholder": "Введите слоган раздела всех функций",
+    "all_features_section_title": "Все функции Название раздела",
+    "all_features_section_title_placeholder": "Введите название раздела всех функций",
+    "get_started_box_title": "Заголовок окна «Начало работы»",
+    "get_started_box_title_placeholder": "Введите заголовок поля \"Начало работы\"",
+    "get_started_box_description": "Коробка «Начало работы» Описание",
+    "get_started_box_description_placeholder": "Введите описание окна «Начало работы»",
+    "get_started_box_button_text": "Текст кнопки «Начать работу»",
+    "get_started_box_button_text_placeholder": "Введите текст кнопки «Начать работу»",
+    "get_started_box_button_link": "Ссылка на кнопку «Начать работу»",
+    "get_started_box_button_link_placeholder": "Введите ссылку кнопки «Начать работу»",
+    "all_features_and_get_started": "Все функции и начать работу",
+    "software_overview_section_tagline": "Слоган раздела «Обзор программного обеспечения»",
+    "software_overview_section_tagline_placeholder": "Введите слоган раздела обзора программного обеспечения",
+    "software_overview_section_title": "Обзор программного обеспечения Название раздела",
+    "software_overview_section_title_placeholder": "Введите заголовок раздела обзора программного обеспечения",
+    "pricing_plan_section_tagline": "Слоган раздела «План ценообразования»",
+    "pricing_plan_section_tagline_placeholder": "Введите слоган раздела тарифного плана",
+    "pricing_plan_section_title": "Название раздела тарифного плана",
+    "pricing_plan_section_title_placeholder": "Введите название раздела тарифного плана",
+    "software_overview_and_pricing_plan": "Обзор программного обеспечения и тарифный план",
+    "testimonial_and_newsletter": "Отзыв и информационный бюллетень",
+    "testimonial_section_tagline": "Слоган раздела отзывов",
+    "testimonial_section_tagline_placeholder": "Введите слоган раздела отзывов",
+    "testimonial_section_title": "Название раздела отзывов",
+    "testimonial_section_title_placeholder": "Введите название раздела отзывов",
+    "newsletter_section_tagline": "Раздел информационного бюллетеня",
+    "newsletter_section_tagline_placeholder": "Введите слоган раздела информационного бюллетеня",
+    "newsletter_section_title": "Название раздела информационного бюллетеня",
+    "newsletter_section_title_placeholder": "Введите название раздела новостной рассылки",
+    "newsletter_section_description": "Описание раздела информационного бюллетеня",
+    "newsletter_section_description_placeholder": "Введите описание раздела рассылки",
+    "about_us": "О нас",
+    "why-us": "Почему нас",
+    "business_start": "Бизнес Старт",
+    "features": "Функции",
+    "all-features-and-get-started": "Все функции и начало работы",
+    "software-overview-and-pricing-plan": "Обзор программного обеспечения и тарифный план",
+    "testimonial-and-newsletter": "Отзыв и информационный бюллетень",
+    "hero": "Герой",
+    "hero_tagline": "Слоган героя",
+    "hero_tagline_placeholder": "Введите слоган вашего героя",
+    "hero_title": "Титул героя",
+    "hero_title_placeholder": "Введите свой титул героя",
+    "hero_description": "Описание героя",
+    "hero_description_placeholder": "Введите описание вашего героя",
+    "hero_demo_button_text": "Текст кнопки демонстрации героя",
+    "hero_demo_button_text_placeholder": "Введите текст кнопки демонстрации героя",
+    "hero_demo_button_link": "Ссылка на кнопку демонстрации героев",
+    "hero_demo_button_link_placeholder": "Введите ссылку на демо-страницу",
+    "hero_get_started_button_text": "Текст кнопки \"Начать работу\"",
+    "hero_get_started_button_text_placeholder": "Введите текст кнопки Hero Get Started",
+    "hero_get_started_button_link": "Ссылка на кнопку «Начать работу»",
+    "hero_get_started_button_link_placeholder": "Введите ссылку на страницу или шаблон страницы",
+    "company_placeholder": "Введите название вашей компании",
+    "domain_placeholder": "Введите ваше доменное имя",
+    "password_confirmation": "Подтвердите свой пароль",
+    "password_confirmation_placeholder": "Подтвердите свой пароль",
+    "ban": "Бан",
+    "ban_success": "Пользователь успешно заблокирован",
+    "unban": "Разблокировать",
+    "unban_success": "Пользователь успешно разблокирован",
+    "tenant_id": "Идентификатор арендатора",
+    "domain": "Домен",
+    "company": "Компания",
+    "plan": "План",
+    "trial_ends_at": "Пробный период заканчивается в",
+    "banned": "Запрещено",
+    "clients_limit": "Лимит клиентов",
+    "suppliers_limit": "Лимит поставщиков",
+    "employee_limit": "Лимит сотрудников",
+    "domains_limit": "Ограничение доменов",
+    "purchases_limit": "Лимит покупок",
+    "invoices_limit": "Лимит счетов",
+    "to": "К",
+    "from": "Из",
+    "s_no": "#",
+    "more_info": "Больше информации",
+    "name": "Имя",
+    "name_placeholder": "Введите имя",
+    "password": "Пароль",
+    "password_placeholder": "Введите свой пароль",
+    "default_password": "Пароль (пароль по умолчанию: 12345678)",
+    "code": "Код",
+    "code_placeholder": "Введите код",
+    "product_name": "наименование товара",
+    "product_name_placeholder": "Выберите продукт",
+    "sub_category_code": "Код подкатегории",
+    "sub_category": "Подкатегория",
+    "sub_category_name": "Название подкатегории",
+    "category": "Категория",
+    "category_name": "Название категории",
+    "category_name_placeholder": "Выберите категорию",
+    "account": "Счет",
+    "account_placeholder": "Выберите аккаунт",
+    "available_balance": "доступные средства",
+    "amount": "Количество",
+    "amount_placeholder": "Введите сумму",
+    "cheque_no": "Проверьте №",
+    "cheque_placeholder": "Введите контрольный номер",
+    "voucher_no": "Ваучер №",
+    "voucher_placeholder": "Введите номер ваучера",
+    "receipt_no": "Квитанция №",
+    "receipt_no_placeholder": "Введите номер квитанции",
+    "date": "Свидание",
+    "note": "Примечание",
+    "created_by": "Сделано",
+    "choose_file": "Выбрать файл",
+    "image_alt": "Прикрепленное изображение",
+    "note_placeholder": "Напишите свою заметку здесь!",
+    "status": "Статус",
+    "action": "Действие",
+    "active": "Активный",
+    "in_active": "Неактивный",
+    "expired": "Истекший",
+    "email": "Эл. адрес",
+    "email_placeholder": "Введите ваш адрес электронной почты",
+    "phone": "Телефон",
+    "address": "Адрес",
+    "address_placeholder": "Введите адрес",
+    "modal_header": "Предварительный просмотр прикрепленного изображения",
+    "modal_body": "Тело по умолчанию",
+    "export_table": "Экспорт таблицы",
+    "print_table": "Печать таблицы",
+    "delete_title": "Ты уверен?",
+    "update_title": "Ты уверен?",
+    "delete_confirm_text": "Подтверждать",
+    "update_confirm_text": "Подтверждать",
+    "deleted": "Удалено!",
+    "updated": "Обновлено!",
+    "delete_success": "Удален успешно.",
+    "update_success": "Успешно Обновлено.",
+    "failed": "Не удалось!",
+    "delete_failed": "Что-то было не так.",
+    "update_failed": "Что-то было не так.",
+    "error_msg": "Упс... что-то пошло не так 😔",
+    "image_error": "Пожалуйста, выберите допустимую миниатюру размером менее 2 МБ.",
+    "close": "Закрывать",
+    "search": "Поиск...",
+    "create": "Создавать",
+    "view": "Вид",
+    "edit": "Редактировать",
+    "delete": "Удалить",
+    "image": "Изображение",
+    "preview": "Предварительный просмотр",
+    "no_preview": "Нет предварительного просмотра",
+    "save": "Сохранять",
+    "save_changes": "Сохранить изменения",
+    "back": "Назад",
+    "print": "Распечатать",
+    "reset": "Перезагрузить",
+    "supplier": "Поставщик",
+    "supplier_placeholder": "Выберите поставщика",
+    "products": "Товары",
+    "select_products": "Выберите продукты",
+    "select_products_placeholder": "Поиск продуктов",
+    "reference": "Ссылка",
+    "reference_placeholder": "Введите ссылку",
+    "quantity": "Количество",
+    "purchase_price": "Цена",
+    "unit_price": "Цена за единицу товара",
+    "unit_cost": "Себестоимость единицы продукции",
+    "unit_tax": "Удельный налог",
+    "tax": "налог",
+    "subtotal": "Промежуточный итог",
+    "return_subtotal": "Итого по возврату",
+    "new_subtotal": "Новый промежуточный итог",
+    "return_amount": "Сумма возврата",
+    "return_cost": "Стоимость возврата продукции",
+    "total": "Общий",
+    "net_total": "Чистая сумма",
+    "due": "В связи",
+    "transport": "Транспорт",
+    "add_payment": "Добавить платеж?",
+    "add_payment_placeholder": "Выберите вариант",
+    "yes": "Да",
+    "no": "Нет",
+    "paid": "Оплаченный",
+    "total_paid": "Общая сумма",
+    "paid_amount": "Выплаченная сумма",
+    "paid_amount_placeholder": "Введите сумму",
+    "total_due": "Всего к оплате",
+    "account_receivable": "Дебиторская задолженность",
+    "account_payable": "Кредиторская задолженность",
+    "total_price": "Итоговая цена",
+    "return_price": "Цена возврата",
+    "price": "Цена",
+    "total_return": "Общий доход",
+    "discount": "Скидка",
+    "discount_placeholder": "Введите скидку",
+    "supplier_details": "Сведения о поставщике",
+    "client_details": "Детали клиента",
+    "supplier_id": "Идентификатор поставщика",
+    "client_id": "ID клиента",
+    "client_name": "имя клиента",
+    "supplier_name": "наименование поставщика",
+    "company_name": "Название компании",
+    "company_name_placeholder": "Введите название компании",
+    "contact_number": "Контактный номер",
+    "contact_number_placeholder": "Введите контактный номер",
+    "payment_history": "История платежей",
+    "payment_date": "Дата платежа",
+    "empty_payment": "Платежи пока недоступны!",
+    "empty_payment_msg": "Вы не добавили платеж для этой покупки. После добавления платежей вы увидите список здесь.",
+    "purchases": "Покупки",
+    "purchases_placeholder": "Выберите покупку",
+    "total_tax": "Общий налог",
+    "invoice_tax": "Налог на оплату",
+    "transport_cost": "Стоимость проезда",
+    "transport_cost_placeholder": "Введите транспортную стоимость",
+    "total_discount": "Общая скидка",
+    "discount_type": "Тип скидки",
+    "fixed": "Исправлено",
+    "percentage": "Процент",
+    "client": "Клиент",
+    "client_placeholder": "Выберите клиента",
+    "payment_terms": "Условия оплаты",
+    "payment_terms_placeholder": "Введите условия оплаты",
+    "po_reference": "Ссылки на заказы",
+    "po_reference_placeholder": "Введите ссылку на заказ",
+    "invoice_qty": "Количество счетов",
+    "current_qty": "Текущее количество",
+    "return_qty": "Количество возвратов",
+    "invoices": "Счета",
+    "invoices_placeholder": "Выберите счет",
+    "return_reason": "Причина возврата",
+    "return_reason_placeholder": "Введите причину",
+    "invoice_due": "Счет к оплате",
+    "non_invoice_due": "Не счет два",
+    "invoice_date": "Дата счета",
+    "invoice_no": "Счет №",
+    "invoice_return_no": "Номер возврата счета-фактуры",
+    "return_no": "Возврат Нет",
+    "return_products": "Возврат товаров",
+    "insufficient_stock": "Недостаточный запас",
+    "invoice_products": "Инвойсные продукты",
+    "created_at": "Создано на",
+    "reason": "Причина",
+    "type": "Тип",
+    "credit": "Кредит",
+    "debit": "Списание средств",
+    "payment_type": "Способ оплаты",
+    "invoice_total": "Общая сумма счета",
+    "invoice_details": "Сведения о счете",
+    "payment_details": "Детали платежа",
+    "ref_no": "Ссылка Нет",
+    "reference_no": "Номер ссылки",
+    "payable": "к оплате",
+    "interest": "Интерес",
+    "installment": "Рассрочка",
+    "error": "Ошибка!",
+    "per": "Пер",
+    "day": "День",
+    "week": "Неделя",
+    "month": "Месяц",
+    "year": "Год",
+    "daily": "Повседневная",
+    "monthly": "Ежемесячно",
+    "yearly": "Ежегодно",
+    "employee": "Работник",
+    "employee_placeholder": "Выберите сотрудника",
+    "designation": "Обозначение",
+    "designation_placeholder": "Введите обозначение",
+    "emp_name": "Эмп Имя",
+    "emp_id": "Идентификатор эмпа",
+    "employee_details": "Сведения о сотруднике",
+    "department": "Отделение",
+    "department_placeholder": "Отделение",
+    "balance": "Остаток средств",
+    "salary": "Зарплата",
+    "salary_placeholder": "Введите зарплату",
+    "profile_picture": "Изображение профиля",
+    "role": "Роль",
+    "role_placeholder": "Выберите роль",
+    "unit": "Ед. изм",
+    "unit_placeholder": "Выберите единицу измерения",
+    "brand": "Бренд",
+    "brand_placeholder": "Выберите марку",
+    "item_code": "Код изделия",
+    "item_code_placeholder": "Введите код товара",
+    "item_model": "Модель предмета",
+    "item_model_placeholder": "Введите модель",
+    "item_name": "Название предмета",
+    "item_name_placeholder": "Введите имя",
+    "rendering_fails": "Рендеринг не работает.",
+    "product": "Товар",
+    "transactions": "Транзакции",
+    "empty_table": "Извините 😔 данные не найдены",
+    "stock_alert_msg": "Запас меньше, чем предупреждение кол-во!",
+    "stock_notification": "Оповещения о количестве продукта",
+    "stock_notification_empty": "Нет доступных уведомлений",
+    "delete_warning": "Вы не сможете вернуться к этому!",
+    "update_warning": "Вы не сможете вернуться к этому!",
+    "add_balance": "Пополнить баланс",
+    "remove_balance": "Удалить баланс",
+    "qty": "Кол-во",
+    "item": "Вещь",
+    "sold_by": "Продан",
+    "all_features": "Все функции",
+    "success_msg": "Успех!",
+    "software_overview": "Обзор программного обеспечения",
+    "business_start_support_list_placeholder": "Список поддержки запуска бизнеса",
+    "explorers": "Исследователи",
+    "points_placeholder": "Точки",
+    "why_us": "Почему нас",
+    "stripe_public_key": "Полоса открытого ключа",
+    "stripe_private_key": "Полосатый закрытый ключ",
+    "plan_placeholder": "План",
+    "download": "Скачать",
+    "commission": "Комиссия",
+    "invoice_tax_placeholder": "Налог на оплату",
+    "requested_domain": "Запрошенный домен",
+    "pending": "В ожидании",
+    "connected": "Связано",
+    "rejected": "Отклоненный",
+    "removed": "Удаленный",
+    "tenant": "Жилец",
+    "welcome_mail": "Отправить приветственное письмо",
+    "tenant_name": "Имя арендатора",
+    "tenant_email": "Электронная почта арендатора",
+    "modified_by": "Модифицирован",
+    "host": "Хозяин",
+    "value": "Ценность",
+    "custom_html": "Пользовательский HTML",
+    "custom_html_placeholder": "Пользовательский HTML (здесь вы можете добавить теги, связанные с SEO, Google Analytics, коды пикселей Facebook и т. д.)",
+    "pricing_plan": "Тарифный план"
+  },
+  "topbar": {
+    "new_invoice": "Новый счет",
+    "new_expense": "Новый расход",
+    "new_purchase": "Новая покупка",
+    "new_quotation": "Новая цитата",
+    "profile": "Профиль",
+    "setup": "Настраивать",
+    "logout": "Выйти"
+  },
+  "sidebar": {
+    "Billing History": "История платежей",
+    "tenant": {
+      "settings": "Настройки"
+    },
+    "domain_management": "Управление доменом",
+    "domain": "Домен",
+    "domain_request": "Запрос домена",
+    "newsletters": {
+      "create": "Подписчики"
+    },
+    "pages": {
+      "create": "Страницы"
+    },
+    "items": "Предметы",
+    "dashboard": "Приборная доска",
+    "activities": "ВИДЫ ДЕЯТЕЛЬНОСТИ",
+    "expenses": "Затраты",
+    "categories": "Категории",
+    "sub_categories": "Подкатегории",
+    "expenses_list": "Список расходов",
+    "purchases": "Покупки",
+    "purchases_list": "Список покупок",
+    "returns_list": "Список возвратов",
+    "sales": "Продажи",
+    "quotations_list": "Список котировок",
+    "invoices_list": "Список счетов",
+    "accounting": "БУХГАЛТЕРСКИЙ УЧЕТ",
+    "cashbook": "Кассовая книга",
+    "accounts": "учетные записи",
+    "balance_adjustments": "Изменения баланса",
+    "balance_transfers": "Переводы баланса",
+    "transaction_history": "История транзакций",
+    "payments": "Платежи",
+    "suppliers": "Поставщики",
+    "non_purchase": "Без покупки",
+    "purchase": "Покупка",
+    "clients": "Клиенты",
+    "non_invoice": "Без счета",
+    "invoice": "Счет",
+    "loan_management": "Управление кредитами",
+    "authorities": "Власти",
+    "loans": "Кредиты",
+    "asset_management": "Управление активами",
+    "types": "Типы",
+    "assets": "Ресурсы",
+    "payroll": "Начисление заработной платы",
+    "people": "ЛЮДИ",
+    "employees_list": "Список сотрудников",
+    "employees": "Сотрудники",
+    "departments": "Департаменты",
+    "increments": "Приращения",
+    "product": "ТОВАР",
+    "products": "Товары",
+    "products_list": "Список продуктов",
+    "barcode": "Штрих-код",
+    "inventory_uppercase": "ИНВЕНТАРЬ",
+    "inventory": "Инвентарь",
+    "view_inventory": "Посмотреть инвентарь",
+    "inventory_adjustment": "Корректировка запасов",
+    "reports": "ОТЧЕТЫ",
+    "balance_sheet": "Бухгалтерский баланс",
+    "summary_report": "Отчет",
+    "profit_loss_report": "Отчет о прибылях и убытках",
+    "expense_report": "Отчет о затратах",
+    "product_report": "Отчет о товаре",
+    "inventory_report": "Отчет инвентаризации",
+    "account": "УЧЕТНАЯ ЗАПИСЬ",
+    "account_sm": "Счет",
+    "setup": "Настраивать",
+    "database_backup": "Резервное копирование базы данных",
+    "profile": "Профиль",
+    "logout": "Выйти",
+    "pricing": "Цены",
+    "tenants": "Арендаторы",
+    "overview": "Обзор",
+    "saas": "СААС",
+    "back_landing": "Перейти на целевую страницу",
+    "landing_page": "Целевая страница",
+    "cms": "CMS",
+    "promotion": "Продвижение",
+    "plans": "Планы",
+    "pricing_plans": "Тарифные планы",
+    "plan_features": "Особенности плана",
+    "domains": "Управление доменом",
+    "all_domains": "Все домены",
+    "domain_requests": "Запросы домена"
+  },
+  "dashboard": {
+    "stock_alert": "Предупреждение об акциях",
+    "recent_activities": "Последние мероприятия",
+    "page_title": "Приборная доска",
+    "breadcrumbs_current": "Приборная доска",
+    "breadcrumbs_active": "Приборная доска",
+    "bar_chart_title": "Продажи и покупки",
+    "bar_chart_tooltip": "Ежемесячные продажи и покупки после вычета стоимости возвращенных продуктов.",
+    "pie_chart_title": "Самые продаваемые продукты",
+    "line_chart_title": "Платеж, отправленный против платежа, полученного",
+    "line_chart_tooltip": "Отправленный платеж = платеж поставщику + платеж по кредиту<br/> Полученный платеж = платеж клиента + полученный кредит",
+    "top_clients_title": "Топ 5 клиентов",
+    "summary": "Резюме",
+    "summary_option_1": "Сегодня",
+    "summary_option_2": "Последние 7 дней",
+    "summary_option_3": "Этот месяц",
+    "summary_option_4": "В этом году",
+    "summery_items": {
+      "purchase": "Покупка",
+      "purchase_return": "Возврат покупки",
+      "sales": "Продажи",
+      "sales_return": "Возвращение продаж",
+      "payment_received": "Клиентский платеж",
+      "payment_sent": "Оплата поставщику",
+      "expense": "Расход",
+      "balance_transfers": "Переводы баланса"
+    },
+    "today": "Сегодня",
+    "last_7_days": "Последние 7 дней",
+    "this_month": "Этот месяц",
+    "this_year": "В этом году"
+  },
+  "expenses": {
+    "categories": {
+      "index": {
+        "page_title": "Категории расходов",
+        "breadcrumbs_current": "Категории расходов",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Затраты",
+        "breadcrumbs_active": "Категории",
+        "delete_warning": "Все подкатегории для этой категории будут удалены!"
+      },
+      "create": {
+        "page_title": "Создать категорию расходов",
+        "form_title": "Создайте категорию расходов",
+        "breadcrumbs_current": "Создать категорию расходов",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Категории",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Категория успешно добавлена 👍"
+      },
+      "edit": {
+        "page_title": "Изменить категорию расходов",
+        "form_title": "Изменить категорию",
+        "breadcrumbs_current": "Изменить категорию расходов",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Категории",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Категория успешно обновлена 👍"
+      }
+    },
+    "sub_categories": {
+      "index": {
+        "page_title": "Подкатегории расходов",
+        "breadcrumbs_current": "Подкатегории расходов",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Затраты",
+        "breadcrumbs_active": "Подкатегории",
+        "delete_warning": "Все расходы по этой категории будут удалены!"
+      },
+      "create": {
+        "page_title": "Создать подкатегорию расходов",
+        "form_title": "Создайте подкатегорию расходов",
+        "breadcrumbs_current": "Создать подкатегорию расходов",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Подкатегории",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Подкатегория успешно добавлена 👍"
+      },
+      "edit": {
+        "page_title": "Изменить подкатегорию расходов",
+        "form_title": "Изменить подкатегорию расходов",
+        "breadcrumbs_current": "Изменить подкатегорию расходов",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Подкатегории",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Подкатегория успешно обновлена 👍"
+      }
+    },
+    "list": {
+      "common": {
+        "expense_reason": "Причина расходов",
+        "expense_reason_placeholder": "Введите причину"
+      },
+      "index": {
+        "page_title": "Затраты",
+        "breadcrumbs_current": "Затраты",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Затраты",
+        "breadcrumbs_active": "Затраты",
+        "delete_warning": "Вы не сможете вернуться к этому!"
+      },
+      "create": {
+        "page_title": "Создать расход",
+        "form_title": "Создать расход",
+        "breadcrumbs_current": "Создать расход",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Затраты",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Расход успешно добавлен 👍"
+      },
+      "edit": {
+        "page_title": "Изменить расход",
+        "form_title": "Изменить расход",
+        "breadcrumbs_current": "Изменить расход",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Затраты",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Расход успешно обновлен 👍"
+      },
+      "view": {
+        "page_title": "Детали расходов",
+        "breadcrumbs_current": "Детали расходов",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Затраты",
+        "breadcrumbs_active": "Подробности",
+        "expense_details": "Детали расходов"
+      }
+    }
+  },
+  "purchases": {
+    "list": {
+      "common": {
+        "po_reference": "Ссылки на заказы",
+        "po_reference_placeholder": "Введите ссылку на заказ",
+        "payment_terms": "Условия оплаты",
+        "payment_terms_placeholder": "Введите условия оплаты",
+        "purchase_tax": "Налог на покупку",
+        "purchase_total": "Сумма покупки",
+        "purchase_subtotal": "Итого по покупке",
+        "purchase_tax_placeholder": "Выберите тип налога",
+        "total_tax": "Общий налог",
+        "discount": "Скидка",
+        "discount_placeholder": "Введите скидку",
+        "transport_cost": "Стоимость проезда",
+        "transport_cost_placeholder": "Введите транспортную стоимость",
+        "purchase_date": "Дата покупки",
+        "po_date": "Дата заказа на поставку",
+        "purchased_qty": "Купленное количество",
+        "returned_qty": "Возвращенное кол-во",
+        "current_qty": "Текущее количество",
+        "purchase_no": "Покупка №",
+        "return_no": "Возврат Нет",
+        "purchase_no_placeholder": "Введите номер покупки",
+        "purchase_products": "Покупка продуктов",
+        "purchase_due": "Срок покупки"
+      },
+      "index": {
+        "page_title": "Покупки",
+        "breadcrumbs_current": "Покупки",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Покупки",
+        "breadcrumbs_active": "Покупки",
+        "delete_warning": "Вы не сможете вернуться к этому!"
+      },
+      "create": {
+        "page_title": "Создать покупку",
+        "form_title": "Создать покупку",
+        "breadcrumbs_current": "Создать покупку",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Покупки",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Покупка успешно добавлена 👍"
+      },
+      "edit": {
+        "page_title": "Изменить покупку",
+        "form_title": "Изменить покупку",
+        "breadcrumbs_current": "Изменить покупку",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Покупки",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Покупка успешно обновлена 👍"
+      },
+      "view": {
+        "page_title": "Детали покупки",
+        "breadcrumbs_current": "Детали покупки",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Покупки",
+        "breadcrumbs_active": "Подробности"
+      }
+    },
+    "returns": {
+      "common": {
+        "return_reason": "Причина возврата",
+        "return_reason_placeholder": "Введите причину",
+        "return_date": "Дата возврата",
+        "purchase_return_no": "Возврат покупки Нет",
+        "return_products": "Возврат товаров"
+      },
+      "index": {
+        "page_title": "Возврат товара",
+        "breadcrumbs_current": "Возврат товара",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Покупки",
+        "breadcrumbs_active": "Возврат товара",
+        "delete_warning": "Вы не сможете вернуться к этому!"
+      },
+      "create": {
+        "page_title": "Создать возврат покупки",
+        "form_title": "Создать возврат покупки",
+        "breadcrumbs_current": "Создать возврат покупки",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Возврат товара",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Возврат покупки успешно добавлен 👍"
+      },
+      "edit": {
+        "page_title": "Изменить возврат покупки",
+        "form_title": "Изменить возврат покупки",
+        "breadcrumbs_current": "Изменить возврат покупки",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Возврат товара",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Возврат покупки успешно обновлен 👍"
+      },
+      "view": {
+        "page_title": "Сведения о возврате покупки",
+        "breadcrumbs_current": "Сведения о возврате покупки",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Возврат товара",
+        "breadcrumbs_active": "Подробности"
+      }
+    }
+  },
+  "sales": {
+    "common": {
+      "quotation_no": "Цитата №",
+      "quotation_date": "Дата котировки",
+      "delivery_place": "Место доставки",
+      "delivery_place_placeholder": "Введите место доставки",
+      "quotation_tax": "Налог на котировку",
+      "quotation_tax_placeholder": "Выберите тип налога",
+      "return_date": "Дата возврата",
+      "new_due": "Новый срок",
+      "client_advance": "Клиент заранее",
+      "invoice_total": "Общая сумма счета",
+      "before_return": "Перед возвращением",
+      "invoice_return": "Возврат счета",
+      "invoice_tax": "Налог на оплату",
+      "invoice_tax_placeholder": "Выберите тип налога"
+    },
+    "quotations": {
+      "index": {
+        "page_title": "Цитаты",
+        "create_invoice": "Создать счет",
+        "breadcrumbs_current": "Цитаты",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Цитаты",
+        "breadcrumbs_active": "Цитаты",
+        "delete_warning": "Вы не сможете вернуться к этому!",
+        "delete_failed": "Извините, вы не можете удалить эту цитату!"
+      },
+      "create": {
+        "page_title": "Создать предложение",
+        "form_title": "Создать предложение",
+        "breadcrumbs_current": "Создать предложение",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Цитаты",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Цитата успешно добавлена 👍"
+      },
+      "edit": {
+        "page_title": "Изменить цитату",
+        "form_title": "Изменить предложение",
+        "breadcrumbs_current": "Изменить предложение",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Цитаты",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Предложение успешно обновлено 👍"
+      },
+      "view": {
+        "page_title": "Детали предложения",
+        "breadcrumbs_current": "Детали предложения",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Цитаты",
+        "breadcrumbs_active": "Подробности",
+        "expense_details": "Детали расходов"
+      },
+      "invoice": {
+        "page_title": "Предложение к счету",
+        "form_title": "Создать предложение для счета",
+        "breadcrumbs_current": "Цитата к счету",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Цитаты",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Счет успешно создан 👍"
+      }
+    },
+    "invoices": {
+      "index": {
+        "page_title": "Счета",
+        "breadcrumbs_current": "Счета",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Продажи",
+        "breadcrumbs_active": "Счета",
+        "delete_warning": "Вы не сможете вернуться к этому!",
+        "delete_failed": "К сожалению, вы не можете удалить этот счет!"
+      },
+      "create": {
+        "page_title": "Создать счет",
+        "form_title": "Создать счет",
+        "breadcrumbs_current": "Создать счет",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Счета",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Счет успешно добавлен 👍"
+      },
+      "edit": {
+        "page_title": "Изменить счет",
+        "form_title": "Изменить счет",
+        "breadcrumbs_current": "Изменить счет",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Счета",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Счет успешно обновлен 👍"
+      },
+      "view": {
+        "page_title": "Сведения о счете",
+        "breadcrumbs_current": "Сведения о счете",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Счета",
+        "breadcrumbs_active": "Подробности",
+        "invoice_details": "Сведения о счете"
+      }
+    },
+    "returns": {
+      "index": {
+        "page_title": "Возврат счета",
+        "breadcrumbs_current": "Возврат счета",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Счета",
+        "breadcrumbs_active": "Возврат счета",
+        "delete_warning": "Вы не сможете вернуться к этому!",
+        "delete_failed": "Что-то было не так."
+      },
+      "create": {
+        "page_title": "Создать возврат счета",
+        "form_title": "Создать возврат счета-фактуры",
+        "breadcrumbs_current": "Создать возврат счета",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Возврат счета",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Возврат счета успешно добавлен 👍"
+      },
+      "edit": {
+        "page_title": "Редактировать возврат счета",
+        "form_title": "Изменить возврат счета-фактуры",
+        "breadcrumbs_current": "Редактировать возврат счета",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Возврат счета",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Возврат счета успешно обновлен 👍"
+      },
+      "view": {
+        "page_title": "Сведения о возврате счета",
+        "breadcrumbs_current": "Сведения о возврате счета",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Возврат счета",
+        "breadcrumbs_active": "Подробности",
+        "invoice_details": "Сведения о счете"
+      }
+    }
+  },
+  "cashbook": {
+    "common": {
+      "account_number": "Номер счета",
+      "account_number_placeholder": "Введите номер счета",
+      "branch_name": "Название филиала",
+      "branch_name_placeholder": "Введите название филиала",
+      "bank_name": "Название банка",
+      "bank_name_placeholder": "Введите название банка",
+      "transactions": "Транзакции",
+      "account_details": "Детали учетной записи",
+      "total_transactions": "Всего транзакций",
+      "debit_amount": "Сумма дебета",
+      "credit_amount": "Сумма кредита",
+      "from_account": "Из аккаунта",
+      "to_account": "На счет",
+      "transfer_reason": "Причина переноса"
+    },
+    "accounts": {
+      "index": {
+        "page_title": "учетные записи",
+        "breadcrumbs_current": "учетные записи",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Кассовая книга",
+        "breadcrumbs_third": "учетные записи",
+        "breadcrumbs_active": "учетные записи",
+        "delete_warning": "Вы не сможете вернуться к этому!",
+        "delete_failed": "К сожалению, вы не можете удалить этот аккаунт!"
+      },
+      "create": {
+        "page_title": "Зарегистрироваться",
+        "form_title": "Завести аккаунт",
+        "breadcrumbs_current": "Зарегистрироваться",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Кассовая книга",
+        "breadcrumbs_third": "учетные записи",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Аккаунт успешно добавлен 👍"
+      },
+      "edit": {
+        "page_title": "Редактировать аккаунт",
+        "form_title": "Редактировать аккаунт",
+        "breadcrumbs_current": "Редактировать аккаунт",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Кассовая книга",
+        "breadcrumbs_third": "учетные записи",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Аккаунт успешно обновлен 👍"
+      },
+      "view": {
+        "page_title": "Операции со счетом",
+        "breadcrumbs_current": "Операции со счетом",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "учетные записи",
+        "breadcrumbs_active": "Транзакции",
+        "empty_transaction": "Транзакция пока недоступна!",
+        "empty_transaction_msg": "Вы не совершали никаких транзакций с использованием этой учетной записи. После совершения транзакции вы увидите список здесь."
+      }
+    },
+    "balances": {
+      "index": {
+        "page_title": "Изменения баланса",
+        "add_balance": "Создавать",
+        "breadcrumbs_current": "Корректировка баланса",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Кассовая книга",
+        "breadcrumbs_active": "Корректировки",
+        "delete_warning": "Вы не сможете вернуться к этому!",
+        "delete_failed": "К сожалению, вы не можете удалить эту транзакцию"
+      },
+      "create": {
+        "page_title": "Создать корректировку",
+        "form_title": "Создать корректировку",
+        "breadcrumbs_current": "Создать корректировку",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Кассовая книга",
+        "breadcrumbs_third": "Корректировки",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Настройка успешно добавлена 👍"
+      },
+      "edit": {
+        "page_title": "Изменить баланс",
+        "form_title": "Изменить баланс",
+        "breadcrumbs_current": "Изменить баланс",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Кассовая книга",
+        "breadcrumbs_third": "Балансы",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Баланс обновлен успешно 👍"
+      }
+    },
+    "transfers": {
+      "index": {
+        "page_title": "Переводы баланса",
+        "add_transfer": "Добавить трансфер",
+        "breadcrumbs_current": "Переводы баланса",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Кассовая книга",
+        "breadcrumbs_active": "Переводы баланса",
+        "delete_warning": "Вы не сможете вернуться к этому!",
+        "delete_failed": "Извините, вы не можете удалить этот перенос!"
+      },
+      "create": {
+        "page_title": "Создать перевод",
+        "form_title": "Создать перевод остатка",
+        "breadcrumbs_current": "Создать перевод",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Кассовая книга",
+        "breadcrumbs_third": "Переводы баланса",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Перевод баланса успешно добавлен 👍"
+      },
+      "edit": {
+        "page_title": "Изменить перевод баланса",
+        "form_title": "Изменить перенос остатка",
+        "breadcrumbs_current": "Изменить перевод баланса",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Кассовая книга",
+        "breadcrumbs_third": "Переводы баланса",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Трансфер успешно обновлен 👍"
+      },
+      "view": {
+        "page_title": "Детали перевода баланса",
+        "breadcrumbs_current": "Детали трансферов",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Кассовая книга",
+        "breadcrumbs_third": "Переводы баланса",
+        "breadcrumbs_active": "Подробности"
+      }
+    },
+    "transactions": {
+      "index": {
+        "page_title": "История транзакций",
+        "breadcrumbs_current": "История транзакций",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Кассовая книга",
+        "breadcrumbs_active": "История"
+      }
+    }
+  },
+  "payments": {
+    "common": {
+      "due_paid": "Оплачено",
+      "due_added": "Добавлено",
+      "current_due": "Текущий срок",
+      "non_invoice_paid": "Не оплаченный счет",
+      "non_invoice_total": "Всего без счета",
+      "add_due": "Добавить срок",
+      "add_payment": "Добавить платеж",
+      "total_payment": "Всего к оплате",
+      "total_advance": "Общий аванс (возврат счета-фактуры)",
+      "available_advance": "Доступный аванс (возврат покупки)",
+      "select_invoice": "Выберите счет",
+      "select_purchase": "Выберите покупку",
+      "select_purchase_placeholder": "Поиск по номеру покупки",
+      "select_invoice_placeholder": "Поиск номера счета",
+      "invoice_subtotal": "Итого по счету",
+      "non_purchase_total": "Итого без покупок",
+      "non_purchase_due": "Не подлежащая покупке",
+      "non_purchase_paid": "Не оплаченная покупка",
+      "purchase_details": "Детали покупки"
+    },
+    "clients": {
+      "invoice": {
+        "index": {
+          "page_title": "Оплата счетов",
+          "breadcrumbs_current": "Оплата счетов",
+          "breadcrumbs_first": "Приборная доска",
+          "breadcrumbs_second": "Платежи",
+          "breadcrumbs_active": "Оплата счетов",
+          "delete_warning": "Вы не сможете вернуться к этому!",
+          "delete_failed": "К сожалению, вы не можете удалить этот платеж!"
+        },
+        "create": {
+          "page_title": "Создать платеж по счету клиента",
+          "form_title": "Создать платеж по счету",
+          "breadcrumbs_current": "Создать платеж",
+          "breadcrumbs_first": "Приборная доска",
+          "breadcrumbs_second": "Платежи",
+          "breadcrumbs_third": "Оплата счетов",
+          "breadcrumbs_active": "Создавать",
+          "success_msg": "Оплата счета успешно добавлена 👍"
+        },
+        "edit": {
+          "page_title": "Изменить оплату счета клиента",
+          "form_title": "Изменить платеж по счету",
+          "breadcrumbs_current": "Изменить платеж",
+          "breadcrumbs_first": "Приборная доска",
+          "breadcrumbs_second": "Платежи",
+          "breadcrumbs_third": "Оплата счетов",
+          "breadcrumbs_active": "Редактировать",
+          "success_msg": "Оплата счета успешно обновлена 👍"
+        },
+        "view": {
+          "page_title": "Сведения об оплате счета",
+          "breadcrumbs_current": "Сведения об оплате счета",
+          "breadcrumbs_first": "Приборная доска",
+          "breadcrumbs_second": "Платежи",
+          "breadcrumbs_third": "Оплата счетов",
+          "breadcrumbs_active": "Подробности"
+        }
+      },
+      "non_invoice": {
+        "index": {
+          "page_title": "Клиентские несчетные платежи",
+          "breadcrumbs_current": "Платежи без счета",
+          "breadcrumbs_first": "Приборная доска",
+          "breadcrumbs_second": "Платежи",
+          "breadcrumbs_active": "Платежи без счета",
+          "delete_warning": "Вы не сможете вернуться к этому!",
+          "delete_failed": "К сожалению, вы не можете удалить этот платеж!"
+        },
+        "create": {
+          "page_title": "Создать платеж без счета",
+          "form_title": "Создать платеж без счета",
+          "breadcrumbs_current": "Создать платеж",
+          "breadcrumbs_first": "Приборная доска",
+          "breadcrumbs_second": "Платежи",
+          "breadcrumbs_third": "Платежи без счета",
+          "breadcrumbs_active": "Создавать",
+          "success_msg": "Платеж успешно добавлен 👍"
+        },
+        "edit": {
+          "page_title": "Редактировать возврат счета",
+          "form_title": "Изменить оплату без счета",
+          "breadcrumbs_current": "Изменить платеж",
+          "breadcrumbs_first": "Приборная доска",
+          "breadcrumbs_second": "Платежи",
+          "breadcrumbs_third": "Платежи без счета",
+          "breadcrumbs_active": "Редактировать",
+          "success_msg": "Платеж успешно обновлен 👍"
+        }
+      }
+    },
+    "suppliers": {
+      "purchase": {
+        "index": {
+          "page_title": "Платежи за покупку",
+          "breadcrumbs_current": "Платежи за покупку",
+          "breadcrumbs_first": "Приборная доска",
+          "breadcrumbs_second": "Платежи",
+          "breadcrumbs_active": "Платежи за покупку",
+          "delete_warning": "Вы не сможете вернуться к этому!",
+          "delete_failed": "Что-то было не так."
+        },
+        "create": {
+          "page_title": "Создать платеж за покупку поставщику",
+          "form_title": "Создать платеж за покупку",
+          "breadcrumbs_current": "Создать платеж",
+          "breadcrumbs_first": "Приборная доска",
+          "breadcrumbs_second": "Платежи",
+          "breadcrumbs_third": "Платежи за покупку",
+          "breadcrumbs_active": "Создавать",
+          "success_msg": "Оплата поставщику успешно добавлена 👍"
+        },
+        "edit": {
+          "page_title": "Изменить оплату покупки поставщику",
+          "form_title": "Изменить платеж за покупку",
+          "breadcrumbs_current": "Изменить платеж",
+          "breadcrumbs_first": "Приборная доска",
+          "breadcrumbs_second": "Платежи",
+          "breadcrumbs_third": "Платежи за покупку",
+          "breadcrumbs_active": "Редактировать",
+          "success_msg": "Платеж успешно обновлен 👍"
+        },
+        "view": {
+          "page_title": "Детали оплаты покупки поставщика",
+          "breadcrumbs_current": "Детали оплаты покупки",
+          "breadcrumbs_first": "Приборная доска",
+          "breadcrumbs_second": "Платежи",
+          "breadcrumbs_third": "Платежи за покупку",
+          "breadcrumbs_active": "Подробности"
+        }
+      },
+      "non_purchase": {
+        "index": {
+          "page_title": "Незакупочные платежи поставщика",
+          "breadcrumbs_current": "Платежи, не связанные с покупкой",
+          "breadcrumbs_first": "Приборная доска",
+          "breadcrumbs_second": "Платежи",
+          "breadcrumbs_active": "Платежи, не связанные с покупкой",
+          "delete_warning": "Вы не сможете вернуться к этому!",
+          "delete_failed": "К сожалению, вы не можете удалить этот платеж!"
+        },
+        "create": {
+          "page_title": "Создать платеж без покупки",
+          "form_title": "Создать платеж, не связанный с покупкой",
+          "breadcrumbs_current": "Создать платеж",
+          "breadcrumbs_first": "Приборная доска",
+          "breadcrumbs_second": "Платежи",
+          "breadcrumbs_third": "Платежи, не связанные с покупками",
+          "breadcrumbs_active": "Создавать",
+          "success_msg": "Платеж успешно добавлен 👍"
+        },
+        "edit": {
+          "page_title": "Изменить платеж, не связанный с покупкой",
+          "form_title": "Изменить платеж, не связанный с покупкой",
+          "breadcrumbs_current": "Изменить платеж",
+          "breadcrumbs_first": "Приборная доска",
+          "breadcrumbs_second": "Платежи",
+          "breadcrumbs_third": "Платежи, не связанные с покупкой",
+          "breadcrumbs_active": "Редактировать",
+          "success_msg": "Платеж успешно обновлен 👍"
+        }
+      }
+    }
+  },
+  "loans": {
+    "common": {
+      "authority": "Орган власти",
+      "loan": "Заем",
+      "loan_placeholder": "Выберите кредит",
+      "loan_authority": "Кредитный орган",
+      "authority_placeholder": "Выберите орган",
+      "cc_limit": "Лимит CC",
+      "cc_placeholder": "Введите лимит кредита cc",
+      "cash_credit_limit": "Кредит наличными (CC) Кредитный лимит",
+      "cash_credit_loan": "Денежный кредит (CC) Кредит",
+      "interetest_paid": "Выплаченные проценты",
+      "total_payable": "Итого к оплате",
+      "total_loan": "Общий кредит",
+      "cc_term": "СС + срок",
+      "cc_taken": "Кредит CC взят",
+      "available_cc": "Доступный кредит CC",
+      "all_loans": "Все кредиты",
+      "empty_loan": "Кредитов пока нет!",
+      "empty_loan_msg": "Вы не добавили ни одного кредита для этого органа. После добавления кредитов вы увидите список здесь.",
+      "authority_details": "Сведения об органах власти",
+      "payable_amount": "Сумма к оплате",
+      "duration": "Продолжительность",
+      "duration_placeholder": "Введите продолжительность",
+      "interest_rate_placeholder": "Введите процентную ставку в процентах",
+      "available_amount": "Доступная сумма",
+      "term_loan": "Срочный кредит",
+      "loan_type": "Тип кредита",
+      "loan_reason": "Причина кредита",
+      "loan_date": "Дата займа",
+      "Loan_account": "Ссудный счет",
+      "Loan_payments": "Платежи по кредиту",
+      "empty_payment_msg": "Вы не добавили ни одного платежа по этому кредиту. После добавления платежей вы увидите список здесь.",
+      "loan_amount": "Сумма кредита",
+      "loan_ref": "Кредит Реф.",
+      "payment_ref": "Оплата Реф.",
+      "amount_paid": "Выплаченная сумма"
+    },
+    "authorities": {
+      "index": {
+        "page_title": "Кредитные органы",
+        "breadcrumbs_current": "Кредитные органы",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Управление кредитами",
+        "breadcrumbs_active": "Власти",
+        "delete_warning": "Вы не сможете вернуться к этому!",
+        "delete_failed": "К сожалению, вы не можете удалить этот орган."
+      },
+      "create": {
+        "page_title": "Создать кредитный орган",
+        "form_title": "Создание кредитного органа",
+        "breadcrumbs_current": "Создать кредитный орган",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Кредитные органы",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Полномочия по кредиту успешно добавлены 👍"
+      },
+      "edit": {
+        "page_title": "Изменить кредитный орган",
+        "form_title": "Изменить кредитные полномочия",
+        "breadcrumbs_current": "Редактировать полномочия",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Кредитные органы",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Полномочия по кредиту успешно обновлены 👍"
+      },
+      "view": {
+        "page_title": "Посмотреть кредитный орган",
+        "breadcrumbs_current": "Сведения об органах власти",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Кредитные органы",
+        "breadcrumbs_active": "Подробности"
+      }
+    },
+    "payments": {
+      "index": {
+        "page_title": "Платежи по кредиту",
+        "breadcrumbs_current": "Платежи по кредиту",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Управление кредитами",
+        "breadcrumbs_active": "Платежи по кредиту",
+        "delete_warning": "Вы не сможете вернуться к этому!",
+        "delete_failed": "Что-то было не так."
+      },
+      "create": {
+        "page_title": "Создать платеж по кредиту",
+        "form_title": "Создать платеж по кредиту",
+        "breadcrumbs_current": "Создать платеж по кредиту",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Платежи по кредиту",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Платеж по кредиту успешно добавлен 👍"
+      },
+      "edit": {
+        "page_title": "Изменить платеж по кредиту",
+        "form_title": "Изменить платеж по кредиту",
+        "breadcrumbs_current": "Изменить платеж по кредиту",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Платежи по кредиту",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Платеж успешно обновлен 👍"
+      },
+      "view": {
+        "page_title": "Детали платежа по кредиту",
+        "breadcrumbs_current": "Детали платежа по кредиту",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Платежи по кредиту",
+        "breadcrumbs_active": "Подробности"
+      }
+    },
+    "list": {
+      "index": {
+        "page_title": "Кредиты",
+        "breadcrumbs_current": "Кредиты",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Управление кредитами",
+        "breadcrumbs_active": "Кредиты",
+        "delete_warning": "Вы не сможете вернуться к этому!",
+        "delete_failed": "К сожалению, вы не можете удалить этот кредит."
+      },
+      "create": {
+        "page_title": "Создать кредит",
+        "form_title": "Создать кредит",
+        "breadcrumbs_current": "Создать кредит",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Кредиты",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Кредит добавлен успешно 👍"
+      },
+      "edit": {
+        "page_title": "Изменить кредит",
+        "form_title": "Изменить кредит",
+        "breadcrumbs_current": "Изменить кредит",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Кредиты",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Кредит обновлен успешно 👍"
+      },
+      "view": {
+        "page_title": "Детали кредита",
+        "breadcrumbs_current": "Детали кредита",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Кредиты",
+        "breadcrumbs_active": "Подробности"
+      }
+    }
+  },
+  "assets": {
+    "common": {
+      "asset_name": "Имя актива",
+      "asset_name_placeholder": "Введите название актива",
+      "asset_type": "Тип актива",
+      "asset_type_placeholder": "Выберите тип актива",
+      "asset_cost": "Стоимость активов",
+      "asset_cost_placeholder": "Введите стоимость актива",
+      "current_value": "Текущая стоимость",
+      "depreciation": "Амортизация",
+      "depreciation_type": "Тип амортизации",
+      "salvage_value": "Спасательная стоимость",
+      "salvage_value_placeholder": "Спасательная стоимость",
+      "useful_life": "Срок полезного использования",
+      "remaining_life": "Оставшаяся жизнь",
+      "useful_life_placeholder": "Введите срок полезного использования",
+      "added_date": "Дата добавления",
+      "expired_date": "Дата истечения срока"
+    },
+    "types": {
+      "index": {
+        "page_title": "Типы активов",
+        "breadcrumbs_current": "Типы активов",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Управление активами",
+        "breadcrumbs_active": "Типы активов",
+        "delete_warning": "Вы не сможете вернуться к этому!",
+        "delete_failed": "Что-то было не так."
+      },
+      "create": {
+        "page_title": "Создать тип актива",
+        "form_title": "Создать тип актива",
+        "breadcrumbs_current": "Создать тип актива",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Типы активов",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Тип актива успешно добавлен 👍"
+      },
+      "edit": {
+        "page_title": "Изменить тип актива",
+        "form_title": "Изменить тип актива",
+        "breadcrumbs_current": "Изменить тип актива",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Типы активов",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Тип актива успешно обновлен 👍"
+      }
+    },
+    "list": {
+      "index": {
+        "page_title": "Ресурсы",
+        "breadcrumbs_current": "Ресурсы",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Управление активами",
+        "breadcrumbs_active": "Ресурсы",
+        "delete_warning": "Вы не сможете вернуться к этому!",
+        "delete_failed": "Что-то было не так."
+      },
+      "create": {
+        "page_title": "Создать актив",
+        "form_title": "Создать актив",
+        "breadcrumbs_current": "Создать актив",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Ресурсы",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Объект успешно добавлен 👍"
+      },
+      "edit": {
+        "page_title": "Редактировать актив",
+        "form_title": "Изменить объект",
+        "breadcrumbs_current": "Редактировать объект",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Ресурсы",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Актив успешно обновлен 👍"
+      },
+      "view": {
+        "page_title": "Детали актива",
+        "breadcrumbs_current": "Детали актива",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Ресурсы",
+        "breadcrumbs_active": "Подробности"
+      }
+    }
+  },
+  "payroll": {
+    "common": {
+      "salary_date": "Дата зарплаты",
+      "total_salary": "Общая зарплата",
+      "advance": "Продвигать",
+      "advance_placeholder": "Введите сумму доплаты",
+      "others": "Другие",
+      "others_placeholder": "Введите другие суммы",
+      "travel_allowance": "Командировочные (TA)",
+      "travel_allowance_placeholder": "Введите компенсацию за проезд",
+      "festival_bonus": "Фестивальный бонус",
+      "festival_bonus_placeholder": "Введите фестивальный бонус",
+      "commission": "Комиссия",
+      "commission_placeholder": "Введите комиссию",
+      "bonus": "Бонус",
+      "bonus_placeholder": "Введите бонус",
+      "food_bill": "счет за еду",
+      "food_bill_placeholder": "Введите счет за питание",
+      "mobile_bill": "Мобильный счет",
+      "mobile_bill_placeholder": "Введите мобильный счет",
+      "deduction_reason": "Причина вычета",
+      "deduction_reason_placeholder": "Введите причину вычета",
+      "deduction_amount": "Сумма вычета",
+      "deduction_amount_placeholder": "Введите сумму вычета",
+      "present_salary": "Настоящая зарплата",
+      "salary_month": "Месяц зарплаты",
+      "salary_month_placeholder": "Выберите зарплатный месяц"
+    },
+    "index": {
+      "page_title": "Заработная плата сотрудников",
+      "breadcrumbs_current": "Заработная плата сотрудников",
+      "breadcrumbs_first": "Приборная доска",
+      "breadcrumbs_second": "Начисление заработной платы",
+      "breadcrumbs_active": "Начисление заработной платы",
+      "delete_warning": "Вы не сможете вернуться к этому!",
+      "delete_failed": "Что-то было не так."
+    },
+    "create": {
+      "page_title": "Создать платежную ведомость",
+      "form_title": "Создать зарплатную ведомость",
+      "breadcrumbs_current": "Создать платежную ведомость",
+      "breadcrumbs_first": "Приборная доска",
+      "breadcrumbs_second": "Начисление заработной платы",
+      "breadcrumbs_active": "Создавать",
+      "success_msg": "Зарплата успешно добавлена 👍"
+    },
+    "edit": {
+      "page_title": "Изменить платежную ведомость",
+      "form_title": "Изменить платежную ведомость",
+      "breadcrumbs_current": "Изменить платежную ведомость",
+      "breadcrumbs_first": "Приборная доска",
+      "breadcrumbs_second": "Начисление заработной платы",
+      "breadcrumbs_active": "Редактировать",
+      "success_msg": "Зарплата успешно обновлена 👍"
+    },
+    "view": {
+      "page_title": "Сведения о заработной плате",
+      "breadcrumbs_current": "Сведения о заработной плате",
+      "breadcrumbs_first": "Приборная доска",
+      "breadcrumbs_second": "Начисление заработной платы",
+      "breadcrumbs_active": "Подробности"
+    }
+  },
+  "clients": {
+    "common": {
+      "non_invoice_transactions": "Операции без счета"
+    },
+    "index": {
+      "page_title": "Клиенты",
+      "breadcrumbs_current": "Клиенты",
+      "breadcrumbs_first": "Приборная доска",
+      "breadcrumbs_second": "Клиенты",
+      "breadcrumbs_active": "Клиенты",
+      "delete_warning": "Вы не сможете вернуться к этому!",
+      "delete_failed": "К сожалению, вы не можете удалить этого клиента."
+    },
+    "create": {
+      "page_title": "Создать клиента",
+      "form_title": "Создать клиента",
+      "breadcrumbs_current": "Создать клиента",
+      "breadcrumbs_first": "Приборная доска",
+      "breadcrumbs_second": "Клиенты",
+      "breadcrumbs_active": "Создавать",
+      "success_msg": "Клиент успешно добавлен 👍"
+    },
+    "edit": {
+      "page_title": "Изменить клиента",
+      "form_title": "Изменить клиента",
+      "breadcrumbs_current": "Изменить клиента",
+      "breadcrumbs_first": "Приборная доска",
+      "breadcrumbs_second": "Клиенты",
+      "breadcrumbs_active": "Редактировать",
+      "success_msg": "Клиент успешно обновлен 👍"
+    },
+    "view": {
+      "page_title": "Детали клиента",
+      "breadcrumbs_current": "Детали клиента",
+      "breadcrumbs_first": "Приборная доска",
+      "breadcrumbs_second": "Клиенты",
+      "breadcrumbs_active": "Подробности"
+    }
+  },
+  "suppliers": {
+    "common": {
+      "non_purchase_transactions": "Транзакции без покупки"
+    },
+    "index": {
+      "page_title": "Поставщики",
+      "breadcrumbs_current": "Поставщики",
+      "breadcrumbs_first": "Приборная доска",
+      "breadcrumbs_second": "Поставщики",
+      "breadcrumbs_active": "Поставщики",
+      "delete_warning": "Вы не сможете вернуться к этому!",
+      "delete_failed": "К сожалению, вы не можете удалить этого поставщика."
+    },
+    "create": {
+      "page_title": "Создать поставщика",
+      "form_title": "Создать поставщика",
+      "breadcrumbs_current": "Создать поставщика",
+      "breadcrumbs_first": "Приборная доска",
+      "breadcrumbs_second": "Поставщики",
+      "breadcrumbs_active": "Создавать",
+      "success_msg": "Поставщик успешно добавлен 👍"
+    },
+    "edit": {
+      "page_title": "Изменить поставщика",
+      "form_title": "Изменить поставщика",
+      "breadcrumbs_current": "Изменить поставщика",
+      "breadcrumbs_first": "Приборная доска",
+      "breadcrumbs_second": "Поставщики",
+      "breadcrumbs_active": "Редактировать",
+      "success_msg": "Поставщик успешно обновлен 👍"
+    },
+    "view": {
+      "page_title": "Сведения о поставщике",
+      "breadcrumbs_current": "Сведения о поставщике",
+      "breadcrumbs_first": "Приборная доска",
+      "breadcrumbs_second": "Поставщики",
+      "breadcrumbs_active": "Подробности"
+    }
+  },
+  "employees": {
+    "common": {
+      "increment_date": "Дата увеличения",
+      "increment_amount": "Увеличение суммы",
+      "increment_amount_placeholder": "Введите сумму увеличения",
+      "increment_reason": "Причина увеличения",
+      "increment_reason_placeholder": "Введите причину",
+      "basic_salary": "Базовая заработная плата",
+      "current_salary": "Текущая зарплата",
+      "incremented_salary": "Повышение заработной платы",
+      "birth_date": "Дата рождения",
+      "join_date": "Дате вступления",
+      "employee_name": "Имя сотрудника",
+      "employee_name_placeholder": "Введите имя сотрудника",
+      "gender": "Пол",
+      "gender_placeholder": "Выберите пол",
+      "male": "Мужской",
+      "female": "женский",
+      "transgender": "Трансгендер",
+      "other": "Другой",
+      "blood_group": "Группа крови",
+      "blood_group_placeholder": "Выберите группу крови",
+      "religion": "Религия",
+      "religion_placeholder": "Выберите религию",
+      "islam": "ислам",
+      "hinduism": "индуизм",
+      "buddhists": "буддисты",
+      "christians": "христиане",
+      "animists": "Анимисты",
+      "appointment_date": "Назначенная дата",
+      "allow_login": "Разрешить вход сотрудника",
+      "increment_history": "История приращений"
+    },
+    "departments": {
+      "index": {
+        "page_title": "Департаменты",
+        "breadcrumbs_current": "Департаменты",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Сотрудники",
+        "breadcrumbs_active": "Департаменты",
+        "delete_warning": "Вы не сможете вернуться к этому!",
+        "delete_failed": "Что-то было не так."
+      },
+      "create": {
+        "page_title": "Создать отдел",
+        "form_title": "Создать отдел",
+        "breadcrumbs_current": "Создать отдел",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Департаменты",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Отдел успешно добавлен 👍"
+      },
+      "edit": {
+        "page_title": "Редактировать отдел",
+        "form_title": "Изменить отдел",
+        "breadcrumbs_current": "Редактировать отдел",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Департаменты",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Отдел успешно обновлен 👍"
+      }
+    },
+    "increments": {
+      "index": {
+        "page_title": "Повышение заработной платы сотрудников",
+        "breadcrumbs_current": "Повышение заработной платы",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Сотрудники",
+        "breadcrumbs_active": "Приращения",
+        "delete_warning": "Вы не сможете вернуться к этому!",
+        "delete_failed": "Что-то было не так."
+      },
+      "create": {
+        "page_title": "Создать надбавку к зарплате",
+        "form_title": "Создать надбавку к зарплате",
+        "breadcrumbs_current": "Создать надбавку к зарплате",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Приращения",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Инкремент успешно добавлен 👍"
+      },
+      "edit": {
+        "page_title": "Изменить прибавку к зарплате",
+        "form_title": "Изменить надбавку к зарплате",
+        "breadcrumbs_current": "Изменить прибавку к зарплате",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Приращения",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Инкремент успешно обновлен 👍"
+      },
+      "view": {
+        "page_title": "Детали увеличения",
+        "breadcrumbs_current": "Детали увеличения",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Приращения",
+        "breadcrumbs_active": "Подробности"
+      }
+    },
+    "list": {
+      "index": {
+        "page_title": "Сотрудники",
+        "breadcrumbs_current": "Сотрудники",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_active": "Сотрудники",
+        "delete_warning": "Вы не сможете вернуться к этому!",
+        "delete_failed": "Что-то было не так."
+      },
+      "create": {
+        "page_title": "Создать сотрудника",
+        "form_title": "Создать сотрудника",
+        "breadcrumbs_current": "Создать сотрудника",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Сотрудники",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Сотрудник успешно добавлен 👍"
+      },
+      "edit": {
+        "page_title": "Изменить сотрудника",
+        "form_title": "Изменить сотрудника",
+        "breadcrumbs_current": "Изменить сотрудника",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Сотрудники",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Сотрудник успешно обновлен 👍"
+      },
+      "view": {
+        "page_title": "Сведения о сотруднике",
+        "breadcrumbs_current": "Сведения о сотруднике",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Сотрудники",
+        "breadcrumbs_active": "Подробности"
+      }
+    }
+  },
+  "products": {
+    "categories": {
+      "index": {
+        "page_title": "категории товаров",
+        "breadcrumbs_current": "категории товаров",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Товары",
+        "breadcrumbs_active": "Категории",
+        "delete_warning": "Все подкатегории для этой категории будут удалены!"
+      },
+      "create": {
+        "page_title": "Создать категорию продукта",
+        "form_title": "Создайте категорию продукта",
+        "breadcrumbs_current": "Создать категорию",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Товары",
+        "breadcrumbs_third": "Категории",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Категория успешно добавлена 👍"
+      },
+      "edit": {
+        "page_title": "Изменить категорию продукта",
+        "form_title": "Изменить категорию продукта",
+        "breadcrumbs_current": "Изменить категорию продукта",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Товары",
+        "breadcrumbs_third": "Категории",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Категория успешно обновлена 👍"
+      }
+    },
+    "sub_categories": {
+      "index": {
+        "page_title": "Подкатегории продуктов",
+        "breadcrumbs_current": "Подкатегории продукта",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Товары",
+        "breadcrumbs_active": "Подкатегории",
+        "delete_warning": "Все товары этой категории будут удалены!"
+      },
+      "create": {
+        "page_title": "Создать подкатегорию продукта",
+        "form_title": "Создайте подкатегорию продукта",
+        "breadcrumbs_current": "Создать подкатегорию",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Товары",
+        "breadcrumbs_third": "Подкатегории",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Подкатегория успешно добавлена 👍"
+      },
+      "edit": {
+        "page_title": "Изменить подкатегорию продукта",
+        "form_title": "Изменить подкатегорию продукта",
+        "breadcrumbs_current": "Изменить подкатегорию продукта",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Товары",
+        "breadcrumbs_third": "Подкатегории",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Подкатегория успешно обновлена 👍"
+      }
+    },
+    "list": {
+      "common": {
+        "alert_quantity": "Предупреждение о количестве",
+        "alert_quantity_placeholder": "Введите количество предупреждений",
+        "selling_price": "Цена продажи",
+        "selling_price_placeholder": "Введите цену продажи",
+        "regular_price": "Обычная цена",
+        "regular_price_placeholder": "Введите обычную цену",
+        "tax_type": "Тип налога",
+        "exclusive": "Эксклюзивный",
+        "inclusive": "включительно",
+        "product_tax": "Налог на продукт",
+        "tax_placeholder": "Выберите налог",
+        "barcode_symbology": "Символика штрих-кода",
+        "tax_amount": "Сумма налога",
+        "avg_purchase_price": "Сред. Цена",
+        "avg_selling_price": "Сред. Цена продажи",
+        "stock": "Запас",
+        "inventory_value": "Инвентарная стоимость",
+        "generate_barcode": "Сгенерировать штрих-код"
+      },
+      "index": {
+        "page_title": "Товары",
+        "breadcrumbs_current": "Товары",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Товары",
+        "breadcrumbs_active": "Товары",
+        "delete_warning": "Вы не сможете вернуться к этому!"
+      },
+      "create": {
+        "page_title": "Создать продукт",
+        "form_title": "Создать продукт",
+        "breadcrumbs_current": "Создать продукт",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Товары",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Товар успешно добавлен 👍"
+      },
+      "edit": {
+        "page_title": "Редактировать продукт",
+        "form_title": "Изменить продукт",
+        "breadcrumbs_current": "Редактировать продукт",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Товары",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Продукт успешно обновлен 👍"
+      },
+      "view": {
+        "page_title": "информация о продукте",
+        "breadcrumbs_current": "информация о продукте",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Товары",
+        "breadcrumbs_active": "Подробности",
+        "expense_details": "информация о продукте"
+      },
+      "barcode": {
+        "page_title": "Распечатать штрих-код",
+        "generate_barcode": "Сгенерировать штрих-код",
+        "print_barcode": "Распечатать штрих-код",
+        "paper_size": "Размер бумаги",
+        "print_qty": "Печать Кол-во",
+        "breadcrumbs_current": "Распечатать штрих-код",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Товары",
+        "breadcrumbs_active": "Редактировать",
+        "page_option_0": "40 на листе (а4) (1,799 * 1,003)",
+        "page_option_1": "30 на листе (2,625*1)",
+        "page_option_2": "24 на листе (а4) (2,48*1,334)",
+        "page_option_3": "20 за лист (4*1)",
+        "page_option_4": "18 на листе (а4) (2,5*1,835)",
+        "page_option_5": "14 на лист (4*1,33)",
+        "page_option_6": "12 на листе (а4) (2,5*2,834)",
+        "page_option_7": "10 на лист (4*2)"
+      }
+    }
+  },
+  "inventory": {
+    "common": {
+      "inventory_history": "История инвентаря",
+      "adjustment_no": "№ регулировки",
+      "adjustment_date": "Дата корректировки",
+      "adjustment_type": "Тип регулировки",
+      "increment": "Увеличение",
+      "decrement": "Уменьшение",
+      "adjustment_reason": "Причина корректировки",
+      "adjusted_products": "Скорректированные продукты"
+    },
+    "index": {
+      "page_title": "Инвентарь",
+      "breadcrumbs_current": "Инвентарь",
+      "breadcrumbs_first": "Приборная доска",
+      "breadcrumbs_second": "Товары",
+      "breadcrumbs_active": "Инвентарь"
+    },
+    "history": {
+      "page_title": "История инвентаря",
+      "breadcrumbs_current": "История инвентаря",
+      "breadcrumbs_first": "Приборная доска",
+      "breadcrumbs_second": "Инвентарь",
+      "breadcrumbs_active": "История"
+    },
+    "adjustments": {
+      "index": {
+        "page_title": "Корректировки запасов",
+        "breadcrumbs_current": "Корректировки запасов",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Инвентарь",
+        "breadcrumbs_active": "Корректировки",
+        "delete_warning": "Вы не сможете вернуться к этому!",
+        "delete_failed": "Что-то было не так."
+      },
+      "create": {
+        "page_title": "Создать корректировку",
+        "form_title": "Создать корректировку",
+        "breadcrumbs_current": "Создать корректировку",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Корректировки",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Настройка успешно добавлена 👍"
+      },
+      "edit": {
+        "page_title": "Изменить настройку",
+        "form_title": "Изменить корректировку",
+        "breadcrumbs_current": "Изменить настройку",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Корректировки",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Настройка успешно обновлена 👍"
+      },
+      "view": {
+        "page_title": "Детали настройки",
+        "breadcrumbs_current": "Детали настройки",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Корректировки",
+        "breadcrumbs_active": "Подробности"
+      }
+    }
+  },
+  "reports": {
+    "stock_in": "В наличии",
+    "stock_out": "Нет в наличии",
+    "total_quantity": "Общая численность",
+    "incomes": "Доходы",
+    "liabilities": "Обязательства",
+    "security_asset": "Общая безопасность/актив",
+    "supplier_dues": "Сборы поставщика",
+    "client_dues": "Взносы клиента",
+    "bank_loan": "Банковский кредит",
+    "bank_balance": "Банковский баланс",
+    "income_liabilities": "(Доходы - Обязательства)",
+    "total_asset": "Всего активов",
+    "view_report": "Посмотреть отчет",
+    "monthly_summery": "Ежемесячная сводка",
+    "particulars": "Подробности",
+    "opening_balance": "Начальное сальдо",
+    "invoice_sales": "Счет продажи",
+    "invoice_dues": "Счета-фактуры",
+    "accounts_collection": "Сбор счетов",
+    "general": "Общий",
+    "loan_interest": "Проценты по кредиту",
+    "asset_depreciation": "Амортизация активов",
+    "transfer": "Передача",
+    "transfer_from": "Перевод баланса из",
+    "closing_balance": "Закрытие баланса",
+    "report_type": "Тип отчета",
+    "gross_profit_Loss": "Валовая прибыль/убыток",
+    "net_profit_Loss": "Чистая прибыль/убыток",
+    "sold_qty": "Продано Кол-во",
+    "profit": "Выгода",
+    "loss": "Потеря",
+    "total_sales_avg": "Общий объем продаж (средний)",
+    "total_purchased_avg": "Общая покупка (в среднем)",
+    "income_statement": "Справка о доходах",
+    "total_sales": "Тотальная распродажа",
+    "cost_of_goods_sold": "Стоимость проданных товаров",
+    "positive_adjusted": "Положительный скорректированный",
+    "negative_adjusted": "Отрицательное скорректированное",
+    "total_adjusted": "Всего скорректировано",
+    "gross_profit": "Валовая прибыль",
+    "gross_loss": "Валовой убыток",
+    "operating_expenses": "Операционные расходы",
+    "salaries": "Заработная плата",
+    "general_expenses": "Общие расходы",
+    "total_expense": "Общий расход",
+    "net_profit": "Чистая прибыль",
+    "net_loss": "Потеря сети",
+    "date_range": "Диапазон дат",
+    "stock_in_hand": "Запас в руке",
+    "balance_sheet": {
+      "page_title": "Бухгалтерский баланс",
+      "breadcrumbs_current": "Бухгалтерский баланс",
+      "breadcrumbs_first": "Приборная доска",
+      "breadcrumbs_second": "Отчеты",
+      "breadcrumbs_active": "Бухгалтерский баланс"
+    },
+    "summary": {
+      "page_title": "Отчет",
+      "breadcrumbs_current": "Отчет",
+      "breadcrumbs_first": "Приборная доска",
+      "breadcrumbs_second": "Отчеты",
+      "breadcrumbs_active": "Отчет"
+    },
+    "profit_loss": {
+      "empty_msg_title": "Пустая прибыль/убыток!",
+      "empty_msg_text": "К сожалению, для выбранной вами категории и диапазона дат прибыль/убыток не найдены.",
+      "page_title": "Отчет о прибылях и убытках",
+      "breadcrumbs_current": "Отчет о прибылях и убытках",
+      "breadcrumbs_first": "Приборная доска",
+      "breadcrumbs_second": "Отчеты",
+      "breadcrumbs_active": "Отчет о прибылях и убытках"
+    },
+    "expense": {
+      "empty_msg_title": "Пустые расходы!",
+      "empty_msg_text": "К сожалению, для выбранной вами категории и диапазона дат расходы не найдены.",
+      "page_title": "Отчет о затратах",
+      "breadcrumbs_current": "Отчет о затратах",
+      "breadcrumbs_first": "Приборная доска",
+      "breadcrumbs_second": "Отчеты",
+      "breadcrumbs_active": "Отчет о затратах"
+    },
+    "product": {
+      "empty_msg_title": "Пустой!",
+      "empty_msg_text": "К сожалению, для выбранного вами товара и диапазона дат не было найдено ни товаров в наличии, ни в наличии.",
+      "page_title": "Отчет о товаре",
+      "breadcrumbs_current": "Отчет о товаре",
+      "breadcrumbs_first": "Приборная доска",
+      "breadcrumbs_second": "Отчеты",
+      "breadcrumbs_active": "Отчет о товаре"
+    },
+    "inventory": {
+      "empty_msg_title": "Пустой инвентарь!",
+      "empty_msg_text": "К сожалению, для выбранной вами категории и диапазона дат инвентаря не найдено.",
+      "page_title": "Отчет инвентаризации",
+      "breadcrumbs_current": "Отчет инвентаризации",
+      "breadcrumbs_first": "Приборная доска",
+      "breadcrumbs_second": "Отчеты",
+      "breadcrumbs_active": "Отчет инвентаризации"
+    }
+  },
+  "setup": {
+    "common": {
+      "sort_code": "Короткий номер",
+      "sort_code_placeholder": "Введите короткий код"
+    },
+    "index": {
+      "page_title": "Настраивать",
+      "breadcrumbs_current": "Настраивать",
+      "breadcrumbs_first": "Приборная доска",
+      "breadcrumbs_active": "Настраивать",
+      "menu": {
+        "item_one": {
+          "title": "Общий",
+          "description": "Общие настройки, такие как название сайта, описание сайта, адрес и так далее.",
+          "link_text": "Изменить настройку"
+        },
+        "item_two": {
+          "title": "Валюты",
+          "description": "Управляйте различными типами валют, которые вы собираетесь использовать в системе.",
+          "link_text": "Валюты"
+        },
+        "item_three": {
+          "title": "Единицы",
+          "description": "Управляйте типами единиц измерения, которые вы собираетесь использовать в системе.",
+          "link_text": "Единицы"
+        },
+        "item_four": {
+          "title": "Роль и разрешения",
+          "description": "Управляйте ролями и разрешениями для пользователей, которые будут использовать систему.",
+          "link_text": "Роли и разрешения"
+        },
+        "item_five": {
+          "title": "Ставки НДС",
+          "description": "Управляйте ставками НДС для управления НДС, которые вы собираетесь использовать в системе.",
+          "link_text": "Ставки НДС"
+        },
+        "item_six": {
+          "title": "Бренды",
+          "description": "Управляйте брендами, которые вы собираетесь использовать в системе.",
+          "link_text": "Бренды"
+        },
+        "item_seven": {
+          "title": "Способы оплаты",
+          "description": "Управляйте способами оплаты, которые вы собираетесь использовать в системе.",
+          "link_text": "Способы оплаты"
+        },
+        "item_eight": {
+          "title": "Разрешения пользователя",
+          "description": "Управляйте разрешениями, которые вы собираетесь назначить роли.",
+          "link_text": "Разрешения пользователя"
+        }
+      }
+    },
+    "general_settings": {
+      "index": {
+        "page_title": "общие настройки",
+        "breadcrumbs_current": "общие настройки",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Настраивать",
+        "breadcrumbs_active": "Обновить общие настройки",
+        "form_title": "Обновить общие настройки",
+        "success_message": "Настройки успешно обновлены 👍",
+        "company_info": {
+          "info_title": "Добавьте информацию о своей компании",
+          "company_tagline": "Слоган компании",
+          "company_tagline_placeholder": "Слоган компании",
+          "email_address": "Адрес электронной почты",
+          "email_address_placeholder": "Введите адрес электронной почты",
+          "phone_number": "Номер телефона",
+          "phone_number_placeholder": "Номер телефона"
+        },
+        "code_prefixes": {
+          "prefix_title": "Добавьте префиксы кода",
+          "client_prefix": "Префикс клиента",
+          "client_prefix_placeholder": "Введите префикс клиента",
+          "supplier_prefix": "Префикс поставщика",
+          "supplier_prefix_placeholder": "Введите префикс поставщика",
+          "employee_prefix": "Префикс сотрудника",
+          "employee_prefix_placeholder": "Введите префикс сотрудника",
+          "product_category_prefix": "Префикс категории продукта",
+          "product_category_prefix_placeholder": "Введите префикс категории продукта",
+          "product_sub_category_prefix": "Префикс подкатегории продукта",
+          "product_sub_category_prefix_placeholder": "Введите префикс подкатегории",
+          "product_prefix": "Префикс продукта",
+          "product_prefix_placeholder": "Введите префикс продукта",
+          "expense_category_prefix": "Префикс категории расходов",
+          "expense_category_prefix_placeholder": "Введите префикс категории расходов",
+          "expense_sub_category_prefix": "Префикс подкатегории расходов",
+          "expense_sub_category_prefix_placeholder": "Введите префикс подкатегории расходов",
+          "purchase_prefix": "Префикс покупки",
+          "purchase_prefix_placeholder": "Введите префикс покупки",
+          "purchase_return_prefix": "Префикс возврата покупки",
+          "purchase_return_prefix_placeholder": "Введите префикс возврата покупки",
+          "quotation_prefix": "Префикс цитаты",
+          "quotation_prefix_placeholder": "Введите префикс цитаты",
+          "invoice_prefix": "Префикс счета",
+          "invoice_prefix_placeholder": "Введите префикс счета",
+          "invoice_return_prefix": "Префикс возврата счета",
+          "invoice_return_prefix_placeholder": "Введите префикс возврата счета",
+          "invoice_adjustment_prefix": "Префикс корректировки запасов",
+          "invoice_adjustment_prefix_placeholder": "Введите префикс корректировки запасов"
+        },
+        "default_elements": {
+          "default_elements_title": "Добавьте элементы по умолчанию",
+          "default_currency": "Валюта по умолчанию",
+          "select_a_currency": "Выберите валюту",
+          "default_language": "Язык по умолчанию",
+          "english_en": "испанский (ан)",
+          "hindi_hi": "нет (привет)",
+          "bangla_bn": "Бангла (млрд.)",
+          "copyright_text": "Авторский текст",
+          "copyright_text_placeholder": "Авторский текст",
+          "default_client": "Клиент по умолчанию",
+          "default_account": "Аккаунт по умолчанию",
+          "select_a_account": "Выберите аккаунт",
+          "select_a_client": "Выберите клиента",
+          "default_vat_rate": "Ставка НДС по умолчанию",
+          "select_a_vat_rate": "Выберите ставку НДС"
+        },
+        "logo": {
+          "white_logo": "Белый логотип",
+          "black_logo": "Черный логотип",
+          "small_logo": "Маленький логотип",
+          "favicon": "Фавикон"
+        },
+        "trial_day_count_placeholder": "Количество пробных дней"
+      }
+    },
+    "currencies": {
+      "common": {
+        "symbol": "Символ",
+        "symbol_placeholder": "Введите символ",
+        "currency_position": "Валютная позиция",
+        "position_drop_down_item_one": "Выровнять по левому краю",
+        "position_drop_down_item_two": "Выровнять по правому краю"
+      },
+      "index": {
+        "page_title": "Валюты",
+        "breadcrumbs_current": "Валюты",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Настраивать",
+        "breadcrumbs_active": "Валюты",
+        "table": {
+          "position": "Должность",
+          "preview": "Предварительный просмотр"
+        }
+      },
+      "create": {
+        "page_title": "Создать валюту",
+        "breadcrumbs_current": "Создать валюту",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Настраивать",
+        "breadcrumbs_third": "Валюты",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Валюта успешно добавлена 👍",
+        "form_title": "Создать валюту"
+      },
+      "edit": {
+        "page_title": "Изменить валюту",
+        "breadcrumbs_current": "Изменить валюту",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Настраивать",
+        "breadcrumbs_third": "Валюты",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Валюта успешно обновлена 👍",
+        "form_title": "Изменить валюту"
+      }
+    },
+    "units": {
+      "index": {
+        "page_title": "Единицы",
+        "breadcrumbs_current": "Единицы",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Настраивать",
+        "breadcrumbs_active": "Единицы"
+      },
+      "create": {
+        "page_title": "Создать объект",
+        "breadcrumbs_current": "Создать объект",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Настраивать",
+        "breadcrumbs_third": "Единицы",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Объект успешно добавлен 👍",
+        "form_title": "Создать объект"
+      },
+      "edit": {
+        "page_title": "Изменить единицу измерения",
+        "breadcrumbs_current": "Изменить единицу измерения",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Настраивать",
+        "breadcrumbs_third": "Единицы",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Устройство успешно обновлено 👍",
+        "form_title": "Изменить единицу измерения"
+      }
+    },
+    "permissions": {
+      "common": {
+        "slug": "Слизняк",
+        "slug_placeholder": "Введите слаг",
+        "guard_name": "Имя охранника",
+        "guard_name_placeholder": "Введите имя охранника"
+      },
+      "index": {
+        "page_title": "Разрешения",
+        "breadcrumbs_current": "Разрешения",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Настраивать",
+        "breadcrumbs_active": "Разрешения"
+      },
+      "create": {
+        "page_title": "Создать разрешение",
+        "form_title": "Создать разрешение",
+        "breadcrumbs_current": "Создать разрешение",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Настраивать",
+        "breadcrumbs_third": "Разрешения",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Разрешение добавлено успешно 👍"
+      },
+      "edit": {
+        "page_title": "Изменить разрешение",
+        "form_title": "Изменить разрешение",
+        "breadcrumbs_current": "Изменить разрешение",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Настраивать",
+        "breadcrumbs_third": "Разрешения",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Разрешение успешно обновлено 👍"
+      }
+    },
+    "role_and_permission": {
+      "index": {
+        "page_title": "Роли и разрешения",
+        "breadcrumbs_current": "Роли и разрешения",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Настраивать",
+        "breadcrumbs_active": "Роли и разрешения",
+        "role_name": "Имя роли"
+      },
+      "create": {
+        "page_title": "Создать роль",
+        "breadcrumbs_current": "Создать роль",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Настраивать",
+        "breadcrumbs_third": "Роли и разрешения",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Роль успешно добавлена 👍",
+        "form_title": "Создать роль",
+        "select_permission": "Выберите разрешения:"
+      },
+      "edit": {
+        "page_title": "Изменить роль",
+        "breadcrumbs_current": "Изменить роль",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Настраивать",
+        "breadcrumbs_third": "Роли и разрешения",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Роль успешно обновлена 👍",
+        "form_title": "Изменить роль",
+        "update_permission": "Обновить разрешения:"
+      }
+    },
+    "vat_rates": {
+      "common": {
+        "rate_in_percent": "Ставка (рассчитывается в %)",
+        "rate_palceholder": "Введите тариф"
+      },
+      "index": {
+        "page_title": "Ставки НДС",
+        "breadcrumbs_current": "Ставки НДС",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Настраивать",
+        "breadcrumbs_active": "Ставки НДС",
+        "rate": "Оценивать"
+      },
+      "create": {
+        "page_title": "Создать ставку НДС",
+        "breadcrumbs_current": "Создать ставку НДС",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Настраивать",
+        "breadcrumbs_third": "Ставки НДС",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Ставка НДС успешно добавлена 👍",
+        "form_title": "Создать ставку НДС"
+      },
+      "edit": {
+        "page_title": "Изменить ставку НДС",
+        "breadcrumbs_current": "Изменить ставку НДС",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Настраивать",
+        "breadcrumbs_third": "Ставки НДС",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Ставка НДС успешно обновлена 👍",
+        "form_title": "Изменить ставку НДС"
+      }
+    },
+    "brands": {
+      "common": {
+        "brand_name": "Имя бренда",
+        "brand_name_placeholder": "Введите название бренда"
+      },
+      "index": {
+        "page_title": "Бренды",
+        "breadcrumbs_current": "Бренды",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Настраивать",
+        "breadcrumbs_active": "Бренды",
+        "brand_logo_view": "Просмотр логотипа бренда"
+      },
+      "create": {
+        "page_title": "Создать бренд",
+        "breadcrumbs_current": "Создать бренд",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Настраивать",
+        "breadcrumbs_third": "Бренды",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Бренд успешно добавлен 👍",
+        "form_title": "Создать бренд"
+      },
+      "view": {
+        "page_title": "Информация о бренде",
+        "breadcrumbs_current": "Информация о бренде",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Настраивать",
+        "breadcrumbs_third": "Бренды",
+        "breadcrumbs_active": "Подробности"
+      },
+      "edit": {
+        "page_title": "Изменить бренд",
+        "breadcrumbs_current": "Изменить бренд",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Настраивать",
+        "breadcrumbs_third": "Бренды",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Бренд успешно обновлен 👍",
+        "form_title": "Изменить бренд"
+      }
+    },
+    "payment_methods": {
+      "index": {
+        "page_title": "Способы оплаты",
+        "breadcrumbs_current": "Способы оплаты",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Настраивать",
+        "breadcrumbs_active": "Способы оплаты"
+      },
+      "create": {
+        "page_title": "Создать способ оплаты",
+        "breadcrumbs_current": "Создать способ оплаты",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Настраивать",
+        "breadcrumbs_third": "Способы оплаты",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Способ оплаты успешно добавлен 👍",
+        "form_title": "Создать способ оплаты"
+      },
+      "edit": {
+        "page_title": "Изменить способ оплаты",
+        "breadcrumbs_current": "Изменить способ оплаты",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Настраивать",
+        "breadcrumbs_third": "Способы оплаты",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Способ оплаты успешно обновлен 👍",
+        "form_title": "Изменить способ оплаты"
+      }
+    },
+    "plans": {
+      "view": {
+        "page_title": "Планы"
+      }
+    },
+    "advanced_settings": {
+      "index": {
+        "page_title": "Настройки оплаты",
+        "breadcrumbs_first": "Настраивать",
+        "breadcrumbs_second": "Настройки оплаты",
+        "breadcrumbs_current": "Настройки оплаты",
+        "breadcrumbs_active": "Настройки оплаты"
+      }
+    }
+  },
+  "user_profile": {
+    "form_title": "Обновите профиль",
+    "page_title": "Обновить профиль",
+    "breadcrumbs_current": "Обновить профиль",
+    "breadcrumbs_first": "Приборная доска",
+    "breadcrumbs_active": "Обновлять",
+    "current_password": "текущий пароль",
+    "current_password_placeholder": "Введите текущий пароль",
+    "new_password": "Новый пароль",
+    "new_password_placeholder": "Введите новый пароль",
+    "confirm_password": "Подтвердить Пароль",
+    "confirm_password_placeholder": "Введите пароль для подтверждения",
+    "success_msg": "Профиль успешно обновлен 👍"
+  },
+  "stock_alert": {
+    "page_title": "Товары для оповещения о наличии акций",
+    "breadcrumbs_current": "Товары для оповещения о наличии акций",
+    "breadcrumbs_first": "Приборная доска",
+    "breadcrumbs_active": "Предупреждающие продукты"
+  },
+  "backup": {
+    "page_title": "Резервное копирование базы данных",
+    "breadcrumbs_current": "Резервное копирование базы данных",
+    "breadcrumbs_first": "Приборная доска",
+    "breadcrumbs_active": "Резервное копирование",
+    "export": "Экспорт",
+    "format": "Формат",
+    "format_sql": "SQL (.sql)",
+    "success_msg": "Резервная копия успешно загружена 👍"
+  },
+  "permission_denied": {
+    "page_title": "В доступе отказано",
+    "breadcrumbs_current": "В доступе отказано",
+    "breadcrumbs_first": "Приборная доска",
+    "breadcrumbs_active": "В доступе отказано",
+    "error_msg": "У вас нет разрешения на просмотр этой страницы.",
+    "error_code": "код ошибки: 403 запрещено."
+  },
+  "error_not_found": {
+    "error_404": "404",
+    "error_404_title": "Страница не найдена",
+    "error_404_msg": "К сожалению, запрошенный URL не найден на этом сервере. Это все, что мы знаем!",
+    "back_to_dashboard": "Назад к приборной панели",
+    "back_to_login": "Вернуться на страницу авторизации"
+  },
+  "sidebar_control": {
+    "customize_wharf": "Настроить точность",
+    "dark_mode": "Темный режим",
+    "header_options": "Параметры заголовка",
+    "fixed": "Исправлено",
+    "no_border": "Без границ",
+    "sidebar_options": "Параметры боковой панели",
+    "sidebar_dark": "Боковая панель Темная",
+    "collapsed": "Боковая панель свернута",
+    "sidebar_fixed": "Боковая панель исправлена",
+    "sidebar_mini": "Боковая панель Мини",
+    "nav_flat_style": "Плоский стиль навигации",
+    "nav_legacy_style": "Устаревший стиль навигации",
+    "nav_child_indent": "Отступ дочернего элемента навигации",
+    "disable_hover": "Отключить авторасширение при наведении/фокусе"
+  },
+  "pos": {
+    "page_title": "POS",
+    "breadcrumbs_current": "Создать распродажу",
+    "breadcrumbs_first": "Приборная доска",
+    "breadcrumbs_second": "Счета",
+    "breadcrumbs_active": "POS",
+    "available": "Доступный",
+    "pos": "POS",
+    "complete_order": "Сохранять",
+    "complete_order_and_add_payment": "Сохранить и оплатить",
+    "add_payment": "Добавить платеж",
+    "invoice_receipt": "Получение счета-фактуры",
+    "not_enough_items": "Недостаточно предметов!",
+    "receipt_text": "Спасибо за покупку. Пожалуйста приходи еще!"
+  },
+  "billing": {
+    "form_title": "Платежные настройки",
+    "name": "Имя",
+    "name_placeholder": "Имя на карте",
+    "invoice": "Счет",
+    "page_title": "Выставление счетов",
+    "card_details": "Детали карты",
+    "breadcrumbs_current": "Платежные настройки",
+    "breadcrumbs_first": "Приборная доска",
+    "breadcrumbs_active": "Платежные настройки"
+  },
+  "settings": {
+    "name": "Настройки целевой страницы",
+    "breadcrumbs_current": "Настройки целевой страницы",
+    "breadcrumbs_first": "Приборная доска",
+    "breadcrumbs_active": "Настройки целевой страницы",
+    "success_msg": "Настройки целевой страницы успешно обновлены 👍",
+    "form_title": "Настройки целевой страницы",
+    "page_title": "Настройки целевой страницы"
+  },
+  "central": {
+    "current_plan": "Текущий план",
+    "trial_start": "Пробная версия началась в",
+    "trial_end": "Пробный период заканчивается в",
+    "tenant_id": "Идентификатор арендатора",
+    "used": "Использовал",
+    "remaining": "Оставшийся",
+    "pages": {
+      "edit": {
+        "page_title": "Отредактируйте страницу",
+        "breadcrumbs_current": "Отредактируйте страницу",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Страницы",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Страница успешно обновлена 👍",
+        "form_title": "Отредактируйте страницу"
+      },
+      "name": "Страницы",
+      "slug": "Слизняк",
+      "type": "Тип",
+      "index": {
+        "page_title": "Страницы",
+        "breadcrumbs_current": "Страницы",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_active": "Страницы",
+        "delete_confirm_button": "Удалить",
+        "brand_logo_view": "Просмотр логотипа бренда"
+      },
+      "create": {
+        "page_title": "Создать страницу",
+        "breadcrumbs_current": "Создать страницу",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Страницы",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Страница успешно добавлена 👍",
+        "form_title": "Создать страницу"
+      },
+      "name_placeholder": "Название страницы",
+      "content": "Содержание",
+      "information": "Информация",
+      "need_help": "Нужна помощь"
+    },
+    "newsletters": {
+      "subject": "Предмет",
+      "subject_placeholder": "Введите тему",
+      "greeting": "Приветствие",
+      "greeting_placeholder": "Введите приветствие",
+      "body": "Тело",
+      "create": {
+        "page_title": "Отправить почту",
+        "breadcrumbs_current": "Отправить почту",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Отправить почту",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Письмо успешно отправлено 👍",
+        "form_title": "Отправить почту"
+      }
+    },
+    "setting_images": {
+      "index": {
+        "delete_confirm_button": "Удалить",
+        "page_title": "Изображения настройки внешнего интерфейса",
+        "breadcrumbs_current": "Изображения настройки внешнего интерфейса",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Настраивать",
+        "breadcrumbs_active": "Изображения настройки внешнего интерфейса"
+      },
+      "edit": {
+        "page_title": "Редактировать изображение настройки внешнего интерфейса",
+        "breadcrumbs_current": "Редактировать изображение настройки внешнего интерфейса",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Настраивать",
+        "breadcrumbs_third": "Изображения настройки внешнего интерфейса",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Изображение настройки внешнего интерфейса успешно обновлено 👍",
+        "form_title": "Редактировать изображение настройки внешнего интерфейса",
+        "image": "Изображение",
+        "title": "Заголовок",
+        "title_placeholder": "Заголовок",
+        "description": "Описание",
+        "description_placeholder": "Описание"
+      },
+      "create": {
+        "page_title": "Создать образ настройки внешнего интерфейса",
+        "breadcrumbs_current": "Создать образ настройки внешнего интерфейса",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Настраивать",
+        "breadcrumbs_third": "Изображения настройки внешнего интерфейса",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Изображение настройки внешнего интерфейса успешно добавлено 👍",
+        "form_title": "Создать образ настройки внешнего интерфейса",
+        "image": "Изображение",
+        "title": "Заголовок",
+        "title_placeholder": "Заголовок",
+        "description": "Описание",
+        "description_placeholder": "Описание"
+      },
+      "image": "Изображение",
+      "title": "Заголовок",
+      "title_placeholder": "Введите название",
+      "description": "Описание",
+      "description_placeholder": "Введите описание",
+      "name": "Имя",
+      "name_placeholder": "Введите имя",
+      "type": "Тип",
+      "image_align_left": "Выровнять по левому краю"
+    },
+    "tenants": {
+      "create": {
+        "page_title": "Создать арендатора",
+        "breadcrumbs_current": "Создать арендатора",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Арендаторы",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Арендатор успешно добавлен 👍",
+        "form_title": "Создать арендатора"
+      },
+      "edit": {
+        "page_title": "Изменить арендатора",
+        "breadcrumbs_current": "Изменить арендатора",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Арендаторы",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Клиент успешно обновлен 👍",
+        "form_title": "Изменить арендатора"
+      },
+      "index": {
+        "deleted": "Удалено",
+        "delete_title": "Удалить арендатора",
+        "delete_warning": "Вы уверены, что хотите удалить этого арендатора?",
+        "delete_success": "Арендатор успешно удален 👍",
+        "delete_confirm_text": "Да, удалить!",
+        "page_title": "Арендаторы",
+        "breadcrumbs_current": "Арендаторы",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_active": "Арендаторы",
+        "s_no": "С. Нет",
+        "domain": "Домен",
+        "name_and_email": "Имя и электронная почта",
+        "plan": "План",
+        "trial_ends_at": "Пробный период заканчивается в",
+        "banned": "Запрещено",
+        "send_email": "Отправить письмо",
+        "action": "Действие",
+        "false": "ЛОЖЬ",
+        "true": "Истинный",
+        "create": "Создавать",
+        "edit": "Редактировать",
+        "delete": "Удалить",
+        "ban": "Бан",
+        "unban": "Разблокировать",
+        "view": "Вид",
+        "export_table": "Экспорт таблицы",
+        "print_table": "Экспорт PDF",
+        "send_notification": "Отправить письмо",
+        "impersonate": "Выдавать себя за",
+        "failed": "Не удалось",
+        "on_trial": "На суде",
+        "is_subscribed": "подписан"
+      },
+      "view": {
+        "breadcrumbs_current": "Сведения об арендаторе",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Арендаторы",
+        "breadcrumbs_active": "Подробности",
+        "page_title": "Сведения об арендаторе"
+      }
+    },
+    "send_notification": {
+      "create": {
+        "success_msg": "Уведомление успешно отправлено 👍",
+        "page_title": "Отправить уведомление"
+      },
+      "page_title": "Отправить уведомление",
+      "breadcrumbs_current": "Отправить уведомление",
+      "breadcrumbs_first": "Приборная доска",
+      "breadcrumbs_active": "Отправить уведомление",
+      "form_title": "Отправить уведомление",
+      "subject": "Предмет",
+      "subject_placeholder": "Введите тему",
+      "message": "Сообщение",
+      "message_placeholder": "Введите сообщение",
+      "send": "Отправлять",
+      "success_msg": "Уведомление успешно отправлено 👍",
+      "greeting": "Приветствие",
+      "greeting_placeholder": "Введите приветствие",
+      "body": "Тело"
+    },
+    "plans_items": {
+      "create": {
+        "page_title": "Создать элемент",
+        "breadcrumbs_current": "Создать элемент",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Предметы",
+        "breadcrumbs_active": "Создавать",
+        "success_msg": "Товар успешно добавлен 👍",
+        "form_title": "Создать элемент"
+      },
+      "edit": {
+        "page_title": "Редактировать элемент",
+        "breadcrumbs_current": "Редактировать элемент",
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Предметы",
+        "breadcrumbs_active": "Редактировать",
+        "success_msg": "Товар успешно обновлен 👍",
+        "form_title": "Изменить план"
+      },
+      "index": {
+        "breadcrumbs_first": "Дом",
+        "breadcrumbs_current": "Планы Элементы",
+        "page_title": "Планы Элементы",
+        "delete_confirm_button": "Удалить"
+      },
+      "name": "Имя",
+      "name_placeholder": "Название предмета",
+      "plan": "План",
+      "item": "Вещь"
+    },
+    "dashboard": {
+      "summery_items": {
+        "tenants_count": "Арендаторы",
+        "domains_count": "Домены",
+        "on_trial_tenants_count": "О пробных арендаторах",
+        "pending_amount": "Ожидающая сумма",
+        "available_amount": "Доступная сумма"
+      },
+      "top_plans": "Лучшие планы",
+      "subscription_count": "Подписки",
+      "top_clients_title": "Лучшие клиенты"
+    },
+    "plans": {
+      "image": "Изображение",
+      "name": "Имя",
+      "amount": "Количество",
+      "currency": "Валюта",
+      "interval": "Интервал",
+      "description": "Описание",
+      "status": "Статус",
+      "action": "Действие",
+      "index": {
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_active": "Планы",
+        "breadcrumbs_current": "Планы",
+        "page_title": "Планы",
+        "delete_confirm_button": "Удалить"
+      },
+      "create": {
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Планы",
+        "breadcrumbs_current": "Создать план",
+        "form_title": "Создать план",
+        "page_title": "Создать план",
+        "success_msg": "План успешно добавлен 👍"
+      },
+      "edit": {
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Планы",
+        "breadcrumbs_current": "Изменить план",
+        "form_title": "Изменить план",
+        "page_title": "Изменить план",
+        "success_msg": "Успешно обновлено"
+      },
+      "limit_clients": "Ограничение клиентов",
+      "limit_suppliers": "Ограничение поставщиков",
+      "limit_employees": "Ограничить количество сотрудников",
+      "limit_domains": "Ограничение доменов",
+      "limit_purchases": "Ограничение покупок",
+      "limit_invoices": "Ограничить счета",
+      "0_means_unlimited": "0 означает неограниченное",
+      "name_placeholder": "Введите название плана",
+      "description_placeholder": "Введите описание плана",
+      "amount_placeholder": "Количество",
+      "limit_clients_placeholder": "Ограничение клиентов",
+      "limit_employees_placeholder": "Ограничить количество сотрудников",
+      "limit_domains_placeholder": "Ограничить домены",
+      "limit_purchases_placeholder": "Ограничить покупки",
+      "limit_invoices_placeholder": "Ограничить счета",
+      "limit_suppliers_placeholder": "Ограничение поставщиков"
+    },
+    "setup": {
+      "general_settings": {
+        "index": {
+          "default_elements": {
+            "facebook_link": "Ссылка на Facebook",
+            "twitter_link": "Ссылка на Твиттер",
+            "instagram_link": "Ссылка на инстаграм",
+            "linkedin_link": "Ссылка на LinkedIn",
+            "default_language": "Язык по умолчанию",
+            "copyright_text": "Авторский текст",
+            "default_elements_title": "Элемент по умолчанию",
+            "english_en": "Английский",
+            "hindi_hi": "Неа",
+            "copyright_text_placeholder": "Авторский текст",
+            "facebook_link_placeholder": "Ссылка на Facebook",
+            "instagram_link_placeholder": "Ссылка на инстаграм",
+            "twitter_link_placeholder": "Ссылка на Твиттер",
+            "linkedin_link_placeholder": "Ссылка на LinkedIn"
+          },
+          "company_info": {
+            "company_tagline": "Слоган компании",
+            "trial_day_count": "Количество пробных дней"
+          }
+        }
+      },
+      "index": {
+        "menu": {
+          "item_one": {
+            "title": "общие настройки",
+            "description": "Общие настройки, такие как название сайта, описание сайта, адрес и так далее.",
+            "link_text": "Изменить настройку"
+          },
+          "item_two": {
+            "title": "Настройки оплаты",
+            "description": "Управление настройками оплаты. Добавьте информацию о полосе.",
+            "link_text": "Изменить настройки"
+          },
+          "item_three": {
+            "title": "Роль и разрешения",
+            "description": "Управляйте ролями и разрешениями, чтобы назначать их сотрудникам.",
+            "link_text": "Роли и разрешения"
+          },
+          "item_four": {
+            "title": "Управление пользователями",
+            "description": "Создайте системного пользователя и назначьте пользователям отдельные роли.",
+            "link_text": "Управление пользователем"
+          }
+        }
+      },
+      "user_management": {
+        "index": {
+          "breadcrumbs_first": "Приборная доска",
+          "breadcrumbs_second": "Настраивать",
+          "breadcrumbs_current": "Пользователи",
+          "page_title": "Пользователи",
+          "delete_confirm_button": "Подтверждать"
+        },
+        "create": {
+          "breadcrumbs_first": "Приборная доска",
+          "breadcrumbs_second": "Настраивать",
+          "breadcrumbs_third": "Пользователи",
+          "breadcrumbs_current": "Создавать",
+          "form_title": "Создать нового пользователя",
+          "page_title": "Создать пользователя",
+          "success_msg": "Создано успешно"
+        },
+        "edit": {
+          "breadcrumbs_first": "Приборная доска",
+          "breadcrumbs_second": "Настраивать",
+          "breadcrumbs_third": "Пользователи",
+          "breadcrumbs_current": "Редактировать",
+          "form_title": "Изменить пользователя",
+          "page_title": "Редактировать пользователя",
+          "success_msg": "Успешно обновлено"
+        }
+      }
+    },
+    "features": {
+      "create": {
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Функции",
+        "breadcrumbs_current": "Создавать",
+        "form_title": "Функция Создать",
+        "page_title": "Особенность",
+        "success_msg": "Создано успешно"
+      },
+      "name": "Имя",
+      "name_placeholder": "Имя",
+      "edit": {
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_second": "Функции",
+        "breadcrumbs_current": "Редактировать",
+        "form_title": "Редактировать функцию",
+        "page_title": "Особенность",
+        "success_msg": "Успешно обновлено"
+      },
+      "index": {
+        "breadcrumbs_first": "Приборная доска",
+        "breadcrumbs_current": "Функции",
+        "page_title": "Функции",
+        "delete_confirm_button": "Подтверждать"
+      }
+    }
+  },
+  "You Are Subscribed!": "Вы подписаны!",
+  "You Have Cancelled the Subscription!": "Вы отменили подписку!",
+  "You Have Resumed the Subscription!": "Вы возобновили подписку!",
+  "find_domain": "Найти домен",
+  "Sign Up Instantly Free for": "Зарегистрируйтесь мгновенно бесплатно для",
+  "days, no credit card required": "дней, кредитная карта не требуется",
+  "Central Admin": "Центральный администратор",
+  "Login as super manager": "Войти как супер менеджер",
+  "Login as super salesman": "Войти как супер продавец",
+  "Something went wrong, please try again!": "Что-то пошло не так. Пожалуйста, попытайтесь еще раз!",
+  "Send": "Отправлять",
+  "We've sent an email to": "Мы отправили письмо на",
+  "Please click the confirmation link in it to finalize your account": "Пожалуйста, нажмите на ссылку подтверждения в нем, чтобы завершить свою учетную запись",
+  "Didn't get the email? Please check your spam folder or": "Не получили письмо? Пожалуйста, проверьте папку со спамом или",
+  "Resend Verification": "Отправить подтверждение",
+  "Don't have any account? Click here!": "У вас нет аккаунта? Кликните сюда!",
+  "You are not allowed to do this in demo version": "Вам не разрешено делать это в демо-версии",
+  "Sent To": "Отправлено",
+  "All": "Все",
+  "Tenants": "Арендаторы",
+  "Subscribers": "Подписчики",
+  "pages": {
+    "name_placeholder": "Имя"
+  },
+  "plans": {
+    "limit_suppliers_placeholder": "Ограничение поставщиков",
+    "index": {
+      "brand_logo_view": "Логотип плана"
+    },
+    "view_title": "Посмотреть план",
+    "name": "Имя",
+    "api_id": "Идентификатор API",
+    "amount": "Количество",
+    "currency": "Валюта",
+    "interval": "Интервал",
+    "product_id": "Код товара",
+    "description": "Описание",
+    "created_at": "Создано на",
+    "updated_at": "Обновлено в"
+  },
+  "Pricing features": "Особенности ценообразования",
+  "Select pricing features": "Выберите функции ценообразования",
+  "title": "Заголовок",
+  "Save": "Сохранять",
+  "Close": "Закрывать",
+  "tenants": {
+    "create": {
+      "success_msg": "Создано успешно"
+    },
+    "edit": {
+      "success_msg": "Успешно обновлено"
+    },
+    "index": {
+      "delete_failed": "Не удалось удалить",
+      "ban_failed": "Бан провален"
+    }
+  },
+  "Select a status": "Выберите статус",
+  "subscription_invoices": {
+    "create": {
+      "success_msg": "Создано успешно"
+    },
+    "list": {
+      "index": {
+        "page_title": "Счета за подписку"
+      }
+    }
+  },
+  "retry": "Повторить попытку",
+  "Subscribed to": "Подписан на",
+  "Plan": "План",
+  "Switch My Plan": "Переключить мой план",
+  "Cancel Subscription": "Отменить подписку",
+  "Manual subscription by Admin is active": "Ручная подписка администратора активна",
+  "You can cancel it from the admin": "Вы можете отменить его от администратора",
+  "Manually subscribed by": "Вручную подписан пользователем",
+  "Manually subscribed at": "Вручную подписался на",
+  "You have cancelled your subscription and your account is still active until": "Вы отменили подписку, и ваша учетная запись все еще активна до",
+  "Or, You Can": "Или вы можете",
+  "Resume Subscription": "Возобновить подписку",
+  "Admin have cancelled your subscription": "Админ отменил вашу подписку",
+  "Contact to Admin for re enable the subscription": "Свяжитесь с администратором для повторного включения подписки",
+  "You are on Trial Period for the": "Вы находитесь на пробном периоде для",
+  "plan": "План",
+  "You have": "У вас есть",
+  "days left on your trial": "дней осталось до пробного периода",
+  "Client Limit": "Клиентский лимит",
+  "Domains Limit": "Ограничение доменов",
+  "Employee Limit": "Лимит сотрудников",
+  "Supplier Limit": "Лимит поставщиков",
+  "Subscribe to a plan below": "Подпишитесь на план ниже",
+  "Switch Plan": "Сменить план",
+  "Subscribe": "Подписывайся",
+  "newsletter": {
+    "success_msg": "Успешная подписка",
+    "error_msg": "Что-то пошло не так. Пожалуйста, попытайтесь еще раз!"
+  },
+  "Client limit": "Клиентский лимит",
+  "Domain limit": "Лимит домена",
+  "Employees limit": "Лимит сотрудников",
+  "Suppliers limit": "Лимит поставщиков",
+  "Purchase limit": "Лимит покупки",
+  "Invoice limit": "Лимит счета",
+  "Newsletter": "Новостная рассылка",
+  "Upload Your CSV file": "Загрузите свой CSV-файл",
+  "Download Demo CSV File": "Скачать демонстрационный CSV-файл",
+  "domain-requests": {
+    "create": {
+      "form_title": "Создать запрос домена",
+      "page_title": "Запрос домена",
+      "success_msg": "Запрос домена успешно создан",
+      "breadcrumbs_first": "Приборная доска",
+      "breadcrumbs_second": "Запросы домена",
+      "breadcrumbs_current": "Создавать",
+      "breadcrumbs_active": "Создавать"
+    },
+    "domain": "Домен",
+    "index": {
+      "page_title": "Запросы домена",
+      "delete_warning": "Вы действительно хотите удалить этот запрос домена?",
+      "delete_failed": "Не удалось удалить",
+      "delete_success": "Успешно удалено",
+      "breadcrumbs_first": "Приборная доска",
+      "breadcrumbs_current": "Запросы домена",
+      "breadcrumbs_active": "Запросы домена",
+      "delete_confirm_button": "Подтверждать",
+      "delete_cancel_button": "Отмена"
+    }
+  },
+  "Instructions": "инструкции",
+  "Download the zip folder": "Загрузите zip-папку",
+  "Populate the products\\.csv with your product information": "Заполните файл products\\.csv информацией о продукте.",
+  "You can get the ids related to product to their corresponding CSV file": "Вы можете получить идентификаторы, связанные с продуктом, в соответствующий файл CSV.",
+  "Example: sub_cat_id in sub-categories\\.csv": "Пример: sub_cat_id в подкатегориях\\.csv",
+  "Download Template": "Скачать шаблон",
+  "no_action_available": "Нет доступных действий",
+  "Subscriber": "Подписчик",
+  "Users": "Пользователи",
+  "User": "Пользователь",
+  "You need to add an A record to your DNS with IP": "Вам нужно добавить запись A в свой DNS с IP",
+  "template": {
+    "home": "Дом",
+    "about": "О нас",
+    "features": "Функции",
+    "modules": "Модули",
+    "pricing": "Цены",
+    "contact": "Контакт",
+    "sign_in": "Войти",
+    "register": "регистр",
+    "information": "Информация",
+    "need_help": "Нужна помощь?",
+    "contact_us": "Свяжитесь с нами",
+    "whats_included": "Что включено",
+    "buy_now": "купить сейчас"
+  },
+  "impersonate": {
+    "title": "Мы создаем ваш сайт",
+    "des": "Пожалуйста, подождите, пока наши 🤖 роботы создадут ваш сайт.<br> Это не должно занять больше минуты."
+  }
+}

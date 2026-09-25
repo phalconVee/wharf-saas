@@ -1,0 +1,3094 @@
+{
+  "Plan switched!": "Plan succesvol gewisseld!",
+  "Delete": "Verwijderen",
+  "Import Clients": "Klanten importeren",
+  "Billing History": "Factureringsgeschiedenis",
+  "Net Total": "Netto totaal",
+  "Transaction Type": "Transactie Type",
+  "Transaction Description": "Transactiebeschrijving:",
+  "Amount": "Hoeveelheid",
+  "Currency": "Munteenheid",
+  "Created At": "Gemaakt bij",
+  "Payment Status": "Betalingsstatus",
+  "Stripe Fee": "Stripe Fee",
+  "You are on trial version! Your trial ends": "U bent op proefversie! Uw proefperiode eindigt",
+  "domains": {
+    "index": {
+      "breadcrumbs_current": "Alle domeinen",
+      "breadcrumbs_active": "Alle domeinen",
+      "breadcrumbs_first": "Dashboard",
+      "page_title": "Alle domeinen",
+      "delete_warning": "Weet u zeker dat u dit domein wilt verwijderen?",
+      "delete_failed": "Verwijderen mislukt"
+    },
+    "list": {
+      "index": {
+        "breadcrumbs_current": "Domeinbeheer",
+        "breadcrumbs_active": "Domeinbeheer",
+        "breadcrumbs_first": "Dashboard",
+        "page_title": "Domeinbeheer",
+        "delete_warning": "Weet u zeker dat u dit domein wilt verwijderen?",
+        "delete_failed": "Verwijderen mislukt"
+      }
+    },
+    "create": {
+      "breadcrumbs_current": "Domein aanmaken",
+      "breadcrumbs_active": "Domein aanmaken",
+      "breadcrumbs_first": "Dashboard",
+      "breadcrumbs_second": "Domeinbeheer",
+      "page_title": "Domein aanmaken",
+      "form_title": "Domein aanmaken",
+      "success_msg": "Met succes gemaakt"
+    },
+    "no_action_available": "Geen actie beschikbaar",
+    "domain": "Domein",
+    "domain_placeholder": "Voer domein in",
+    "make_primary": "Voorop stellen",
+    "make_primary_success_msg": "Primair gemaakt"
+  },
+  "message": {
+    "billing_page": "Factureringspagina"
+  },
+  "why_us_cards": "Waarom wij kaarten",
+  "features": "Functies",
+  "explorers": "ontdekkingsreizigers",
+  "all_features": "Alle functies",
+  "software_overview_images": "Software overzicht afbeeldingen",
+  "testimonials": "Getuigenissen",
+  "brands": "Merken",
+  "ok": "OK",
+  "cancel": "Annuleren",
+  "error_alert_title": "Oeps...",
+  "error_alert_text": "Er is iets fout gegaan! Probeer het opnieuw.",
+  "token_expired_alert_title": "Sessie verlopen!",
+  "token_expired_alert_text": "Log opnieuw in om verder te gaan.",
+  "login": "Log in",
+  "register": "Register",
+  "page_not_found": "Pagina niet gevonden",
+  "go_home": "Ga naar huis",
+  "logout": "Uitloggen",
+  "email": "E-mail",
+  "remember_me": "Onthoud mij",
+  "password": "Wachtwoord",
+  "forgot_password": "Je wachtwoord vergeten?",
+  "confirm_password": "bevestig wachtwoord",
+  "name": "Naam",
+  "toggle_navigation": "Navigatie in-/uitschakelen",
+  "home": "Huis",
+  "you_are_logged_in": "Je bent ingelogd!",
+  "reset_password": "Wachtwoord opnieuw instellen",
+  "send_password_reset_link": "Stuur link",
+  "profile": "Profiel",
+  "your_info": "Uw gegevens",
+  "info_updated": "Je gegevens zijn bijgewerkt!",
+  "update": "Update",
+  "your_password": "Uw wachtwoord",
+  "password_updated": "Uw wachtwoord is geüpdatet!",
+  "new_password": "nieuw paswoord",
+  "login_with": "Login met",
+  "register_with": "Registreer met",
+  "verify_email": "Verifieer Email",
+  "send_verification_link": "Verificatielink verzenden",
+  "resend_verification_link": "Verificatielink opnieuw verzenden?",
+  "failed_to_verify_email": "Kan e-mail niet verifiëren.",
+  "verify_email_address": "We hebben je een e-mail gestuurd met een verificatielink.",
+  "reset_email_text": "Voer uw e-mailadres in om de link voor het opnieuw instellen van het wachtwoord te krijgen!",
+  "sorry": "Sorry",
+  "no_data_found": "Geen data gevonden",
+  "login_txt": "Gelieve in te loggen om uw sessie voort te zetten!",
+  "email_placeholder": "Vul je e-mailadres in",
+  "password_placeholder": "Voer uw wachtwoord in",
+  "developed_by": "Ontwikkeld door",
+  "per_page": "Per pagina",
+  "available": "Verkrijgbaar",
+  "find": "Vind",
+  "domain": "Domein",
+  "primary_domain": "Primair domein",
+  "register_invite": "Heb je geen account? Klik hier!",
+  "already_registered": "Al geregistreerd?",
+  "register_policy": "Ik ga akkoord met de servicevoorwaarden en het privacybeleid.",
+  "register_page_title": "Meld u direct 14 dagen gratis aan, geen creditcard vereist...",
+  "register_next_step": "Nog een stap",
+  "email_sent": "We hebben een e-mail gestuurd naar",
+  "confirm_account": "Klik op de bevestigingslink erin om uw account af te ronden.",
+  "check_email": "Heb je de e-mail niet ontvangen? Controleer uw spammap of",
+  "please": "Alstublieft",
+  "common": {
+    "id": "ID kaart",
+    "fallback": "Terugvallen",
+    "send_mail": "Verzend mail",
+    "subscribed_at": "Geabonneerd op",
+    "primary": "primair",
+    "business-start": "Zakelijk starten",
+    "content": "Inhoud",
+    "information": "Informatie",
+    "need_help": "Hulp nodig",
+    "true": "WAAR",
+    "false": "niet waar",
+    "points": "Punten",
+    "point_placeholder": "Punten invoeren",
+    "button_text": "Knop tekst",
+    "button_text_placeholder": "Voer knoptekst in",
+    "button_link": "Knopkoppeling",
+    "button_link_placeholder": "Link naar knop Enter",
+    "about_us_tagline": "Over ons slogan",
+    "about_us_tagline_placeholder": "Voer over ons slogan in",
+    "about_us_description": "Over ons Beschrijving:",
+    "about_us_description_placeholder": "Voer over ons beschrijving in",
+    "about_us_title": "Over ons Titel",
+    "about_us_title_placeholder": "Voer over ons titel in",
+    "why_us_tagline": "Waarom ons slogan",
+    "why_us_tagline_placeholder": "Voer in waarom ons slogan",
+    "why_us_description": "Waarom ons Beschrijving:",
+    "why_us_description_placeholder": "Voer in waarom ons beschrijving",
+    "why_us_title": "Waarom ons titel?",
+    "why_us_title_placeholder": "Voer in waarom ons een titel geeft",
+    "business_start_section_tagline": "Tagline van de sectie Start van het bedrijf",
+    "business_start_section_tagline_placeholder": "Voer de slogan van de bedrijfsstartsectie in",
+    "business_start_section_description": "Beschrijving van bedrijfsstartsectie",
+    "business_start_section_description_placeholder": "Voer de beschrijving van het startgedeelte van het bedrijf in",
+    "business_start_section_title": "Titel bedrijfsstartsectie",
+    "business_start_section_title_placeholder": "Voer de titel van het startgedeelte van het bedrijf in",
+    "business_start_support_list": "Ondersteuningslijst voor starten van bedrijven",
+    "business_start_support_item_placeholder": "Voer ondersteuningslijst voor starten van bedrijven in",
+    "features_section_tagline": "Functie Sectie Tagline",
+    "features_section_tagline_placeholder": "Voer de slogan van de functiesectie in",
+    "features_section_description": "Functie Sectie Beschrijving",
+    "features_section_description_placeholder": "Voer de beschrijving van de functiesectie in",
+    "features_section_title": "Functie Sectie Titel",
+    "features_section_title_placeholder": "Voer de titel van de functiesectie in",
+    "all_features_section_tagline": "Alle functies Sectie Tagline",
+    "all_features_section_tagline_placeholder": "Voer de slogan van de sectie met alle functies in",
+    "all_features_section_title": "Alle functies Sectietitel",
+    "all_features_section_title_placeholder": "Voer alle functies in sectietitel",
+    "get_started_box_title": "Aan de slag Boxtitel",
+    "get_started_box_title_placeholder": "Voer de titel van het aan de slag-vak in",
+    "get_started_box_description": "Aan de slag Box Beschrijving",
+    "get_started_box_description_placeholder": "Voer de beschrijving van het aan de slag-vak in",
+    "get_started_box_button_text": "Tekst van de knop Aan de slag",
+    "get_started_box_button_text_placeholder": "Voer de tekst van de knop 'Aan de slag' in",
+    "get_started_box_button_link": "Aan de slag Box Knop Link",
+    "get_started_box_button_link_placeholder": "Voer de link naar de knop 'Aan de slag' in",
+    "all_features_and_get_started": "Alle functies en aan de slag",
+    "software_overview_section_tagline": "Software Overzicht Sectie Tagline",
+    "software_overview_section_tagline_placeholder": "Voer de slogan van de software-overzichtssectie in",
+    "software_overview_section_title": "Softwareoverzicht Sectietitel",
+    "software_overview_section_title_placeholder": "Voer de titel van het softwareoverzicht in",
+    "pricing_plan_section_tagline": "Prijsplan Sectie Tagline",
+    "pricing_plan_section_tagline_placeholder": "Voer de slogan van de prijsplansectie in",
+    "pricing_plan_section_title": "Sectietitel prijsplan",
+    "pricing_plan_section_title_placeholder": "Voer de titel van het prijsplan in",
+    "software_overview_and_pricing_plan": "Softwareoverzicht en prijsplan",
+    "testimonial_and_newsletter": "Getuigenis en nieuwsbrief",
+    "testimonial_section_tagline": "Getuigenis Sectie Tagline",
+    "testimonial_section_tagline_placeholder": "Voer de slogan van de testimonial-sectie in",
+    "testimonial_section_title": "Getuigenis Sectie Titel",
+    "testimonial_section_title_placeholder": "Voer de titel van de testimonial-sectie in",
+    "newsletter_section_tagline": "Nieuwsbrief Sectie Tagline",
+    "newsletter_section_tagline_placeholder": "Voer de slogan van de nieuwsbriefsectie in",
+    "newsletter_section_title": "Nieuwsbrief Sectie Titel",
+    "newsletter_section_title_placeholder": "Voer de titel van de nieuwsbriefsectie in",
+    "newsletter_section_description": "Nieuwsbrief Sectie Beschrijving",
+    "newsletter_section_description_placeholder": "Voer de beschrijving van de nieuwsbriefsectie in",
+    "about_us": "Over ons",
+    "why-us": "Waarom wij",
+    "business_start": "Zakelijk starten",
+    "features": "Functies",
+    "all-features-and-get-started": "Alle functies en aan de slag",
+    "software-overview-and-pricing-plan": "Software-overzicht en prijsplan",
+    "testimonial-and-newsletter": "Getuigenis & Nieuwsbrief",
+    "hero": "Held",
+    "hero_tagline": "Held slogan",
+    "hero_tagline_placeholder": "Voer je heldentagline in",
+    "hero_title": "Heldentitel",
+    "hero_title_placeholder": "Voer je heldtitel in",
+    "hero_description": "Beschrijving van de held:",
+    "hero_description_placeholder": "Voer je heldbeschrijving in",
+    "hero_demo_button_text": "Tekst held demo-knop",
+    "hero_demo_button_text_placeholder": "Voer de tekst van de helddemoknop in",
+    "hero_demo_button_link": "Link naar held demo-knop",
+    "hero_demo_button_link_placeholder": "Voer een link naar een demopagina in",
+    "hero_get_started_button_text": "Held Aan de slag-knoptekst",
+    "hero_get_started_button_text_placeholder": "Voer held in Aan de slag-knoptekst",
+    "hero_get_started_button_link": "Held Aan de slag-knop Link",
+    "hero_get_started_button_link_placeholder": "Voer een link naar een pagina of een paginasjabloon in",
+    "company_placeholder": "Voer uw bedrijfsnaam in",
+    "domain_placeholder": "Vul je domeinnaam in",
+    "password_confirmation": "Bevestig uw wachtwoord",
+    "password_confirmation_placeholder": "Bevestig uw wachtwoord",
+    "ban": "Ban",
+    "ban_success": "Gebruiker succesvol verbannen",
+    "unban": "Unban",
+    "unban_success": "De ban van de gebruiker is succesvol opgeheven",
+    "tenant_id": "Huurder-ID",
+    "domain": "Domein",
+    "company": "Bedrijf",
+    "plan": "Plan",
+    "trial_ends_at": "Proefperiode eindigt om",
+    "banned": "verboden",
+    "clients_limit": "Klantenlimiet:",
+    "suppliers_limit": "Leverancierslimiet:",
+    "employee_limit": "Werknemerslimiet",
+    "domains_limit": "Domeinenlimiet",
+    "purchases_limit": "Aankooplimiet",
+    "invoices_limit": "Facturenlimiet",
+    "to": "Tot",
+    "from": "Van",
+    "s_no": "#",
+    "more_info": "Meer informatie",
+    "name": "Naam",
+    "name_placeholder": "Voer een naam in",
+    "password": "Wachtwoord",
+    "password_placeholder": "Voer uw wachtwoord in",
+    "default_password": "Wachtwoord (Standaard wachtwoord: 12345678)",
+    "code": "Code",
+    "code_placeholder": "Voer een code in",
+    "product_name": "productnaam",
+    "product_name_placeholder": "Selecteer een product",
+    "sub_category_code": "Subcategoriecode",
+    "sub_category": "Subcategorie",
+    "sub_category_name": "Naam subcategorie",
+    "category": "Categorie",
+    "category_name": "categorie naam",
+    "category_name_placeholder": "Kies een categorie",
+    "account": "Account",
+    "account_placeholder": "Selecteer een account",
+    "available_balance": "beschikbaar saldo",
+    "amount": "Hoeveelheid",
+    "amount_placeholder": "Voer een bedrag in",
+    "cheque_no": "Controleer nr.",
+    "cheque_placeholder": "Voer een chequenummer in",
+    "voucher_no": "Coupon nr",
+    "voucher_placeholder": "Voer een vouchernummer in",
+    "receipt_no": "Ontvangstnummer",
+    "receipt_no_placeholder": "Voer een ontvangstnummer in",
+    "date": "Datum",
+    "note": "Opmerking",
+    "created_by": "Gemaakt door",
+    "choose_file": "Kies bestand",
+    "image_alt": "Bijgevoegde afbeelding",
+    "note_placeholder": "Schrijf hier uw notitie!",
+    "status": "Toestand",
+    "action": "Actie",
+    "active": "Actief",
+    "in_active": "Inactief",
+    "expired": "Niet meer geldig",
+    "email": "E-mail",
+    "email_placeholder": "Vul je e-mailadres in",
+    "phone": "Telefoon",
+    "address": "Adres",
+    "address_placeholder": "Geef een adres in",
+    "modal_header": "Voorbeeld bijgevoegde afbeelding",
+    "modal_body": "Standaardtekst",
+    "export_table": "Tabel exporteren",
+    "print_table": "Tabel afdrukken",
+    "delete_title": "Weet je het zeker?",
+    "update_title": "Weet je het zeker?",
+    "delete_confirm_text": "Bevestigen",
+    "update_confirm_text": "Bevestigen",
+    "deleted": "verwijderd!",
+    "updated": "Bijgewerkt!",
+    "delete_success": "Met succes verwijderd.",
+    "update_success": "Succesvol geupdatet.",
+    "failed": "mislukt!",
+    "delete_failed": "Er was iets mis.",
+    "update_failed": "Er was iets mis.",
+    "error_msg": "Oeps... er is iets misgegaan",
+    "image_error": "Selecteer een geldige thumbnail met een grootte van minder dan 2 MB",
+    "close": "Dichtbij",
+    "search": "Zoeken...",
+    "create": "Creëren",
+    "view": "Visie",
+    "edit": "Bewerk",
+    "delete": "Verwijderen",
+    "image": "Afbeelding",
+    "preview": "Voorbeeld",
+    "no_preview": "Geen preview",
+    "save": "Opslaan",
+    "save_changes": "Wijzigingen opslaan",
+    "back": "Rug",
+    "print": "Afdrukken",
+    "reset": "Resetten",
+    "supplier": "Leverancier",
+    "supplier_placeholder": "Selecteer een leverancier",
+    "products": "Producten",
+    "select_products": "Selecteer producten",
+    "select_products_placeholder": "Zoek producten",
+    "reference": "Referentie",
+    "reference_placeholder": "Voer referentie in",
+    "quantity": "Hoeveelheid",
+    "purchase_price": "Aankoopprijs",
+    "unit_price": "Eenheid prijs",
+    "unit_cost": "Kosten per eenheid",
+    "unit_tax": "Eenheidsbelasting",
+    "tax": "Belasting",
+    "subtotal": "Subtotaal",
+    "return_subtotal": "Subtotaal retourneren",
+    "new_subtotal": "Nieuw subtotaal",
+    "return_amount": "Retourbedrag",
+    "return_cost": "Kosten van retourproducten",
+    "total": "Totaal",
+    "net_total": "Netto totaal",
+    "due": "Vanwege",
+    "transport": "Vervoer",
+    "add_payment": "Betaling toevoegen?",
+    "add_payment_placeholder": "Kies een optie",
+    "yes": "Ja",
+    "no": "Nee",
+    "paid": "Betaald",
+    "total_paid": "Totaal betaald",
+    "paid_amount": "Betaald bedrag",
+    "paid_amount_placeholder": "Voer een bedrag in",
+    "total_due": "Totaal verschuldigd",
+    "account_receivable": "Debiteuren",
+    "account_payable": "Te betalen rekening",
+    "total_price": "Totale prijs",
+    "return_price": "Retourprijs",
+    "price": "Prijs",
+    "total_return": "Totale teruggave",
+    "discount": "Korting",
+    "discount_placeholder": "Voer korting in",
+    "supplier_details": "Leveranciersdetails:",
+    "client_details": "Klantgegevens",
+    "supplier_id": "Leverancier ID",
+    "client_id": "klant identificatie",
+    "client_name": "klantnaam",
+    "supplier_name": "naam van leverancier",
+    "company_name": "Bedrijfsnaam",
+    "company_name_placeholder": "Voer een bedrijfsnaam in",
+    "contact_number": "Contact nummer",
+    "contact_number_placeholder": "Voer een contactnummer in",
+    "payment_history": "Betaalgeschiedenis",
+    "payment_date": "Betaaldatum",
+    "empty_payment": "Nog geen betalingen mogelijk!",
+    "empty_payment_msg": "U heeft wel/geen betaling toegevoegd voor deze aankoop. Na het toevoegen van betalingen ziet u hier de lijst.",
+    "purchases": "Aankopen",
+    "purchases_placeholder": "Selecteer een aankoop",
+    "total_tax": "Totale belasting",
+    "invoice_tax": "Factuurbelasting",
+    "transport_cost": "Transportkosten",
+    "transport_cost_placeholder": "Voer transportkosten in",
+    "total_discount": "Totale korting",
+    "discount_type": "Kortingstype",
+    "fixed": "Gemaakt",
+    "percentage": "Percentage",
+    "client": "Cliënt",
+    "client_placeholder": "Selecteer een klant",
+    "payment_terms": "Betaalvoorwaarden",
+    "payment_terms_placeholder": "Voer betalingsvoorwaarden in",
+    "po_reference": "PO-referenties",
+    "po_reference_placeholder": "Voer PO-referentie in",
+    "invoice_qty": "Factuur aantal",
+    "current_qty": "Huidig aantal",
+    "return_qty": "Retour aantal",
+    "invoices": "Facturen",
+    "invoices_placeholder": "Selecteer een factuur",
+    "return_reason": "Reden van terugbrengen",
+    "return_reason_placeholder": "Voer een reden in",
+    "invoice_due": "Factuur verschuldigd",
+    "non_invoice_due": "Geen factuur twee",
+    "invoice_date": "Factuur datum",
+    "invoice_no": "Factuur nr",
+    "invoice_return_no": "Factuur retournr",
+    "return_no": "Retournee",
+    "return_products": "Producten retourneren",
+    "insufficient_stock": "Onvoldoende voorraad",
+    "invoice_products": "Factuurproducten",
+    "created_at": "Gemaakt bij",
+    "reason": "Reden",
+    "type": "Type",
+    "credit": "Credit",
+    "debit": "Debiteren",
+    "payment_type": "Betalingswijze",
+    "invoice_total": "Factuurbedrag",
+    "invoice_details": "Factuurgegevens",
+    "payment_details": "Betalingsdetails",
+    "ref_no": "ref. Nee",
+    "reference_no": "referentienummer",
+    "payable": "te betalen",
+    "interest": "Interesse",
+    "installment": "termijn",
+    "error": "Fout!",
+    "per": "Per",
+    "day": "Dag",
+    "week": "Week",
+    "month": "Maand",
+    "year": "Jaar",
+    "daily": "Dagelijks",
+    "monthly": "Maandelijks",
+    "yearly": "Jaarlijks",
+    "employee": "Medewerker",
+    "employee_placeholder": "Selecteer een medewerker",
+    "designation": "Aanduiding",
+    "designation_placeholder": "Voer een aanduiding in",
+    "emp_name": "Emp Naam",
+    "emp_id": "Werknemer-ID",
+    "employee_details": "Gegevens werknemer",
+    "department": "Afdeling",
+    "department_placeholder": "Afdeling",
+    "balance": "Evenwicht",
+    "salary": "Salaris",
+    "salary_placeholder": "Vul een salaris in",
+    "profile_picture": "Profielfoto",
+    "role": "Rol",
+    "role_placeholder": "Selecteer een rol",
+    "unit": "Eenheid",
+    "unit_placeholder": "Selecteer een eenheid",
+    "brand": "Merk",
+    "brand_placeholder": "Selecteer een merk",
+    "item_code": "Artikelcode",
+    "item_code_placeholder": "Voer artikelcode in",
+    "item_model": "Artikelmodel:",
+    "item_model_placeholder": "Voer een model in",
+    "item_name": "Itemnaam",
+    "item_name_placeholder": "Voer een naam in",
+    "rendering_fails": "Rendering mislukt.",
+    "product": "Product",
+    "transactions": "Transacties",
+    "empty_table": "Sorry 😔 geen gegevens gevonden",
+    "stock_alert_msg": "Voorraad is minder dan alert aantal!",
+    "stock_notification": "Product Hoeveelheid Alert(s)",
+    "stock_notification_empty": "Geen melding beschikbaar",
+    "delete_warning": "Hier kun je niet meer op terugkomen!",
+    "update_warning": "Hier kun je niet meer op terugkomen!",
+    "add_balance": "Saldo toevoegen",
+    "remove_balance": "Saldo verwijderen",
+    "qty": "aantal",
+    "item": "Item",
+    "sold_by": "Verkocht door",
+    "all_features": "Alle functies",
+    "success_msg": "Succes!",
+    "software_overview": "Software-overzicht",
+    "business_start_support_list_placeholder": "Ondersteuningslijst voor starten van bedrijven",
+    "explorers": "ontdekkingsreizigers",
+    "points_placeholder": "Punten",
+    "why_us": "Waarom wij",
+    "stripe_public_key": "Gestreepte openbare sleutel",
+    "stripe_private_key": "Gestreepte privésleutel",
+    "plan_placeholder": "Plan",
+    "download": "Downloaden",
+    "commission": "Commissie",
+    "invoice_tax_placeholder": "Factuurbelasting",
+    "requested_domain": "Aangevraagd domein",
+    "pending": "In afwachting",
+    "connected": "Verbonden",
+    "rejected": "Afgekeurd",
+    "removed": "VERWIJDERD",
+    "tenant": "Huurder",
+    "welcome_mail": "Welkomstmail verzenden",
+    "tenant_name": "Naam huurder",
+    "tenant_email": "E-mail huurder",
+    "modified_by": "Aangepast door",
+    "host": "Gastheer",
+    "value": "Waarde",
+    "custom_html": "Aangepaste HTML",
+    "custom_html_placeholder": "Aangepaste HTML (u kunt hier SEO-gerelateerde tags, Google Analytics, Facebook-pixelcodes enz. toevoegen.)",
+    "pricing_plan": "Prijsplan"
+  },
+  "topbar": {
+    "new_invoice": "Nieuwe factuur",
+    "new_expense": "Nieuwe uitgave",
+    "new_purchase": "Nieuwe aankoop",
+    "new_quotation": "Nieuwe offerte",
+    "profile": "Profiel",
+    "setup": "Opstelling",
+    "logout": "Uitloggen"
+  },
+  "sidebar": {
+    "Billing History": "Factureringsgeschiedenis",
+    "tenant": {
+      "settings": "Instellingen"
+    },
+    "domain_management": "Domeinbeheer",
+    "domain": "Domein",
+    "domain_request": "Domeinverzoek",
+    "newsletters": {
+      "create": "Abonnees"
+    },
+    "pages": {
+      "create": "Pagina's"
+    },
+    "items": "Artikelen",
+    "dashboard": "Dashboard",
+    "activities": "ACTIVITEITEN",
+    "expenses": "Uitgaven",
+    "categories": "Categorieën",
+    "sub_categories": "Subcategorieën",
+    "expenses_list": "Uitgavenlijst",
+    "purchases": "Aankopen",
+    "purchases_list": "Aankooplijst",
+    "returns_list": "Retourlijst",
+    "sales": "verkoop",
+    "quotations_list": "Lijst met citaten",
+    "invoices_list": "Facturenlijst",
+    "accounting": "BOEKHOUDING",
+    "cashbook": "Geld boek",
+    "accounts": "rekeningen",
+    "balance_adjustments": "Balansaanpassingen",
+    "balance_transfers": "Saldooverdrachten",
+    "transaction_history": "Transactie Geschiedenis",
+    "payments": "Betalingen",
+    "suppliers": "leveranciers",
+    "non_purchase": "Niet-aankoop",
+    "purchase": "Aankoop",
+    "clients": "Klanten",
+    "non_invoice": "Niet-factuur",
+    "invoice": "Factuur",
+    "loan_management": "Leningbeheer",
+    "authorities": "autoriteiten",
+    "loans": "Leningen",
+    "asset_management": "Vermogensbeheer",
+    "types": "Soorten",
+    "assets": "Middelen",
+    "payroll": "Loonlijst",
+    "people": "MENSEN",
+    "employees_list": "Werknemerslijst",
+    "employees": "Medewerkers",
+    "departments": "afdelingen",
+    "increments": "Verhogingen",
+    "product": "PRODUCT",
+    "products": "Producten",
+    "products_list": "Productenlijst:",
+    "barcode": "Streepjescode",
+    "inventory_uppercase": "VOORRAAD",
+    "inventory": "Voorraad",
+    "view_inventory": "Inventaris bekijken",
+    "inventory_adjustment": "Inventaris aanpassing",
+    "reports": "RAPPORTEN",
+    "balance_sheet": "Balans",
+    "summary_report": "Samenvattingsverslag",
+    "profit_loss_report": "Winst/verlies rapport",
+    "expense_report": "Onkostennota",
+    "product_report": "Artikelrapport",
+    "inventory_report": "Inventarisatierapport",
+    "account": "ACCOUNT",
+    "account_sm": "Account",
+    "setup": "Opstelling",
+    "database_backup": "Database back-up",
+    "profile": "Profiel",
+    "logout": "Uitloggen",
+    "pricing": "Prijzen",
+    "tenants": "huurders",
+    "overview": "Overzicht",
+    "saas": "SAAS",
+    "back_landing": "Ga naar bestemmingspagina",
+    "landing_page": "Bestemmingspagina",
+    "cms": "CMS",
+    "promotion": "Promotie",
+    "plans": "Plannen",
+    "pricing_plans": "Prijsplannen",
+    "plan_features": "Planfuncties",
+    "domains": "Domeinbeheer",
+    "all_domains": "Alle domeinen",
+    "domain_requests": "Domeinverzoeken"
+  },
+  "dashboard": {
+    "stock_alert": "Voorraadwaarschuwing",
+    "recent_activities": "Recente activiteiten",
+    "page_title": "Dashboard",
+    "breadcrumbs_current": "Dashboard",
+    "breadcrumbs_active": "Dashboard",
+    "bar_chart_title": "Verkoop versus aankopen",
+    "bar_chart_tooltip": "Maandelijkse verkopen en aankopen na aftrek van de kosten van retourproducten.",
+    "pie_chart_title": "Bestverkopende producten",
+    "line_chart_title": "Betaling verzonden versus ontvangen betaling",
+    "line_chart_tooltip": "Betaling verzonden = Leveranciersbetaling + Leningbetaling<br/> Ontvangen betaling = klantbetaling + ontvangen lening",
+    "top_clients_title": "Top 5 klanten",
+    "summary": "Overzicht",
+    "summary_option_1": "Vandaag",
+    "summary_option_2": "Laatste 7 dagen",
+    "summary_option_3": "Deze maand",
+    "summary_option_4": "Dit jaar",
+    "summery_items": {
+      "purchase": "Aankoop",
+      "purchase_return": "Aankoop Retour",
+      "sales": "verkoop",
+      "sales_return": "Verkoopretour",
+      "payment_received": "Klantbetaling",
+      "payment_sent": "Leveranciersbetaling:",
+      "expense": "Kosten",
+      "balance_transfers": "Saldooverdrachten"
+    },
+    "today": "Vandaag",
+    "last_7_days": "Laatste 7 dagen",
+    "this_month": "Deze maand",
+    "this_year": "Dit jaar"
+  },
+  "expenses": {
+    "categories": {
+      "index": {
+        "page_title": "Onkostencategorieën",
+        "breadcrumbs_current": "Onkostencategorieën",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Uitgaven",
+        "breadcrumbs_active": "Categorieën",
+        "delete_warning": "Alle subcategorieën voor deze categorie worden verwijderd!"
+      },
+      "create": {
+        "page_title": "Onkostencategorie maken",
+        "form_title": "Maak een onkostencategorie",
+        "breadcrumbs_current": "Onkostencategorie maken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Categorieën",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Categorie succesvol toegevoegd"
+      },
+      "edit": {
+        "page_title": "Onkostencategorie bewerken",
+        "form_title": "Categorie bewerken",
+        "breadcrumbs_current": "Onkostencategorie bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Categorieën",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Categorie succesvol bijgewerkt"
+      }
+    },
+    "sub_categories": {
+      "index": {
+        "page_title": "Subcategorieën onkosten",
+        "breadcrumbs_current": "Subcategorieën onkosten",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Uitgaven",
+        "breadcrumbs_active": "Subcategorieën",
+        "delete_warning": "Alle uitgaven voor deze categorie worden verwijderd!"
+      },
+      "create": {
+        "page_title": "Subcategorie onkosten maken",
+        "form_title": "Maak een onkostensubcategorie",
+        "breadcrumbs_current": "Subcategorie onkosten maken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Subcategorieën",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Subcategorie succesvol toegevoegd 👍"
+      },
+      "edit": {
+        "page_title": "Subcategorie onkosten bewerken",
+        "form_title": "Subcategorie onkosten bewerken",
+        "breadcrumbs_current": "Subcategorie onkosten bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Subcategorieën",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Subcategorie succesvol bijgewerkt 👍"
+      }
+    },
+    "list": {
+      "common": {
+        "expense_reason": "Onkostenreden",
+        "expense_reason_placeholder": "Voer een reden in"
+      },
+      "index": {
+        "page_title": "Uitgaven",
+        "breadcrumbs_current": "Uitgaven",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Uitgaven",
+        "breadcrumbs_active": "Uitgaven",
+        "delete_warning": "Hier kun je niet meer op terugkomen!"
+      },
+      "create": {
+        "page_title": "Onkosten maken",
+        "form_title": "Een uitgave maken",
+        "breadcrumbs_current": "Onkosten maken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Uitgaven",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Uitgave succesvol toegevoegd 👍"
+      },
+      "edit": {
+        "page_title": "Uitgave bewerken",
+        "form_title": "Uitgave bewerken",
+        "breadcrumbs_current": "Uitgave bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Uitgaven",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Uitgave succesvol bijgewerkt 👍"
+      },
+      "view": {
+        "page_title": "Onkostendetails",
+        "breadcrumbs_current": "Onkostendetails",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Uitgaven",
+        "breadcrumbs_active": "Details",
+        "expense_details": "Onkostendetails"
+      }
+    }
+  },
+  "purchases": {
+    "list": {
+      "common": {
+        "po_reference": "PO-referenties",
+        "po_reference_placeholder": "Voer PO-referentie in",
+        "payment_terms": "Betaalvoorwaarden",
+        "payment_terms_placeholder": "Voer betalingsvoorwaarden in",
+        "purchase_tax": "Aankoopbelasting",
+        "purchase_total": "Aankoop totaal",
+        "purchase_subtotal": "Subtotaal kopen",
+        "purchase_tax_placeholder": "Selecteer een belastingsoort",
+        "total_tax": "Totale belasting",
+        "discount": "Korting",
+        "discount_placeholder": "Voer korting in",
+        "transport_cost": "Transportkosten",
+        "transport_cost_placeholder": "Voer transportkosten in",
+        "purchase_date": "aankoopdatum",
+        "po_date": "PO-datum",
+        "purchased_qty": "Gekocht aantal",
+        "returned_qty": "Geretourneerde hoeveelheid",
+        "current_qty": "Huidig aantal",
+        "purchase_no": "Aankoopnummer",
+        "return_no": "Retournee",
+        "purchase_no_placeholder": "Voer aankoopnummer in",
+        "purchase_products": "Producten kopen",
+        "purchase_due": "Aankoop verschuldigd:"
+      },
+      "index": {
+        "page_title": "Aankopen",
+        "breadcrumbs_current": "Aankopen",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Aankopen",
+        "breadcrumbs_active": "Aankopen",
+        "delete_warning": "Hier kun je niet meer op terugkomen!"
+      },
+      "create": {
+        "page_title": "Aankoop maken",
+        "form_title": "Aankoop maken",
+        "breadcrumbs_current": "Aankoop maken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Aankopen",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Aankoop succesvol toegevoegd 👍"
+      },
+      "edit": {
+        "page_title": "Aankoop bewerken",
+        "form_title": "Aankoop bewerken",
+        "breadcrumbs_current": "Aankoop bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Aankopen",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Aankoop succesvol bijgewerkt 👍"
+      },
+      "view": {
+        "page_title": "Aankoopdetails",
+        "breadcrumbs_current": "Aankoopdetails",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Aankopen",
+        "breadcrumbs_active": "Details"
+      }
+    },
+    "returns": {
+      "common": {
+        "return_reason": "Reden van terugbrengen",
+        "return_reason_placeholder": "Voer een reden in",
+        "return_date": "Retourdatum",
+        "purchase_return_no": "Aankoop Retournr",
+        "return_products": "Producten retourneren"
+      },
+      "index": {
+        "page_title": "Aankoop retouren",
+        "breadcrumbs_current": "Aankoop retouren",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Aankopen",
+        "breadcrumbs_active": "Aankoop retouren",
+        "delete_warning": "Hier kun je niet meer op terugkomen!"
+      },
+      "create": {
+        "page_title": "Aankoopretour aanmaken",
+        "form_title": "Aankoopretour aanmaken",
+        "breadcrumbs_current": "Aankoopretour aanmaken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Aankoop retouren",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Aankoop retour succesvol toegevoegd 👍"
+      },
+      "edit": {
+        "page_title": "Aankoopretour bewerken",
+        "form_title": "Aankoopretour bewerken",
+        "breadcrumbs_current": "Aankoopretour bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Aankoop retouren",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Aankoopretour succesvol bijgewerkt 👍"
+      },
+      "view": {
+        "page_title": "Aankoop Retourgegevens",
+        "breadcrumbs_current": "Aankoop Retourgegevens",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Aankoop retouren",
+        "breadcrumbs_active": "Details"
+      }
+    }
+  },
+  "sales": {
+    "common": {
+      "quotation_no": "Offerte nr",
+      "quotation_date": "Offertedatum:",
+      "delivery_place": "Bezorgplaats",
+      "delivery_place_placeholder": "Geef een afleverplaats op",
+      "quotation_tax": "Offerte belasting",
+      "quotation_tax_placeholder": "Selecteer een belastingsoort",
+      "return_date": "Retourdatum",
+      "new_due": "Nieuw verschuldigd",
+      "client_advance": "Klantvooruitgang",
+      "invoice_total": "Factuurbedrag",
+      "before_return": "Voor terugkeer:",
+      "invoice_return": "Factuur retourneren",
+      "invoice_tax": "Factuurbelasting",
+      "invoice_tax_placeholder": "Selecteer een belastingsoort"
+    },
+    "quotations": {
+      "index": {
+        "page_title": "Citaten",
+        "create_invoice": "Factuur maken",
+        "breadcrumbs_current": "Citaten",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Citaten",
+        "breadcrumbs_active": "Citaten",
+        "delete_warning": "Hier kun je niet meer op terugkomen!",
+        "delete_failed": "Sorry, je kunt dit citaat niet verwijderen!"
+      },
+      "create": {
+        "page_title": "Offerte maken",
+        "form_title": "Offerte maken",
+        "breadcrumbs_current": "Offerte maken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Citaten",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Offerte succesvol toegevoegd"
+      },
+      "edit": {
+        "page_title": "Offerte bewerken",
+        "form_title": "Offerte bewerken",
+        "breadcrumbs_current": "Offerte bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Citaten",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Offerte succesvol bijgewerkt 👍"
+      },
+      "view": {
+        "page_title": "Offertedetails:",
+        "breadcrumbs_current": "Offertedetails:",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Citaten",
+        "breadcrumbs_active": "Details",
+        "expense_details": "Onkostendetails"
+      },
+      "invoice": {
+        "page_title": "Offerte om te factureren",
+        "form_title": "Offerte maken om te factureren",
+        "breadcrumbs_current": "Offerte om te factureren",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Citaten",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Factuur succesvol aangemaakt 👍"
+      }
+    },
+    "invoices": {
+      "index": {
+        "page_title": "Facturen",
+        "breadcrumbs_current": "Facturen",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "verkoop",
+        "breadcrumbs_active": "Facturen",
+        "delete_warning": "Hier kun je niet meer op terugkomen!",
+        "delete_failed": "Sorry, je kunt deze factuur niet verwijderen!"
+      },
+      "create": {
+        "page_title": "Factuur maken",
+        "form_title": "Factuur maken",
+        "breadcrumbs_current": "Factuur maken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Facturen",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Factuur succesvol toegevoegd 👍"
+      },
+      "edit": {
+        "page_title": "Factuur bewerken",
+        "form_title": "Factuur bewerken",
+        "breadcrumbs_current": "Factuur bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Facturen",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Factuur geüpdatet 👍"
+      },
+      "view": {
+        "page_title": "Factuurgegevens",
+        "breadcrumbs_current": "Factuurgegevens",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Facturen",
+        "breadcrumbs_active": "Details",
+        "invoice_details": "Factuurgegevens"
+      }
+    },
+    "returns": {
+      "index": {
+        "page_title": "Factuur retouren",
+        "breadcrumbs_current": "Factuur retouren",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Facturen",
+        "breadcrumbs_active": "Factuur retouren",
+        "delete_warning": "Hier kun je niet meer op terugkomen!",
+        "delete_failed": "Er was iets mis."
+      },
+      "create": {
+        "page_title": "Factuurretour aanmaken",
+        "form_title": "Factuurretour aanmaken",
+        "breadcrumbs_current": "Factuurretour aanmaken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Factuur retouren",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Factuurretour succesvol toegevoegd 👍"
+      },
+      "edit": {
+        "page_title": "Factuurretour bewerken",
+        "form_title": "Factuurretour bewerken",
+        "breadcrumbs_current": "Factuurretour bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Factuur retouren",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Factuurretour succesvol bijgewerkt 👍"
+      },
+      "view": {
+        "page_title": "Factuur retour details",
+        "breadcrumbs_current": "Factuur retour details",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Factuur retouren",
+        "breadcrumbs_active": "Details",
+        "invoice_details": "Factuurgegevens"
+      }
+    }
+  },
+  "cashbook": {
+    "common": {
+      "account_number": "Rekeningnummer",
+      "account_number_placeholder": "Voer een rekeningnummer in",
+      "branch_name": "Naam filiaal:",
+      "branch_name_placeholder": "Voer een filiaalnaam in",
+      "bank_name": "Banknaam",
+      "bank_name_placeholder": "Voer een banknaam in",
+      "transactions": "Transacties",
+      "account_details": "Accountgegevens",
+      "total_transactions": "Totaal aantal transacties",
+      "debit_amount": "Debetbedrag",
+      "credit_amount": "Hoeveelheid krediet",
+      "from_account": "Van account",
+      "to_account": "Verklaren",
+      "transfer_reason": "Overdracht reden:"
+    },
+    "accounts": {
+      "index": {
+        "page_title": "rekeningen",
+        "breadcrumbs_current": "rekeningen",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Geld boek",
+        "breadcrumbs_third": "rekeningen",
+        "breadcrumbs_active": "rekeningen",
+        "delete_warning": "Hier kun je niet meer op terugkomen!",
+        "delete_failed": "Sorry, je kunt dit account niet verwijderen!"
+      },
+      "create": {
+        "page_title": "Maak account",
+        "form_title": "Account aanmaken",
+        "breadcrumbs_current": "Maak account",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Geld boek",
+        "breadcrumbs_third": "rekeningen",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Account succesvol toegevoegd 👍"
+      },
+      "edit": {
+        "page_title": "Bewerk account",
+        "form_title": "Bewerk account",
+        "breadcrumbs_current": "Bewerk account",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Geld boek",
+        "breadcrumbs_third": "rekeningen",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Account geüpdatet 👍"
+      },
+      "view": {
+        "page_title": "Accounttransacties",
+        "breadcrumbs_current": "Accounttransacties",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "rekeningen",
+        "breadcrumbs_active": "Transacties",
+        "empty_transaction": "Er is nog geen transactie beschikbaar!",
+        "empty_transaction_msg": "U heeft geen transacties gedaan met deze rekening. Nadat u de transactie heeft gedaan, ziet u hier de lijst."
+      }
+    },
+    "balances": {
+      "index": {
+        "page_title": "Balansaanpassingen",
+        "add_balance": "Creëren",
+        "breadcrumbs_current": "Balansaanpassingen",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Geld boek",
+        "breadcrumbs_active": "Aanpassingen",
+        "delete_warning": "Hier kun je niet meer op terugkomen!",
+        "delete_failed": "Sorry, je kunt deze transactie niet verwijderen"
+      },
+      "create": {
+        "page_title": "Aanpassing maken",
+        "form_title": "Aanpassing maken",
+        "breadcrumbs_current": "Aanpassing maken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Geld boek",
+        "breadcrumbs_third": "Aanpassingen",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Aanpassing succesvol toegevoegd 👍"
+      },
+      "edit": {
+        "page_title": "Saldo bewerken",
+        "form_title": "Saldo bewerken",
+        "breadcrumbs_current": "Saldo bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Geld boek",
+        "breadcrumbs_third": "Saldi",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Saldo succesvol bijgewerkt 👍"
+      }
+    },
+    "transfers": {
+      "index": {
+        "page_title": "Saldooverdrachten",
+        "add_transfer": "Overdracht toevoegen",
+        "breadcrumbs_current": "Saldooverdrachten",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Geld boek",
+        "breadcrumbs_active": "Saldooverdrachten",
+        "delete_warning": "Hier kun je niet meer op terugkomen!",
+        "delete_failed": "Sorry, je kunt deze overdracht niet verwijderen!"
+      },
+      "create": {
+        "page_title": "Overdracht maken",
+        "form_title": "Een saldooverdracht maken",
+        "breadcrumbs_current": "Overdracht maken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Geld boek",
+        "breadcrumbs_third": "Saldooverdrachten",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Saldooverdracht succesvol toegevoegd 👍"
+      },
+      "edit": {
+        "page_title": "Saldooverdracht bewerken",
+        "form_title": "Saldooverdracht bewerken",
+        "breadcrumbs_current": "Saldooverdracht bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Geld boek",
+        "breadcrumbs_third": "Saldooverdrachten",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Overdracht succesvol bijgewerkt 👍"
+      },
+      "view": {
+        "page_title": "Details saldooverdracht",
+        "breadcrumbs_current": "Overdrachtsdetails",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Geld boek",
+        "breadcrumbs_third": "Saldooverdrachten",
+        "breadcrumbs_active": "Details"
+      }
+    },
+    "transactions": {
+      "index": {
+        "page_title": "Transactie Geschiedenis",
+        "breadcrumbs_current": "Transactie Geschiedenis",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Geld boek",
+        "breadcrumbs_active": "Geschiedenis"
+      }
+    }
+  },
+  "payments": {
+    "common": {
+      "due_paid": "Betaald",
+      "due_added": "Verplicht toegevoegd",
+      "current_due": "Huidig verschuldigd",
+      "non_invoice_paid": "Niet gefactureerd",
+      "non_invoice_total": "Totaal niet-factuur",
+      "add_due": "Voeg toe",
+      "add_payment": "Betaling toevoegen",
+      "total_payment": "Totale betaling",
+      "total_advance": "Totaal voorschot (factuurretour)",
+      "available_advance": "Beschikbaar voorschot (aankoopretour)",
+      "select_invoice": "Selecteer Factuur",
+      "select_purchase": "Selecteer Aankoop",
+      "select_purchase_placeholder": "Zoek aankoopnummer",
+      "select_invoice_placeholder": "Zoek factuurnummer",
+      "invoice_subtotal": "Subtotaal factuur",
+      "non_purchase_total": "Totaal niet-aankoop",
+      "non_purchase_due": "Niet verschuldigde aankoop",
+      "non_purchase_paid": "Niet-aankoop betaald",
+      "purchase_details": "Aankoopdetails"
+    },
+    "clients": {
+      "invoice": {
+        "index": {
+          "page_title": "Factuur betalingen",
+          "breadcrumbs_current": "Factuur betalingen",
+          "breadcrumbs_first": "Dashboard",
+          "breadcrumbs_second": "Betalingen",
+          "breadcrumbs_active": "Factuur betalingen",
+          "delete_warning": "Hier kun je niet meer op terugkomen!",
+          "delete_failed": "Sorry, je kunt deze betaling niet verwijderen!"
+        },
+        "create": {
+          "page_title": "Klantfactuurbetaling aanmaken",
+          "form_title": "Factuurbetaling aanmaken",
+          "breadcrumbs_current": "Betaling aanmaken",
+          "breadcrumbs_first": "Dashboard",
+          "breadcrumbs_second": "Betalingen",
+          "breadcrumbs_third": "Factuur betalingen",
+          "breadcrumbs_active": "Creëren",
+          "success_msg": "Factuurbetaling succesvol toegevoegd 👍"
+        },
+        "edit": {
+          "page_title": "Betaling klantfactuur bewerken",
+          "form_title": "Factuurbetaling bewerken",
+          "breadcrumbs_current": "Betaling bewerken",
+          "breadcrumbs_first": "Dashboard",
+          "breadcrumbs_second": "Betalingen",
+          "breadcrumbs_third": "Factuur betalingen",
+          "breadcrumbs_active": "Bewerk",
+          "success_msg": "Factuurbetaling succesvol bijgewerkt 👍"
+        },
+        "view": {
+          "page_title": "Factuur betalingsgegevens",
+          "breadcrumbs_current": "Factuur betalingsgegevens",
+          "breadcrumbs_first": "Dashboard",
+          "breadcrumbs_second": "Betalingen",
+          "breadcrumbs_third": "Factuur betalingen",
+          "breadcrumbs_active": "Details"
+        }
+      },
+      "non_invoice": {
+        "index": {
+          "page_title": "Klant niet-factuur betalingen",
+          "breadcrumbs_current": "Betalingen zonder factuur",
+          "breadcrumbs_first": "Dashboard",
+          "breadcrumbs_second": "Betalingen",
+          "breadcrumbs_active": "Betalingen zonder factuur",
+          "delete_warning": "Hier kun je niet meer op terugkomen!",
+          "delete_failed": "Sorry, je kunt deze betaling niet verwijderen!"
+        },
+        "create": {
+          "page_title": "Maak niet-factuurbetaling aan",
+          "form_title": "Maak niet-factuurbetaling aan",
+          "breadcrumbs_current": "Betaling aanmaken",
+          "breadcrumbs_first": "Dashboard",
+          "breadcrumbs_second": "Betalingen",
+          "breadcrumbs_third": "Betalingen zonder factuur",
+          "breadcrumbs_active": "Creëren",
+          "success_msg": "Betaling succesvol toegevoegd 👍"
+        },
+        "edit": {
+          "page_title": "Factuurretour bewerken",
+          "form_title": "Niet-factuurbetaling bewerken",
+          "breadcrumbs_current": "Betaling bewerken",
+          "breadcrumbs_first": "Dashboard",
+          "breadcrumbs_second": "Betalingen",
+          "breadcrumbs_third": "Betalingen zonder factuur",
+          "breadcrumbs_active": "Bewerk",
+          "success_msg": "Betaling succesvol bijgewerkt 👍"
+        }
+      }
+    },
+    "suppliers": {
+      "purchase": {
+        "index": {
+          "page_title": "Aankoopbetalingen",
+          "breadcrumbs_current": "Aankoopbetalingen",
+          "breadcrumbs_first": "Dashboard",
+          "breadcrumbs_second": "Betalingen",
+          "breadcrumbs_active": "Aankoopbetalingen",
+          "delete_warning": "Hier kun je niet meer op terugkomen!",
+          "delete_failed": "Er was iets mis."
+        },
+        "create": {
+          "page_title": "Aankoopbetaling voor leverancier maken",
+          "form_title": "Aankoopbetaling aanmaken",
+          "breadcrumbs_current": "Betaling aanmaken",
+          "breadcrumbs_first": "Dashboard",
+          "breadcrumbs_second": "Betalingen",
+          "breadcrumbs_third": "Aankoopbetalingen",
+          "breadcrumbs_active": "Creëren",
+          "success_msg": "Leveranciersbetaling succesvol toegevoegd 👍"
+        },
+        "edit": {
+          "page_title": "Aankoopbetaling leverancier bewerken",
+          "form_title": "Aankoopbetaling bewerken",
+          "breadcrumbs_current": "Betaling bewerken",
+          "breadcrumbs_first": "Dashboard",
+          "breadcrumbs_second": "Betalingen",
+          "breadcrumbs_third": "Aankoopbetalingen",
+          "breadcrumbs_active": "Bewerk",
+          "success_msg": "Betaling succesvol bijgewerkt 👍"
+        },
+        "view": {
+          "page_title": "Betalingsgegevens voor aankoop van leveranciers",
+          "breadcrumbs_current": "Aankoop betalingsgegevens",
+          "breadcrumbs_first": "Dashboard",
+          "breadcrumbs_second": "Betalingen",
+          "breadcrumbs_third": "Aankoopbetalingen",
+          "breadcrumbs_active": "Details"
+        }
+      },
+      "non_purchase": {
+        "index": {
+          "page_title": "Leverancier niet-aankoopbetalingen",
+          "breadcrumbs_current": "Niet-aankoopbetalingen",
+          "breadcrumbs_first": "Dashboard",
+          "breadcrumbs_second": "Betalingen",
+          "breadcrumbs_active": "Niet-aankoopbetalingen",
+          "delete_warning": "Hier kun je niet meer op terugkomen!",
+          "delete_failed": "Sorry, je kunt deze betaling niet verwijderen!"
+        },
+        "create": {
+          "page_title": "Maak niet-aankoopbetaling aan",
+          "form_title": "Maak niet-aankoopbetaling aan",
+          "breadcrumbs_current": "Betaling aanmaken",
+          "breadcrumbs_first": "Dashboard",
+          "breadcrumbs_second": "Betalingen",
+          "breadcrumbs_third": "Niet-aankoopbetalingen",
+          "breadcrumbs_active": "Creëren",
+          "success_msg": "Betaling succesvol toegevoegd 👍"
+        },
+        "edit": {
+          "page_title": "Niet-aankoopbetaling bewerken",
+          "form_title": "Niet-aankoopbetaling bewerken",
+          "breadcrumbs_current": "Betaling bewerken",
+          "breadcrumbs_first": "Dashboard",
+          "breadcrumbs_second": "Betalingen",
+          "breadcrumbs_third": "Niet-aankoopbetalingen",
+          "breadcrumbs_active": "Bewerk",
+          "success_msg": "Betaling succesvol bijgewerkt 👍"
+        }
+      }
+    }
+  },
+  "loans": {
+    "common": {
+      "authority": "Autoriteit",
+      "loan": "Lening",
+      "loan_placeholder": "Selecteer een lening",
+      "loan_authority": "lening autoriteit",
+      "authority_placeholder": "Selecteer een autoriteit",
+      "cc_limit": "CC-limiet",
+      "cc_placeholder": "Vul cc leenlimiet in",
+      "cash_credit_limit": "Leninglimiet voor contant krediet (CC)",
+      "cash_credit_loan": "Cash Credit (CC) Lening",
+      "interetest_paid": "Betaalde rente",
+      "total_payable": "Totaal te betalen",
+      "total_loan": "Totale lening",
+      "cc_term": "CC + termijn",
+      "cc_taken": "CC-lening aangenomen",
+      "available_cc": "Beschikbare CC-lening",
+      "all_loans": "Alle leningen",
+      "empty_loan": "Er zijn nog geen leningen beschikbaar!",
+      "empty_loan_msg": "U heeft geen lening toegevoegd voor deze autoriteit. Na het toevoegen van leningen ziet u hier de lijst.",
+      "authority_details": "Autoriteitsdetails",
+      "payable_amount": "Te betalen bedrag",
+      "duration": "Looptijd",
+      "duration_placeholder": "Voer een duur in",
+      "interest_rate_placeholder": "Vul een rentepercentage in",
+      "available_amount": "Beschikbaar bedrag",
+      "term_loan": "Termijnlening",
+      "loan_type": "Soort lening",
+      "loan_reason": "lening reden",
+      "loan_date": "Uitleendatum",
+      "Loan_account": "Leningrekening",
+      "Loan_payments": "lening betalingen",
+      "empty_payment_msg": "U heeft geen betaling toegevoegd voor deze lening. Na het toevoegen van betalingen ziet u hier de lijst.",
+      "loan_amount": "Leenbedrag",
+      "loan_ref": "Leningref.",
+      "payment_ref": "Betalingsref.",
+      "amount_paid": "Betaald bedrag"
+    },
+    "authorities": {
+      "index": {
+        "page_title": "lening autoriteiten",
+        "breadcrumbs_current": "lening autoriteiten",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Leningbeheer",
+        "breadcrumbs_active": "autoriteiten",
+        "delete_warning": "Hier kun je niet meer op terugkomen!",
+        "delete_failed": "Sorry, je kunt deze machtiging niet verwijderen."
+      },
+      "create": {
+        "page_title": "Kredietautoriteit maken",
+        "form_title": "Een leningsautoriteit maken",
+        "breadcrumbs_current": "Kredietautoriteit maken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "lening autoriteiten",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Leningsautoriteit succesvol toegevoegd 👍"
+      },
+      "edit": {
+        "page_title": "Leningsautoriteit bewerken",
+        "form_title": "Uitleenautoriteit bewerken",
+        "breadcrumbs_current": "Autoriteit bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "lening autoriteiten",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Leningsautoriteit geüpdatet 👍"
+      },
+      "view": {
+        "page_title": "Leningautoriteit bekijken",
+        "breadcrumbs_current": "Autoriteitsdetails",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "lening autoriteiten",
+        "breadcrumbs_active": "Details"
+      }
+    },
+    "payments": {
+      "index": {
+        "page_title": "lening betalingen",
+        "breadcrumbs_current": "lening betalingen",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Leningbeheer",
+        "breadcrumbs_active": "lening betalingen",
+        "delete_warning": "Hier kun je niet meer op terugkomen!",
+        "delete_failed": "Er was iets mis."
+      },
+      "create": {
+        "page_title": "Leningbetaling aanmaken",
+        "form_title": "Een leningbetaling aanmaken",
+        "breadcrumbs_current": "Leningbetaling aanmaken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "lening betalingen",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Leningbetaling succesvol toegevoegd 👍"
+      },
+      "edit": {
+        "page_title": "Leningbetaling bewerken",
+        "form_title": "Leningbetaling bewerken",
+        "breadcrumbs_current": "Leningbetaling bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "lening betalingen",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Betaling succesvol bijgewerkt 👍"
+      },
+      "view": {
+        "page_title": "Betalingsgegevens lening",
+        "breadcrumbs_current": "Betalingsgegevens lening",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "lening betalingen",
+        "breadcrumbs_active": "Details"
+      }
+    },
+    "list": {
+      "index": {
+        "page_title": "Leningen",
+        "breadcrumbs_current": "Leningen",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Leningbeheer",
+        "breadcrumbs_active": "Leningen",
+        "delete_warning": "Hier kun je niet meer op terugkomen!",
+        "delete_failed": "Sorry, je kunt deze lening niet verwijderen."
+      },
+      "create": {
+        "page_title": "Lening aanmaken",
+        "form_title": "Een lening aanmaken",
+        "breadcrumbs_current": "Lening aanmaken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Leningen",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Lening succesvol toegevoegd 👍"
+      },
+      "edit": {
+        "page_title": "Lening bewerken",
+        "form_title": "Lening bewerken",
+        "breadcrumbs_current": "Lening bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Leningen",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Lening succesvol bijgewerkt 👍"
+      },
+      "view": {
+        "page_title": "Leningdetails",
+        "breadcrumbs_current": "Leningdetails",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Leningen",
+        "breadcrumbs_active": "Details"
+      }
+    }
+  },
+  "assets": {
+    "common": {
+      "asset_name": "Naam item",
+      "asset_name_placeholder": "Voer de itemnaam in",
+      "asset_type": "Activatype",
+      "asset_type_placeholder": "Selecteer een activatype",
+      "asset_cost": "Activakosten",
+      "asset_cost_placeholder": "Voer activakosten in",
+      "current_value": "Huidige waarde",
+      "depreciation": "afschrijving",
+      "depreciation_type": "Afschrijvingstype",
+      "salvage_value": "Bergingswaarde",
+      "salvage_value_placeholder": "Bergingswaarde",
+      "useful_life": "Nuttige levensduur",
+      "remaining_life": "Resterend leven",
+      "useful_life_placeholder": "Gebruiksduur invoeren",
+      "added_date": "Datum toegevoegd",
+      "expired_date": "Vervaldatum"
+    },
+    "types": {
+      "index": {
+        "page_title": "Activatypen",
+        "breadcrumbs_current": "Activatypen",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Vermogensbeheer",
+        "breadcrumbs_active": "Activatypen",
+        "delete_warning": "Hier kun je niet meer op terugkomen!",
+        "delete_failed": "Er was iets mis."
+      },
+      "create": {
+        "page_title": "Activatype maken",
+        "form_title": "Een activatype maken",
+        "breadcrumbs_current": "Activatype maken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Activatypen",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Itemtype succesvol toegevoegd 👍"
+      },
+      "edit": {
+        "page_title": "Activatype bewerken",
+        "form_title": "Itemtype bewerken",
+        "breadcrumbs_current": "Activatype bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Activatypen",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Activatype succesvol geüpdatet 👍"
+      }
+    },
+    "list": {
+      "index": {
+        "page_title": "Middelen",
+        "breadcrumbs_current": "Middelen",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Vermogensbeheer",
+        "breadcrumbs_active": "Middelen",
+        "delete_warning": "Hier kun je niet meer op terugkomen!",
+        "delete_failed": "Er was iets mis."
+      },
+      "create": {
+        "page_title": "Activa maken",
+        "form_title": "Een activum maken",
+        "breadcrumbs_current": "Activa maken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Middelen",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Item succesvol toegevoegd 👍"
+      },
+      "edit": {
+        "page_title": "Activa bewerken",
+        "form_title": "Item bewerken",
+        "breadcrumbs_current": "Activa bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Middelen",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Item succesvol geüpdatet 👍"
+      },
+      "view": {
+        "page_title": "Itemdetails",
+        "breadcrumbs_current": "Itemdetails",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Middelen",
+        "breadcrumbs_active": "Details"
+      }
+    }
+  },
+  "payroll": {
+    "common": {
+      "salary_date": "Salarisdatum",
+      "total_salary": "Totale salaris",
+      "advance": "Voorschot",
+      "advance_placeholder": "Voer vooraf bedrag in",
+      "others": "anderen",
+      "others_placeholder": "Voer anderen bedrag in",
+      "travel_allowance": "Reiskostenvergoeding (TA)",
+      "travel_allowance_placeholder": "Voer een reiskostenvergoeding in",
+      "festival_bonus": "Festivalbonus",
+      "festival_bonus_placeholder": "Voer een festivalbonus in",
+      "commission": "Commissie",
+      "commission_placeholder": "Voer een commissie in",
+      "bonus": "Bonus",
+      "bonus_placeholder": "Voer een bonus in",
+      "food_bill": "Voedselrekening",
+      "food_bill_placeholder": "Voer een voedselrekening in",
+      "mobile_bill": "Mobiele rekening",
+      "mobile_bill_placeholder": "Voer een mobiele factuur in",
+      "deduction_reason": "Reden van aftrek:",
+      "deduction_reason_placeholder": "Voer een aftrekreden in",
+      "deduction_amount": "Aftrekbedrag",
+      "deduction_amount_placeholder": "Vul een aftrekbedrag in",
+      "present_salary": "Huidig salaris",
+      "salary_month": "Salaris Maand",
+      "salary_month_placeholder": "Selecteer een salarismaand"
+    },
+    "index": {
+      "page_title": "Salaris van werknemers",
+      "breadcrumbs_current": "Salaris van werknemers",
+      "breadcrumbs_first": "Dashboard",
+      "breadcrumbs_second": "Loonlijst",
+      "breadcrumbs_active": "Loonlijst",
+      "delete_warning": "Hier kun je niet meer op terugkomen!",
+      "delete_failed": "Er was iets mis."
+    },
+    "create": {
+      "page_title": "Salaris aanmaken",
+      "form_title": "Salaris voor werknemers maken",
+      "breadcrumbs_current": "Salaris aanmaken",
+      "breadcrumbs_first": "Dashboard",
+      "breadcrumbs_second": "Loonlijst",
+      "breadcrumbs_active": "Creëren",
+      "success_msg": "Salaris succesvol toegevoegd 👍"
+    },
+    "edit": {
+      "page_title": "Salaris bewerken",
+      "form_title": "Salaris bewerken",
+      "breadcrumbs_current": "Salaris bewerken",
+      "breadcrumbs_first": "Dashboard",
+      "breadcrumbs_second": "Loonlijst",
+      "breadcrumbs_active": "Bewerk",
+      "success_msg": "Salaris succesvol bijgewerkt 👍"
+    },
+    "view": {
+      "page_title": "Salarisgegevens",
+      "breadcrumbs_current": "Salarisgegevens",
+      "breadcrumbs_first": "Dashboard",
+      "breadcrumbs_second": "Loonlijst",
+      "breadcrumbs_active": "Details"
+    }
+  },
+  "clients": {
+    "common": {
+      "non_invoice_transactions": "Transacties zonder factuur"
+    },
+    "index": {
+      "page_title": "Klanten",
+      "breadcrumbs_current": "Klanten",
+      "breadcrumbs_first": "Dashboard",
+      "breadcrumbs_second": "Klanten",
+      "breadcrumbs_active": "Klanten",
+      "delete_warning": "Hier kun je niet meer op terugkomen!",
+      "delete_failed": "Sorry, je kunt deze klant niet verwijderen."
+    },
+    "create": {
+      "page_title": "Klant maken",
+      "form_title": "Maak een klant aan",
+      "breadcrumbs_current": "Klant maken",
+      "breadcrumbs_first": "Dashboard",
+      "breadcrumbs_second": "Klanten",
+      "breadcrumbs_active": "Creëren",
+      "success_msg": "Klant succesvol toegevoegd 👍"
+    },
+    "edit": {
+      "page_title": "Klant bewerken",
+      "form_title": "Klant bewerken",
+      "breadcrumbs_current": "Klant bewerken",
+      "breadcrumbs_first": "Dashboard",
+      "breadcrumbs_second": "Klanten",
+      "breadcrumbs_active": "Bewerk",
+      "success_msg": "Client succesvol geüpdatet"
+    },
+    "view": {
+      "page_title": "Klantgegevens",
+      "breadcrumbs_current": "Klantgegevens",
+      "breadcrumbs_first": "Dashboard",
+      "breadcrumbs_second": "Klanten",
+      "breadcrumbs_active": "Details"
+    }
+  },
+  "suppliers": {
+    "common": {
+      "non_purchase_transactions": "Niet-aankooptransacties"
+    },
+    "index": {
+      "page_title": "leveranciers",
+      "breadcrumbs_current": "leveranciers",
+      "breadcrumbs_first": "Dashboard",
+      "breadcrumbs_second": "leveranciers",
+      "breadcrumbs_active": "leveranciers",
+      "delete_warning": "Hier kun je niet meer op terugkomen!",
+      "delete_failed": "Sorry, je kunt deze leverancier niet verwijderen."
+    },
+    "create": {
+      "page_title": "Leverancier maken",
+      "form_title": "Maak een leverancier aan",
+      "breadcrumbs_current": "Leverancier maken",
+      "breadcrumbs_first": "Dashboard",
+      "breadcrumbs_second": "leveranciers",
+      "breadcrumbs_active": "Creëren",
+      "success_msg": "Leverancier succesvol toegevoegd 👍"
+    },
+    "edit": {
+      "page_title": "Bewerk leverancier",
+      "form_title": "Bewerk leverancier",
+      "breadcrumbs_current": "Bewerk leverancier",
+      "breadcrumbs_first": "Dashboard",
+      "breadcrumbs_second": "leveranciers",
+      "breadcrumbs_active": "Bewerk",
+      "success_msg": "Leverancier succesvol geüpdatet 👍"
+    },
+    "view": {
+      "page_title": "Leveranciersdetails:",
+      "breadcrumbs_current": "Leveranciersdetails:",
+      "breadcrumbs_first": "Dashboard",
+      "breadcrumbs_second": "leveranciers",
+      "breadcrumbs_active": "Details"
+    }
+  },
+  "employees": {
+    "common": {
+      "increment_date": "Verhogingsdatum",
+      "increment_amount": "Verhogen Bedrag",
+      "increment_amount_placeholder": "Voer het verhogingsbedrag in",
+      "increment_reason": "Reden verhogen",
+      "increment_reason_placeholder": "Voer een reden in",
+      "basic_salary": "Basis salaris",
+      "current_salary": "Huidig salaris",
+      "incremented_salary": "Salaris verhogen",
+      "birth_date": "Geboortedatum",
+      "join_date": "Aanmeldingsdatum",
+      "employee_name": "Naam werknemer",
+      "employee_name_placeholder": "Voer de naam van een werknemer in",
+      "gender": "Geslacht",
+      "gender_placeholder": "Selecteer een geslacht",
+      "male": "Mannelijk",
+      "female": "Vrouw",
+      "transgender": "Transgender",
+      "other": "Ander",
+      "blood_group": "Bloedgroep",
+      "blood_group_placeholder": "Selecteer een bloedgroep",
+      "religion": "Geloof",
+      "religion_placeholder": "Selecteer een religie",
+      "islam": "Islam",
+      "hinduism": "hindoeïsme",
+      "buddhists": "boeddhisten",
+      "christians": "christenen",
+      "animists": "animisten",
+      "appointment_date": "Afspraakdatum:",
+      "allow_login": "Sta werknemersaanmelding toe",
+      "increment_history": "Geschiedenis verhogen"
+    },
+    "departments": {
+      "index": {
+        "page_title": "afdelingen",
+        "breadcrumbs_current": "afdelingen",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Medewerkers",
+        "breadcrumbs_active": "afdelingen",
+        "delete_warning": "Hier kun je niet meer op terugkomen!",
+        "delete_failed": "Er was iets mis."
+      },
+      "create": {
+        "page_title": "Afdeling maken",
+        "form_title": "Een afdeling maken",
+        "breadcrumbs_current": "Afdeling maken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "afdelingen",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Afdeling succesvol toegevoegd 👍"
+      },
+      "edit": {
+        "page_title": "Afdeling bewerken",
+        "form_title": "Afdeling bewerken",
+        "breadcrumbs_current": "Afdeling bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "afdelingen",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Afdeling succesvol bijgewerkt 👍"
+      }
+    },
+    "increments": {
+      "index": {
+        "page_title": "Salarisverhogingen voor werknemers",
+        "breadcrumbs_current": "Salarisverhogingen",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Medewerkers",
+        "breadcrumbs_active": "Verhogingen",
+        "delete_warning": "Hier kun je niet meer op terugkomen!",
+        "delete_failed": "Er was iets mis."
+      },
+      "create": {
+        "page_title": "Salarisverhoging maken",
+        "form_title": "Salarisverhoging maken",
+        "breadcrumbs_current": "Salarisverhoging maken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Verhogingen",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Toename succesvol toegevoegd 👍"
+      },
+      "edit": {
+        "page_title": "Salarisverhoging bewerken",
+        "form_title": "Salarisverhoging bewerken",
+        "breadcrumbs_current": "Salarisverhoging bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Verhogingen",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Toename succesvol bijgewerkt 👍"
+      },
+      "view": {
+        "page_title": "Details verhogen",
+        "breadcrumbs_current": "Details verhogen",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Verhogingen",
+        "breadcrumbs_active": "Details"
+      }
+    },
+    "list": {
+      "index": {
+        "page_title": "Medewerkers",
+        "breadcrumbs_current": "Medewerkers",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_active": "Medewerkers",
+        "delete_warning": "Hier kun je niet meer op terugkomen!",
+        "delete_failed": "Er was iets mis."
+      },
+      "create": {
+        "page_title": "Werknemer aanmaken",
+        "form_title": "Maak een medewerker aan",
+        "breadcrumbs_current": "Werknemer aanmaken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Medewerkers",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Medewerker succesvol toegevoegd 👍"
+      },
+      "edit": {
+        "page_title": "Werknemer bewerken",
+        "form_title": "Bewerk medewerker",
+        "breadcrumbs_current": "Werknemer bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Medewerkers",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Medewerker succesvol geüpdatet 👍"
+      },
+      "view": {
+        "page_title": "Gegevens werknemer",
+        "breadcrumbs_current": "Gegevens werknemer",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Medewerkers",
+        "breadcrumbs_active": "Details"
+      }
+    }
+  },
+  "products": {
+    "categories": {
+      "index": {
+        "page_title": "Productcategorieën",
+        "breadcrumbs_current": "Productcategorieën",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Producten",
+        "breadcrumbs_active": "Categorieën",
+        "delete_warning": "Alle subcategorieën voor deze categorie worden verwijderd!"
+      },
+      "create": {
+        "page_title": "Productcategorie maken",
+        "form_title": "Maak een productcategorie",
+        "breadcrumbs_current": "Categorie maken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Producten",
+        "breadcrumbs_third": "Categorieën",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Categorie succesvol toegevoegd"
+      },
+      "edit": {
+        "page_title": "Productcategorie bewerken",
+        "form_title": "Productcategorie bewerken",
+        "breadcrumbs_current": "Productcategorie bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Producten",
+        "breadcrumbs_third": "Categorieën",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Categorie succesvol bijgewerkt"
+      }
+    },
+    "sub_categories": {
+      "index": {
+        "page_title": "Product subcategorieën",
+        "breadcrumbs_current": "Product subcategorieën",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Producten",
+        "breadcrumbs_active": "Subcategorieën",
+        "delete_warning": "Alle producten voor deze categorie worden verwijderd!"
+      },
+      "create": {
+        "page_title": "Maak een productsubcategorie",
+        "form_title": "Een productsubcategorie maken",
+        "breadcrumbs_current": "Subcategorie maken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Producten",
+        "breadcrumbs_third": "Subcategorieën",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Subcategorie succesvol toegevoegd 👍"
+      },
+      "edit": {
+        "page_title": "Productsubcategorie bewerken",
+        "form_title": "Productsubcategorie bewerken",
+        "breadcrumbs_current": "Productsubcategorie bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Producten",
+        "breadcrumbs_third": "Subcategorieën",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Subcategorie succesvol bijgewerkt 👍"
+      }
+    },
+    "list": {
+      "common": {
+        "alert_quantity": "Waarschuwingshoeveelheid",
+        "alert_quantity_placeholder": "Voer waarschuwingshoeveelheid in",
+        "selling_price": "Verkoopprijs",
+        "selling_price_placeholder": "Voer verkoopprijs in",
+        "regular_price": "Normale prijs",
+        "regular_price_placeholder": "Voer de normale prijs in",
+        "tax_type": "Belastingsoort",
+        "exclusive": "Exclusief",
+        "inclusive": "inclusief",
+        "product_tax": "Productbelasting",
+        "tax_placeholder": "Selecteer een belasting",
+        "barcode_symbology": "Barcode-symboliek",
+        "tax_amount": "Belastingbedrag",
+        "avg_purchase_price": "Gem. Aankoopprijs",
+        "avg_selling_price": "Gem. Verkoopprijs",
+        "stock": "Voorraad",
+        "inventory_value": "Voorraadwaarde",
+        "generate_barcode": "Barcode genereren"
+      },
+      "index": {
+        "page_title": "Producten",
+        "breadcrumbs_current": "Producten",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Producten",
+        "breadcrumbs_active": "Producten",
+        "delete_warning": "Hier kun je niet meer op terugkomen!"
+      },
+      "create": {
+        "page_title": "Product maken",
+        "form_title": "Maak een product",
+        "breadcrumbs_current": "Product maken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Producten",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Product succesvol toegevoegd 👍"
+      },
+      "edit": {
+        "page_title": "Product bewerken",
+        "form_title": "Product bewerken",
+        "breadcrumbs_current": "Product bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Producten",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Product succesvol geüpdatet"
+      },
+      "view": {
+        "page_title": "Productdetails",
+        "breadcrumbs_current": "Productdetails",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Producten",
+        "breadcrumbs_active": "Details",
+        "expense_details": "Productdetails"
+      },
+      "barcode": {
+        "page_title": "Streepjescode afdrukken",
+        "generate_barcode": "Barcode genereren",
+        "print_barcode": "Streepjescode afdrukken",
+        "paper_size": "Papiergrootte",
+        "print_qty": "Aantal afdrukken",
+        "breadcrumbs_current": "Streepjescode afdrukken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Producten",
+        "breadcrumbs_active": "Bewerk",
+        "page_option_0": "40 per vel (a4) (1.799 * 1.003)",
+        "page_option_1": "30 per vel (2.625 * 1)",
+        "page_option_2": "24 per vel (a4) (2,48 * 1,334)",
+        "page_option_3": "20 per vel (4 * 1)",
+        "page_option_4": "18 per vel (a4) (2,5 * 1,835)",
+        "page_option_5": "14 per vel (4 * 1,33)",
+        "page_option_6": "12 per vel (a4) (2,5 * 2,834)",
+        "page_option_7": "10 per vel (4 * 2)"
+      }
+    }
+  },
+  "inventory": {
+    "common": {
+      "inventory_history": "Voorraadgeschiedenis",
+      "adjustment_no": "Aanpassing nr",
+      "adjustment_date": "Aanpassingsdatum",
+      "adjustment_type": "Aanpassingstype:",
+      "increment": "Verhogen",
+      "decrement": "Verlagen",
+      "adjustment_reason": "Aanpassingsreden:",
+      "adjusted_products": "Aangepaste producten"
+    },
+    "index": {
+      "page_title": "Voorraad",
+      "breadcrumbs_current": "Voorraad",
+      "breadcrumbs_first": "Dashboard",
+      "breadcrumbs_second": "Producten",
+      "breadcrumbs_active": "Voorraad"
+    },
+    "history": {
+      "page_title": "Voorraadgeschiedenis",
+      "breadcrumbs_current": "Voorraadgeschiedenis",
+      "breadcrumbs_first": "Dashboard",
+      "breadcrumbs_second": "Voorraad",
+      "breadcrumbs_active": "Geschiedenis"
+    },
+    "adjustments": {
+      "index": {
+        "page_title": "Voorraadaanpassingen",
+        "breadcrumbs_current": "Voorraadaanpassingen",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Voorraad",
+        "breadcrumbs_active": "Aanpassingen",
+        "delete_warning": "Hier kun je niet meer op terugkomen!",
+        "delete_failed": "Er was iets mis."
+      },
+      "create": {
+        "page_title": "Aanpassing maken",
+        "form_title": "Aanpassing maken",
+        "breadcrumbs_current": "Aanpassing maken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Aanpassingen",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Aanpassing succesvol toegevoegd 👍"
+      },
+      "edit": {
+        "page_title": "Aanpassing bewerken",
+        "form_title": "Aanpassing bewerken",
+        "breadcrumbs_current": "Aanpassing bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Aanpassingen",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Aanpassing succesvol bijgewerkt 👍"
+      },
+      "view": {
+        "page_title": "Aanpassingsdetails",
+        "breadcrumbs_current": "Aanpassingsdetails",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Aanpassingen",
+        "breadcrumbs_active": "Details"
+      }
+    }
+  },
+  "reports": {
+    "stock_in": "Inslaan",
+    "stock_out": "Voorraad op",
+    "total_quantity": "Totale kwantiteit",
+    "incomes": "inkomen",
+    "liabilities": "Schulden",
+    "security_asset": "Totale beveiliging/activum",
+    "supplier_dues": "Leveranciersrechten",
+    "client_dues": "Kosten van de klant",
+    "bank_loan": "Banklening",
+    "bank_balance": "Banksaldo",
+    "income_liabilities": "(Inkomsten - Passiva)",
+    "total_asset": "Totale activa",
+    "view_report": "Rapport bekijken",
+    "monthly_summery": "Maandelijks overzicht",
+    "particulars": "Bijzonderheden",
+    "opening_balance": "Beginsaldo",
+    "invoice_sales": "Factuur verkoop",
+    "invoice_dues": "Factuurkosten",
+    "accounts_collection": "Accounts verzamelen",
+    "general": "Algemeen",
+    "loan_interest": "Lening rente",
+    "asset_depreciation": "Afschrijving activa",
+    "transfer": "Overdracht",
+    "transfer_from": "Saldo overboeking van",
+    "closing_balance": "Eindsaldo",
+    "report_type": "Rapporttype",
+    "gross_profit_Loss": "Bruto winst/verlies",
+    "net_profit_Loss": "Nettowinst (verlies",
+    "sold_qty": "Verkocht aantal",
+    "profit": "Winst",
+    "loss": "Verlies",
+    "total_sales_avg": "Totale omzet (gemiddeld)",
+    "total_purchased_avg": "Totale aankoop (gemiddeld)",
+    "income_statement": "Winst-en verliesrekening",
+    "total_sales": "Totale verkoop",
+    "cost_of_goods_sold": "Prijs van de verkochte goederen",
+    "positive_adjusted": "Positief aangepast",
+    "negative_adjusted": "Negatief aangepast",
+    "total_adjusted": "Totaal aangepast",
+    "gross_profit": "Brutowinst",
+    "gross_loss": "Bruto verlies",
+    "operating_expenses": "Bedrijfskosten",
+    "salaries": "Salarissen",
+    "general_expenses": "Algemene uitgaven",
+    "total_expense": "Totale uitgaven",
+    "net_profit": "Netto winst",
+    "net_loss": "Nettoverlies",
+    "date_range": "Datumbereik",
+    "stock_in_hand": "Voorraad in de hand",
+    "balance_sheet": {
+      "page_title": "Balans",
+      "breadcrumbs_current": "Balans",
+      "breadcrumbs_first": "Dashboard",
+      "breadcrumbs_second": "Rapporten",
+      "breadcrumbs_active": "Balans"
+    },
+    "summary": {
+      "page_title": "Samenvattingsverslag",
+      "breadcrumbs_current": "Samenvattingsverslag",
+      "breadcrumbs_first": "Dashboard",
+      "breadcrumbs_second": "Rapporten",
+      "breadcrumbs_active": "Samenvattingsverslag"
+    },
+    "profit_loss": {
+      "empty_msg_title": "Lege winst/verlies!",
+      "empty_msg_text": "Sorry, er is geen winst/verlies gevonden voor uw geselecteerde categorie en datumbereik.",
+      "page_title": "Winst/verliesrapport",
+      "breadcrumbs_current": "Winst/verliesrapport",
+      "breadcrumbs_first": "Dashboard",
+      "breadcrumbs_second": "Rapporten",
+      "breadcrumbs_active": "Winst/verliesrapport"
+    },
+    "expense": {
+      "empty_msg_title": "Lege kosten!",
+      "empty_msg_text": "Sorry, er zijn geen uitgaven gevonden voor uw geselecteerde categorie en periode.",
+      "page_title": "Onkostennota",
+      "breadcrumbs_current": "Onkostennota",
+      "breadcrumbs_first": "Dashboard",
+      "breadcrumbs_second": "Rapporten",
+      "breadcrumbs_active": "Onkostennota"
+    },
+    "product": {
+      "empty_msg_title": "Leeg!",
+      "empty_msg_text": "Sorry, er zijn geen stocks in of stock outs gevonden voor uw geselecteerde artikel en datumbereik.",
+      "page_title": "Artikelrapport",
+      "breadcrumbs_current": "Artikelrapport",
+      "breadcrumbs_first": "Dashboard",
+      "breadcrumbs_second": "Rapporten",
+      "breadcrumbs_active": "Artikelrapport"
+    },
+    "inventory": {
+      "empty_msg_title": "Lege inventaris!",
+      "empty_msg_text": "Sorry, er is geen voorraad gevonden voor uw geselecteerde categorie en periode.",
+      "page_title": "Inventarisatierapport",
+      "breadcrumbs_current": "Inventarisatierapport",
+      "breadcrumbs_first": "Dashboard",
+      "breadcrumbs_second": "Rapporten",
+      "breadcrumbs_active": "Inventarisatierapport"
+    }
+  },
+  "setup": {
+    "common": {
+      "sort_code": "Korte code",
+      "sort_code_placeholder": "Voer een korte code in"
+    },
+    "index": {
+      "page_title": "Opstelling",
+      "breadcrumbs_current": "Opstelling",
+      "breadcrumbs_first": "Dashboard",
+      "breadcrumbs_active": "Opstelling",
+      "menu": {
+        "item_one": {
+          "title": "Algemeen",
+          "description": "Algemene instellingen zoals sitetitel, sitebeschrijving, adres enzovoort.",
+          "link_text": "Verander instelling"
+        },
+        "item_two": {
+          "title": "Valuta's",
+          "description": "Beheer verschillende soorten valuta die u in het systeem gaat gebruiken.",
+          "link_text": "Valuta's"
+        },
+        "item_three": {
+          "title": "Eenheden",
+          "description": "Beheer eenheidstypen voor metingen die u in het systeem gaat gebruiken.",
+          "link_text": "Eenheden"
+        },
+        "item_four": {
+          "title": "Rol en machtigingen",
+          "description": "Beheer rollen en machtigingen voor gebruikers die het systeem gaan gebruiken.",
+          "link_text": "Rollen en machtigingen"
+        },
+        "item_five": {
+          "title": "BTW-tarieven",
+          "description": "Beheer btw-tarieven voor btw-beheer die u in het systeem gaat gebruiken.",
+          "link_text": "BTW-tarieven"
+        },
+        "item_six": {
+          "title": "Merken",
+          "description": "Beheer merken die u in het systeem gaat gebruiken.",
+          "link_text": "Merken"
+        },
+        "item_seven": {
+          "title": "Betaalmethodes",
+          "description": "Beheer betaalmethoden die u in het systeem gaat gebruiken.",
+          "link_text": "Betaalmethodes"
+        },
+        "item_eight": {
+          "title": "Gebruikersrechten",
+          "description": "Beheer machtigingen die u in een rol gaat toewijzen.",
+          "link_text": "Gebruikersrechten"
+        }
+      }
+    },
+    "general_settings": {
+      "index": {
+        "page_title": "Algemene instellingen",
+        "breadcrumbs_current": "Algemene instellingen",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Opstelling",
+        "breadcrumbs_active": "Algemene instellingen bijwerken",
+        "form_title": "Algemene instellingen bijwerken",
+        "success_message": "Instellingen succesvol geüpdatet 👍",
+        "company_info": {
+          "info_title": "Voeg uw bedrijfsinformatie toe",
+          "company_tagline": "Bedrijfsslogan",
+          "company_tagline_placeholder": "Bedrijfsslogan",
+          "email_address": "E-mailadres",
+          "email_address_placeholder": "voer een e-mail adres in",
+          "phone_number": "Telefoonnummer",
+          "phone_number_placeholder": "Telefoonnummer"
+        },
+        "code_prefixes": {
+          "prefix_title": "Voeg de codevoorvoegsels toe",
+          "client_prefix": "Klantvoorvoegsel",
+          "client_prefix_placeholder": "Voer een klantvoorvoegsel in",
+          "supplier_prefix": "Leveranciersvoorvoegsel",
+          "supplier_prefix_placeholder": "Voer een leveranciersvoorvoegsel in",
+          "employee_prefix": "Voorvoegsel werknemer",
+          "employee_prefix_placeholder": "Voer een werknemersvoorvoegsel in",
+          "product_category_prefix": "Voorvoegsel productcategorie",
+          "product_category_prefix_placeholder": "Voer een productcategorievoorvoegsel in",
+          "product_sub_category_prefix": "Voorvoegsel productsubcategorie",
+          "product_sub_category_prefix_placeholder": "Voer een subcategorievoorvoegsel in",
+          "product_prefix": "Productvoorvoegsel",
+          "product_prefix_placeholder": "Voer een productvoorvoegsel in",
+          "expense_category_prefix": "Voorvoegsel onkostencategorie",
+          "expense_category_prefix_placeholder": "Voer een voorvoegsel van de onkostencategorie in",
+          "expense_sub_category_prefix": "Voorvoegsel onkostensubcategorie",
+          "expense_sub_category_prefix_placeholder": "Voer een voorvoegsel van een onkostensubcategorie in",
+          "purchase_prefix": "Aankoopvoorvoegsel",
+          "purchase_prefix_placeholder": "Voer een aankoopvoorvoegsel in",
+          "purchase_return_prefix": "Aankoop Retour Prefix",
+          "purchase_return_prefix_placeholder": "Voer een inkoopretourvoorvoegsel in",
+          "quotation_prefix": "Voorvoegsel offerte",
+          "quotation_prefix_placeholder": "Voer een offertevoorvoegsel in",
+          "invoice_prefix": "Factuurvoorvoegsel",
+          "invoice_prefix_placeholder": "Voer een factuurvoorvoegsel in",
+          "invoice_return_prefix": "Retourvoorvoegsel factuur",
+          "invoice_return_prefix_placeholder": "Voer een voorvoegsel voor factuurretour in",
+          "invoice_adjustment_prefix": "Voorvoegsel voorraadaanpassing",
+          "invoice_adjustment_prefix_placeholder": "Voer een voorvoegsel voor voorraadcorrectie in"
+        },
+        "default_elements": {
+          "default_elements_title": "Voeg uw standaardelementen toe",
+          "default_currency": "Standaardvaluta",
+          "select_a_currency": "Selecteer een valuta",
+          "default_language": "Standaard taal",
+          "english_en": "Spaans (nl)",
+          "hindi_hi": "nee (hallo)",
+          "bangla_bn": "Bangla (bn)",
+          "copyright_text": "Auteursrechttekst",
+          "copyright_text_placeholder": "Auteursrechttekst",
+          "default_client": "Standaardclient",
+          "default_account": "Standaardaccount",
+          "select_a_account": "Selecteer een account",
+          "select_a_client": "Selecteer een klant",
+          "default_vat_rate": "Standaard btw-tarief",
+          "select_a_vat_rate": "Selecteer een btw-tarief"
+        },
+        "logo": {
+          "white_logo": "Wit logo",
+          "black_logo": "Zwart logo",
+          "small_logo": "Klein logo",
+          "favicon": "Favicon"
+        },
+        "trial_day_count_placeholder": "Aantal proefdagen"
+      }
+    },
+    "currencies": {
+      "common": {
+        "symbol": "Symbool",
+        "symbol_placeholder": "Voer een symbool in",
+        "currency_position": "Valutapositie",
+        "position_drop_down_item_one": "Links uitlijnen",
+        "position_drop_down_item_two": "Rechts uitlijnen"
+      },
+      "index": {
+        "page_title": "Valuta's",
+        "breadcrumbs_current": "Valuta's",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Opstelling",
+        "breadcrumbs_active": "Valuta's",
+        "table": {
+          "position": "Positie",
+          "preview": "Voorbeeld"
+        }
+      },
+      "create": {
+        "page_title": "Valuta maken",
+        "breadcrumbs_current": "Valuta maken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Opstelling",
+        "breadcrumbs_third": "Valuta's",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Valuta succesvol toegevoegd 👍",
+        "form_title": "Maak een valuta"
+      },
+      "edit": {
+        "page_title": "Valuta bewerken",
+        "breadcrumbs_current": "Valuta bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Opstelling",
+        "breadcrumbs_third": "Valuta's",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Valuta geüpdatet 👍",
+        "form_title": "Valuta bewerken"
+      }
+    },
+    "units": {
+      "index": {
+        "page_title": "Eenheden",
+        "breadcrumbs_current": "Eenheden",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Opstelling",
+        "breadcrumbs_active": "Eenheden"
+      },
+      "create": {
+        "page_title": "Eenheid maken",
+        "breadcrumbs_current": "Eenheid maken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Opstelling",
+        "breadcrumbs_third": "Eenheden",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Eenheid succesvol toegevoegd 👍",
+        "form_title": "Eenheid maken"
+      },
+      "edit": {
+        "page_title": "Eenheid bewerken",
+        "breadcrumbs_current": "Eenheid bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Opstelling",
+        "breadcrumbs_third": "Eenheden",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Eenheid geüpdatet 👍",
+        "form_title": "Eenheid bewerken"
+      }
+    },
+    "permissions": {
+      "common": {
+        "slug": "Naaktslak",
+        "slug_placeholder": "Voer een slak in",
+        "guard_name": "Naam bewaker",
+        "guard_name_placeholder": "Voer een bewakernaam in"
+      },
+      "index": {
+        "page_title": "Rechten",
+        "breadcrumbs_current": "Rechten",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Opstelling",
+        "breadcrumbs_active": "Rechten"
+      },
+      "create": {
+        "page_title": "Toestemming aanmaken",
+        "form_title": "Toestemming aanmaken",
+        "breadcrumbs_current": "Toestemming aanmaken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Opstelling",
+        "breadcrumbs_third": "Rechten",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Toestemming succesvol toegevoegd 👍"
+      },
+      "edit": {
+        "page_title": "Toestemming bewerken",
+        "form_title": "Toestemming bewerken",
+        "breadcrumbs_current": "Toestemming bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Opstelling",
+        "breadcrumbs_third": "Rechten",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Toestemming succesvol geüpdatet 👍"
+      }
+    },
+    "role_and_permission": {
+      "index": {
+        "page_title": "Rollen en machtigingen",
+        "breadcrumbs_current": "Rollen en machtigingen",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Opstelling",
+        "breadcrumbs_active": "Rollen en machtigingen",
+        "role_name": "Rol naam"
+      },
+      "create": {
+        "page_title": "Rol maken",
+        "breadcrumbs_current": "Rol maken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Opstelling",
+        "breadcrumbs_third": "Rollen en machtigingen",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Rol succesvol toegevoegd 👍",
+        "form_title": "Rol maken",
+        "select_permission": "Selecteer machtigingen:"
+      },
+      "edit": {
+        "page_title": "Rol bewerken",
+        "breadcrumbs_current": "Rol bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Opstelling",
+        "breadcrumbs_third": "Rollen en machtigingen",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Rol succesvol geüpdatet 👍",
+        "form_title": "Rol bewerken",
+        "update_permission": "Machtigingen bijwerken:"
+      }
+    },
+    "vat_rates": {
+      "common": {
+        "rate_in_percent": "Tarief (berekend in %)",
+        "rate_palceholder": "Voer een tarief in"
+      },
+      "index": {
+        "page_title": "BTW-tarieven",
+        "breadcrumbs_current": "BTW-tarieven",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Opstelling",
+        "breadcrumbs_active": "BTW-tarieven",
+        "rate": "Tarief"
+      },
+      "create": {
+        "page_title": "Btw-tarief maken",
+        "breadcrumbs_current": "Btw-tarief maken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Opstelling",
+        "breadcrumbs_third": "BTW-tarieven",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Btw-tarief succesvol toegevoegd 👍",
+        "form_title": "Maak een btw-tarief"
+      },
+      "edit": {
+        "page_title": "Btw-tarief bewerken",
+        "breadcrumbs_current": "Btw-tarief bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Opstelling",
+        "breadcrumbs_third": "Btw-tarieven",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Btw-tarief succesvol bijgewerkt 👍",
+        "form_title": "Btw-tarief bewerken"
+      }
+    },
+    "brands": {
+      "common": {
+        "brand_name": "Merknaam",
+        "brand_name_placeholder": "Voer merknaam in"
+      },
+      "index": {
+        "page_title": "Merken",
+        "breadcrumbs_current": "Merken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Opstelling",
+        "breadcrumbs_active": "Merken",
+        "brand_logo_view": "Merklogoweergave"
+      },
+      "create": {
+        "page_title": "Merk maken",
+        "breadcrumbs_current": "Merk maken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Opstelling",
+        "breadcrumbs_third": "Merken",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Merk succesvol toegevoegd 👍",
+        "form_title": "Merk creëren"
+      },
+      "view": {
+        "page_title": "Merkdetails",
+        "breadcrumbs_current": "Merkdetails",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Opstelling",
+        "breadcrumbs_third": "Merken",
+        "breadcrumbs_active": "Details"
+      },
+      "edit": {
+        "page_title": "Merk bewerken",
+        "breadcrumbs_current": "Merk bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Opstelling",
+        "breadcrumbs_third": "Merken",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Merk succesvol geüpdatet 👍",
+        "form_title": "Merk bewerken"
+      }
+    },
+    "payment_methods": {
+      "index": {
+        "page_title": "Betaalmethodes",
+        "breadcrumbs_current": "Betaalmethodes",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Opstelling",
+        "breadcrumbs_active": "Betaalmethodes"
+      },
+      "create": {
+        "page_title": "Betaalmethode aanmaken",
+        "breadcrumbs_current": "Betaalmethode aanmaken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Opstelling",
+        "breadcrumbs_third": "Betaalmethodes",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Betaalmethode succesvol toegevoegd 👍",
+        "form_title": "Maak een betaalmethode aan"
+      },
+      "edit": {
+        "page_title": "Betaalmethode bewerken",
+        "breadcrumbs_current": "Betaalmethode bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Opstelling",
+        "breadcrumbs_third": "Betaalmethodes",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Betaalmethode succesvol geüpdatet",
+        "form_title": "Betaalmethode bewerken"
+      }
+    },
+    "plans": {
+      "view": {
+        "page_title": "Plannen"
+      }
+    },
+    "advanced_settings": {
+      "index": {
+        "page_title": "Betalingsinstellingen",
+        "breadcrumbs_first": "Opstelling",
+        "breadcrumbs_second": "Betalingsinstellingen",
+        "breadcrumbs_current": "Betalingsinstellingen",
+        "breadcrumbs_active": "Betalingsinstellingen"
+      }
+    }
+  },
+  "user_profile": {
+    "form_title": "update je profiel",
+    "page_title": "Profiel bijwerken",
+    "breadcrumbs_current": "Profiel bijwerken",
+    "breadcrumbs_first": "Dashboard",
+    "breadcrumbs_active": "Update",
+    "current_password": "huidig wachtwoord",
+    "current_password_placeholder": "Vul huidig wachtwoord in",
+    "new_password": "nieuw paswoord",
+    "new_password_placeholder": "Voer nieuw wachtwoord in",
+    "confirm_password": "bevestig wachtwoord",
+    "confirm_password_placeholder": "Voer bevestig wachtwoord in",
+    "success_msg": "Profiel succesvol bijgewerkt 👍"
+  },
+  "stock_alert": {
+    "page_title": "Voorraadwaarschuwingsproducten",
+    "breadcrumbs_current": "Voorraadwaarschuwingsproducten",
+    "breadcrumbs_first": "Dashboard",
+    "breadcrumbs_active": "Waarschuwingsproducten"
+  },
+  "backup": {
+    "page_title": "Database back-up",
+    "breadcrumbs_current": "Database back-up",
+    "breadcrumbs_first": "Dashboard",
+    "breadcrumbs_active": "Back-up",
+    "export": "Exporteren",
+    "format": "Formaat",
+    "format_sql": "SQL (.sql)",
+    "success_msg": "Back-up succesvol gedownload 👍"
+  },
+  "permission_denied": {
+    "page_title": "Geen toestemming",
+    "breadcrumbs_current": "Geen toestemming",
+    "breadcrumbs_first": "Dashboard",
+    "breadcrumbs_active": "Geen toestemming",
+    "error_msg": "U heeft geen toestemming om deze pagina te bekijken.",
+    "error_code": "foutcode:403 verboden."
+  },
+  "error_not_found": {
+    "error_404": "404",
+    "error_404_title": "Pagina niet gevonden",
+    "error_404_msg": "Sorry, de gevraagde URL is niet gevonden op deze server. Dat is alles wat we weten!",
+    "back_to_dashboard": "Terug naar Dashboard",
+    "back_to_login": "Terug naar Inloggen"
+  },
+  "sidebar_control": {
+    "customize_wharf": "Customize Wharf",
+    "dark_mode": "Donkere modus",
+    "header_options": "Koptekstopties",
+    "fixed": "Gemaakt",
+    "no_border": "Geen grens",
+    "sidebar_options": "Zijbalkopties",
+    "sidebar_dark": "Zijbalk donker",
+    "collapsed": "Zijbalk samengevouwen",
+    "sidebar_fixed": "Zijbalk vast",
+    "sidebar_mini": "Zijbalk Mini",
+    "nav_flat_style": "Nav vlakke stijl",
+    "nav_legacy_style": "Nav legacy-stijl",
+    "nav_child_indent": "Nav Onderliggende inspringing",
+    "disable_hover": "Hover/Focus automatisch uitvouwen uitschakelen"
+  },
+  "pos": {
+    "page_title": "POS",
+    "breadcrumbs_current": "Uitverkoop maken",
+    "breadcrumbs_first": "Dashboard",
+    "breadcrumbs_second": "Facturen",
+    "breadcrumbs_active": "POS",
+    "available": "Verkrijgbaar",
+    "pos": "POS",
+    "complete_order": "Opslaan",
+    "complete_order_and_add_payment": "Opslaan en betalen",
+    "add_payment": "Betaling toevoegen",
+    "invoice_receipt": "Factuurontvangst",
+    "not_enough_items": "Niet genoeg voorwerpen!",
+    "receipt_text": "Bedankt om bij ons te winkelen. Kom alstublieft nog eens!"
+  },
+  "billing": {
+    "form_title": "Factureringsinstellingen",
+    "name": "Naam",
+    "name_placeholder": "naam op kaart",
+    "invoice": "Factuur",
+    "page_title": "Facturering",
+    "card_details": "Kaart details",
+    "breadcrumbs_current": "Factureringsinstellingen",
+    "breadcrumbs_first": "Dashboard",
+    "breadcrumbs_active": "Factureringsinstellingen"
+  },
+  "settings": {
+    "name": "Instellingen voor bestemmingspagina",
+    "breadcrumbs_current": "Instellingen voor bestemmingspagina",
+    "breadcrumbs_first": "Dashboard",
+    "breadcrumbs_active": "Instellingen voor bestemmingspagina",
+    "success_msg": "Bestemmingspagina-instellingen zijn bijgewerkt 👍",
+    "form_title": "Instellingen voor bestemmingspagina",
+    "page_title": "Instellingen voor bestemmingspagina"
+  },
+  "central": {
+    "current_plan": "Huidige plan",
+    "trial_start": "Proef gestart om",
+    "trial_end": "Proefperiode eindigt om",
+    "tenant_id": "Huurder-ID",
+    "used": "Gebruikt",
+    "remaining": "Overig",
+    "pages": {
+      "edit": {
+        "page_title": "Pagina aanpassen",
+        "breadcrumbs_current": "Pagina aanpassen",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Pagina's",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Pagina succesvol bijgewerkt 👍",
+        "form_title": "Pagina aanpassen"
+      },
+      "name": "Pagina's",
+      "slug": "Naaktslak",
+      "type": "Type",
+      "index": {
+        "page_title": "Pagina's",
+        "breadcrumbs_current": "Pagina's",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_active": "Pagina's",
+        "delete_confirm_button": "Verwijderen",
+        "brand_logo_view": "Merklogoweergave"
+      },
+      "create": {
+        "page_title": "Creëer pagina",
+        "breadcrumbs_current": "Creëer pagina",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Pagina's",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Pagina succesvol toegevoegd",
+        "form_title": "Maak een pagina"
+      },
+      "name_placeholder": "Naam van pagina",
+      "content": "Inhoud",
+      "information": "Informatie",
+      "need_help": "Hulp nodig"
+    },
+    "newsletters": {
+      "subject": "Onderwerp",
+      "subject_placeholder": "Voer onderwerp in",
+      "greeting": "Groet",
+      "greeting_placeholder": "Begroeting invoeren",
+      "body": "Lichaam",
+      "create": {
+        "page_title": "Verzend mail",
+        "breadcrumbs_current": "Verzend mail",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Verzend mail",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "E-mail succesvol verzonden",
+        "form_title": "Verzend mail"
+      }
+    },
+    "setting_images": {
+      "index": {
+        "delete_confirm_button": "Verwijderen",
+        "page_title": "Afbeeldingen instellen voor frontend",
+        "breadcrumbs_current": "Afbeeldingen instellen voor frontend",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Opstelling",
+        "breadcrumbs_active": "Afbeeldingen instellen voor frontend"
+      },
+      "edit": {
+        "page_title": "Afbeelding frontend-instelling bewerken",
+        "breadcrumbs_current": "Afbeelding frontend-instelling bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Opstelling",
+        "breadcrumbs_third": "Afbeeldingen instellen voor frontend",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Frontend Instelling Afbeelding succesvol geüpdatet 👍",
+        "form_title": "Afbeelding frontend-instelling bewerken",
+        "image": "Afbeelding",
+        "title": "Titel",
+        "title_placeholder": "Titel",
+        "description": "Beschrijving",
+        "description_placeholder": "Beschrijving"
+      },
+      "create": {
+        "page_title": "Frontend-instellingsafbeelding maken",
+        "breadcrumbs_current": "Frontend-instellingsafbeelding maken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Opstelling",
+        "breadcrumbs_third": "Afbeeldingen instellen voor frontend",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Frontend Setting Afbeelding succesvol toegevoegd",
+        "form_title": "Frontend-instellingsafbeelding maken",
+        "image": "Afbeelding",
+        "title": "Titel",
+        "title_placeholder": "Titel",
+        "description": "Beschrijving",
+        "description_placeholder": "Beschrijving"
+      },
+      "image": "Afbeelding",
+      "title": "Titel",
+      "title_placeholder": "Voer titel in",
+      "description": "Beschrijving",
+      "description_placeholder": "Voer beschrijving in",
+      "name": "Naam",
+      "name_placeholder": "Voer naam in",
+      "type": "Type",
+      "image_align_left": "Links uitlijnen"
+    },
+    "tenants": {
+      "create": {
+        "page_title": "Huurder maken",
+        "breadcrumbs_current": "Huurder maken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "huurders",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Huurder succesvol toegevoegd 👍",
+        "form_title": "Maak een huurder"
+      },
+      "edit": {
+        "page_title": "Huurder bewerken",
+        "breadcrumbs_current": "Huurder bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "huurders",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Huurder succesvol geüpdatet 👍",
+        "form_title": "Bewerk huurder"
+      },
+      "index": {
+        "deleted": "verwijderd",
+        "delete_title": "Huurder verwijderen",
+        "delete_warning": "Weet u zeker dat u deze huurder wilt verwijderen?",
+        "delete_success": "Huurder is succesvol verwijderd 👍",
+        "delete_confirm_text": "Ja, verwijder het!",
+        "page_title": "huurders",
+        "breadcrumbs_current": "huurders",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_active": "huurders",
+        "s_no": "S.Nee",
+        "domain": "Domein",
+        "name_and_email": "Naam & e-mail",
+        "plan": "Plan",
+        "trial_ends_at": "Proefperiode eindigt om",
+        "banned": "verboden",
+        "send_email": "E-mail verzenden",
+        "action": "Actie",
+        "false": "niet waar",
+        "true": "WAAR",
+        "create": "Creëren",
+        "edit": "Bewerk",
+        "delete": "Verwijderen",
+        "ban": "Ban",
+        "unban": "Unban",
+        "view": "Visie",
+        "export_table": "Tabel exporteren",
+        "print_table": "PDF exporteren",
+        "send_notification": "E-mail verzenden",
+        "impersonate": "imiteren",
+        "failed": "mislukt",
+        "on_trial": "Op proef",
+        "is_subscribed": "Is geabonneerd"
+      },
+      "view": {
+        "breadcrumbs_current": "Gegevens huurder",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "huurders",
+        "breadcrumbs_active": "Details",
+        "page_title": "Gegevens huurder"
+      }
+    },
+    "send_notification": {
+      "create": {
+        "success_msg": "Melding succesvol verzonden",
+        "page_title": "Melding verzenden"
+      },
+      "page_title": "Melding verzenden",
+      "breadcrumbs_current": "Melding verzenden",
+      "breadcrumbs_first": "Dashboard",
+      "breadcrumbs_active": "Melding verzenden",
+      "form_title": "Melding verzenden",
+      "subject": "Onderwerp",
+      "subject_placeholder": "Voer onderwerp in",
+      "message": "Bericht",
+      "message_placeholder": "Voer bericht in",
+      "send": "Versturen",
+      "success_msg": "Melding succesvol verzonden",
+      "greeting": "Groet",
+      "greeting_placeholder": "Begroeting invoeren",
+      "body": "Lichaam"
+    },
+    "plans_items": {
+      "create": {
+        "page_title": "Artikel maken",
+        "breadcrumbs_current": "Artikel maken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Artikelen",
+        "breadcrumbs_active": "Creëren",
+        "success_msg": "Artikel succesvol toegevoegd",
+        "form_title": "Een item maken"
+      },
+      "edit": {
+        "page_title": "Item bewerken",
+        "breadcrumbs_current": "Item bewerken",
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Artikelen",
+        "breadcrumbs_active": "Bewerk",
+        "success_msg": "Artikel succesvol geüpdatet",
+        "form_title": "Plan bewerken"
+      },
+      "index": {
+        "breadcrumbs_first": "Huis",
+        "breadcrumbs_current": "Plannen Artikelen",
+        "page_title": "Plannen Artikelen",
+        "delete_confirm_button": "Verwijderen"
+      },
+      "name": "Naam",
+      "name_placeholder": "Naam van het item:",
+      "plan": "Plan",
+      "item": "Item"
+    },
+    "dashboard": {
+      "summery_items": {
+        "tenants_count": "huurders",
+        "domains_count": "Domeinen",
+        "on_trial_tenants_count": "Op proef huurders",
+        "pending_amount": "Bedrag in afwachting",
+        "available_amount": "Beschikbaar bedrag"
+      },
+      "top_plans": "Topplannen",
+      "subscription_count": "Abonnementen",
+      "top_clients_title": "Topklanten"
+    },
+    "plans": {
+      "image": "Afbeelding",
+      "name": "Naam",
+      "amount": "Hoeveelheid",
+      "currency": "Munteenheid",
+      "interval": "Interval",
+      "description": "Beschrijving",
+      "status": "Toestand",
+      "action": "Actie",
+      "index": {
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_active": "Plannen",
+        "breadcrumbs_current": "Plannen",
+        "page_title": "Plannen",
+        "delete_confirm_button": "Verwijderen"
+      },
+      "create": {
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Plannen",
+        "breadcrumbs_current": "Plan maken",
+        "form_title": "Maak een plan",
+        "page_title": "Plan maken",
+        "success_msg": "Plan succesvol toegevoegd 👍"
+      },
+      "edit": {
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Plannen",
+        "breadcrumbs_current": "Plan bewerken",
+        "form_title": "Plan bewerken",
+        "page_title": "Plan bewerken",
+        "success_msg": "Succesvol geüpdatet"
+      },
+      "limit_clients": "Klanten beperken",
+      "limit_suppliers": "Beperk leveranciers",
+      "limit_employees": "Beperk werknemers",
+      "limit_domains": "Domeinen beperken",
+      "limit_purchases": "Aankopen beperken",
+      "limit_invoices": "Facturen beperken",
+      "0_means_unlimited": "0 betekent onbeperkt",
+      "name_placeholder": "Voer abonnementsnaam in",
+      "description_placeholder": "Voer planbeschrijving in",
+      "amount_placeholder": "Hoeveelheid",
+      "limit_clients_placeholder": "Beperk klanten",
+      "limit_employees_placeholder": "Beperk medewerkers",
+      "limit_domains_placeholder": "Domeinen beperken",
+      "limit_purchases_placeholder": "Beperk aankopen",
+      "limit_invoices_placeholder": "Facturen beperken",
+      "limit_suppliers_placeholder": "Beperk leveranciers"
+    },
+    "setup": {
+      "general_settings": {
+        "index": {
+          "default_elements": {
+            "facebook_link": "Facebook-link",
+            "twitter_link": "Twitter-link",
+            "instagram_link": "Instagram-link",
+            "linkedin_link": "LinkedIn-link",
+            "default_language": "Standaard taal",
+            "copyright_text": "Auteursrechttekst",
+            "default_elements_title": "Standaardelement",
+            "english_en": "Engels",
+            "hindi_hi": "Nee",
+            "copyright_text_placeholder": "Auteursrechttekst",
+            "facebook_link_placeholder": "Facebook-link",
+            "instagram_link_placeholder": "Instagram-link",
+            "twitter_link_placeholder": "Twitter-link",
+            "linkedin_link_placeholder": "LinkedIn-link"
+          },
+          "company_info": {
+            "company_tagline": "Bedrijfsslogan",
+            "trial_day_count": "Aantal proefdagen"
+          }
+        }
+      },
+      "index": {
+        "menu": {
+          "item_one": {
+            "title": "Algemene instellingen",
+            "description": "Algemene instellingen zoals sitetitel, sitebeschrijving, adres enzovoort.",
+            "link_text": "Verander instelling"
+          },
+          "item_two": {
+            "title": "Betalingsinstellingen",
+            "description": "Beheer betalingsinstellingen. Voeg uw streepinformatie toe.",
+            "link_text": "Instellingen veranderen"
+          },
+          "item_three": {
+            "title": "Rol en machtigingen",
+            "description": "Beheer rollen en machtigingen om ze toe te wijzen aan werknemers.",
+            "link_text": "Rollen en machtigingen"
+          },
+          "item_four": {
+            "title": "Gebruikersbeheer",
+            "description": "Systeemgebruiker aanmaken en individuele rol toewijzen aan gebruikers.",
+            "link_text": "Gebruiker beheren"
+          }
+        }
+      },
+      "user_management": {
+        "index": {
+          "breadcrumbs_first": "Dashboard",
+          "breadcrumbs_second": "Opstelling",
+          "breadcrumbs_current": "Gebruikers",
+          "page_title": "Gebruikers",
+          "delete_confirm_button": "Bevestigen"
+        },
+        "create": {
+          "breadcrumbs_first": "Dashboard",
+          "breadcrumbs_second": "Opstelling",
+          "breadcrumbs_third": "Gebruikers",
+          "breadcrumbs_current": "Creëren",
+          "form_title": "Een nieuwe gebruiker maken",
+          "page_title": "Gebruiker maken",
+          "success_msg": "Met succes gemaakt"
+        },
+        "edit": {
+          "breadcrumbs_first": "Dashboard",
+          "breadcrumbs_second": "Opstelling",
+          "breadcrumbs_third": "Gebruikers",
+          "breadcrumbs_current": "Bewerk",
+          "form_title": "Bewerk gebruiker",
+          "page_title": "bewerk gebruiker",
+          "success_msg": "Succesvol geüpdatet"
+        }
+      }
+    },
+    "features": {
+      "create": {
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Functies",
+        "breadcrumbs_current": "Creëren",
+        "form_title": "Functie maken",
+        "page_title": "Voorzien zijn van",
+        "success_msg": "Met succes gemaakt"
+      },
+      "name": "Naam",
+      "name_placeholder": "Naam",
+      "edit": {
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_second": "Functies",
+        "breadcrumbs_current": "Bewerk",
+        "form_title": "Functie bewerken",
+        "page_title": "Voorzien zijn van",
+        "success_msg": "Succesvol geüpdatet"
+      },
+      "index": {
+        "breadcrumbs_first": "Dashboard",
+        "breadcrumbs_current": "Functies",
+        "page_title": "Functies",
+        "delete_confirm_button": "Bevestigen"
+      }
+    }
+  },
+  "You Are Subscribed!": "Je bent geabonneerd!",
+  "You Have Cancelled the Subscription!": "Je hebt het abonnement opgezegd!",
+  "You Have Resumed the Subscription!": "Je hebt het abonnement hervat!",
+  "find_domain": "Vind domein",
+  "Sign Up Instantly Free for": "Meld u direct gratis aan voor",
+  "days, no credit card required": "dagen, geen creditcard nodig",
+  "Central Admin": "Centrale beheerder",
+  "Login as super manager": "Log in als supermanager",
+  "Login as super salesman": "Log in als superverkoper",
+  "Something went wrong, please try again!": "Er is iets mis gegaan, probeer het alstublieft nogmaals!",
+  "Send": "Versturen",
+  "We've sent an email to": "We hebben een e-mail gestuurd naar",
+  "Please click the confirmation link in it to finalize your account": "Klik op de bevestigingslink erin om uw account af te ronden",
+  "Didn't get the email? Please check your spam folder or": "Heb je de e-mail niet ontvangen? Controleer uw spammap of",
+  "Resend Verification": "Stuur verificatie opnieuw",
+  "Don't have any account? Click here!": "Heb je geen account? Klik hier!",
+  "You are not allowed to do this in demo version": "U mag dit niet doen in de demoversie",
+  "Sent To": "Verzonden naar",
+  "All": "Allemaal",
+  "Tenants": "huurders",
+  "Subscribers": "Abonnees",
+  "pages": {
+    "name_placeholder": "Naam"
+  },
+  "plans": {
+    "limit_suppliers_placeholder": "Beperk leveranciers",
+    "index": {
+      "brand_logo_view": "Plan-logo"
+    },
+    "view_title": "Bekijk abonnement",
+    "name": "Naam",
+    "api_id": "API-ID",
+    "amount": "Hoeveelheid",
+    "currency": "Munteenheid",
+    "interval": "Interval",
+    "product_id": "Product-ID",
+    "description": "Beschrijving",
+    "created_at": "Gemaakt bij",
+    "updated_at": "Bijgewerkt op"
+  },
+  "Pricing features": "Prijskenmerken",
+  "Select pricing features": "Selecteer prijsfuncties",
+  "title": "Titel",
+  "Save": "Opslaan",
+  "Close": "Dichtbij",
+  "tenants": {
+    "create": {
+      "success_msg": "Met succes gemaakt"
+    },
+    "edit": {
+      "success_msg": "Succesvol geüpdatet"
+    },
+    "index": {
+      "delete_failed": "Verwijderen mislukt",
+      "ban_failed": "Verbod mislukt"
+    }
+  },
+  "Select a status": "Selecteer een status",
+  "subscription_invoices": {
+    "create": {
+      "success_msg": "Met succes gemaakt"
+    },
+    "list": {
+      "index": {
+        "page_title": "Abonnementsfacturen"
+      }
+    }
+  },
+  "retry": "Opnieuw proberen",
+  "Subscribed to": "Geabonneerd op",
+  "Plan": "Plan",
+  "Switch My Plan": "Verander mijn abonnement",
+  "Cancel Subscription": "Annuleer abonnement",
+  "Manual subscription by Admin is active": "Handmatig abonnement door beheerder is actief",
+  "You can cancel it from the admin": "Je kunt het annuleren via de beheerder",
+  "Manually subscribed by": "Handmatig ingeschreven door",
+  "Manually subscribed at": "Handmatig geabonneerd op",
+  "You have cancelled your subscription and your account is still active until": "Je hebt je abonnement opgezegd en je account is nog actief tot",
+  "Or, You Can": "Of je kan",
+  "Resume Subscription": "Abonnement hervatten",
+  "Admin have cancelled your subscription": "Beheerder heeft uw abonnement opgezegd",
+  "Contact to Admin for re enable the subscription": "Neem contact op met de beheerder om het abonnement opnieuw in te schakelen",
+  "You are on Trial Period for the": "U bent op proefperiode voor de",
+  "plan": "Plan",
+  "You have": "Jij hebt",
+  "days left on your trial": "resterende dagen van je proefperiode",
+  "Client Limit": "Klantlimiet",
+  "Domains Limit": "Domeinenlimiet",
+  "Employee Limit": "Werknemerslimiet",
+  "Supplier Limit": "Leverancierslimiet:",
+  "Subscribe to a plan below": "Abonneer u hieronder op een abonnement",
+  "Switch Plan": "Schakel abonnement",
+  "Subscribe": "Abonneren",
+  "newsletter": {
+    "success_msg": "Succesvol geabonneerd",
+    "error_msg": "Er is iets mis gegaan, probeer het alstublieft nogmaals!"
+  },
+  "Client limit": "Klantlimiet",
+  "Domain limit": "Domeinlimiet",
+  "Employees limit": "Werknemerslimiet",
+  "Suppliers limit": "Leverancierslimiet",
+  "Purchase limit": "Aankooplimiet",
+  "Invoice limit": "Factuurlimiet",
+  "Newsletter": "Nieuwsbrief",
+  "Upload Your CSV file": "Upload uw CSV-bestand",
+  "Download Demo CSV File": "Demo CSV-bestand downloaden",
+  "domain-requests": {
+    "create": {
+      "form_title": "Domeinaanvraag Aanmaken",
+      "page_title": "Domeinverzoek",
+      "success_msg": "Domeinverzoek succesvol aangemaakt",
+      "breadcrumbs_first": "Dashboard",
+      "breadcrumbs_second": "Domeinverzoeken",
+      "breadcrumbs_current": "Creëren",
+      "breadcrumbs_active": "Creëren"
+    },
+    "domain": "Domein",
+    "index": {
+      "page_title": "Domeinverzoeken",
+      "delete_warning": "Wil je deze domeinaanvraag echt verwijderen?",
+      "delete_failed": "Verwijderen mislukt",
+      "delete_success": "Succesvol verwijderd",
+      "breadcrumbs_first": "Dashboard",
+      "breadcrumbs_current": "Domeinverzoeken",
+      "breadcrumbs_active": "Domeinverzoeken",
+      "delete_confirm_button": "Bevestigen",
+      "delete_cancel_button": "Annuleren"
+    }
+  },
+  "Instructions": "instructies:",
+  "Download the zip folder": "Download de zip-map",
+  "Populate the products\\.csv with your product information": "Vul de producten\\.csv in met uw productinformatie",
+  "You can get the ids related to product to their corresponding CSV file": "U kunt de id's met betrekking tot het product naar het bijbehorende CSV-bestand krijgen",
+  "Example: sub_cat_id in sub-categories\\.csv": "Voorbeeld: sub_cat_id in subcategorieën\\.csv",
+  "Download Template": "Sjabloon downloaden",
+  "no_action_available": "Geen actie beschikbaar",
+  "Subscriber": "Abonnee",
+  "Users": "Gebruikers",
+  "User": "Gebruiker",
+  "You need to add an A record to your DNS with IP": "U moet een A-record toevoegen aan uw DNS met IP",
+  "template": {
+    "home": "Huis",
+    "about": "Over ons",
+    "features": "Functies",
+    "modules": "Modules",
+    "pricing": "Prijzen",
+    "contact": "Contact",
+    "sign_in": "Log in",
+    "register": "Register",
+    "information": "Informatie",
+    "need_help": "Hulp nodig?",
+    "contact_us": "Neem contact met ons op",
+    "whats_included": "Wat is inbegrepen",
+    "buy_now": "Nu kopen"
+  },
+  "impersonate": {
+    "title": "Wij bouwen uw site",
+    "des": "Een ogenblik geduld terwijl onze 🤖-robots uw website bouwen.<br> Het zou niet langer dan een minuut moeten duren."
+  }
+}

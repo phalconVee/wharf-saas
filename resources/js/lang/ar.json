@@ -1,0 +1,3094 @@
+{
+  "Plan switched!": "تم تبديل الخطة بنجاح!",
+  "Delete": "حذف",
+  "Import Clients": "عملاء الاستيراد",
+  "Billing History": "محفوظات الفواتير",
+  "Net Total": "صافي الإجمالي",
+  "Transaction Type": "نوع المعاملة",
+  "Transaction Description": "عملية الوصف",
+  "Amount": "مقدار",
+  "Currency": "عملة",
+  "Created At": "أنشئت في",
+  "Payment Status": "حالة السداد",
+  "Stripe Fee": "رسوم الشريط",
+  "You are on trial version! Your trial ends": "أنت في النسخة التجريبية! تنتهي الفترة التجريبية الخاصة بك",
+  "domains": {
+    "index": {
+      "breadcrumbs_current": "كل المجالات",
+      "breadcrumbs_active": "كل المجالات",
+      "breadcrumbs_first": "لوحة القيادة",
+      "page_title": "كل المجالات",
+      "delete_warning": "هل أنت متأكد أنك تريد حذف هذا المجال؟",
+      "delete_failed": "فشل الحذف"
+    },
+    "list": {
+      "index": {
+        "breadcrumbs_current": "إدارة المجال",
+        "breadcrumbs_active": "إدارة المجال",
+        "breadcrumbs_first": "لوحة القيادة",
+        "page_title": "إدارة المجال",
+        "delete_warning": "هل أنت متأكد أنك تريد حذف هذا المجال؟",
+        "delete_failed": "فشل الحذف"
+      }
+    },
+    "create": {
+      "breadcrumbs_current": "إنشاء المجال",
+      "breadcrumbs_active": "إنشاء المجال",
+      "breadcrumbs_first": "لوحة القيادة",
+      "breadcrumbs_second": "إدارة المجال",
+      "page_title": "إنشاء المجال",
+      "form_title": "إنشاء المجال",
+      "success_msg": "تم إنشاؤه بنجاح"
+    },
+    "no_action_available": "لا يوجد أي إجراء متاح",
+    "domain": "اِختِصاص",
+    "domain_placeholder": "أدخل المجال",
+    "make_primary": "اتخذ الاولويه",
+    "make_primary_success_msg": "نجح في جعله أساسيًا"
+  },
+  "message": {
+    "billing_page": "صفحة الفواتير"
+  },
+  "why_us_cards": "لماذا نحن بطاقات",
+  "features": "سمات",
+  "explorers": "المستكشفون",
+  "all_features": "كل المميزات",
+  "software_overview_images": "صور نظرة عامة على البرنامج",
+  "testimonials": "الشهادات - التوصيات",
+  "brands": "العلامات التجارية",
+  "ok": "موافق",
+  "cancel": "يلغي",
+  "error_alert_title": "أُووبس...",
+  "error_alert_text": "هناك خطأ ما! حاول مرة اخرى.",
+  "token_expired_alert_title": "انتهت الجلسة!",
+  "token_expired_alert_text": "الرجاء تسجيل الدخول مرة أخرى للمتابعة.",
+  "login": "تسجيل الدخول",
+  "register": "يسجل",
+  "page_not_found": "الصفحة غير موجودة",
+  "go_home": "اذهب للمنزل",
+  "logout": "تسجيل خروج",
+  "email": "البريد الإلكتروني",
+  "remember_me": "تذكرنى",
+  "password": "كلمة المرور",
+  "forgot_password": "نسيت رقمك السري؟",
+  "confirm_password": "تأكيد كلمة المرور",
+  "name": "اسم",
+  "toggle_navigation": "تبديل التنقل",
+  "home": "مسكن",
+  "you_are_logged_in": "لقد سجلت الدخول!",
+  "reset_password": "إعادة تعيين كلمة المرور",
+  "send_password_reset_link": "أرسل الرابط",
+  "profile": "الملف الشخصي",
+  "your_info": "معلوماتك",
+  "info_updated": "تم تحديث معلوماتك!",
+  "update": "تحديث",
+  "your_password": "كلمة السر خاصتك",
+  "password_updated": "لقد تم تحديث كلمة السر الخاصة بك!",
+  "new_password": "كلمة السر الجديدة",
+  "login_with": "تسجيل الدخول مع",
+  "register_with": "سجل مع",
+  "verify_email": "التحقق من البريد الإلكتروني",
+  "send_verification_link": "أرسل رابط التحقق",
+  "resend_verification_link": "إعادة إرسال رابط التحقق؟",
+  "failed_to_verify_email": "فشل التحقق من البريد الإلكتروني.",
+  "verify_email_address": "لقد أرسلنا لك بريدًا إلكترونيًا مع رابط التحقق.",
+  "reset_email_text": "يرجى إدخال بريدك الإلكتروني للحصول على رابط إعادة تعيين كلمة المرور!",
+  "sorry": "آسف",
+  "no_data_found": "لاتوجد بيانات",
+  "login_txt": "الرجاء تسجيل الدخول لمواصلة جلستك!",
+  "email_placeholder": "أدخل عنوان بريدك الالكتروني",
+  "password_placeholder": "ادخل رقمك السري",
+  "developed_by": "طورت بواسطة",
+  "per_page": "لكل صفحة",
+  "available": "متوفرة",
+  "find": "تجد",
+  "domain": "اِختِصاص",
+  "primary_domain": "المجال الأساسي",
+  "register_invite": "ليس لديك حساب؟ انقر هنا!",
+  "already_registered": "مسجل بالفعل؟",
+  "register_policy": "أوافق على شروط الخدمة وسياسة الخصوصية.",
+  "register_page_title": "اشترك مجانًا على الفور لمدة 14 يومًا ، دون الحاجة إلى بطاقة ائتمان ...",
+  "register_next_step": "خطوة أخرى 👍",
+  "email_sent": "لقد أرسلنا رسالة إلكترونية إلى",
+  "confirm_account": "يرجى النقر فوق ارتباط التأكيد فيه لإنهاء حسابك.",
+  "check_email": "ألم تحصل على البريد الإلكتروني؟ يرجى التحقق من مجلد البريد العشوائي الخاص بك أو",
+  "please": "لو سمحت",
+  "common": {
+    "id": "هوية شخصية",
+    "fallback": "تقهقر",
+    "send_mail": "ارسل بريد",
+    "subscribed_at": "مشترك في",
+    "primary": "الأولية",
+    "business-start": "بدء العمل",
+    "content": "محتوى",
+    "information": "معلومة",
+    "need_help": "تحتاج مساعدة",
+    "true": "حقيقي",
+    "false": "خطأ شنيع",
+    "points": "نقاط",
+    "point_placeholder": "أدخل النقاط",
+    "button_text": "زر كتابة",
+    "button_text_placeholder": "أدخل نص الزر",
+    "button_link": "ارتباط الزر",
+    "button_link_placeholder": "أدخل رابط الزر",
+    "about_us_tagline": "نبذة عنا Tagline",
+    "about_us_tagline_placeholder": "أدخل نبذة تعريفية عنا",
+    "about_us_description": "من نحن الوصف",
+    "about_us_description_placeholder": "أدخل وصفًا عنا",
+    "about_us_title": "من نحن العنوان",
+    "about_us_title_placeholder": "أدخل عنوان عنا",
+    "why_us_tagline": "لماذا نحن تاجلين",
+    "why_us_tagline_placeholder": "أدخل لماذا لدينا سطر الوصف",
+    "why_us_description": "لماذا نحن الوصف",
+    "why_us_description_placeholder": "أدخل وصف لنا لماذا",
+    "why_us_title": "لماذا نحن العنوان",
+    "why_us_title_placeholder": "أدخل لماذا لنا العنوان",
+    "business_start_section_tagline": "سطر شعار قسم بدء الأعمال التجارية",
+    "business_start_section_tagline_placeholder": "أدخل شعار قسم بدء الأعمال التجارية",
+    "business_start_section_description": "وصف قسم بدء الأعمال التجارية",
+    "business_start_section_description_placeholder": "أدخل وصف قسم بدء الأعمال التجارية",
+    "business_start_section_title": "عنوان قسم بدء الأعمال التجارية",
+    "business_start_section_title_placeholder": "أدخل عنوان قسم بدء الأعمال التجارية",
+    "business_start_support_list": "قائمة دعم بدء الأعمال التجارية",
+    "business_start_support_item_placeholder": "أدخل قائمة دعم بدء العمل",
+    "features_section_tagline": "سطر الوصف الخاص بقسم الميزات",
+    "features_section_tagline_placeholder": "أدخل شعار قسم الميزة",
+    "features_section_description": "وصف قسم الميزة",
+    "features_section_description_placeholder": "أدخل وصف قسم الميزة",
+    "features_section_title": "عنوان قسم الميزة",
+    "features_section_title_placeholder": "أدخل عنوان قسم الميزة",
+    "all_features_section_tagline": "سطر شعار قسم جميع الميزات",
+    "all_features_section_tagline_placeholder": "أدخل شعار قسم جميع الميزات",
+    "all_features_section_title": "عنوان قسم كل الميزات",
+    "all_features_section_title_placeholder": "أدخل عنوان قسم كل الميزات",
+    "get_started_box_title": "ابدأ عنوان المربع",
+    "get_started_box_title_placeholder": "أدخل عنوان مربع البدء",
+    "get_started_box_description": "وصف صندوق البدء",
+    "get_started_box_description_placeholder": "أدخل وصف صندوق البدء",
+    "get_started_box_button_text": "نص زر مربع البدء",
+    "get_started_box_button_text_placeholder": "أدخل نص زر مربع البدء",
+    "get_started_box_button_link": "ابدأ رابط زر المربع",
+    "get_started_box_button_link_placeholder": "أدخل رابط زر مربع البدء",
+    "all_features_and_get_started": "كل الميزات والبدء",
+    "software_overview_section_tagline": "سطر شعار قسم نظرة عامة على البرامج",
+    "software_overview_section_tagline_placeholder": "أدخل شعار قسم نظرة عامة على البرنامج",
+    "software_overview_section_title": "عنوان قسم نظرة عامة على البرنامج",
+    "software_overview_section_title_placeholder": "أدخل عنوان قسم نظرة عامة على البرنامج",
+    "pricing_plan_section_tagline": "شعار قسم خطة التسعير",
+    "pricing_plan_section_tagline_placeholder": "أدخل شعار قسم خطة التسعير",
+    "pricing_plan_section_title": "عنوان قسم خطة التسعير",
+    "pricing_plan_section_title_placeholder": "أدخل عنوان قسم خطة التسعير",
+    "software_overview_and_pricing_plan": "نظرة عامة على البرنامج وخطة التسعير",
+    "testimonial_and_newsletter": "شهادة ورسالة إخبارية",
+    "testimonial_section_tagline": "سطر الوصف لقسم التزكية",
+    "testimonial_section_tagline_placeholder": "أدخل شعار قسم الشهادة",
+    "testimonial_section_title": "عنوان قسم التزكية",
+    "testimonial_section_title_placeholder": "أدخل عنوان قسم الشهادة",
+    "newsletter_section_tagline": "سطر الوصف لقسم النشرة الإخبارية",
+    "newsletter_section_tagline_placeholder": "أدخل شعار قسم النشرة الإخبارية",
+    "newsletter_section_title": "عنوان قسم النشرة الإخبارية",
+    "newsletter_section_title_placeholder": "أدخل عنوان قسم النشرة الإخبارية",
+    "newsletter_section_description": "وصف قسم النشرة الإخبارية",
+    "newsletter_section_description_placeholder": "أدخل وصف قسم النشرة الإخبارية",
+    "about_us": "معلومات عنا",
+    "why-us": "لماذا نحن",
+    "business_start": "بدء العمل",
+    "features": "سمات",
+    "all-features-and-get-started": "كل الميزات والبدء",
+    "software-overview-and-pricing-plan": "نظرة عامة على البرنامج وخطة التسعير",
+    "testimonial-and-newsletter": "شهادة ونشرة إخبارية",
+    "hero": "بطل",
+    "hero_tagline": "تاجلين البطل",
+    "hero_tagline_placeholder": "أدخل شعار البطل الخاص بك",
+    "hero_title": "لقب البطل",
+    "hero_title_placeholder": "أدخل لقب بطلك",
+    "hero_description": "وصف البطل",
+    "hero_description_placeholder": "أدخل وصف بطلك",
+    "hero_demo_button_text": "نص زر عرض البطل",
+    "hero_demo_button_text_placeholder": "أدخل نص الزر التجريبي للبطل",
+    "hero_demo_button_link": "رابط زر العرض التجريبي للبطل",
+    "hero_demo_button_link_placeholder": "أدخل رابط لصفحة تجريبية",
+    "hero_get_started_button_text": "نص زر Hero Get Started",
+    "hero_get_started_button_text_placeholder": "أدخل نص زر Hero Get Started",
+    "hero_get_started_button_link": "Hero Get Started Button Link. رابط زر البدء",
+    "hero_get_started_button_link_placeholder": "أدخل ارتباطًا إلى صفحة أو قالب صفحة",
+    "company_placeholder": "أدخل اسم شركتك",
+    "domain_placeholder": "أدخل اسم المجال الخاص بك",
+    "password_confirmation": "أكد رقمك السري",
+    "password_confirmation_placeholder": "أكد رقمك السري",
+    "ban": "المنع",
+    "ban_success": "تم حظر المستخدم بنجاح",
+    "unban": "رفع الحظر",
+    "unban_success": "تم إلغاء حظر المستخدم بنجاح",
+    "tenant_id": "معرف المستأجر",
+    "domain": "اِختِصاص",
+    "company": "شركة",
+    "plan": "يخطط",
+    "trial_ends_at": "تنتهي التجربة في",
+    "banned": "محظور",
+    "clients_limit": "حد العملاء",
+    "suppliers_limit": "حد الموردين",
+    "employee_limit": "حد الموظفين",
+    "domains_limit": "حدود المجالات",
+    "purchases_limit": "حد المشتريات",
+    "invoices_limit": "حد الفواتير",
+    "to": "إلى",
+    "from": "من",
+    "s_no": "#",
+    "more_info": "مزيد من المعلومات",
+    "name": "اسم",
+    "name_placeholder": "إدخال اسم",
+    "password": "كلمة المرور",
+    "password_placeholder": "ادخل رقمك السري",
+    "default_password": "كلمة المرور (كلمة المرور الافتراضية: 12345678)",
+    "code": "شفرة",
+    "code_placeholder": "أدخل الرمز",
+    "product_name": "اسم المنتج",
+    "product_name_placeholder": "اختر المنتج",
+    "sub_category_code": "رمز الفئة الفرعية",
+    "sub_category": "تصنيف فرعي",
+    "sub_category_name": "اسم الفئة الفرعية",
+    "category": "فئة",
+    "category_name": "اسم التصنيف",
+    "category_name_placeholder": "اختر تصنيف",
+    "account": "الحساب",
+    "account_placeholder": "حدد حسابًا",
+    "available_balance": "الرصيد المتوفر",
+    "amount": "مقدار",
+    "amount_placeholder": "أدخل مبلغًا",
+    "cheque_no": "رقم الشيك",
+    "cheque_placeholder": "أدخل رقم الشيك",
+    "voucher_no": "رقم القسيمة",
+    "voucher_placeholder": "أدخل رقم قسيمة",
+    "receipt_no": "رقم الإيصال",
+    "receipt_no_placeholder": "أدخل رقم الإيصال",
+    "date": "تاريخ",
+    "note": "ملحوظة",
+    "created_by": "انشأ من قبل",
+    "choose_file": "اختر ملف",
+    "image_alt": "صورة مرفقة",
+    "note_placeholder": "اكتب ملاحظتك هنا!",
+    "status": "حالة",
+    "action": "عمل",
+    "active": "نشيط",
+    "in_active": "غير نشط",
+    "expired": "منتهي الصلاحية",
+    "email": "البريد الإلكتروني",
+    "email_placeholder": "أدخل عنوان بريدك الالكتروني",
+    "phone": "هاتف",
+    "address": "تبوك",
+    "address_placeholder": "أدخل عنوانا",
+    "modal_header": "معاينة الصورة المرفقة",
+    "modal_body": "نص افتراضي",
+    "export_table": "جدول التصدير",
+    "print_table": "جدول الطباعة",
+    "delete_title": "هل أنت واثق؟",
+    "update_title": "هل أنت واثق؟",
+    "delete_confirm_text": "يتأكد",
+    "update_confirm_text": "يتأكد",
+    "deleted": "تم الحذف!",
+    "updated": "محدث!",
+    "delete_success": "حذف بنجاح.",
+    "update_success": "تم التحديث بنجاح.",
+    "failed": "باءت بالفشل!",
+    "delete_failed": "كان هناك شيء خاطئ.",
+    "update_failed": "كان هناك شيء خاطئ.",
+    "error_msg": "عفوا ... حدث خطأ ما",
+    "image_error": "يرجى تحديد صورة مصغرة صالحة بحجم أقل من 2 ميغا بايت",
+    "close": "قريب",
+    "search": "يبحث...",
+    "create": "خلق",
+    "view": "رأي",
+    "edit": "يحرر",
+    "delete": "حذف",
+    "image": "صورة",
+    "preview": "معاينة",
+    "no_preview": "لا معاينة",
+    "save": "يحفظ",
+    "save_changes": "احفظ التغييرات",
+    "back": "خلف",
+    "print": "مطبعة",
+    "reset": "إعادة ضبط",
+    "supplier": "المورد",
+    "supplier_placeholder": "حدد موردًا",
+    "products": "منتجات",
+    "select_products": "حدد المنتجات",
+    "select_products_placeholder": "البحث عن المنتجات",
+    "reference": "المرجعي",
+    "reference_placeholder": "أدخل المرجع",
+    "quantity": "كمية",
+    "purchase_price": "سعر الشراء",
+    "unit_price": "سعر الوحدة",
+    "unit_cost": "تكلفة الوحدة",
+    "unit_tax": "ضريبة الوحدة",
+    "tax": "ضريبة",
+    "subtotal": "المجموع الفرعي",
+    "return_subtotal": "إرجاع المجموع الفرعي",
+    "new_subtotal": "المجموع الفرعي الجديد",
+    "return_amount": "المبلغ العائد",
+    "return_cost": "تكلفة المنتجات المرتجعة",
+    "total": "المجموع",
+    "net_total": "صافي الإجمالي",
+    "due": "بسبب",
+    "transport": "المواصلات",
+    "add_payment": "إضافة الدفع؟",
+    "add_payment_placeholder": "حدد اختيارا",
+    "yes": "نعم",
+    "no": "رقم",
+    "paid": "مدفوع",
+    "total_paid": "مجموع المبالغ المدفوعة",
+    "paid_amount": "المبلغ المدفوع",
+    "paid_amount_placeholder": "أدخل مبلغًا",
+    "total_due": "الاجمالي المستحق",
+    "account_receivable": "حساب العميل",
+    "account_payable": "حساب المستحق",
+    "total_price": "السعر الكلي",
+    "return_price": "سعر الإرجاع",
+    "price": "سعر",
+    "total_return": "عودة كاملة",
+    "discount": "تخفيض",
+    "discount_placeholder": "أدخل الخصم",
+    "supplier_details": "تفاصيل المورد",
+    "client_details": "تفاصيل العميل",
+    "supplier_id": "واسم المورد",
+    "client_id": "معرف العميل",
+    "client_name": "اسم العميل",
+    "supplier_name": "اسم المورد",
+    "company_name": "اسم الشركة",
+    "company_name_placeholder": "أدخل اسم الشركة",
+    "contact_number": "رقم الاتصال",
+    "contact_number_placeholder": "أدخل رقم الاتصال",
+    "payment_history": "تاريخ الدفع",
+    "payment_date": "موعد الدفع",
+    "empty_payment": "لا توجد مدفوعات متاحة حتى الآن!",
+    "empty_payment_msg": "لم تقم بإضافة أي مدفوعات لعملية الشراء هذه. بعد إضافة المدفوعات سترى القائمة هنا.",
+    "purchases": "المشتريات",
+    "purchases_placeholder": "حدد عملية شراء",
+    "total_tax": "مجموع الضريبة",
+    "invoice_tax": "ضريبة الفاتورة",
+    "transport_cost": "تكلفة النقل",
+    "transport_cost_placeholder": "أدخل تكلفة النقل",
+    "total_discount": "إجمالي الخصم",
+    "discount_type": "نوع الخصم",
+    "fixed": "مُثَبَّت",
+    "percentage": "نسبة مئوية",
+    "client": "عميل",
+    "client_placeholder": "حدد عميلاً",
+    "payment_terms": "شروط الدفع",
+    "payment_terms_placeholder": "أدخل شروط الدفع",
+    "po_reference": "مراجع PO",
+    "po_reference_placeholder": "أدخل مرجع أمر الشراء",
+    "invoice_qty": "كمية الفاتورة",
+    "current_qty": "الكمية الحالية",
+    "return_qty": "عودة الكمية",
+    "invoices": "الفواتير",
+    "invoices_placeholder": "حدد فاتورة",
+    "return_reason": "سبب عودة",
+    "return_reason_placeholder": "أدخل سببًا",
+    "invoice_due": "فاتورة مستحقة",
+    "non_invoice_due": "ليس الفاتورة الثانية",
+    "invoice_date": "تاريخ الفاتورة",
+    "invoice_no": "رقم الفاتورة",
+    "invoice_return_no": "رقم إرجاع الفاتورة",
+    "return_no": "عودة لا",
+    "return_products": "إرجاع المنتجات",
+    "insufficient_stock": "مخزون غير كاف",
+    "invoice_products": "منتجات الفاتورة",
+    "created_at": "أنشئت في",
+    "reason": "سبب",
+    "type": "يكتب",
+    "credit": "تنسب إليه",
+    "debit": "مدين",
+    "payment_type": "نوع الدفع",
+    "invoice_total": "إجمالي الفاتورة",
+    "invoice_details": "تفاصيل الفاتورة",
+    "payment_details": "بيانات الدفع",
+    "ref_no": "المرجع. رقم",
+    "reference_no": "رقم المرجع",
+    "payable": "مستحق الدفع",
+    "interest": "فائدة",
+    "installment": "تقسيط",
+    "error": "خطأ!",
+    "per": "لكل",
+    "day": "يوم",
+    "week": "أسبوع",
+    "month": "شهر",
+    "year": "سنة",
+    "daily": "اليومي",
+    "monthly": "شهريا",
+    "yearly": "سنوي",
+    "employee": "موظف",
+    "employee_placeholder": "اختر موظفًا",
+    "designation": "تعيين",
+    "designation_placeholder": "أدخل تسمية",
+    "emp_name": "اسم الإمبراطوريّة",
+    "emp_id": "معرف العميل",
+    "employee_details": "تفاصيل الموظف",
+    "department": "قسم",
+    "department_placeholder": "قسم",
+    "balance": "الرصيد",
+    "salary": "مرتب",
+    "salary_placeholder": "أدخل الراتب",
+    "profile_picture": "الصوره الشخصيه",
+    "role": "دور",
+    "role_placeholder": "حدد دورًا",
+    "unit": "وحدة",
+    "unit_placeholder": "اختر وحدة",
+    "brand": "ماركة",
+    "brand_placeholder": "اختر ماركة",
+    "item_code": "رمز الصنف",
+    "item_code_placeholder": "أدخل رمز الصنف",
+    "item_model": "نموذج البند",
+    "item_model_placeholder": "أدخل نموذجًا",
+    "item_name": "اسم العنصر",
+    "item_name_placeholder": "إدخال اسم",
+    "rendering_fails": "فشل التقديم.",
+    "product": "منتج",
+    "transactions": "المعاملات",
+    "empty_table": "آسف 😔 لا توجد بيانات",
+    "stock_alert_msg": "المخزون أقل من الكمية في حالة تأهب!",
+    "stock_notification": "تنبيهات كمية المنتج",
+    "stock_notification_empty": "لا يوجد إخطار متاح",
+    "delete_warning": "لن تتمكن من العودة إلى هذا!",
+    "update_warning": "لن تتمكن من العودة إلى هذا!",
+    "add_balance": "إضافة رصيد",
+    "remove_balance": "إزالة الرصيد",
+    "qty": "الكمية",
+    "item": "العنصر",
+    "sold_by": "تم بيعها من قبل",
+    "all_features": "كل المميزات",
+    "success_msg": "النجاح!",
+    "software_overview": "نظرة عامة على البرنامج",
+    "business_start_support_list_placeholder": "قائمة دعم بدء الأعمال التجارية",
+    "explorers": "المستكشفون",
+    "points_placeholder": "نقاط",
+    "why_us": "لماذا نحن",
+    "stripe_public_key": "المفتاح العام لـ Stripe",
+    "stripe_private_key": "المفتاح الخاص لـ Stripe",
+    "plan_placeholder": "يخطط",
+    "download": "تحميل",
+    "commission": "عمولة",
+    "invoice_tax_placeholder": "ضريبة الفاتورة",
+    "requested_domain": "المجال المطلوب",
+    "pending": "قيد الانتظار",
+    "connected": "متصل",
+    "rejected": "مرفوض",
+    "removed": "إزالة",
+    "tenant": "مستأجر",
+    "welcome_mail": "إرسال بريد ترحيبي",
+    "tenant_name": "اسم المستأجر",
+    "tenant_email": "البريد الإلكتروني للمستأجر",
+    "modified_by": "تم التعديل بواسطة",
+    "host": "مضيف",
+    "value": "قيمة",
+    "custom_html": "HTML مخصص",
+    "custom_html_placeholder": "HTML مخصص (يمكنك إضافة العلامات ذات الصلة بـ SEO ، وتحليلات google ، وأكواد facebook pixel وما إلى ذلك هنا.)",
+    "pricing_plan": "خطة التسعير"
+  },
+  "topbar": {
+    "new_invoice": "فاتورة جديدة",
+    "new_expense": "مصاريف جديدة",
+    "new_purchase": "شراء جديدة",
+    "new_quotation": "اقتباس جديد",
+    "profile": "الملف الشخصي",
+    "setup": "اقامة",
+    "logout": "تسجيل خروج"
+  },
+  "sidebar": {
+    "Billing History": "محفوظات الفواتير",
+    "tenant": {
+      "settings": "إعدادات"
+    },
+    "domain_management": "إدارة المجال",
+    "domain": "اِختِصاص",
+    "domain_request": "طلب المجال",
+    "newsletters": {
+      "create": "مشتركين"
+    },
+    "pages": {
+      "create": "الصفحات"
+    },
+    "items": "العناصر",
+    "dashboard": "لوحة القيادة",
+    "activities": "أنشطة",
+    "expenses": "نفقات",
+    "categories": "فئات",
+    "sub_categories": "الفئات الفرعية",
+    "expenses_list": "قائمة المصروفات",
+    "purchases": "المشتريات",
+    "purchases_list": "قائمة المشتريات",
+    "returns_list": "قائمة المرتجعات",
+    "sales": "مبيعات",
+    "quotations_list": "قائمة الاقتباسات",
+    "invoices_list": "قائمة الفواتير",
+    "accounting": "محاسبة",
+    "cashbook": "دفتر النقدية",
+    "accounts": "حسابات",
+    "balance_adjustments": "تعديلات الميزان",
+    "balance_transfers": "تحويلات الرصيد",
+    "transaction_history": "تاريخ المعاملات",
+    "payments": "المدفوعات",
+    "suppliers": "الموردين",
+    "non_purchase": "عدم الشراء",
+    "purchase": "شراء",
+    "clients": "العملاء",
+    "non_invoice": "غير فاتورة",
+    "invoice": "فاتورة",
+    "loan_management": "إدارة القروض",
+    "authorities": "سلطات",
+    "loans": "قروض",
+    "asset_management": "إدارة الأصول",
+    "types": "أنواع",
+    "assets": "أصول",
+    "payroll": "كشف رواتب",
+    "people": "اشخاص",
+    "employees_list": "قائمة الموظفين",
+    "employees": "الموظفين",
+    "departments": "الإدارات",
+    "increments": "الزيادات",
+    "product": "منتج",
+    "products": "منتجات",
+    "products_list": "قائمة المنتجات",
+    "barcode": "الرمز الشريطي",
+    "inventory_uppercase": "المخزون",
+    "inventory": "جرد",
+    "view_inventory": "مشاهدة الجرد",
+    "inventory_adjustment": "ضبط المخزون",
+    "reports": "التقارير",
+    "balance_sheet": "ورقة التوازن",
+    "summary_report": "تقرير ملخص",
+    "profit_loss_report": "تقرير الربح / الخسارة",
+    "expense_report": "تقرير المصاريف",
+    "product_report": "تقرير العنصر",
+    "inventory_report": "تقرير المخزونات",
+    "account": "الحساب",
+    "account_sm": "الحساب",
+    "setup": "اقامة",
+    "database_backup": "نسخه الاحتياطيه لقاعدة البيانات",
+    "profile": "الملف الشخصي",
+    "logout": "تسجيل خروج",
+    "pricing": "التسعير",
+    "tenants": "المستأجرين",
+    "overview": "ملخص",
+    "saas": "SAAS",
+    "back_landing": "انتقل إلى الصفحة المقصودة",
+    "landing_page": "الصفحة المقصودة",
+    "cms": "CMS",
+    "promotion": "ترقية وظيفية",
+    "plans": "الخطط",
+    "pricing_plans": "خطط التسعير",
+    "plan_features": "ميزات الخطة",
+    "domains": "إدارة المجال",
+    "all_domains": "كل المجالات",
+    "domain_requests": "طلبات المجال"
+  },
+  "dashboard": {
+    "stock_alert": "تنبيه المخزون",
+    "recent_activities": "أنشطة حالية",
+    "page_title": "لوحة القيادة",
+    "breadcrumbs_current": "لوحة القيادة",
+    "breadcrumbs_active": "لوحة القيادة",
+    "bar_chart_title": "المبيعات مقابل المشتريات",
+    "bar_chart_tooltip": "المبيعات والمشتريات الشهرية بعد خصم تكلفة المنتجات المرتجعة.",
+    "pie_chart_title": "المنتجات الأكثر مبيعًا",
+    "line_chart_title": "الدفع المرسل مقابل الدفع المستلم",
+    "line_chart_tooltip": "الدفعة المرسلة = دفع المورد + سداد القرض<br/> الدفعة المستلمة = دفع العميل + القرض المسترد",
+    "top_clients_title": "أهم 5 عملاء",
+    "summary": "ملخص",
+    "summary_option_1": "اليوم",
+    "summary_option_2": "اخر 7 ايام",
+    "summary_option_3": "هذا الشهر",
+    "summary_option_4": "هذه السنة",
+    "summery_items": {
+      "purchase": "شراء",
+      "purchase_return": "عودة شراء",
+      "sales": "مبيعات",
+      "sales_return": "عائد المبيعات",
+      "payment_received": "دفع العميل",
+      "payment_sent": "دفع المورد",
+      "expense": "مصروف",
+      "balance_transfers": "تحويلات الرصيد"
+    },
+    "today": "اليوم",
+    "last_7_days": "اخر 7 ايام",
+    "this_month": "هذا الشهر",
+    "this_year": "هذه السنة"
+  },
+  "expenses": {
+    "categories": {
+      "index": {
+        "page_title": "فئات المصاريف",
+        "breadcrumbs_current": "فئات المصاريف",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "نفقات",
+        "breadcrumbs_active": "فئات",
+        "delete_warning": "سيتم حذف جميع الفئات الفرعية لهذه الفئة!"
+      },
+      "create": {
+        "page_title": "إنشاء فئة المصاريف",
+        "form_title": "قم بإنشاء فئة حساب",
+        "breadcrumbs_current": "إنشاء فئة المصاريف",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "فئات",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة الفئة بنجاح 👍"
+      },
+      "edit": {
+        "page_title": "تحرير فئة المصاريف",
+        "form_title": "تحرير الفئة",
+        "breadcrumbs_current": "تحرير فئة المصاريف",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "فئات",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث الفئة بنجاح 👍"
+      }
+    },
+    "sub_categories": {
+      "index": {
+        "page_title": "فئات المصاريف الفرعية",
+        "breadcrumbs_current": "فئات المصاريف الفرعية",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "نفقات",
+        "breadcrumbs_active": "الفئات الفرعية",
+        "delete_warning": "سيتم حذف جميع النفقات لهذه الفئة!"
+      },
+      "create": {
+        "page_title": "إنشاء فئة فرعية المصاريف",
+        "form_title": "إنشاء فئة فرعية حساب",
+        "breadcrumbs_current": "إنشاء فئة فرعية المصاريف",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "الفئات الفرعية",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة الفئة الفرعية بنجاح 👍"
+      },
+      "edit": {
+        "page_title": "تحرير المصاريف الفئة الفرعية",
+        "form_title": "تحرير فئة المصاريف الفرعية",
+        "breadcrumbs_current": "تحرير المصاريف الفئة الفرعية",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "الفئات الفرعية",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث الفئة الفرعية بنجاح 👍"
+      }
+    },
+    "list": {
+      "common": {
+        "expense_reason": "سبب المصاريف",
+        "expense_reason_placeholder": "أدخل سببًا"
+      },
+      "index": {
+        "page_title": "نفقات",
+        "breadcrumbs_current": "نفقات",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "نفقات",
+        "breadcrumbs_active": "نفقات",
+        "delete_warning": "لن تتمكن من العودة إلى هذا!"
+      },
+      "create": {
+        "page_title": "إنشاء حساب",
+        "form_title": "إنشاء حساب",
+        "breadcrumbs_current": "إنشاء حساب",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "نفقات",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة المصاريف بنجاح 👍"
+      },
+      "edit": {
+        "page_title": "تحرير المصروفات",
+        "form_title": "تحرير المصروفات",
+        "breadcrumbs_current": "تحرير المصروفات",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "نفقات",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث المصاريف بنجاح 👍"
+      },
+      "view": {
+        "page_title": "تفاصيل المصاريف",
+        "breadcrumbs_current": "تفاصيل المصاريف",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "نفقات",
+        "breadcrumbs_active": "تفاصيل",
+        "expense_details": "تفاصيل المصاريف"
+      }
+    }
+  },
+  "purchases": {
+    "list": {
+      "common": {
+        "po_reference": "مراجع PO",
+        "po_reference_placeholder": "أدخل مرجع أمر الشراء",
+        "payment_terms": "شروط الدفع",
+        "payment_terms_placeholder": "أدخل شروط الدفع",
+        "purchase_tax": "ضريبة الشراء",
+        "purchase_total": "إجمالي الشراء",
+        "purchase_subtotal": "المجموع الفرعي للشراء",
+        "purchase_tax_placeholder": "حدد نوع الضريبة",
+        "total_tax": "مجموع الضريبة",
+        "discount": "تخفيض",
+        "discount_placeholder": "أدخل الخصم",
+        "transport_cost": "تكلفة النقل",
+        "transport_cost_placeholder": "أدخل تكلفة النقل",
+        "purchase_date": "تاريخ الشراء",
+        "po_date": "تاريخ PO",
+        "purchased_qty": "الكمية المشتراة",
+        "returned_qty": "تم إرجاع الكمية",
+        "current_qty": "الكمية الحالية",
+        "purchase_no": "رقم الشراء",
+        "return_no": "عودة لا",
+        "purchase_no_placeholder": "أدخل رقم الشراء",
+        "purchase_products": "شراء المنتجات",
+        "purchase_due": "موعد الشراء"
+      },
+      "index": {
+        "page_title": "المشتريات",
+        "breadcrumbs_current": "المشتريات",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "المشتريات",
+        "breadcrumbs_active": "المشتريات",
+        "delete_warning": "لن تتمكن من العودة إلى هذا!"
+      },
+      "create": {
+        "page_title": "إنشاء شراء",
+        "form_title": "إنشاء عملية شراء",
+        "breadcrumbs_current": "إنشاء شراء",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "المشتريات",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة الشراء بنجاح 👍"
+      },
+      "edit": {
+        "page_title": "تحرير الشراء",
+        "form_title": "تحرير الشراء",
+        "breadcrumbs_current": "تحرير الشراء",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "المشتريات",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث الشراء بنجاح 👍"
+      },
+      "view": {
+        "page_title": "تفاصيل شراء",
+        "breadcrumbs_current": "تفاصيل شراء",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "المشتريات",
+        "breadcrumbs_active": "تفاصيل"
+      }
+    },
+    "returns": {
+      "common": {
+        "return_reason": "سبب عودة",
+        "return_reason_placeholder": "أدخل سببًا",
+        "return_date": "تاريخ العودة",
+        "purchase_return_no": "رقم إرجاع الشراء",
+        "return_products": "إرجاع المنتجات"
+      },
+      "index": {
+        "page_title": "عوائد الشراء",
+        "breadcrumbs_current": "عوائد الشراء",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "المشتريات",
+        "breadcrumbs_active": "عوائد الشراء",
+        "delete_warning": "لن تتمكن من العودة إلى هذا!"
+      },
+      "create": {
+        "page_title": "إنشاء عائد الشراء",
+        "form_title": "إنشاء إرجاع الشراء",
+        "breadcrumbs_current": "إنشاء عائد الشراء",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "عوائد الشراء",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة عائد الشراء بنجاح 👍"
+      },
+      "edit": {
+        "page_title": "تحرير إرجاع الشراء",
+        "form_title": "تحرير إرجاع الشراء",
+        "breadcrumbs_current": "تحرير إرجاع الشراء",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "عوائد الشراء",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث عائد الشراء بنجاح 👍"
+      },
+      "view": {
+        "page_title": "تفاصيل إرجاع الشراء",
+        "breadcrumbs_current": "تفاصيل إرجاع الشراء",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "عوائد الشراء",
+        "breadcrumbs_active": "تفاصيل"
+      }
+    }
+  },
+  "sales": {
+    "common": {
+      "quotation_no": "سؤال رقم",
+      "quotation_date": "تاريخ الاقتباس",
+      "delivery_place": "مكان التسليم",
+      "delivery_place_placeholder": "أدخل مكان التسليم",
+      "quotation_tax": "ضريبة الاقتباس",
+      "quotation_tax_placeholder": "حدد نوع الضريبة",
+      "return_date": "تاريخ العودة",
+      "new_due": "موعد جديد",
+      "client_advance": "مقدم العميل",
+      "invoice_total": "إجمالي الفاتورة",
+      "before_return": "قبل العودة",
+      "invoice_return": "إرجاع الفاتورة",
+      "invoice_tax": "ضريبة الفاتورة",
+      "invoice_tax_placeholder": "حدد نوع الضريبة"
+    },
+    "quotations": {
+      "index": {
+        "page_title": "الاقتباسات",
+        "create_invoice": "إنشاء فاتورة",
+        "breadcrumbs_current": "الاقتباسات",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "الاقتباسات",
+        "breadcrumbs_active": "الاقتباسات",
+        "delete_warning": "لن تتمكن من العودة إلى هذا!",
+        "delete_failed": "عذرا لا يمكنك حذف هذا الاقتباس!"
+      },
+      "create": {
+        "page_title": "إنشاء الاقتباس",
+        "form_title": "إنشاء الاقتباس",
+        "breadcrumbs_current": "إنشاء الاقتباس",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "الاقتباسات",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة الاقتباس بنجاح 👍"
+      },
+      "edit": {
+        "page_title": "تحرير الاقتباس",
+        "form_title": "تحرير الاقتباس",
+        "breadcrumbs_current": "تحرير الاقتباس",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "الاقتباسات",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث الاقتباس بنجاح 👍"
+      },
+      "view": {
+        "page_title": "تفاصيل الاقتباس",
+        "breadcrumbs_current": "تفاصيل الاقتباس",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "الاقتباسات",
+        "breadcrumbs_active": "تفاصيل",
+        "expense_details": "تفاصيل المصاريف"
+      },
+      "invoice": {
+        "page_title": "الاقتباس على الفاتورة",
+        "form_title": "إنشاء عرض أسعار للفاتورة",
+        "breadcrumbs_current": "الاقتباس على الفاتورة",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "الاقتباسات",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تم إنشاء الفاتورة بنجاح 👍"
+      }
+    },
+    "invoices": {
+      "index": {
+        "page_title": "الفواتير",
+        "breadcrumbs_current": "الفواتير",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "مبيعات",
+        "breadcrumbs_active": "الفواتير",
+        "delete_warning": "لن تتمكن من العودة إلى هذا!",
+        "delete_failed": "عذرا لا يمكنك حذف هذه الفاتورة!"
+      },
+      "create": {
+        "page_title": "إنشاء فاتورة",
+        "form_title": "إنشاء فاتورة",
+        "breadcrumbs_current": "إنشاء فاتورة",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "الفواتير",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة الفاتورة بنجاح 👍"
+      },
+      "edit": {
+        "page_title": "تحرير الفاتورة",
+        "form_title": "تحرير الفاتورة",
+        "breadcrumbs_current": "تحرير الفاتورة",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "الفواتير",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث الفاتورة بنجاح 👍"
+      },
+      "view": {
+        "page_title": "تفاصيل الفاتورة",
+        "breadcrumbs_current": "تفاصيل الفاتورة",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "الفواتير",
+        "breadcrumbs_active": "تفاصيل",
+        "invoice_details": "تفاصيل الفاتورة"
+      }
+    },
+    "returns": {
+      "index": {
+        "page_title": "إرجاع الفاتورة",
+        "breadcrumbs_current": "إرجاع الفاتورة",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "الفواتير",
+        "breadcrumbs_active": "إرجاع الفاتورة",
+        "delete_warning": "لن تتمكن من العودة إلى هذا!",
+        "delete_failed": "كان هناك شيء خاطئ."
+      },
+      "create": {
+        "page_title": "إنشاء إرجاع الفاتورة",
+        "form_title": "إنشاء إرجاع الفاتورة",
+        "breadcrumbs_current": "إنشاء إرجاع الفاتورة",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "إرجاع الفاتورة",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة فاتورة إرجاع بنجاح 👍"
+      },
+      "edit": {
+        "page_title": "تحرير إرجاع الفاتورة",
+        "form_title": "تحرير إرجاع الفاتورة",
+        "breadcrumbs_current": "تحرير إرجاع الفاتورة",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "إرجاع الفاتورة",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث إرجاع الفاتورة بنجاح 👍"
+      },
+      "view": {
+        "page_title": "تفاصيل إعادة الفاتورة",
+        "breadcrumbs_current": "تفاصيل إعادة الفاتورة",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "إرجاع الفاتورة",
+        "breadcrumbs_active": "تفاصيل",
+        "invoice_details": "تفاصيل الفاتورة"
+      }
+    }
+  },
+  "cashbook": {
+    "common": {
+      "account_number": "رقم حساب",
+      "account_number_placeholder": "أدخل رقم الحساب",
+      "branch_name": "اسم الفرع",
+      "branch_name_placeholder": "أدخل اسم الفرع",
+      "bank_name": "اسم البنك",
+      "bank_name_placeholder": "أدخل اسم البنك",
+      "transactions": "المعاملات",
+      "account_details": "تفاصيل الحساب",
+      "total_transactions": "إجمالي المعاملات",
+      "debit_amount": "مقدار الخصم",
+      "credit_amount": "مبلغ الائتمان",
+      "from_account": "من حساب",
+      "to_account": "لحساب",
+      "transfer_reason": "سبب التحويل"
+    },
+    "accounts": {
+      "index": {
+        "page_title": "حسابات",
+        "breadcrumbs_current": "حسابات",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "دفتر النقدية",
+        "breadcrumbs_third": "حسابات",
+        "breadcrumbs_active": "حسابات",
+        "delete_warning": "لن تتمكن من العودة إلى هذا!",
+        "delete_failed": "آسف لا يمكنك إزالة هذا الحساب!"
+      },
+      "create": {
+        "page_title": "إصنع حساب",
+        "form_title": "انشئ حساب",
+        "breadcrumbs_current": "إصنع حساب",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "دفتر النقدية",
+        "breadcrumbs_third": "حسابات",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة الحساب بنجاح 👍"
+      },
+      "edit": {
+        "page_title": "تحرير الحساب",
+        "form_title": "تحرير الحساب",
+        "breadcrumbs_current": "تحرير الحساب",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "دفتر النقدية",
+        "breadcrumbs_third": "حسابات",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث الحساب بنجاح 👍"
+      },
+      "view": {
+        "page_title": "معاملات الحساب",
+        "breadcrumbs_current": "معاملات الحساب",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "حسابات",
+        "breadcrumbs_active": "المعاملات",
+        "empty_transaction": "لا توجد معاملة متاحة حتى الآن!",
+        "empty_transaction_msg": "لم تقم بإجراء أي معاملات باستخدام هذا الحساب. بعد القيام بالمعاملة سترى القائمة هنا."
+      }
+    },
+    "balances": {
+      "index": {
+        "page_title": "تعديلات الميزان",
+        "add_balance": "خلق",
+        "breadcrumbs_current": "تعديلات الميزان",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "دفتر النقدية",
+        "breadcrumbs_active": "التعديلات",
+        "delete_warning": "لن تتمكن من العودة إلى هذا!",
+        "delete_failed": "عذرا لا يمكنك حذف هذه الصفقة"
+      },
+      "create": {
+        "page_title": "إنشاء تعديل",
+        "form_title": "إنشاء التعديل",
+        "breadcrumbs_current": "إنشاء تعديل",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "دفتر النقدية",
+        "breadcrumbs_third": "التعديلات",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة التعديل بنجاح 👍"
+      },
+      "edit": {
+        "page_title": "تحرير الرصيد",
+        "form_title": "تحرير الرصيد",
+        "breadcrumbs_current": "تحرير الرصيد",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "دفتر النقدية",
+        "breadcrumbs_third": "أرصدة",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث الرصيد بنجاح 👍"
+      }
+    },
+    "transfers": {
+      "index": {
+        "page_title": "تحويلات الرصيد",
+        "add_transfer": "أضف تحويل",
+        "breadcrumbs_current": "تحويلات الرصيد",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "دفتر النقدية",
+        "breadcrumbs_active": "تحويلات الرصيد",
+        "delete_warning": "لن تتمكن من العودة إلى هذا!",
+        "delete_failed": "عذرا لا يمكنك حذف هذا النقل!"
+      },
+      "create": {
+        "page_title": "إنشاء تحويل",
+        "form_title": "إنشاء تحويل رصيد",
+        "breadcrumbs_current": "إنشاء تحويل",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "دفتر النقدية",
+        "breadcrumbs_third": "تحويلات الرصيد",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة تحويل الرصيد بنجاح 👍"
+      },
+      "edit": {
+        "page_title": "تحرير تحويل الرصيد",
+        "form_title": "تحرير تحويل الرصيد",
+        "breadcrumbs_current": "تحرير تحويل الرصيد",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "دفتر النقدية",
+        "breadcrumbs_third": "تحويلات الرصيد",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث التحويل بنجاح 👍"
+      },
+      "view": {
+        "page_title": "تفاصيل تحويل الرصيد",
+        "breadcrumbs_current": "تفاصيل التحويلات",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "دفتر النقدية",
+        "breadcrumbs_third": "تحويلات الرصيد",
+        "breadcrumbs_active": "تفاصيل"
+      }
+    },
+    "transactions": {
+      "index": {
+        "page_title": "تاريخ المعاملات",
+        "breadcrumbs_current": "تاريخ المعاملات",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "دفتر النقدية",
+        "breadcrumbs_active": "تاريخ"
+      }
+    }
+  },
+  "payments": {
+    "common": {
+      "due_paid": "الدفع المستحق",
+      "due_added": "تمت الإضافة المستحقة",
+      "current_due": "موعد الاستحقاق الحالي",
+      "non_invoice_paid": "غير مدفوعة الفاتورة",
+      "non_invoice_total": "إجمالي غير الفاتورة",
+      "add_due": "إضافة واجب",
+      "add_payment": "إضافة الدفع",
+      "total_payment": "المبلغ الإجمالي",
+      "total_advance": "إجمالي الدفعة المقدمة (إرجاع الفاتورة)",
+      "available_advance": "السلفة المتاحة (عائد الشراء)",
+      "select_invoice": "حدد الفاتورة",
+      "select_purchase": "حدد شراء",
+      "select_purchase_placeholder": "ابحث عن رقم الشراء",
+      "select_invoice_placeholder": "ابحث عن رقم الفاتورة",
+      "invoice_subtotal": "المجموع الفرعي للفاتورة",
+      "non_purchase_total": "إجمالي غير الشراء",
+      "non_purchase_due": "غير مستحق الشراء",
+      "non_purchase_paid": "غير مدفوعة الشراء",
+      "purchase_details": "تفاصيل شراء"
+    },
+    "clients": {
+      "invoice": {
+        "index": {
+          "page_title": "مدفوعات الفواتير",
+          "breadcrumbs_current": "مدفوعات الفواتير",
+          "breadcrumbs_first": "لوحة القيادة",
+          "breadcrumbs_second": "المدفوعات",
+          "breadcrumbs_active": "مدفوعات الفواتير",
+          "delete_warning": "لن تتمكن من العودة إلى هذا!",
+          "delete_failed": "عذرا لا يمكنك حذف هذا الدفع!"
+        },
+        "create": {
+          "page_title": "إنشاء دفع فاتورة العميل",
+          "form_title": "إنشاء دفع الفاتورة",
+          "breadcrumbs_current": "إنشاء الدفع",
+          "breadcrumbs_first": "لوحة القيادة",
+          "breadcrumbs_second": "المدفوعات",
+          "breadcrumbs_third": "مدفوعات الفواتير",
+          "breadcrumbs_active": "خلق",
+          "success_msg": "تمت إضافة دفع الفاتورة بنجاح 👍"
+        },
+        "edit": {
+          "page_title": "تحرير دفع فاتورة العميل",
+          "form_title": "تحرير دفع الفاتورة",
+          "breadcrumbs_current": "تحرير الدفع",
+          "breadcrumbs_first": "لوحة القيادة",
+          "breadcrumbs_second": "المدفوعات",
+          "breadcrumbs_third": "مدفوعات الفواتير",
+          "breadcrumbs_active": "يحرر",
+          "success_msg": "تم تحديث دفع الفاتورة بنجاح 👍"
+        },
+        "view": {
+          "page_title": "تفاصيل دفع الفاتورة",
+          "breadcrumbs_current": "تفاصيل دفع الفاتورة",
+          "breadcrumbs_first": "لوحة القيادة",
+          "breadcrumbs_second": "المدفوعات",
+          "breadcrumbs_third": "مدفوعات الفواتير",
+          "breadcrumbs_active": "تفاصيل"
+        }
+      },
+      "non_invoice": {
+        "index": {
+          "page_title": "مدفوعات العميل بخلاف الفواتير",
+          "breadcrumbs_current": "المدفوعات غير الفواتير",
+          "breadcrumbs_first": "لوحة القيادة",
+          "breadcrumbs_second": "المدفوعات",
+          "breadcrumbs_active": "المدفوعات غير الفواتير",
+          "delete_warning": "لن تتمكن من العودة إلى هذا!",
+          "delete_failed": "عذرا لا يمكنك حذف هذا الدفع!"
+        },
+        "create": {
+          "page_title": "إنشاء دفع غير فاتورة",
+          "form_title": "إنشاء دفع غير فاتورة",
+          "breadcrumbs_current": "إنشاء الدفع",
+          "breadcrumbs_first": "لوحة القيادة",
+          "breadcrumbs_second": "المدفوعات",
+          "breadcrumbs_third": "المدفوعات غير الفواتير",
+          "breadcrumbs_active": "خلق",
+          "success_msg": "تمت إضافة الدفع بنجاح 👍"
+        },
+        "edit": {
+          "page_title": "تحرير إرجاع الفاتورة",
+          "form_title": "تحرير دفع غير فاتورة",
+          "breadcrumbs_current": "تحرير الدفع",
+          "breadcrumbs_first": "لوحة القيادة",
+          "breadcrumbs_second": "المدفوعات",
+          "breadcrumbs_third": "المدفوعات غير الفواتير",
+          "breadcrumbs_active": "يحرر",
+          "success_msg": "تم تحديث الدفع بنجاح 👍"
+        }
+      }
+    },
+    "suppliers": {
+      "purchase": {
+        "index": {
+          "page_title": "مدفوعات الشراء",
+          "breadcrumbs_current": "مدفوعات الشراء",
+          "breadcrumbs_first": "لوحة القيادة",
+          "breadcrumbs_second": "المدفوعات",
+          "breadcrumbs_active": "مدفوعات الشراء",
+          "delete_warning": "لن تتمكن من العودة إلى هذا!",
+          "delete_failed": "كان هناك شيء خاطئ."
+        },
+        "create": {
+          "page_title": "إنشاء مدفوعات شراء المورد",
+          "form_title": "إنشاء دفع الشراء",
+          "breadcrumbs_current": "إنشاء الدفع",
+          "breadcrumbs_first": "لوحة القيادة",
+          "breadcrumbs_second": "المدفوعات",
+          "breadcrumbs_third": "مدفوعات الشراء",
+          "breadcrumbs_active": "خلق",
+          "success_msg": "تمت إضافة مدفوعات المورد بنجاح 👍"
+        },
+        "edit": {
+          "page_title": "تحرير دفع شراء المورد",
+          "form_title": "تحرير دفع الشراء",
+          "breadcrumbs_current": "تحرير الدفع",
+          "breadcrumbs_first": "لوحة القيادة",
+          "breadcrumbs_second": "المدفوعات",
+          "breadcrumbs_third": "مدفوعات الشراء",
+          "breadcrumbs_active": "يحرر",
+          "success_msg": "تم تحديث الدفع بنجاح 👍"
+        },
+        "view": {
+          "page_title": "تفاصيل دفع مشتريات المورد",
+          "breadcrumbs_current": "تفاصيل دفع الشراء",
+          "breadcrumbs_first": "لوحة القيادة",
+          "breadcrumbs_second": "المدفوعات",
+          "breadcrumbs_third": "مدفوعات الشراء",
+          "breadcrumbs_active": "تفاصيل"
+        }
+      },
+      "non_purchase": {
+        "index": {
+          "page_title": "مدفوعات غير الشراء من المورد",
+          "breadcrumbs_current": "مدفوعات غير الشراء",
+          "breadcrumbs_first": "لوحة القيادة",
+          "breadcrumbs_second": "المدفوعات",
+          "breadcrumbs_active": "مدفوعات غير الشراء",
+          "delete_warning": "لن تتمكن من العودة إلى هذا!",
+          "delete_failed": "عذرا لا يمكنك حذف هذا الدفع!"
+        },
+        "create": {
+          "page_title": "إنشاء مدفوعات غير شراء",
+          "form_title": "إنشاء مدفوعات غير شراء",
+          "breadcrumbs_current": "إنشاء الدفع",
+          "breadcrumbs_first": "لوحة القيادة",
+          "breadcrumbs_second": "المدفوعات",
+          "breadcrumbs_third": "مدفوعات غير الشراء",
+          "breadcrumbs_active": "خلق",
+          "success_msg": "تمت إضافة الدفع بنجاح 👍"
+        },
+        "edit": {
+          "page_title": "تحرير الدفع لغير الشراء",
+          "form_title": "تحرير الدفع غير الشراء",
+          "breadcrumbs_current": "تحرير الدفع",
+          "breadcrumbs_first": "لوحة القيادة",
+          "breadcrumbs_second": "المدفوعات",
+          "breadcrumbs_third": "مدفوعات غير الشراء",
+          "breadcrumbs_active": "يحرر",
+          "success_msg": "تم تحديث الدفع بنجاح 👍"
+        }
+      }
+    }
+  },
+  "loans": {
+    "common": {
+      "authority": "سلطة",
+      "loan": "يُقرض",
+      "loan_placeholder": "اختر قرضًا",
+      "loan_authority": "هيئة القروض",
+      "authority_placeholder": "اختر سلطة",
+      "cc_limit": "حد CC",
+      "cc_placeholder": "أدخل حد قرض cc",
+      "cash_credit_limit": "حد قرض الائتمان النقدي (CC)",
+      "cash_credit_loan": "قرض الائتمان النقدي (CC)",
+      "interetest_paid": "الفائدة المدفوعة",
+      "total_payable": "إجمالي المدفوعات",
+      "total_loan": "إجمالي القرض",
+      "cc_term": "CC + مصطلح",
+      "cc_taken": "القرض المأخوذ من CC",
+      "available_cc": "قرض CC متاح",
+      "all_loans": "جميع القروض",
+      "empty_loan": "لا توجد قروض متاحة حتى الآن!",
+      "empty_loan_msg": "لم تقم بإضافة أي قرض لهذه السلطة. بعد إضافة القروض سترى القائمة هنا.",
+      "authority_details": "تفاصيل الهيئة",
+      "payable_amount": "المبلغ المستحق",
+      "duration": "مدة",
+      "duration_placeholder": "أدخل المدة",
+      "interest_rate_placeholder": "أدخل معدل الفائدة بالنسبة المئوية",
+      "available_amount": "المبلغ المتاح",
+      "term_loan": "قرض لأجل",
+      "loan_type": "نوع القرض",
+      "loan_reason": "سبب القرض",
+      "loan_date": "تاريخ القرض",
+      "Loan_account": "حساب القرض",
+      "Loan_payments": "دفعات القرض",
+      "empty_payment_msg": "لم تقم بإضافة أي دفعة لهذا القرض. بعد إضافة المدفوعات سترى القائمة هنا.",
+      "loan_amount": "مبلغ القرض",
+      "loan_ref": "مرجع القرض.",
+      "payment_ref": "مرجع الدفع.",
+      "amount_paid": "المبلغ المدفوع"
+    },
+    "authorities": {
+      "index": {
+        "page_title": "سلطات القرض",
+        "breadcrumbs_current": "سلطات القرض",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "إدارة القروض",
+        "breadcrumbs_active": "سلطات",
+        "delete_warning": "لن تتمكن من العودة إلى هذا!",
+        "delete_failed": "آسف لا يمكنك حذف هذه السلطة."
+      },
+      "create": {
+        "page_title": "إنشاء سلطة القرض",
+        "form_title": "إنشاء سلطة قروض",
+        "breadcrumbs_current": "إنشاء سلطة القرض",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "سلطات القرض",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة سلطة القرض بنجاح 👍"
+      },
+      "edit": {
+        "page_title": "تحرير سلطة القرض",
+        "form_title": "تحرير سلطة القرض",
+        "breadcrumbs_current": "تحرير السلطة",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "سلطات القرض",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث سلطة القرض بنجاح 👍"
+      },
+      "view": {
+        "page_title": "مشاهدة سلطة القرض",
+        "breadcrumbs_current": "تفاصيل الهيئة",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "سلطات القرض",
+        "breadcrumbs_active": "تفاصيل"
+      }
+    },
+    "payments": {
+      "index": {
+        "page_title": "دفعات القرض",
+        "breadcrumbs_current": "دفعات القرض",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "إدارة القروض",
+        "breadcrumbs_active": "دفعات القرض",
+        "delete_warning": "لن تتمكن من العودة إلى هذا!",
+        "delete_failed": "كان هناك شيء خاطئ."
+      },
+      "create": {
+        "page_title": "إنشاء دفعة القرض",
+        "form_title": "إنشاء دفعة قرض",
+        "breadcrumbs_current": "إنشاء دفعة القرض",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "دفعات القرض",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة دفعة القرض بنجاح 👍"
+      },
+      "edit": {
+        "page_title": "تحرير سداد القرض",
+        "form_title": "تحرير دفعة القرض",
+        "breadcrumbs_current": "تحرير سداد القرض",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "دفعات القرض",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث الدفع بنجاح 👍"
+      },
+      "view": {
+        "page_title": "تفاصيل سداد القرض",
+        "breadcrumbs_current": "تفاصيل سداد القرض",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "دفعات القرض",
+        "breadcrumbs_active": "تفاصيل"
+      }
+    },
+    "list": {
+      "index": {
+        "page_title": "قروض",
+        "breadcrumbs_current": "قروض",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "إدارة القروض",
+        "breadcrumbs_active": "قروض",
+        "delete_warning": "لن تتمكن من العودة إلى هذا!",
+        "delete_failed": "آسف لا يمكنك حذف هذا القرض."
+      },
+      "create": {
+        "page_title": "إنشاء قرض",
+        "form_title": "أنشئ قرضًا",
+        "breadcrumbs_current": "إنشاء قرض",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "قروض",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة القرض بنجاح 👍"
+      },
+      "edit": {
+        "page_title": "تحرير القرض",
+        "form_title": "تحرير القرض",
+        "breadcrumbs_current": "تحرير القرض",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "قروض",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث القرض بنجاح 👍"
+      },
+      "view": {
+        "page_title": "تفاصيل القرض",
+        "breadcrumbs_current": "تفاصيل القرض",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "قروض",
+        "breadcrumbs_active": "تفاصيل"
+      }
+    }
+  },
+  "assets": {
+    "common": {
+      "asset_name": "اسم الأصل",
+      "asset_name_placeholder": "أدخل اسم الأصل",
+      "asset_type": "نوع الأصول",
+      "asset_type_placeholder": "حدد نوع الأصل",
+      "asset_cost": "تكلفة الأصول",
+      "asset_cost_placeholder": "أدخل تكلفة الأصول",
+      "current_value": "القيمة الحالية",
+      "depreciation": "الاستهلاك",
+      "depreciation_type": "نوع الإهلاك",
+      "salvage_value": "قيمة مستردة",
+      "salvage_value_placeholder": "قيمة مستردة",
+      "useful_life": "العمر الإنتاجي",
+      "remaining_life": "الحياة المتبقية",
+      "useful_life_placeholder": "أدخل العمر الإنتاجي",
+      "added_date": "تاريخ الإضافة",
+      "expired_date": "تاريخ انتهاء الصلاحية"
+    },
+    "types": {
+      "index": {
+        "page_title": "أنواع الأصول",
+        "breadcrumbs_current": "أنواع الأصول",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "إدارة الأصول",
+        "breadcrumbs_active": "أنواع الأصول",
+        "delete_warning": "لن تتمكن من العودة إلى هذا!",
+        "delete_failed": "كان هناك شيء خاطئ."
+      },
+      "create": {
+        "page_title": "إنشاء نوع الأصل",
+        "form_title": "قم بإنشاء نوع الأصل",
+        "breadcrumbs_current": "إنشاء نوع الأصل",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "أنواع الأصول",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة نوع الأصل بنجاح 👍"
+      },
+      "edit": {
+        "page_title": "تحرير نوع الأصل",
+        "form_title": "تحرير نوع الأصل",
+        "breadcrumbs_current": "تحرير نوع الأصل",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "أنواع الأصول",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث نوع الأصل بنجاح 👍"
+      }
+    },
+    "list": {
+      "index": {
+        "page_title": "أصول",
+        "breadcrumbs_current": "أصول",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "إدارة الأصول",
+        "breadcrumbs_active": "أصول",
+        "delete_warning": "لن تتمكن من العودة إلى هذا!",
+        "delete_failed": "كان هناك شيء خاطئ."
+      },
+      "create": {
+        "page_title": "إنشاء الأصول",
+        "form_title": "أنشئ أحد الأصول",
+        "breadcrumbs_current": "إنشاء الأصول",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "أصول",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة الأصل بنجاح 👍"
+      },
+      "edit": {
+        "page_title": "تحرير الأصل",
+        "form_title": "تحرير الأصل",
+        "breadcrumbs_current": "تحرير الأصل",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "أصول",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث الأصل بنجاح 👍"
+      },
+      "view": {
+        "page_title": "تفاصيل الأصول",
+        "breadcrumbs_current": "تفاصيل الأصول",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "أصول",
+        "breadcrumbs_active": "تفاصيل"
+      }
+    }
+  },
+  "payroll": {
+    "common": {
+      "salary_date": "تاريخ الراتب",
+      "total_salary": "كامل الراتب",
+      "advance": "يتقدم",
+      "advance_placeholder": "أدخل كمية advacne",
+      "others": "آحرون",
+      "others_placeholder": "أدخل مبلغًا آخر",
+      "travel_allowance": "بدل السفر (TA)",
+      "travel_allowance_placeholder": "أدخل بدل السفر",
+      "festival_bonus": "مكافأة المهرجان",
+      "festival_bonus_placeholder": "أدخل مكافأة المهرجان",
+      "commission": "عمولة",
+      "commission_placeholder": "أدخل عمولة",
+      "bonus": "علاوة",
+      "bonus_placeholder": "أدخل مكافأة",
+      "food_bill": "فاتورة الغذاء",
+      "food_bill_placeholder": "أدخل فاتورة طعام",
+      "mobile_bill": "فاتورة المحمول",
+      "mobile_bill_placeholder": "أدخل فاتورة الهاتف المحمول",
+      "deduction_reason": "سبب الخصم",
+      "deduction_reason_placeholder": "أدخل سبب الخصم",
+      "deduction_amount": "مبلغ الاستقطاع",
+      "deduction_amount_placeholder": "أدخل مبلغ الخصم",
+      "present_salary": "الراتب الحالي",
+      "salary_month": "شهر الراتب",
+      "salary_month_placeholder": "حدد شهر الراتب"
+    },
+    "index": {
+      "page_title": "رواتب الموظف",
+      "breadcrumbs_current": "رواتب الموظف",
+      "breadcrumbs_first": "لوحة القيادة",
+      "breadcrumbs_second": "كشف رواتب",
+      "breadcrumbs_active": "كشف رواتب",
+      "delete_warning": "لن تتمكن من العودة إلى هذا!",
+      "delete_failed": "كان هناك شيء خاطئ."
+    },
+    "create": {
+      "page_title": "إنشاء كشوف المرتبات",
+      "form_title": "إنشاء كشوف رواتب الموظفين",
+      "breadcrumbs_current": "إنشاء كشوف المرتبات",
+      "breadcrumbs_first": "لوحة القيادة",
+      "breadcrumbs_second": "كشف رواتب",
+      "breadcrumbs_active": "خلق",
+      "success_msg": "تمت إضافة كشوف المرتبات بنجاح 👍"
+    },
+    "edit": {
+      "page_title": "تحرير كشوف المرتبات",
+      "form_title": "تحرير كشوف المرتبات",
+      "breadcrumbs_current": "تحرير كشوف المرتبات",
+      "breadcrumbs_first": "لوحة القيادة",
+      "breadcrumbs_second": "كشف رواتب",
+      "breadcrumbs_active": "يحرر",
+      "success_msg": "تم تحديث كشوف المرتبات بنجاح 👍"
+    },
+    "view": {
+      "page_title": "تفاصيل الرواتب",
+      "breadcrumbs_current": "تفاصيل الرواتب",
+      "breadcrumbs_first": "لوحة القيادة",
+      "breadcrumbs_second": "كشف رواتب",
+      "breadcrumbs_active": "تفاصيل"
+    }
+  },
+  "clients": {
+    "common": {
+      "non_invoice_transactions": "المعاملات بخلاف الفواتير"
+    },
+    "index": {
+      "page_title": "العملاء",
+      "breadcrumbs_current": "العملاء",
+      "breadcrumbs_first": "لوحة القيادة",
+      "breadcrumbs_second": "عملاء",
+      "breadcrumbs_active": "العملاء",
+      "delete_warning": "لن تتمكن من العودة إلى هذا!",
+      "delete_failed": "عذرا لا يمكنك حذف هذا العميل."
+    },
+    "create": {
+      "page_title": "إنشاء عميل",
+      "form_title": "قم بإنشاء عميل",
+      "breadcrumbs_current": "إنشاء عميل",
+      "breadcrumbs_first": "لوحة القيادة",
+      "breadcrumbs_second": "العملاء",
+      "breadcrumbs_active": "خلق",
+      "success_msg": "تمت إضافة العميل بنجاح 👍"
+    },
+    "edit": {
+      "page_title": "تحرير العميل",
+      "form_title": "تحرير العميل",
+      "breadcrumbs_current": "تحرير العميل",
+      "breadcrumbs_first": "لوحة القيادة",
+      "breadcrumbs_second": "العملاء",
+      "breadcrumbs_active": "يحرر",
+      "success_msg": "تم تحديث العميل بنجاح 👍"
+    },
+    "view": {
+      "page_title": "تفاصيل العميل",
+      "breadcrumbs_current": "تفاصيل العميل",
+      "breadcrumbs_first": "لوحة القيادة",
+      "breadcrumbs_second": "العملاء",
+      "breadcrumbs_active": "تفاصيل"
+    }
+  },
+  "suppliers": {
+    "common": {
+      "non_purchase_transactions": "معاملات غير الشراء"
+    },
+    "index": {
+      "page_title": "الموردين",
+      "breadcrumbs_current": "الموردين",
+      "breadcrumbs_first": "لوحة القيادة",
+      "breadcrumbs_second": "الموردين",
+      "breadcrumbs_active": "الموردين",
+      "delete_warning": "لن تتمكن من العودة إلى هذا!",
+      "delete_failed": "عذرا لا يمكنك حذف هذا المورد."
+    },
+    "create": {
+      "page_title": "إنشاء مورد",
+      "form_title": "إنشاء مورد",
+      "breadcrumbs_current": "إنشاء مورد",
+      "breadcrumbs_first": "لوحة القيادة",
+      "breadcrumbs_second": "الموردين",
+      "breadcrumbs_active": "خلق",
+      "success_msg": "تمت إضافة المورد بنجاح 👍"
+    },
+    "edit": {
+      "page_title": "تحرير المورد",
+      "form_title": "تحرير المورد",
+      "breadcrumbs_current": "تحرير المورد",
+      "breadcrumbs_first": "لوحة القيادة",
+      "breadcrumbs_second": "الموردين",
+      "breadcrumbs_active": "يحرر",
+      "success_msg": "تم تحديث المورد بنجاح 👍"
+    },
+    "view": {
+      "page_title": "تفاصيل المورد",
+      "breadcrumbs_current": "تفاصيل المورد",
+      "breadcrumbs_first": "لوحة القيادة",
+      "breadcrumbs_second": "الموردين",
+      "breadcrumbs_active": "تفاصيل"
+    }
+  },
+  "employees": {
+    "common": {
+      "increment_date": "زيادة التاريخ",
+      "increment_amount": "مبلغ الزيادة",
+      "increment_amount_placeholder": "أدخل مبلغ الزيادة",
+      "increment_reason": "سبب الزيادة",
+      "increment_reason_placeholder": "أدخل سببًا",
+      "basic_salary": "راتب اساسي",
+      "current_salary": "الراتب الحالي",
+      "incremented_salary": "زيادة الراتب",
+      "birth_date": "تاريخ الميلاد",
+      "join_date": "تاريخ الانضمام",
+      "employee_name": "اسم الموظف",
+      "employee_name_placeholder": "أدخل اسم موظف",
+      "gender": "جنس",
+      "gender_placeholder": "اختر الجنس",
+      "male": "ذكر",
+      "female": "أنثى",
+      "transgender": "المتحولين جنسيا",
+      "other": "آخر",
+      "blood_group": "فصيلة الدم",
+      "blood_group_placeholder": "اختر فصيلة الدم",
+      "religion": "دِين",
+      "religion_placeholder": "اختر ديانة",
+      "islam": "دين الاسلام",
+      "hinduism": "الهندوسية",
+      "buddhists": "البوذيون",
+      "christians": "مسيحيون",
+      "animists": "الرسامون",
+      "appointment_date": "تاريخ الموعد",
+      "allow_login": "السماح بتسجيل دخول الموظف",
+      "increment_history": "زيادة التاريخ"
+    },
+    "departments": {
+      "index": {
+        "page_title": "الإدارات",
+        "breadcrumbs_current": "الإدارات",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "الموظفين",
+        "breadcrumbs_active": "الإدارات",
+        "delete_warning": "لن تتمكن من العودة إلى هذا!",
+        "delete_failed": "كان هناك شيء خاطئ."
+      },
+      "create": {
+        "page_title": "إنشاء قسم",
+        "form_title": "أنشئ قسمًا",
+        "breadcrumbs_current": "إنشاء قسم",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "الإدارات",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة القسم بنجاح 👍"
+      },
+      "edit": {
+        "page_title": "تحرير القسم",
+        "form_title": "تحرير القسم",
+        "breadcrumbs_current": "تحرير القسم",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "الإدارات",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث القسم بنجاح 👍"
+      }
+    },
+    "increments": {
+      "index": {
+        "page_title": "زيادة رواتب الموظف",
+        "breadcrumbs_current": "زيادات الراتب",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "الموظفين",
+        "breadcrumbs_active": "الزيادات",
+        "delete_warning": "لن تتمكن من العودة إلى هذا!",
+        "delete_failed": "كان هناك شيء خاطئ."
+      },
+      "create": {
+        "page_title": "إنشاء زيادة الراتب",
+        "form_title": "إنشاء زيادة في الراتب",
+        "breadcrumbs_current": "إنشاء زيادة الراتب",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "الزيادات",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة الزيادة بنجاح 👍"
+      },
+      "edit": {
+        "page_title": "تحرير زيادة الراتب",
+        "form_title": "تحرير زيادة الراتب",
+        "breadcrumbs_current": "تحرير زيادة الراتب",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "الزيادات",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث الزيادة بنجاح 👍"
+      },
+      "view": {
+        "page_title": "تفاصيل الزيادة",
+        "breadcrumbs_current": "تفاصيل الزيادة",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "الزيادات",
+        "breadcrumbs_active": "تفاصيل"
+      }
+    },
+    "list": {
+      "index": {
+        "page_title": "الموظفين",
+        "breadcrumbs_current": "الموظفين",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_active": "الموظفين",
+        "delete_warning": "لن تتمكن من العودة إلى هذا!",
+        "delete_failed": "كان هناك شيء خاطئ."
+      },
+      "create": {
+        "page_title": "إنشاء موظف",
+        "form_title": "أنشئ موظفًا",
+        "breadcrumbs_current": "إنشاء موظف",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "الموظفين",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة الموظف بنجاح 👍"
+      },
+      "edit": {
+        "page_title": "تحرير الموظف",
+        "form_title": "تحرير الموظف",
+        "breadcrumbs_current": "تحرير الموظف",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "الموظفين",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث الموظف بنجاح 👍"
+      },
+      "view": {
+        "page_title": "تفاصيل الموظف",
+        "breadcrumbs_current": "تفاصيل الموظف",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "الموظفين",
+        "breadcrumbs_active": "تفاصيل"
+      }
+    }
+  },
+  "products": {
+    "categories": {
+      "index": {
+        "page_title": "فئات المنتجات",
+        "breadcrumbs_current": "فئات المنتجات",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "منتجات",
+        "breadcrumbs_active": "فئات",
+        "delete_warning": "سيتم حذف جميع الفئات الفرعية لهذه الفئة!"
+      },
+      "create": {
+        "page_title": "إنشاء فئة المنتج",
+        "form_title": "قم بإنشاء فئة منتج",
+        "breadcrumbs_current": "إنشاء فئة",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "منتجات",
+        "breadcrumbs_third": "فئات",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة الفئة بنجاح 👍"
+      },
+      "edit": {
+        "page_title": "تحرير فئة المنتج",
+        "form_title": "تحرير فئة المنتج",
+        "breadcrumbs_current": "تحرير فئة المنتج",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "منتجات",
+        "breadcrumbs_third": "فئات",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث الفئة بنجاح 👍"
+      }
+    },
+    "sub_categories": {
+      "index": {
+        "page_title": "فئات المنتجات الفرعية",
+        "breadcrumbs_current": "فئات المنتجات الفرعية",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "منتجات",
+        "breadcrumbs_active": "الفئات الفرعية",
+        "delete_warning": "سيتم حذف جميع المنتجات لهذه الفئة!"
+      },
+      "create": {
+        "page_title": "إنشاء فئة فرعية للمنتج",
+        "form_title": "قم بإنشاء فئة فرعية للمنتج",
+        "breadcrumbs_current": "إنشاء فئة فرعية",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "منتجات",
+        "breadcrumbs_third": "الفئات الفرعية",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة الفئة الفرعية بنجاح 👍"
+      },
+      "edit": {
+        "page_title": "تحرير فئة المنتج الفرعية",
+        "form_title": "تحرير فئة المنتج الفرعية",
+        "breadcrumbs_current": "تحرير فئة المنتج الفرعية",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "منتجات",
+        "breadcrumbs_third": "الفئات الفرعية",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث الفئة الفرعية بنجاح 👍"
+      }
+    },
+    "list": {
+      "common": {
+        "alert_quantity": "كمية التنبيه",
+        "alert_quantity_placeholder": "أدخل كمية التنبيه",
+        "selling_price": "سعر البيع",
+        "selling_price_placeholder": "أدخل سعر البيع",
+        "regular_price": "سعر عادي",
+        "regular_price_placeholder": "أدخل السعر العادي",
+        "tax_type": "نوع الضريبة",
+        "exclusive": "حصرية",
+        "inclusive": "شامل",
+        "product_tax": "ضريبة المنتج",
+        "tax_placeholder": "حدد ضريبة",
+        "barcode_symbology": "ترميز الباركود",
+        "tax_amount": "قيمة الضريبة",
+        "avg_purchase_price": "متوسط سعر الشراء",
+        "avg_selling_price": "متوسط سعر البيع",
+        "stock": "مخزون",
+        "inventory_value": "قيمة المخزون",
+        "generate_barcode": "إنشاء رمز شريطي"
+      },
+      "index": {
+        "page_title": "منتجات",
+        "breadcrumbs_current": "منتجات",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "منتجات",
+        "breadcrumbs_active": "منتجات",
+        "delete_warning": "لن تتمكن من العودة إلى هذا!"
+      },
+      "create": {
+        "page_title": "إنشاء منتج",
+        "form_title": "قم بإنشاء منتج",
+        "breadcrumbs_current": "إنشاء منتج",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "منتجات",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة المنتج بنجاح 👍"
+      },
+      "edit": {
+        "page_title": "تحرير المنتج",
+        "form_title": "تحرير المنتج",
+        "breadcrumbs_current": "تحرير المنتج",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "منتجات",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث المنتج بنجاح 👍"
+      },
+      "view": {
+        "page_title": "تفاصيل المنتج",
+        "breadcrumbs_current": "تفاصيل المنتج",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "منتجات",
+        "breadcrumbs_active": "تفاصيل",
+        "expense_details": "تفاصيل المنتج"
+      },
+      "barcode": {
+        "page_title": "طباعة الباركود",
+        "generate_barcode": "إنشاء رمز شريطي",
+        "print_barcode": "طباعة الباركود",
+        "paper_size": "حجم الورق",
+        "print_qty": "طباعة الكمية",
+        "breadcrumbs_current": "طباعة الباركود",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "منتجات",
+        "breadcrumbs_active": "يحرر",
+        "page_option_0": "40 لكل ورقة (A4) (1.799 * 1.003)",
+        "page_option_1": "30 لكل ورقة (2.625 * 1)",
+        "page_option_2": "24 لكل ورقة (A4) (2.48 * 1.334)",
+        "page_option_3": "20 لكل ورقة (4 * 1)",
+        "page_option_4": "18 لكل ورقة (A4) (2.5 * 1.835)",
+        "page_option_5": "14 لكل ورقة (4 * 1.33)",
+        "page_option_6": "12 لكل ورقة (A4) (2.5 * 2.834)",
+        "page_option_7": "10 لكل ورقة (4 * 2)"
+      }
+    }
+  },
+  "inventory": {
+    "common": {
+      "inventory_history": "تاريخ الجرد",
+      "adjustment_no": "التعديل لا",
+      "adjustment_date": "تاريخ التعديل",
+      "adjustment_type": "نوع التعديل",
+      "increment": "زيادة راتب",
+      "decrement": "إنقاص",
+      "adjustment_reason": "سبب التعديل",
+      "adjusted_products": "المنتجات المعدلة"
+    },
+    "index": {
+      "page_title": "جرد",
+      "breadcrumbs_current": "جرد",
+      "breadcrumbs_first": "لوحة القيادة",
+      "breadcrumbs_second": "منتجات",
+      "breadcrumbs_active": "جرد"
+    },
+    "history": {
+      "page_title": "تاريخ الجرد",
+      "breadcrumbs_current": "تاريخ الجرد",
+      "breadcrumbs_first": "لوحة القيادة",
+      "breadcrumbs_second": "جرد",
+      "breadcrumbs_active": "تاريخ"
+    },
+    "adjustments": {
+      "index": {
+        "page_title": "تعديلات المخزون",
+        "breadcrumbs_current": "تعديلات المخزون",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "جرد",
+        "breadcrumbs_active": "التعديلات",
+        "delete_warning": "لن تتمكن من العودة إلى هذا!",
+        "delete_failed": "كان هناك شيء خاطئ."
+      },
+      "create": {
+        "page_title": "إنشاء تعديل",
+        "form_title": "إنشاء التعديل",
+        "breadcrumbs_current": "إنشاء تعديل",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "التعديلات",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة التعديل بنجاح 👍"
+      },
+      "edit": {
+        "page_title": "تعديل التعديل",
+        "form_title": "تعديل التعديل",
+        "breadcrumbs_current": "تعديل التعديل",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "التعديلات",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث التعديل بنجاح 👍"
+      },
+      "view": {
+        "page_title": "تفاصيل التعديل",
+        "breadcrumbs_current": "تفاصيل التعديل",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "التعديلات",
+        "breadcrumbs_active": "تفاصيل"
+      }
+    }
+  },
+  "reports": {
+    "stock_in": "المخزون في",
+    "stock_out": "المخزن نفذ",
+    "total_quantity": "الكمية الإجمالية",
+    "incomes": "الدخل",
+    "liabilities": "المطلوبات",
+    "security_asset": "إجمالي الأمان / الأصول",
+    "supplier_dues": "مستحقات المورد",
+    "client_dues": "مستحقات العميل",
+    "bank_loan": "قرض مصرفي",
+    "bank_balance": "رصيد البنك",
+    "income_liabilities": "(الدخل - الخصوم)",
+    "total_asset": "إجمالي الأصول",
+    "view_report": "عرض التقرير",
+    "monthly_summery": "ملخص شهري",
+    "particulars": "تفاصيل",
+    "opening_balance": "الرصيد الافتتاحي",
+    "invoice_sales": "مبيعات الفواتير",
+    "invoice_dues": "مستحقات الفاتورة",
+    "accounts_collection": "تحصيل الحسابات",
+    "general": "عام",
+    "loan_interest": "فائدة القرض",
+    "asset_depreciation": "إهلاك الأصول",
+    "transfer": "تحويل",
+    "transfer_from": "تحويل الرصيد من",
+    "closing_balance": "الرصيد الختامي",
+    "report_type": "نوع التقرير",
+    "gross_profit_Loss": "إجمالي الربح (الخسارة",
+    "net_profit_Loss": "صافي الربح (الخسارة",
+    "sold_qty": "تباع الكمية",
+    "profit": "ربح",
+    "loss": "خسارة",
+    "total_sales_avg": "إجمالي المبيعات (متوسط)",
+    "total_purchased_avg": "إجمالي الشراء (متوسط)",
+    "income_statement": "قوائم الدخل",
+    "total_sales": "إجمالي المبيعات",
+    "cost_of_goods_sold": "تكلفة البضاعة المباعة",
+    "positive_adjusted": "تعديل إيجابي",
+    "negative_adjusted": "تعديل سلبي",
+    "total_adjusted": "إجمالي المعدل",
+    "gross_profit": "اجمالي الربح",
+    "gross_loss": "الخسارة الإجمالية",
+    "operating_expenses": "نفقات التشغيل",
+    "salaries": "الرواتب",
+    "general_expenses": "المصروفات العامة",
+    "total_expense": "المصاريف الكلية",
+    "net_profit": "صافي الربح",
+    "net_loss": "خسارة صافية",
+    "date_range": "نطاق الموعد",
+    "stock_in_hand": "الأسهم في متناول اليد",
+    "balance_sheet": {
+      "page_title": "ورقة التوازن",
+      "breadcrumbs_current": "ورقة التوازن",
+      "breadcrumbs_first": "لوحة القيادة",
+      "breadcrumbs_second": "التقارير",
+      "breadcrumbs_active": "ورقة التوازن"
+    },
+    "summary": {
+      "page_title": "تقرير ملخص",
+      "breadcrumbs_current": "تقرير ملخص",
+      "breadcrumbs_first": "لوحة القيادة",
+      "breadcrumbs_second": "التقارير",
+      "breadcrumbs_active": "تقرير ملخص"
+    },
+    "profit_loss": {
+      "empty_msg_title": "ربح / خسارة فارغة!",
+      "empty_msg_text": "عذرًا ، لم يتم العثور على ربح / خسارة للفئة والنطاق الزمني المحددين.",
+      "page_title": "تقرير الربح / الخسارة",
+      "breadcrumbs_current": "تقرير الربح / الخسارة",
+      "breadcrumbs_first": "لوحة القيادة",
+      "breadcrumbs_second": "التقارير",
+      "breadcrumbs_active": "تقرير الربح / الخسارة"
+    },
+    "expense": {
+      "empty_msg_title": "مصاريف فارغة!",
+      "empty_msg_text": "معذرةً ، لم يتم العثور على نفقات للفئة والنطاق الزمني المحددين.",
+      "page_title": "تقرير المصاريف",
+      "breadcrumbs_current": "تقرير المصاريف",
+      "breadcrumbs_first": "لوحة القيادة",
+      "breadcrumbs_second": "التقارير",
+      "breadcrumbs_active": "تقرير المصاريف"
+    },
+    "product": {
+      "empty_msg_title": "فارغة!",
+      "empty_msg_text": "معذرةً ، لم يتم العثور على مخزون في أو مخزون خارج للعنصر المحدد ونطاق التاريخ.",
+      "page_title": "تقرير العنصر",
+      "breadcrumbs_current": "تقرير العنصر",
+      "breadcrumbs_first": "لوحة القيادة",
+      "breadcrumbs_second": "التقارير",
+      "breadcrumbs_active": "تقرير العنصر"
+    },
+    "inventory": {
+      "empty_msg_title": "جرد فارغ!",
+      "empty_msg_text": "معذرةً ، لم يتم العثور على مخزون للفئة والنطاق الزمني المحددين.",
+      "page_title": "تقرير المخزونات",
+      "breadcrumbs_current": "تقرير المخزونات",
+      "breadcrumbs_first": "لوحة القيادة",
+      "breadcrumbs_second": "التقارير",
+      "breadcrumbs_active": "تقرير المخزونات"
+    }
+  },
+  "setup": {
+    "common": {
+      "sort_code": "رمز قصير",
+      "sort_code_placeholder": "أدخل رمزًا قصيرًا"
+    },
+    "index": {
+      "page_title": "اقامة",
+      "breadcrumbs_current": "اقامة",
+      "breadcrumbs_first": "لوحة القيادة",
+      "breadcrumbs_active": "اقامة",
+      "menu": {
+        "item_one": {
+          "title": "عام",
+          "description": "الإعدادات العامة مثل عنوان الموقع ووصف الموقع والعنوان وما إلى ذلك.",
+          "link_text": "تغيير الإعدادات"
+        },
+        "item_two": {
+          "title": "العملات",
+          "description": "إدارة أنواع مختلفة من العملات التي ستستخدمها في النظام.",
+          "link_text": "العملات"
+        },
+        "item_three": {
+          "title": "الوحدات",
+          "description": "إدارة أنواع الوحدات للقياس التي ستستخدمها في النظام.",
+          "link_text": "الوحدات"
+        },
+        "item_four": {
+          "title": "الدور والأذونات",
+          "description": "إدارة الأدوار والأذونات للمستخدمين الذين سيستخدمون النظام.",
+          "link_text": "الأدوار والأذونات"
+        },
+        "item_five": {
+          "title": "معدلات ضريبة القيمة المضافة",
+          "description": "إدارة معدلات ضريبة القيمة المضافة لإدارة ضريبة القيمة المضافة التي ستستخدمها في النظام.",
+          "link_text": "معدلات ضريبة القيمة المضافة"
+        },
+        "item_six": {
+          "title": "العلامات التجارية",
+          "description": "إدارة العلامات التجارية التي ستستخدمها في النظام.",
+          "link_text": "العلامات التجارية"
+        },
+        "item_seven": {
+          "title": "طرق الدفع",
+          "description": "إدارة طرق الدفع التي ستستخدمها في النظام.",
+          "link_text": "طرق الدفع"
+        },
+        "item_eight": {
+          "title": "أذونات المستخدم",
+          "description": "إدارة الإذن الذي ستعينه في دور ما.",
+          "link_text": "أذونات المستخدم"
+        }
+      }
+    },
+    "general_settings": {
+      "index": {
+        "page_title": "الاعدادات العامة",
+        "breadcrumbs_current": "الاعدادات العامة",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "اقامة",
+        "breadcrumbs_active": "تحديث الإعدادات العامة",
+        "form_title": "تحديث الإعدادات العامة",
+        "success_message": "تم تحديث الإعدادات بنجاح 👍",
+        "company_info": {
+          "info_title": "أضف معلومات شركتك",
+          "company_tagline": "شركة تاجلاين",
+          "company_tagline_placeholder": "شركة تاجلاين",
+          "email_address": "عنوان البريد الالكترونى",
+          "email_address_placeholder": "ادخل عنوان البريد الإلكتروني",
+          "phone_number": "رقم الهاتف",
+          "phone_number_placeholder": "رقم الهاتف"
+        },
+        "code_prefixes": {
+          "prefix_title": "أضف بادئات الكود",
+          "client_prefix": "بادئة العميل",
+          "client_prefix_placeholder": "أدخل بادئة العميل",
+          "supplier_prefix": "بادئة المورد",
+          "supplier_prefix_placeholder": "أدخل بادئة المورد",
+          "employee_prefix": "بادئة الموظف",
+          "employee_prefix_placeholder": "أدخل بادئة الموظف",
+          "product_category_prefix": "بادئة فئة المنتج",
+          "product_category_prefix_placeholder": "أدخل بادئة فئة المنتج",
+          "product_sub_category_prefix": "بادئة فئة المنتج الفرعية",
+          "product_sub_category_prefix_placeholder": "أدخل بادئة فئة فرعية",
+          "product_prefix": "بادئة المنتج",
+          "product_prefix_placeholder": "أدخل بادئة المنتج",
+          "expense_category_prefix": "بادئة فئة المصاريف",
+          "expense_category_prefix_placeholder": "أدخل بادئة فئة المصاريف",
+          "expense_sub_category_prefix": "بادئة فئة فرعية المصاريف",
+          "expense_sub_category_prefix_placeholder": "أدخل بادئة فئة فرعية المصاريف",
+          "purchase_prefix": "بادئة الشراء",
+          "purchase_prefix_placeholder": "أدخل بادئة الشراء",
+          "purchase_return_prefix": "بادئة إرجاع الشراء",
+          "purchase_return_prefix_placeholder": "أدخل بادئة إرجاع الشراء",
+          "quotation_prefix": "بادئة الاقتباس",
+          "quotation_prefix_placeholder": "أدخل بادئة الاقتباس",
+          "invoice_prefix": "بادئة الفاتورة",
+          "invoice_prefix_placeholder": "أدخل بادئة الفاتورة",
+          "invoice_return_prefix": "بادئة إرجاع الفاتورة",
+          "invoice_return_prefix_placeholder": "أدخل بادئة إرجاع الفاتورة",
+          "invoice_adjustment_prefix": "بادئة تعديل المخزون",
+          "invoice_adjustment_prefix_placeholder": "أدخل بادئة تعديل المخزون"
+        },
+        "default_elements": {
+          "default_elements_title": "أضف العناصر الافتراضية الخاصة بك",
+          "default_currency": "العملة الافتراضية",
+          "select_a_currency": "اختر العملة",
+          "default_language": "اللغة الافتراضية",
+          "english_en": "الإسبانية (ar)",
+          "hindi_hi": "لا (مرحبا)",
+          "bangla_bn": "البنغالية (مليار)",
+          "copyright_text": "نص حقوق النشر",
+          "copyright_text_placeholder": "نص حقوق النشر",
+          "default_client": "العميل الافتراضي",
+          "default_account": "الحساب الافتراضي",
+          "select_a_account": "حدد حسابًا",
+          "select_a_client": "حدد عميلاً",
+          "default_vat_rate": "معدل ضريبة القيمة المضافة الافتراضي",
+          "select_a_vat_rate": "حدد معدل ضريبة القيمة المضافة"
+        },
+        "logo": {
+          "white_logo": "الشعار الأبيض",
+          "black_logo": "الشعار الأسود",
+          "small_logo": "شعار صغير",
+          "favicon": "فافيكون"
+        },
+        "trial_day_count_placeholder": "عدد أيام المحاكمة"
+      }
+    },
+    "currencies": {
+      "common": {
+        "symbol": "رمز",
+        "symbol_placeholder": "أدخل رمزًا",
+        "currency_position": "وضع العملة",
+        "position_drop_down_item_one": "محاذاة لليسار",
+        "position_drop_down_item_two": "محاذاة لليمين"
+      },
+      "index": {
+        "page_title": "العملات",
+        "breadcrumbs_current": "العملات",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "اقامة",
+        "breadcrumbs_active": "العملات",
+        "table": {
+          "position": "موقع",
+          "preview": "معاينة"
+        }
+      },
+      "create": {
+        "page_title": "أنشئ عملة",
+        "breadcrumbs_current": "أنشئ عملة",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "اقامة",
+        "breadcrumbs_third": "العملات",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة العملة بنجاح 👍",
+        "form_title": "قم بإنشاء عملة"
+      },
+      "edit": {
+        "page_title": "تحرير العملة",
+        "breadcrumbs_current": "تحرير العملة",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "اقامة",
+        "breadcrumbs_third": "العملات",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث العملة بنجاح 👍",
+        "form_title": "تحرير العملة"
+      }
+    },
+    "units": {
+      "index": {
+        "page_title": "الوحدات",
+        "breadcrumbs_current": "الوحدات",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "اقامة",
+        "breadcrumbs_active": "الوحدات"
+      },
+      "create": {
+        "page_title": "إنشاء وحدة",
+        "breadcrumbs_current": "إنشاء وحدة",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "اقامة",
+        "breadcrumbs_third": "الوحدات",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة الوحدة بنجاح 👍",
+        "form_title": "أنشئ وحدة"
+      },
+      "edit": {
+        "page_title": "تحرير الوحدة",
+        "breadcrumbs_current": "تحرير الوحدة",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "اقامة",
+        "breadcrumbs_third": "الوحدات",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث الوحدة بنجاح 👍",
+        "form_title": "تحرير الوحدة"
+      }
+    },
+    "permissions": {
+      "common": {
+        "slug": "سبيكة",
+        "slug_placeholder": "أدخل سبيكة",
+        "guard_name": "اسم الحارس",
+        "guard_name_placeholder": "أدخل اسم حارس"
+      },
+      "index": {
+        "page_title": "أذونات",
+        "breadcrumbs_current": "أذونات",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "اقامة",
+        "breadcrumbs_active": "أذونات"
+      },
+      "create": {
+        "page_title": "إنشاء إذن",
+        "form_title": "إنشاء إذن",
+        "breadcrumbs_current": "إنشاء إذن",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "اقامة",
+        "breadcrumbs_third": "أذونات",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة الإذن بنجاح 👍"
+      },
+      "edit": {
+        "page_title": "تحرير إذن",
+        "form_title": "إذن التحرير",
+        "breadcrumbs_current": "تحرير إذن",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "اقامة",
+        "breadcrumbs_third": "أذونات",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث الإذن بنجاح 👍"
+      }
+    },
+    "role_and_permission": {
+      "index": {
+        "page_title": "الأدوار والأذونات",
+        "breadcrumbs_current": "الأدوار والأذونات",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "اقامة",
+        "breadcrumbs_active": "الأدوار والأذونات",
+        "role_name": "اسم الدور"
+      },
+      "create": {
+        "page_title": "إنشاء دور",
+        "breadcrumbs_current": "إنشاء دور",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "اقامة",
+        "breadcrumbs_third": "الأدوار والأذونات",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة الدور بنجاح 👍",
+        "form_title": "خلق دور",
+        "select_permission": "حدد الأذونات:"
+      },
+      "edit": {
+        "page_title": "تحرير الدور",
+        "breadcrumbs_current": "تحرير الدور",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "اقامة",
+        "breadcrumbs_third": "الأدوار والأذونات",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث الدور بنجاح 👍",
+        "form_title": "تحرير الدور",
+        "update_permission": "أذونات التحديث:"
+      }
+    },
+    "vat_rates": {
+      "common": {
+        "rate_in_percent": "السعر (محسوب بالنسبة المئوية)",
+        "rate_palceholder": "أدخل سعرًا"
+      },
+      "index": {
+        "page_title": "معدلات ضريبة القيمة المضافة",
+        "breadcrumbs_current": "معدلات ضريبة القيمة المضافة",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "اقامة",
+        "breadcrumbs_active": "معدلات ضريبة القيمة المضافة",
+        "rate": "معدل"
+      },
+      "create": {
+        "page_title": "إنشاء معدل ضريبة القيمة المضافة",
+        "breadcrumbs_current": "إنشاء معدل ضريبة القيمة المضافة",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "اقامة",
+        "breadcrumbs_third": "معدلات ضريبة القيمة المضافة",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة معدل ضريبة القيمة المضافة بنجاح 👍",
+        "form_title": "إنشاء معدل ضريبة القيمة المضافة"
+      },
+      "edit": {
+        "page_title": "تحرير معدل ضريبة القيمة المضافة",
+        "breadcrumbs_current": "تحرير معدل ضريبة القيمة المضافة",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "اقامة",
+        "breadcrumbs_third": "معدلات ضريبة القيمة المضافة",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث معدل ضريبة القيمة المضافة بنجاح 👍",
+        "form_title": "تحرير معدل ضريبة القيمة المضافة"
+      }
+    },
+    "brands": {
+      "common": {
+        "brand_name": "اسم العلامة التجارية",
+        "brand_name_placeholder": "أدخل اسم العلامة التجارية"
+      },
+      "index": {
+        "page_title": "العلامات التجارية",
+        "breadcrumbs_current": "العلامات التجارية",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "اقامة",
+        "breadcrumbs_active": "العلامات التجارية",
+        "brand_logo_view": "عرض شعار العلامة التجارية"
+      },
+      "create": {
+        "page_title": "إنشاء علامة تجارية",
+        "breadcrumbs_current": "إنشاء علامة تجارية",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "اقامة",
+        "breadcrumbs_third": "العلامات التجارية",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة العلامة التجارية بنجاح 👍",
+        "form_title": "إنشاء علامة تجارية"
+      },
+      "view": {
+        "page_title": "تفاصيل الماركة",
+        "breadcrumbs_current": "تفاصيل الماركة",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "اقامة",
+        "breadcrumbs_third": "العلامات التجارية",
+        "breadcrumbs_active": "تفاصيل"
+      },
+      "edit": {
+        "page_title": "تحرير العلامة التجارية",
+        "breadcrumbs_current": "تحرير العلامة التجارية",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "اقامة",
+        "breadcrumbs_third": "العلامات التجارية",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث العلامة التجارية بنجاح 👍",
+        "form_title": "تحرير العلامة التجارية"
+      }
+    },
+    "payment_methods": {
+      "index": {
+        "page_title": "طرق الدفع",
+        "breadcrumbs_current": "طرق الدفع",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "اقامة",
+        "breadcrumbs_active": "طرق الدفع"
+      },
+      "create": {
+        "page_title": "إنشاء طريقة الدفع",
+        "breadcrumbs_current": "إنشاء طريقة الدفع",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "اقامة",
+        "breadcrumbs_third": "طرق الدفع",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة طريقة الدفع بنجاح 👍",
+        "form_title": "أنشئ طريقة دفع"
+      },
+      "edit": {
+        "page_title": "تحرير طريقة الدفع",
+        "breadcrumbs_current": "تحرير طريقة الدفع",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "اقامة",
+        "breadcrumbs_third": "طرق الدفع",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث طريقة الدفع بنجاح 👍",
+        "form_title": "تحرير طريقة الدفع"
+      }
+    },
+    "plans": {
+      "view": {
+        "page_title": "الخطط"
+      }
+    },
+    "advanced_settings": {
+      "index": {
+        "page_title": "إعدادات الدفع",
+        "breadcrumbs_first": "اقامة",
+        "breadcrumbs_second": "إعدادات الدفع",
+        "breadcrumbs_current": "إعدادات الدفع",
+        "breadcrumbs_active": "إعدادات الدفع"
+      }
+    }
+  },
+  "user_profile": {
+    "form_title": "تحديث ملفك الشخصي",
+    "page_title": "تحديث الملف",
+    "breadcrumbs_current": "تحديث الملف",
+    "breadcrumbs_first": "لوحة القيادة",
+    "breadcrumbs_active": "تحديث",
+    "current_password": "كلمة المرور الحالية",
+    "current_password_placeholder": "إدخل كلمة السر الحالية",
+    "new_password": "كلمة السر الجديدة",
+    "new_password_placeholder": "أدخل كلمة مرور جديدة",
+    "confirm_password": "تأكيد كلمة المرور",
+    "confirm_password_placeholder": "أدخل تأكيد كلمة المرور",
+    "success_msg": "تم تحديث الملف الشخصي بنجاح"
+  },
+  "stock_alert": {
+    "page_title": "منتجات تنبيه المخزون",
+    "breadcrumbs_current": "منتجات تنبيه المخزون",
+    "breadcrumbs_first": "لوحة القيادة",
+    "breadcrumbs_active": "منتجات التنبيه"
+  },
+  "backup": {
+    "page_title": "نسخه الاحتياطيه لقاعدة البيانات",
+    "breadcrumbs_current": "نسخه الاحتياطيه لقاعدة البيانات",
+    "breadcrumbs_first": "لوحة القيادة",
+    "breadcrumbs_active": "دعم",
+    "export": "يصدّر",
+    "format": "شكل",
+    "format_sql": "SQL (.sql)",
+    "success_msg": "تم تنزيل النسخة الاحتياطية بنجاح 👍"
+  },
+  "permission_denied": {
+    "page_title": "تم رفض الإذن",
+    "breadcrumbs_current": "تم رفض الإذن",
+    "breadcrumbs_first": "لوحة القيادة",
+    "breadcrumbs_active": "تم رفض الإذن",
+    "error_msg": "ليس لديك إذن لعرض هذه الصفحة.",
+    "error_code": "رمز الخطأ: 403 ممنوع."
+  },
+  "error_not_found": {
+    "error_404": "404",
+    "error_404_title": "الصفحة غير موجودة",
+    "error_404_msg": "عذرا ، لم يتم العثور على عنوان URL المطلوب على هذا الخادم. ماا نعرفه!",
+    "back_to_dashboard": "رجوع إلى لوحة القيادة",
+    "back_to_login": "العودة إلى تسجيل الدخول"
+  },
+  "sidebar_control": {
+    "customize_wharf": "تخصيص Wharf",
+    "dark_mode": "الوضع الداكن",
+    "header_options": "خيارات الرأس",
+    "fixed": "مُثَبَّت",
+    "no_border": "ليس لها حدود",
+    "sidebar_options": "خيارات الشريط الجانبي",
+    "sidebar_dark": "الشريط الجانبي داكن",
+    "collapsed": "تم تصغير الشريط الجانبي",
+    "sidebar_fixed": "الشريط الجانبي ثابت",
+    "sidebar_mini": "الشريط الجانبي ميني",
+    "nav_flat_style": "نمط التنقل المسطح",
+    "nav_legacy_style": "نمط إرث التنقل",
+    "nav_child_indent": "مسافة بادئة تابعة تابعة لـ Nav",
+    "disable_hover": "تعطيل التمديد / التوسيع التلقائي للتركيز"
+  },
+  "pos": {
+    "page_title": "نقاط البيع",
+    "breadcrumbs_current": "إنشاء بيع",
+    "breadcrumbs_first": "لوحة القيادة",
+    "breadcrumbs_second": "الفواتير",
+    "breadcrumbs_active": "نقاط البيع",
+    "available": "متوفرة",
+    "pos": "نقاط البيع",
+    "complete_order": "يحفظ",
+    "complete_order_and_add_payment": "حفظ والدفع",
+    "add_payment": "إضافة الدفع",
+    "invoice_receipt": "إيصال الفاتورة",
+    "not_enough_items": "لا توجد عناصر كافية!",
+    "receipt_text": "شكرا للتسوق معنا. ارجوك عد مجددا!"
+  },
+  "billing": {
+    "form_title": "إعدادات الفواتير",
+    "name": "اسم",
+    "name_placeholder": "الاسم على البطاقة",
+    "invoice": "فاتورة",
+    "page_title": "الفواتير",
+    "card_details": "معلومات البطاقة",
+    "breadcrumbs_current": "إعدادات الفواتير",
+    "breadcrumbs_first": "لوحة القيادة",
+    "breadcrumbs_active": "إعدادات الفواتير"
+  },
+  "settings": {
+    "name": "إعدادات الصفحة المقصودة",
+    "breadcrumbs_current": "إعدادات الصفحة المقصودة",
+    "breadcrumbs_first": "لوحة القيادة",
+    "breadcrumbs_active": "إعدادات الصفحة المقصودة",
+    "success_msg": "تم تحديث إعدادات الصفحة المقصودة بنجاح 👍",
+    "form_title": "إعدادات الصفحة المقصودة",
+    "page_title": "إعدادات الصفحة المقصودة"
+  },
+  "central": {
+    "current_plan": "الخطة الحالية",
+    "trial_start": "بدأت التجربة في",
+    "trial_end": "تنتهي التجربة في",
+    "tenant_id": "معرف المستأجر",
+    "used": "تستخدم",
+    "remaining": "متبقي",
+    "pages": {
+      "edit": {
+        "page_title": "تعديل الصفحة",
+        "breadcrumbs_current": "تعديل الصفحة",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "الصفحات",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث الصفحة بنجاح 👍",
+        "form_title": "تعديل الصفحة"
+      },
+      "name": "الصفحات",
+      "slug": "سبيكة",
+      "type": "يكتب",
+      "index": {
+        "page_title": "الصفحات",
+        "breadcrumbs_current": "الصفحات",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_active": "الصفحات",
+        "delete_confirm_button": "حذف",
+        "brand_logo_view": "عرض شعار العلامة التجارية"
+      },
+      "create": {
+        "page_title": "إنشاء صفحة",
+        "breadcrumbs_current": "إنشاء صفحة",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "الصفحات",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة الصفحة بنجاح 👍",
+        "form_title": "قم بإنشاء صفحة"
+      },
+      "name_placeholder": "اسم الصفحة",
+      "content": "محتوى",
+      "information": "معلومة",
+      "need_help": "تحتاج مساعدة"
+    },
+    "newsletters": {
+      "subject": "موضوعات",
+      "subject_placeholder": "أدخل الموضوع",
+      "greeting": "تحية",
+      "greeting_placeholder": "أدخل التحية",
+      "body": "الجسم",
+      "create": {
+        "page_title": "ارسل بريد",
+        "breadcrumbs_current": "ارسل بريد",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "ارسل بريد",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تم إرسال البريد بنجاح 👍",
+        "form_title": "ارسل بريد"
+      }
+    },
+    "setting_images": {
+      "index": {
+        "delete_confirm_button": "حذف",
+        "page_title": "صور إعداد الواجهة الأمامية",
+        "breadcrumbs_current": "صور إعداد الواجهة الأمامية",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "اقامة",
+        "breadcrumbs_active": "صور إعداد الواجهة الأمامية"
+      },
+      "edit": {
+        "page_title": "تحرير صورة إعداد الواجهة الأمامية",
+        "breadcrumbs_current": "تحرير صورة إعداد الواجهة الأمامية",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "اقامة",
+        "breadcrumbs_third": "صور إعداد الواجهة الأمامية",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث صورة إعداد الواجهة الأمامية بنجاح 👍",
+        "form_title": "تحرير صورة إعداد الواجهة الأمامية",
+        "image": "صورة",
+        "title": "عنوان",
+        "title_placeholder": "عنوان",
+        "description": "وصف",
+        "description_placeholder": "وصف"
+      },
+      "create": {
+        "page_title": "إنشاء صورة إعداد الواجهة الأمامية",
+        "breadcrumbs_current": "إنشاء صورة إعداد الواجهة الأمامية",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "اقامة",
+        "breadcrumbs_third": "صور إعداد الواجهة الأمامية",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة صورة إعداد الواجهة الأمامية بنجاح 👍",
+        "form_title": "إنشاء صورة إعداد الواجهة الأمامية",
+        "image": "صورة",
+        "title": "عنوان",
+        "title_placeholder": "عنوان",
+        "description": "وصف",
+        "description_placeholder": "وصف"
+      },
+      "image": "صورة",
+      "title": "عنوان",
+      "title_placeholder": "أدخل العنوان",
+      "description": "وصف",
+      "description_placeholder": "أدخل الوصف",
+      "name": "اسم",
+      "name_placeholder": "أدخل الاسم",
+      "type": "يكتب",
+      "image_align_left": "محاذاة لليسار"
+    },
+    "tenants": {
+      "create": {
+        "page_title": "إنشاء المستأجر",
+        "breadcrumbs_current": "إنشاء المستأجر",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "المستأجرين",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة المستأجر بنجاح 👍",
+        "form_title": "إنشاء المستأجر"
+      },
+      "edit": {
+        "page_title": "تحرير المستأجر",
+        "breadcrumbs_current": "تحرير المستأجر",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "المستأجرين",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث المستأجر بنجاح 👍",
+        "form_title": "تحرير المستأجر"
+      },
+      "index": {
+        "deleted": "تم الحذف",
+        "delete_title": "حذف المستأجر",
+        "delete_warning": "هل أنت متأكد أنك تريد حذف هذا المستأجر؟",
+        "delete_success": "تم حذف المستأجر بنجاح 👍",
+        "delete_confirm_text": "نعم ، احذفها!",
+        "page_title": "المستأجرين",
+        "breadcrumbs_current": "المستأجرين",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_active": "المستأجرين",
+        "s_no": "لا",
+        "domain": "اِختِصاص",
+        "name_and_email": "الاسم والبريد الإلكتروني",
+        "plan": "يخطط",
+        "trial_ends_at": "تنتهي التجربة في",
+        "banned": "محظور",
+        "send_email": "ارسل بريد الكتروني",
+        "action": "عمل",
+        "false": "خطأ شنيع",
+        "true": "حقيقي",
+        "create": "خلق",
+        "edit": "يحرر",
+        "delete": "حذف",
+        "ban": "المنع",
+        "unban": "رفع الحظر",
+        "view": "رأي",
+        "export_table": "جدول التصدير",
+        "print_table": "تصدير ملف PDF",
+        "send_notification": "ارسل بريد الكتروني",
+        "impersonate": "انتحال الشخصية",
+        "failed": "باءت بالفشل",
+        "on_trial": "قيد التجربة",
+        "is_subscribed": "مشترك"
+      },
+      "view": {
+        "breadcrumbs_current": "تفاصيل المستأجر",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "المستأجرين",
+        "breadcrumbs_active": "تفاصيل",
+        "page_title": "تفاصيل المستأجر"
+      }
+    },
+    "send_notification": {
+      "create": {
+        "success_msg": "تم إرسال الإخطار بنجاح 👍",
+        "page_title": "إرسال الإخطار"
+      },
+      "page_title": "إرسال الإخطار",
+      "breadcrumbs_current": "إرسال الإخطار",
+      "breadcrumbs_first": "لوحة القيادة",
+      "breadcrumbs_active": "إرسال الإخطار",
+      "form_title": "إرسال الإخطار",
+      "subject": "موضوعات",
+      "subject_placeholder": "أدخل الموضوع",
+      "message": "رسالة",
+      "message_placeholder": "أدخل رسالة",
+      "send": "إرسال",
+      "success_msg": "تم إرسال الإخطار بنجاح 👍",
+      "greeting": "تحية",
+      "greeting_placeholder": "أدخل التحية",
+      "body": "الجسم"
+    },
+    "plans_items": {
+      "create": {
+        "page_title": "إنشاء عنصر",
+        "breadcrumbs_current": "إنشاء عنصر",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "العناصر",
+        "breadcrumbs_active": "خلق",
+        "success_msg": "تمت إضافة العنصر بنجاح 👍",
+        "form_title": "قم بإنشاء عنصر"
+      },
+      "edit": {
+        "page_title": "تعديل عنصر",
+        "breadcrumbs_current": "تعديل عنصر",
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "العناصر",
+        "breadcrumbs_active": "يحرر",
+        "success_msg": "تم تحديث العنصر بنجاح 👍",
+        "form_title": "تحرير الخطة"
+      },
+      "index": {
+        "breadcrumbs_first": "مسكن",
+        "breadcrumbs_current": "عناصر الخطط",
+        "page_title": "عناصر الخطط",
+        "delete_confirm_button": "حذف"
+      },
+      "name": "اسم",
+      "name_placeholder": "اسم العنصر",
+      "plan": "يخطط",
+      "item": "العنصر"
+    },
+    "dashboard": {
+      "summery_items": {
+        "tenants_count": "المستأجرين",
+        "domains_count": "المجالات",
+        "on_trial_tenants_count": "على المستأجرين التجريبي",
+        "pending_amount": "المبلغ المعلق",
+        "available_amount": "المبلغ المتاح"
+      },
+      "top_plans": "أفضل الخطط",
+      "subscription_count": "الاشتراكات",
+      "top_clients_title": "كبار العملاء"
+    },
+    "plans": {
+      "image": "صورة",
+      "name": "اسم",
+      "amount": "مقدار",
+      "currency": "عملة",
+      "interval": "فترة",
+      "description": "وصف",
+      "status": "حالة",
+      "action": "عمل",
+      "index": {
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_active": "الخطط",
+        "breadcrumbs_current": "الخطط",
+        "page_title": "الخطط",
+        "delete_confirm_button": "حذف"
+      },
+      "create": {
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "الخطط",
+        "breadcrumbs_current": "إنشاء خطة",
+        "form_title": "ضع خطة",
+        "page_title": "إنشاء خطة",
+        "success_msg": "تمت إضافة الخطة بنجاح 👍"
+      },
+      "edit": {
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "الخطط",
+        "breadcrumbs_current": "تحرير الخطة",
+        "form_title": "تحرير الخطة",
+        "page_title": "تحرير الخطة",
+        "success_msg": "تم التحديث بنجاح"
+      },
+      "limit_clients": "الحد من العملاء",
+      "limit_suppliers": "تقييد الموردين",
+      "limit_employees": "حد الموظفين",
+      "limit_domains": "تحديد المجالات",
+      "limit_purchases": "الحد من المشتريات",
+      "limit_invoices": "حد الفواتير",
+      "0_means_unlimited": "0 يعني غير محدود",
+      "name_placeholder": "أدخل اسم الخطة",
+      "description_placeholder": "أدخل وصف الخطة",
+      "amount_placeholder": "مقدار",
+      "limit_clients_placeholder": "الحد من العملاء",
+      "limit_employees_placeholder": "حد من الموظفين",
+      "limit_domains_placeholder": "تحديد المجالات",
+      "limit_purchases_placeholder": "الحد من المشتريات",
+      "limit_invoices_placeholder": "حد الفواتير",
+      "limit_suppliers_placeholder": "الحد من الموردين"
+    },
+    "setup": {
+      "general_settings": {
+        "index": {
+          "default_elements": {
+            "facebook_link": "رابط الفيسبوك",
+            "twitter_link": "رابط تويتر",
+            "instagram_link": "رابط Instagram",
+            "linkedin_link": "ينكدين لينك",
+            "default_language": "اللغة الافتراضية",
+            "copyright_text": "نص حقوق النشر",
+            "default_elements_title": "العنصر الافتراضي",
+            "english_en": "إنجليزي",
+            "hindi_hi": "لا",
+            "copyright_text_placeholder": "نص حقوق النشر",
+            "facebook_link_placeholder": "رابط الفيسبوك",
+            "instagram_link_placeholder": "رابط Instagram",
+            "twitter_link_placeholder": "رابط تويتر",
+            "linkedin_link_placeholder": "ينكدين لينك"
+          },
+          "company_info": {
+            "company_tagline": "شركة تاجلاين",
+            "trial_day_count": "عدد أيام المحاكمة"
+          }
+        }
+      },
+      "index": {
+        "menu": {
+          "item_one": {
+            "title": "الاعدادات العامة",
+            "description": "الإعدادات العامة مثل عنوان الموقع ووصف الموقع والعنوان وما إلى ذلك.",
+            "link_text": "تغيير الإعدادات"
+          },
+          "item_two": {
+            "title": "إعدادات الدفع",
+            "description": "إدارة إعدادات الدفع. أضف معلومات شريطك.",
+            "link_text": "تغيير الاعدادات"
+          },
+          "item_three": {
+            "title": "الدور والأذونات",
+            "description": "إدارة الأدوار والأذونات لتعيينها للموظفين.",
+            "link_text": "الأدوار والأذونات"
+          },
+          "item_four": {
+            "title": "إدارةالمستخدم",
+            "description": "إنشاء مستخدم النظام وتعيين الدور الفردي للمستخدمين.",
+            "link_text": "إدارة المستخدم"
+          }
+        }
+      },
+      "user_management": {
+        "index": {
+          "breadcrumbs_first": "لوحة القيادة",
+          "breadcrumbs_second": "اقامة",
+          "breadcrumbs_current": "المستخدمون",
+          "page_title": "المستخدمون",
+          "delete_confirm_button": "يتأكد"
+        },
+        "create": {
+          "breadcrumbs_first": "لوحة القيادة",
+          "breadcrumbs_second": "اقامة",
+          "breadcrumbs_third": "المستخدمون",
+          "breadcrumbs_current": "خلق",
+          "form_title": "قم بإنشاء مستخدم جديد",
+          "page_title": "إنشاء مستخدم",
+          "success_msg": "تم إنشاؤه بنجاح"
+        },
+        "edit": {
+          "breadcrumbs_first": "لوحة القيادة",
+          "breadcrumbs_second": "اقامة",
+          "breadcrumbs_third": "المستخدمون",
+          "breadcrumbs_current": "يحرر",
+          "form_title": "تحرير العضو",
+          "page_title": "تحرير العضو",
+          "success_msg": "تم التحديث بنجاح"
+        }
+      }
+    },
+    "features": {
+      "create": {
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "سمات",
+        "breadcrumbs_current": "خلق",
+        "form_title": "ميزة إنشاء",
+        "page_title": "ميزة",
+        "success_msg": "تم إنشاؤه بنجاح"
+      },
+      "name": "اسم",
+      "name_placeholder": "اسم",
+      "edit": {
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_second": "سمات",
+        "breadcrumbs_current": "يحرر",
+        "form_title": "تحرير الميزة",
+        "page_title": "ميزة",
+        "success_msg": "تم التحديث بنجاح"
+      },
+      "index": {
+        "breadcrumbs_first": "لوحة القيادة",
+        "breadcrumbs_current": "سمات",
+        "page_title": "سمات",
+        "delete_confirm_button": "يتأكد"
+      }
+    }
+  },
+  "You Are Subscribed!": "أنت مشترك!",
+  "You Have Cancelled the Subscription!": "لقد ألغيت الاشتراك!",
+  "You Have Resumed the Subscription!": "لقد استأنفت الاشتراك!",
+  "find_domain": "البحث عن المجال",
+  "Sign Up Instantly Free for": "اشترك على الفور مجانًا",
+  "days, no credit card required": "أيام ، لا يلزم وجود بطاقة ائتمان",
+  "Central Admin": "الإدارة المركزية",
+  "Login as super manager": "تسجيل الدخول كمدير متميز",
+  "Login as super salesman": "تسجيل الدخول كبائع سوبر",
+  "Something went wrong, please try again!": "حدث خطأ ما. أعد المحاولة من فضلك!",
+  "Send": "إرسال",
+  "We've sent an email to": "لقد أرسلنا رسالة إلكترونية إلى",
+  "Please click the confirmation link in it to finalize your account": "يرجى النقر فوق ارتباط التأكيد فيه لإنهاء حسابك",
+  "Didn't get the email? Please check your spam folder or": "ألم تحصل على البريد الإلكتروني؟ يرجى التحقق من مجلد البريد العشوائي الخاص بك أو",
+  "Resend Verification": "إعادة التحقق",
+  "Don't have any account? Click here!": "ليس لديك حساب؟ انقر هنا!",
+  "You are not allowed to do this in demo version": "لا يسمح لك القيام بذلك في النسخة التجريبية",
+  "Sent To": "مرسلة إلى",
+  "All": "الجميع",
+  "Tenants": "المستأجرين",
+  "Subscribers": "مشتركين",
+  "pages": {
+    "name_placeholder": "اسم"
+  },
+  "plans": {
+    "limit_suppliers_placeholder": "الحد من الموردين",
+    "index": {
+      "brand_logo_view": "شعار الخطة"
+    },
+    "view_title": "عرض الخطة",
+    "name": "اسم",
+    "api_id": "معرف API",
+    "amount": "مقدار",
+    "currency": "عملة",
+    "interval": "فترة",
+    "product_id": "معرف المنتج",
+    "description": "وصف",
+    "created_at": "أنشئت في",
+    "updated_at": "تم التحديث في"
+  },
+  "Pricing features": "ميزات التسعير",
+  "Select pricing features": "حدد ميزات التسعير",
+  "title": "عنوان",
+  "Save": "يحفظ",
+  "Close": "قريب",
+  "tenants": {
+    "create": {
+      "success_msg": "تم إنشاؤه بنجاح"
+    },
+    "edit": {
+      "success_msg": "تم التحديث بنجاح"
+    },
+    "index": {
+      "delete_failed": "فشل الحذف",
+      "ban_failed": "فشل الحظر"
+    }
+  },
+  "Select a status": "حدد حالة",
+  "subscription_invoices": {
+    "create": {
+      "success_msg": "تم إنشاؤه بنجاح"
+    },
+    "list": {
+      "index": {
+        "page_title": "فواتير الاشتراك"
+      }
+    }
+  },
+  "retry": "أعد المحاولة",
+  "Subscribed to": "الاشتراك في",
+  "Plan": "يخطط",
+  "Switch My Plan": "تبديل خطتي",
+  "Cancel Subscription": "إلغاء الاشتراك",
+  "Manual subscription by Admin is active": "الاشتراك اليدوي من قبل المسؤول نشط",
+  "You can cancel it from the admin": "يمكنك إلغاؤه من المسؤول",
+  "Manually subscribed by": "تم الاشتراك يدويًا بواسطة",
+  "Manually subscribed at": "تم الاشتراك يدويًا في",
+  "You have cancelled your subscription and your account is still active until": "لقد ألغيت اشتراكك ولا يزال حسابك نشطًا حتى",
+  "Or, You Can": "أو يمكنك",
+  "Resume Subscription": "استئناف الاشتراك",
+  "Admin have cancelled your subscription": "ألغى المسؤول اشتراكك",
+  "Contact to Admin for re enable the subscription": "اتصل بالمسؤول لإعادة تمكين الاشتراك",
+  "You are on Trial Period for the": "أنت في فترة تجريبية لـ",
+  "plan": "يخطط",
+  "You have": "عندك",
+  "days left on your trial": "الأيام المتبقية على المحاكمة الخاصة بك",
+  "Client Limit": "حد العميل",
+  "Domains Limit": "حدود المجالات",
+  "Employee Limit": "حد الموظف",
+  "Supplier Limit": "حد المورد",
+  "Subscribe to a plan below": "اشترك في خطة أدناه",
+  "Switch Plan": "تبديل الخطة",
+  "Subscribe": "الإشتراك",
+  "newsletter": {
+    "success_msg": "تم الاشتراك بنجاح",
+    "error_msg": "حدث خطأ ما. أعد المحاولة من فضلك!"
+  },
+  "Client limit": "حد العميل",
+  "Domain limit": "حد المجال",
+  "Employees limit": "حد الموظفين",
+  "Suppliers limit": "حد الموردين",
+  "Purchase limit": "حد الشراء",
+  "Invoice limit": "حد الفاتورة",
+  "Newsletter": "النشرة الإخبارية",
+  "Upload Your CSV file": "قم بتحميل ملف CSV الخاص بك",
+  "Download Demo CSV File": "تنزيل ملف تجريبي CSV",
+  "domain-requests": {
+    "create": {
+      "form_title": "إنشاء طلب المجال",
+      "page_title": "طلب المجال",
+      "success_msg": "تم إنشاء طلب المجال بنجاح",
+      "breadcrumbs_first": "لوحة القيادة",
+      "breadcrumbs_second": "طلبات المجال",
+      "breadcrumbs_current": "خلق",
+      "breadcrumbs_active": "خلق"
+    },
+    "domain": "اِختِصاص",
+    "index": {
+      "page_title": "طلبات المجال",
+      "delete_warning": "هل تريد حقًا حذف طلب المجال هذا؟",
+      "delete_failed": "فشل الحذف",
+      "delete_success": "تم الحذف بنجاح",
+      "breadcrumbs_first": "لوحة القيادة",
+      "breadcrumbs_current": "طلبات المجال",
+      "breadcrumbs_active": "طلبات المجال",
+      "delete_confirm_button": "يتأكد",
+      "delete_cancel_button": "يلغي"
+    }
+  },
+  "Instructions": "تعليمات",
+  "Download the zip folder": "قم بتنزيل المجلد المضغوط",
+  "Populate the products\\.csv with your product information": "قم بتعبئة المنتجات \\ .csv بمعلومات المنتج الخاص بك",
+  "You can get the ids related to product to their corresponding CSV file": "يمكنك الحصول على المعرفات المتعلقة بالمنتج في ملف CSV المقابل",
+  "Example: sub_cat_id in sub-categories\\.csv": "مثال: sub_cat_id في الفئات الفرعية \\ .csv",
+  "Download Template": "تحميل النموذج",
+  "no_action_available": "لا يوجد أي إجراء متاح",
+  "Subscriber": "مشترك",
+  "Users": "المستخدمون",
+  "User": "المستعمل",
+  "You need to add an A record to your DNS with IP": "تحتاج إلى إضافة سجل A إلى DNS الخاص بك باستخدام IP",
+  "template": {
+    "home": "مسكن",
+    "about": "معلومات عنا",
+    "features": "سمات",
+    "modules": "الوحدات",
+    "pricing": "التسعير",
+    "contact": "اتصال",
+    "sign_in": "تسجيل الدخول",
+    "register": "يسجل",
+    "information": "معلومة",
+    "need_help": "تحتاج مساعدة؟",
+    "contact_us": "اتصل بنا",
+    "whats_included": "ما يحتويه",
+    "buy_now": "اشتري الآن"
+  },
+  "impersonate": {
+    "title": "نحن نبني موقعك",
+    "des": "يرجى الانتظار حتى تقوم الروبوتات الخاصة بنا ببناء موقع الويب الخاص بك.<br> لن يستغرق الأمر أكثر من دقيقة."
+  }
+}

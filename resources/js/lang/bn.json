@@ -1,0 +1,3094 @@
+{
+  "Plan switched!": "পরিকল্পনা সফলভাবে সুইচ করা হয়েছে!",
+  "Delete": "মুছে ফেলা",
+  "Import Clients": "ক্লায়েন্ট আমদানি করুন",
+  "Billing History": "বিলিং ইতিহাস",
+  "Net Total": "সর্বমোট",
+  "Transaction Type": "লেনদেন প্রকার",
+  "Transaction Description": "লেনদেনের বিবরণ",
+  "Amount": "পরিমাণ",
+  "Currency": "মুদ্রা",
+  "Created At": "এ নির্মিত",
+  "Payment Status": "লেনদেনের অবস্থা",
+  "Stripe Fee": "স্ট্রাইপ ফি",
+  "You are on trial version! Your trial ends": "আপনি ট্রায়াল সংস্করণে আছেন! আপনার ট্রায়াল শেষ",
+  "domains": {
+    "index": {
+      "breadcrumbs_current": "সমস্ত ডোমেইন",
+      "breadcrumbs_active": "সমস্ত ডোমেইন",
+      "breadcrumbs_first": "ড্যাশবোর্ড",
+      "page_title": "সমস্ত ডোমেইন",
+      "delete_warning": "আপনি কি এই ডোমেন মুছে ফেলার বিষয়ে নিশ্চিত?",
+      "delete_failed": "মুছে ফেলতে ব্যর্থ হয়েছে"
+    },
+    "list": {
+      "index": {
+        "breadcrumbs_current": "ডোমেইন ম্যানেজমেন্ট",
+        "breadcrumbs_active": "ডোমেইন ম্যানেজমেন্ট",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "page_title": "ডোমেইন ম্যানেজমেন্ট",
+        "delete_warning": "আপনি কি এই ডোমেন মুছে ফেলার বিষয়ে নিশ্চিত?",
+        "delete_failed": "মুছে ফেলতে ব্যর্থ হয়েছে"
+      }
+    },
+    "create": {
+      "breadcrumbs_current": "ডোমেইন তৈরি করুন",
+      "breadcrumbs_active": "ডোমেইন তৈরি করুন",
+      "breadcrumbs_first": "ড্যাশবোর্ড",
+      "breadcrumbs_second": "ডোমেইন ম্যানেজমেন্ট",
+      "page_title": "ডোমেইন তৈরি করুন",
+      "form_title": "ডোমেইন তৈরি করুন",
+      "success_msg": "সফলভাবে তৈরি"
+    },
+    "no_action_available": "কোন কর্ম উপলব্ধ",
+    "domain": "ডোমেইন",
+    "domain_placeholder": "ডোমেইন লিখুন",
+    "make_primary": "প্রাথমিক করা",
+    "make_primary_success_msg": "সফলভাবে প্রাথমিক করা হয়েছে"
+  },
+  "message": {
+    "billing_page": "বিলিং পৃষ্ঠা"
+  },
+  "why_us_cards": "কেন আমাদের কার্ড",
+  "features": "বৈশিষ্ট্য",
+  "explorers": "অনুসন্ধানকারী",
+  "all_features": "সমস্ত বৈশিষ্ট্য",
+  "software_overview_images": "সফ্টওয়্যার ওভারভিউ ইমেজ",
+  "testimonials": "প্রশংসাপত্র",
+  "brands": "ব্র্যান্ড",
+  "ok": "ঠিক আছে",
+  "cancel": "বাতিল করুন",
+  "error_alert_title": "উফ...",
+  "error_alert_text": "কিছু ভুল হয়েছে! অনুগ্রহপূর্বক আবার চেষ্টা করুন.",
+  "token_expired_alert_title": "সময় মেয়াদ শেষ!",
+  "token_expired_alert_text": "চালিয়ে যেতে আবার লগ ইন করুন.",
+  "login": "প্রবেশ করুন",
+  "register": "নিবন্ধন",
+  "page_not_found": "পৃষ্ঠা খুঁজে পাওয়া যায়নি",
+  "go_home": "বাড়িতে যেতে",
+  "logout": "প্রস্থান",
+  "email": "ইমেইল",
+  "remember_me": "আমাকে মনে কর",
+  "password": "পাসওয়ার্ড",
+  "forgot_password": "আপনি কি পাসওয়ার্ড ভুলে গেছেন?",
+  "confirm_password": "পাসওয়ার্ড নিশ্চিত করুন",
+  "name": "নাম",
+  "toggle_navigation": "নেভিগেশন টগল করুন",
+  "home": "বাড়ি",
+  "you_are_logged_in": "আপনি সংযুক্ত আছেন!",
+  "reset_password": "পাসওয়ার্ড রিসেট করুন",
+  "send_password_reset_link": "লিঙ্ক পাঠান",
+  "profile": "প্রোফাইল",
+  "your_info": "আপনার তথ্য",
+  "info_updated": "আপনার তথ্য আপডেট করা হয়েছে!",
+  "update": "হালনাগাদ",
+  "your_password": "আপনার পাসওয়ার্ড",
+  "password_updated": "আপনার পাসওয়ার্ড আপডেট করা হয়েছে!",
+  "new_password": "নতুন পাসওয়ার্ড",
+  "login_with": "দিয়ে লগইন করুন",
+  "register_with": "নিবন্ধনের সাথে",
+  "verify_email": "ইমেল যাচাই করুন",
+  "send_verification_link": "ভেরিফিকেশন লিংক পাঠান",
+  "resend_verification_link": "যাচাইকরণ লিঙ্ক আবার পাঠাবেন?",
+  "failed_to_verify_email": "ইমেল যাচাই করতে ব্যর্থ হয়েছে.",
+  "verify_email_address": "আমরা আপনাকে একটি যাচাইকরণ লিঙ্ক সহ একটি ইমেল পাঠিয়েছি৷",
+  "reset_email_text": "পাসওয়ার্ড রিসেট লিঙ্ক পেতে আপনার ইমেল লিখুন!",
+  "sorry": "দুঃখিত",
+  "no_data_found": "কোন তথ্য পাওয়া যায়নি",
+  "login_txt": "আপনার অধিবেশন চালিয়ে যেতে লগইন করুন!",
+  "email_placeholder": "তোমার ই - মেইল ঠিকানা লেখো",
+  "password_placeholder": "আপনার পাসওয়ার্ড লিখুন",
+  "developed_by": "নির্মাণে",
+  "per_page": "প্রতি পৃষ্ঠা",
+  "available": "পাওয়া যায়",
+  "find": "অনুসন্ধান",
+  "domain": "ডোমেইন",
+  "primary_domain": "প্রাথমিক ডোমেইন",
+  "register_invite": "কোন অ্যাকাউন্ট নেই? এখানে ক্লিক করুন!",
+  "already_registered": "ইতিমধ্যে নিবন্ধভুক্ত?",
+  "register_policy": "আমি পরিষেবার শর্তাবলী এবং গোপনীয়তা নীতিতে সম্মত।",
+  "register_page_title": "14 দিনের জন্য অবিলম্বে বিনামূল্যে সাইন আপ করুন, কোন ক্রেডিট কার্ডের প্রয়োজন নেই...",
+  "register_next_step": "আরও একটি ধাপ 👍",
+  "email_sent": "আমরা একটি ইমেল পাঠিয়েছি",
+  "confirm_account": "আপনার অ্যাকাউন্ট চূড়ান্ত করতে এটির নিশ্চিতকরণ লিঙ্কে ক্লিক করুন।",
+  "check_email": "ইমেইল পাননি? আপনার স্প্যাম ফোল্ডার চেক করুন বা",
+  "please": "অনুগ্রহ",
+  "common": {
+    "id": "আইডি",
+    "fallback": "পিছু হট",
+    "send_mail": "মেইল পাঠাও",
+    "subscribed_at": "সদস্যতা এ",
+    "primary": "প্রাথমিক",
+    "business-start": "ব্যবসা শুরু",
+    "content": "বিষয়বস্তু",
+    "information": "তথ্য",
+    "need_help": "সাহায্য দরকার",
+    "true": "সত্য",
+    "false": "মিথ্যা",
+    "points": "পয়েন্ট",
+    "point_placeholder": "পয়েন্ট লিখুন",
+    "button_text": "বোতাম পাঠ্য",
+    "button_text_placeholder": "বোতাম পাঠ্য লিখুন",
+    "button_link": "বোতাম লিঙ্ক",
+    "button_link_placeholder": "বোতাম লিঙ্ক লিখুন",
+    "about_us_tagline": "আমাদের সম্পর্কে ট্যাগলাইন",
+    "about_us_tagline_placeholder": "আমাদের সম্পর্কে ট্যাগলাইন লিখুন",
+    "about_us_description": "আমাদের সম্পর্কে বিবরণ",
+    "about_us_description_placeholder": "আমাদের সম্পর্কে বিবরণ লিখুন",
+    "about_us_title": "আমাদের সম্পর্কে শিরোনাম",
+    "about_us_title_placeholder": "আমাদের সম্পর্কে শিরোনাম লিখুন",
+    "why_us_tagline": "কেন আমাদের ট্যাগলাইন",
+    "why_us_tagline_placeholder": "কেন আমাদের ট্যাগলাইন লিখুন",
+    "why_us_description": "কেন আমাদের বর্ণনা",
+    "why_us_description_placeholder": "কেন আমাদের বর্ণনা লিখুন",
+    "why_us_title": "কেন আমাদের শিরোনাম",
+    "why_us_title_placeholder": "কেন আমাদের শিরোনাম লিখুন",
+    "business_start_section_tagline": "ব্যবসা শুরু বিভাগ ট্যাগলাইন",
+    "business_start_section_tagline_placeholder": "ব্যবসা শুরু বিভাগ ট্যাগলাইন লিখুন",
+    "business_start_section_description": "ব্যবসা শুরু বিভাগ বিবরণ",
+    "business_start_section_description_placeholder": "ব্যবসা শুরু বিভাগের বিবরণ লিখুন",
+    "business_start_section_title": "ব্যবসা শুরু বিভাগের শিরোনাম",
+    "business_start_section_title_placeholder": "ব্যবসা শুরু বিভাগের শিরোনাম লিখুন",
+    "business_start_support_list": "ব্যবসা শুরু সমর্থন তালিকা",
+    "business_start_support_item_placeholder": "ব্যবসা শুরু সমর্থন তালিকা লিখুন",
+    "features_section_tagline": "বৈশিষ্ট্য বিভাগ ট্যাগলাইন",
+    "features_section_tagline_placeholder": "বৈশিষ্ট্য বিভাগ ট্যাগলাইন লিখুন",
+    "features_section_description": "বৈশিষ্ট্য বিভাগের বিবরণ",
+    "features_section_description_placeholder": "বৈশিষ্ট্য বিভাগের বিবরণ লিখুন",
+    "features_section_title": "বৈশিষ্ট্য বিভাগের শিরোনাম",
+    "features_section_title_placeholder": "বৈশিষ্ট্য বিভাগের শিরোনাম লিখুন",
+    "all_features_section_tagline": "সমস্ত বৈশিষ্ট্য বিভাগ ট্যাগলাইন",
+    "all_features_section_tagline_placeholder": "সমস্ত বৈশিষ্ট্য বিভাগ ট্যাগলাইন লিখুন",
+    "all_features_section_title": "সমস্ত বৈশিষ্ট্য বিভাগের শিরোনাম",
+    "all_features_section_title_placeholder": "সমস্ত বৈশিষ্ট্য বিভাগের শিরোনাম লিখুন",
+    "get_started_box_title": "শুরু করুন বক্স শিরোনাম",
+    "get_started_box_title_placeholder": "শুরু বক্স শিরোনাম লিখুন",
+    "get_started_box_description": "শুরু করুন বক্স বিবরণ",
+    "get_started_box_description_placeholder": "শুরু করার বাক্সের বিবরণ লিখুন",
+    "get_started_box_button_text": "শুরু করুন বক্স বোতাম পাঠ্য",
+    "get_started_box_button_text_placeholder": "শুরু করুন বক্স বোতাম টেক্সট লিখুন",
+    "get_started_box_button_link": "শুরু করুন বক্স বোতাম লিঙ্ক",
+    "get_started_box_button_link_placeholder": "শুরু করুন বক্স বোতাম লিঙ্ক লিখুন",
+    "all_features_and_get_started": "সমস্ত বৈশিষ্ট্য এবং শুরু করুন",
+    "software_overview_section_tagline": "সফ্টওয়্যার ওভারভিউ বিভাগ ট্যাগলাইন",
+    "software_overview_section_tagline_placeholder": "সফ্টওয়্যার ওভারভিউ বিভাগের ট্যাগলাইন লিখুন",
+    "software_overview_section_title": "সফ্টওয়্যার ওভারভিউ বিভাগের শিরোনাম",
+    "software_overview_section_title_placeholder": "সফ্টওয়্যার ওভারভিউ বিভাগের শিরোনাম লিখুন",
+    "pricing_plan_section_tagline": "প্রাইসিং প্ল্যান সেকশন ট্যাগলাইন",
+    "pricing_plan_section_tagline_placeholder": "মূল্য পরিকল্পনা বিভাগের ট্যাগলাইন লিখুন",
+    "pricing_plan_section_title": "মূল্য পরিকল্পনা বিভাগের শিরোনাম",
+    "pricing_plan_section_title_placeholder": "মূল্য পরিকল্পনা বিভাগের শিরোনাম লিখুন",
+    "software_overview_and_pricing_plan": "সফ্টওয়্যার ওভারভিউ এবং মূল্য পরিকল্পনা",
+    "testimonial_and_newsletter": "প্রশংসাপত্র এবং নিউজলেটার",
+    "testimonial_section_tagline": "প্রশংসাপত্র বিভাগ ট্যাগলাইন",
+    "testimonial_section_tagline_placeholder": "প্রশংসামূলক বিভাগ ট্যাগলাইন লিখুন",
+    "testimonial_section_title": "প্রশংসাপত্র বিভাগের শিরোনাম",
+    "testimonial_section_title_placeholder": "প্রশংসাপত্র বিভাগের শিরোনাম লিখুন",
+    "newsletter_section_tagline": "নিউজলেটার বিভাগ ট্যাগলাইন",
+    "newsletter_section_tagline_placeholder": "নিউজলেটার বিভাগের ট্যাগলাইন লিখুন",
+    "newsletter_section_title": "নিউজলেটার বিভাগের শিরোনাম",
+    "newsletter_section_title_placeholder": "নিউজলেটার বিভাগের শিরোনাম লিখুন",
+    "newsletter_section_description": "নিউজলেটার বিভাগের বিবরণ",
+    "newsletter_section_description_placeholder": "নিউজলেটার বিভাগের বিবরণ লিখুন",
+    "about_us": "আমাদের সম্পর্কে",
+    "why-us": "আমাদেরকে কেন",
+    "business_start": "ব্যবসা শুরু",
+    "features": "বৈশিষ্ট্য",
+    "all-features-and-get-started": "সমস্ত বৈশিষ্ট্য এবং শুরু করুন",
+    "software-overview-and-pricing-plan": "সফ্টওয়্যার ওভারভিউ এবং মূল্য পরিকল্পনা",
+    "testimonial-and-newsletter": "প্রশংসাপত্র এবং নিউজলেটার",
+    "hero": "হিরো",
+    "hero_tagline": "হিরো ট্যাগলাইন",
+    "hero_tagline_placeholder": "আপনার নায়ক ট্যাগলাইন লিখুন",
+    "hero_title": "হিরো টাইটেল",
+    "hero_title_placeholder": "আপনার নায়ক উপাধি লিখুন",
+    "hero_description": "হিরো বর্ণনা",
+    "hero_description_placeholder": "আপনার নায়ক বিবরণ লিখুন",
+    "hero_demo_button_text": "হিরো ডেমো বোতাম পাঠ্য",
+    "hero_demo_button_text_placeholder": "হিরো ডেমো বোতাম টেক্সট লিখুন",
+    "hero_demo_button_link": "হিরো ডেমো বোতাম লিঙ্ক",
+    "hero_demo_button_link_placeholder": "একটি ডেমো পৃষ্ঠার একটি লিঙ্ক লিখুন",
+    "hero_get_started_button_text": "Hero Get Started Button Text",
+    "hero_get_started_button_text_placeholder": "Hero Get Started বাটন টেক্সট লিখুন",
+    "hero_get_started_button_link": "Hero Get Started Button Link",
+    "hero_get_started_button_link_placeholder": "একটি পৃষ্ঠা বা একটি পৃষ্ঠা টেমপ্লেট একটি লিঙ্ক লিখুন",
+    "company_placeholder": "আপনার কোম্পানির নাম লিখুন",
+    "domain_placeholder": "আপনার ডোমেইন নাম লিখুন",
+    "password_confirmation": "আপনার পাসওয়ার্ড নিশ্চিত",
+    "password_confirmation_placeholder": "আপনার পাসওয়ার্ড নিশ্চিত",
+    "ban": "নিষেধাজ্ঞা",
+    "ban_success": "ব্যবহারকারী সফলভাবে নিষিদ্ধ",
+    "unban": "নিষেধাজ্ঞা মুক্ত করুন",
+    "unban_success": "ব্যবহারকারীকে সফলভাবে নিষিদ্ধ করা হয়েছে",
+    "tenant_id": "ভাড়াটে আইডি",
+    "domain": "ডোমেইন",
+    "company": "প্রতিষ্ঠান",
+    "plan": "পরিকল্পনা",
+    "trial_ends_at": "ট্রায়াল শেষ হয় এ",
+    "banned": "নিষিদ্ধ",
+    "clients_limit": "ক্লায়েন্ট সীমা",
+    "suppliers_limit": "সরবরাহকারীর সীমা",
+    "employee_limit": "কর্মচারী সীমা",
+    "domains_limit": "ডোমেন সীমা",
+    "purchases_limit": "ক্রয় সীমা",
+    "invoices_limit": "চালান সীমা",
+    "to": "প্রতি",
+    "from": "থেকে",
+    "s_no": "#",
+    "more_info": "অধিক তথ্য",
+    "name": "নাম",
+    "name_placeholder": "একটি নাম লিখুন",
+    "password": "পাসওয়ার্ড",
+    "password_placeholder": "আপনার পাসওয়ার্ড লিখুন",
+    "default_password": "পাসওয়ার্ড (ডিফল্ট পাসওয়ার্ড: 12345678)",
+    "code": "কোড",
+    "code_placeholder": "একটি কোড লিখুন",
+    "product_name": "পণ্যের নাম",
+    "product_name_placeholder": "একটি পণ্য নির্বাচন করুন",
+    "sub_category_code": "সাব ক্যাটাগরি কোড",
+    "sub_category": "সাব ক্যাটাগরি",
+    "sub_category_name": "সাব ক্যাটাগরির নাম",
+    "category": "শ্রেণী",
+    "category_name": "বিভাগ নাম",
+    "category_name_placeholder": "একটি বিভাগ নির্বাচন করুন",
+    "account": "হিসাব",
+    "account_placeholder": "একটি অ্যাকাউন্ট নির্বাচন করুন",
+    "available_balance": "পর্যাপ্ত টাকা",
+    "amount": "পরিমাণ",
+    "amount_placeholder": "একটি পরিমাণ লিখুন",
+    "cheque_no": "চেক নম্বর",
+    "cheque_placeholder": "একটি চেক নম্বর লিখুন",
+    "voucher_no": "ভাউচার নং",
+    "voucher_placeholder": "একটি ভাউচার নম্বর লিখুন",
+    "receipt_no": "প্রাপ্তি কোন",
+    "receipt_no_placeholder": "একটি রসিদ নম্বর লিখুন",
+    "date": "তারিখ",
+    "note": "বিঃদ্রঃ",
+    "created_by": "দ্বারা সৃষ্টি",
+    "choose_file": "ফাইল পছন্দ কর",
+    "image_alt": "সংযুক্ত প্রতিকৃতি",
+    "note_placeholder": "এখানে আপনার নোট লিখুন!",
+    "status": "স্ট্যাটাস",
+    "action": "কর্ম",
+    "active": "সক্রিয়",
+    "in_active": "নিষ্ক্রিয়",
+    "expired": "মেয়াদোত্তীর্ণ",
+    "email": "ইমেইল",
+    "email_placeholder": "তোমার ই - মেইল ঠিকানা লেখো",
+    "phone": "ফোন",
+    "address": "ঠিকানা",
+    "address_placeholder": "একটি ঠিকানা লিখুন",
+    "modal_header": "সংযুক্ত ছবি পূর্বরূপ",
+    "modal_body": "ডিফল্ট বডি",
+    "export_table": "রপ্তানি টেবিল",
+    "print_table": "প্রিন্ট টেবিল",
+    "delete_title": "তুমি কি নিশ্চিত?",
+    "update_title": "তুমি কি নিশ্চিত?",
+    "delete_confirm_text": "নিশ্চিত করুন",
+    "update_confirm_text": "নিশ্চিত করুন",
+    "deleted": "মুছে ফেলা হয়েছে!",
+    "updated": "আপডেট করা হয়েছে!",
+    "delete_success": "সফলভাবে মুছে ফেলা হয়েছে৷",
+    "update_success": "সফলভাবে আপডেট করা হয়েছে৷",
+    "failed": "ব্যর্থ হয়েছে!",
+    "delete_failed": "কিছু ভুল ছিল.",
+    "update_failed": "কিছু ভুল ছিল.",
+    "error_msg": "ওপস...কিছু ভুল হয়েছে 😔",
+    "image_error": "অনুগ্রহ করে 2 MB এর কম আকারের একটি বৈধ থাম্বনেল নির্বাচন করুন৷",
+    "close": "বন্ধ",
+    "search": "অনুসন্ধান করুন...",
+    "create": "সৃষ্টি",
+    "view": "দেখুন",
+    "edit": "সম্পাদনা করুন",
+    "delete": "মুছে ফেলা",
+    "image": "ছবি",
+    "preview": "পূর্বরূপ",
+    "no_preview": "কোন পূর্বরূপ",
+    "save": "সংরক্ষণ",
+    "save_changes": "পরিবর্তনগুলোর সংরক্ষন",
+    "back": "পেছনে",
+    "print": "ছাপা",
+    "reset": "রিসেট",
+    "supplier": "সরবরাহকারী",
+    "supplier_placeholder": "একটি সরবরাহকারী নির্বাচন করুন",
+    "products": "পণ্য",
+    "select_products": "পণ্য নির্বাচন করুন",
+    "select_products_placeholder": "পণ্য অনুসন্ধান করুন",
+    "reference": "রেফারেন্স",
+    "reference_placeholder": "রেফারেন্স লিখুন",
+    "quantity": "পরিমাণ",
+    "purchase_price": "ক্রয় মূল্য",
+    "unit_price": "একক দাম",
+    "unit_cost": "ইউনিট খরচ",
+    "unit_tax": "ইউনিট ট্যাক্স",
+    "tax": "ট্যাক্স",
+    "subtotal": "সাবটোটাল",
+    "return_subtotal": "সাবটোটাল ফেরত দিন",
+    "new_subtotal": "নতুন সাবটোটাল",
+    "return_amount": "রিটার্ন পরিমাণ",
+    "return_cost": "রিটার্ন পণ্য খরচ",
+    "total": "মোট",
+    "net_total": "সর্বমোট",
+    "due": "বাকি",
+    "transport": "পরিবহন",
+    "add_payment": "পেমেন্ট যোগ করবেন?",
+    "add_payment_placeholder": "যেকোনো একটি নির্বাচন করুন",
+    "yes": "হ্যাঁ",
+    "no": "না",
+    "paid": "পেড",
+    "total_paid": "মোট দেওয়া",
+    "paid_amount": "দেওয়া পরিমাণ",
+    "paid_amount_placeholder": "একটি পরিমাণ লিখুন",
+    "total_due": "মোট বাকি",
+    "account_receivable": "পাওনার হিসাব",
+    "account_payable": "অ্যাকাউন্ট প্রদেয়",
+    "total_price": "মোট দাম",
+    "return_price": "রিটার্ন মূল্য",
+    "price": "দাম",
+    "total_return": "মোট রিটার্ন",
+    "discount": "ছাড়",
+    "discount_placeholder": "ছাড় লিখুন",
+    "supplier_details": "সরবরাহকারীর বিবরণ",
+    "client_details": "ক্লায়েন্ট বিবরণ",
+    "supplier_id": "সরবরাহকারী আইডি",
+    "client_id": "ক্লায়েন্ট আইডি",
+    "client_name": "গ্রাহকের নাম",
+    "supplier_name": "সরবরাহকারী নাম",
+    "company_name": "কোমপানির নাম",
+    "company_name_placeholder": "একটি কোম্পানির নাম লিখুন",
+    "contact_number": "যোগাযোগের নম্বর",
+    "contact_number_placeholder": "একটি যোগাযোগ নম্বর লিখুন",
+    "payment_history": "অর্থ প্রদান ইতিহাস",
+    "payment_date": "টাকা প্রদানের তারিখ",
+    "empty_payment": "কোন পেমেন্ট এখনও উপলব্ধ!",
+    "empty_payment_msg": "আপনি এই কেনাকাটার জন্য কোনো অর্থপ্রদান যোগ করেননি। পেমেন্ট যোগ করার পর আপনি এখানে তালিকা দেখতে পাবেন।",
+    "purchases": "ক্রয়",
+    "purchases_placeholder": "একটি ক্রয় নির্বাচন করুন",
+    "total_tax": "মোট ট্যাক্স",
+    "invoice_tax": "চালান কর",
+    "transport_cost": "পরিবহন খরচ",
+    "transport_cost_placeholder": "পরিবহন খরচ লিখুন",
+    "total_discount": "মোট ছাড়",
+    "discount_type": "ডিসকাউন্ট টাইপ",
+    "fixed": "স্থির",
+    "percentage": "শতাংশ",
+    "client": "ক্লায়েন্ট",
+    "client_placeholder": "একটি ক্লায়েন্ট নির্বাচন করুন",
+    "payment_terms": "পরিশোধের শর্ত",
+    "payment_terms_placeholder": "পেমেন্ট শর্তাবলী লিখুন",
+    "po_reference": "পিও রেফারেন্স",
+    "po_reference_placeholder": "PO রেফারেন্স লিখুন",
+    "invoice_qty": "চালানের পরিমাণ",
+    "current_qty": "বর্তমান পরিমাণ",
+    "return_qty": "পরিমাণ রিটার্ন",
+    "invoices": "চালান",
+    "invoices_placeholder": "একটি চালান নির্বাচন করুন",
+    "return_reason": "রিটার্ন রিজন",
+    "return_reason_placeholder": "একটি কারণ লিখুন",
+    "invoice_due": "চালান বকেয়া",
+    "non_invoice_due": "চালান দুই নয়",
+    "invoice_date": "চালান তারিখ",
+    "invoice_no": "চালান নং",
+    "invoice_return_no": "চালান রিটার্ন নম্বর",
+    "return_no": "রিটার্ন নম্বর",
+    "return_products": "পণ্য ফেরত",
+    "insufficient_stock": "অপর্যাপ্ত স্টক",
+    "invoice_products": "চালান পণ্য",
+    "created_at": "এ নির্মিত",
+    "reason": "কারণ",
+    "type": "টাইপ",
+    "credit": "ক্রেডিট",
+    "debit": "ডেবিট",
+    "payment_type": "শোধের ধরণ",
+    "invoice_total": "মোট চালান",
+    "invoice_details": "চালান বিস্তারিত",
+    "payment_details": "পেমেন্ট বিবরণ",
+    "ref_no": "রেফ. না",
+    "reference_no": "রেফারেন্স নং",
+    "payable": "প্রদেয়",
+    "interest": "স্বার্থ",
+    "installment": "কিস্তি",
+    "error": "ত্রুটি!",
+    "per": "প্রতি",
+    "day": "দিন",
+    "week": "সপ্তাহ",
+    "month": "মাস",
+    "year": "বছর",
+    "daily": "দৈনিক",
+    "monthly": "মাসিক",
+    "yearly": "বার্ষিক",
+    "employee": "কর্মচারী",
+    "employee_placeholder": "একজন কর্মচারী নির্বাচন করুন",
+    "designation": "উপাধি",
+    "designation_placeholder": "একটি পদবি লিখুন",
+    "emp_name": "Emp নাম",
+    "emp_id": "Emp আইডি",
+    "employee_details": "কর্মচারী বিবরণ",
+    "department": "বিভাগ",
+    "department_placeholder": "বিভাগ",
+    "balance": "ভারসাম্য",
+    "salary": "বেতন",
+    "salary_placeholder": "বেতন লিখুন",
+    "profile_picture": "প্রোফাইল ছবি",
+    "role": "ভূমিকা",
+    "role_placeholder": "একটি ভূমিকা নির্বাচন করুন",
+    "unit": "ইউনিট",
+    "unit_placeholder": "একটি ইউনিট নির্বাচন করুন",
+    "brand": "ব্র্যান্ড",
+    "brand_placeholder": "একটি ব্র্যান্ড নির্বাচন করুন",
+    "item_code": "বস্তু সংকেত",
+    "item_code_placeholder": "আইটেম কোড লিখুন",
+    "item_model": "আইটেম মডেল",
+    "item_model_placeholder": "একটি মডেল লিখুন",
+    "item_name": "আইটেম নাম",
+    "item_name_placeholder": "একটি নাম লিখুন",
+    "rendering_fails": "রেন্ডারিং ব্যর্থ হয়।",
+    "product": "পণ্য",
+    "transactions": "লেনদেন",
+    "empty_table": "দুঃখিত 😔 কোন তথ্য পাওয়া যায়নি",
+    "stock_alert_msg": "স্টক সতর্কতার পরিমাণ কম!",
+    "stock_notification": "পণ্য পরিমাণ সতর্কতা(গুলি)",
+    "stock_notification_empty": "কোন বিজ্ঞপ্তি উপলব্ধ নেই",
+    "delete_warning": "এই তো আর ফিরতে পারবে না!",
+    "update_warning": "এই তো আর ফিরতে পারবে না!",
+    "add_balance": "ব্যালেন্স যোগ করুন",
+    "remove_balance": "ব্যালেন্স সরান",
+    "qty": "পরিমাণ",
+    "item": "আইটেম",
+    "sold_by": "বিক্রিত",
+    "all_features": "সমস্ত বৈশিষ্ট্য",
+    "success_msg": "সফলতার !",
+    "software_overview": "সফটওয়্যার ওভারভিউ",
+    "business_start_support_list_placeholder": "ব্যবসা শুরু সমর্থন তালিকা",
+    "explorers": "অনুসন্ধানকারী",
+    "points_placeholder": "পয়েন্ট",
+    "why_us": "আমাদেরকে কেন",
+    "stripe_public_key": "স্ট্রাইপ পাবলিক কী",
+    "stripe_private_key": "স্ট্রাইপ প্রাইভেট কী",
+    "plan_placeholder": "পরিকল্পনা",
+    "download": "ডাউনলোড করুন",
+    "commission": "কমিশন",
+    "invoice_tax_placeholder": "চালান কর",
+    "requested_domain": "অনুরোধ করা ডোমেন",
+    "pending": "বিচারাধীন",
+    "connected": "সংযুক্ত",
+    "rejected": "প্রত্যাখ্যাত",
+    "removed": "সরানো হয়েছে",
+    "tenant": "প্রজা",
+    "welcome_mail": "স্বাগতম মেইল পাঠান",
+    "tenant_name": "ভাড়াটে নাম",
+    "tenant_email": "ভাড়াটে ইমেল",
+    "modified_by": "দ্বারা পরিবর্তিত",
+    "host": "হোস্ট",
+    "value": "মান",
+    "custom_html": "কাস্টম এইচটিএমএল",
+    "custom_html_placeholder": "কাস্টম এইচটিএমএল (আপনি এখানে এসইও সম্পর্কিত ট্যাগ, গুগল অ্যানালিটিক্স, ফেসবুক পিক্সেল কোড ইত্যাদি যোগ করতে পারেন।)",
+    "pricing_plan": "মূল্য পরিকল্পনা"
+  },
+  "topbar": {
+    "new_invoice": "নতুন চালান",
+    "new_expense": "নতুন খরচ",
+    "new_purchase": "নতুন ক্রয়",
+    "new_quotation": "নতুন উদ্ধৃতি",
+    "profile": "প্রোফাইল",
+    "setup": "সেটআপ",
+    "logout": "প্রস্থান"
+  },
+  "sidebar": {
+    "Billing History": "বিলিং ইতিহাস",
+    "tenant": {
+      "settings": "সেটিংস"
+    },
+    "domain_management": "ডোমেইন ম্যানেজমেন্ট",
+    "domain": "ডোমেইন",
+    "domain_request": "ডোমেন অনুরোধ",
+    "newsletters": {
+      "create": "সাবস্ক্রাইবার"
+    },
+    "pages": {
+      "create": "পাতা"
+    },
+    "items": "আইটেম",
+    "dashboard": "ড্যাশবোর্ড",
+    "activities": "কার্যকলাপ",
+    "expenses": "খরচ",
+    "categories": "ক্যাটাগরি",
+    "sub_categories": "সাব ক্যাটাগরি",
+    "expenses_list": "খরচের তালিকা",
+    "purchases": "ক্রয়",
+    "purchases_list": "ক্রয় তালিকা",
+    "returns_list": "ফিরতি তালিকা",
+    "sales": "বিক্রয়",
+    "quotations_list": "উদ্ধৃতি তালিকা",
+    "invoices_list": "চালান তালিকা",
+    "accounting": "অ্যাকাউন্টিং",
+    "cashbook": "নগদ বই",
+    "accounts": "হিসাব",
+    "balance_adjustments": "ব্যালেন্স সমন্বয়",
+    "balance_transfers": "ব্যালেন্স ট্রান্সফার",
+    "transaction_history": "লেনদেনের ইতিহাস",
+    "payments": "পেমেন্ট",
+    "suppliers": "সরবরাহকারীদের",
+    "non_purchase": "অ ক্রয়",
+    "purchase": "ক্রয়",
+    "clients": "ক্লায়েন্ট",
+    "non_invoice": "নন ইনভয়েস",
+    "invoice": "চালান",
+    "loan_management": "ঋণ ব্যবস্থাপনা",
+    "authorities": "কর্তৃপক্ষ",
+    "loans": "ঋণ",
+    "asset_management": "সম্পদ ব্যবস্থাপনা",
+    "types": "প্রকারভেদ",
+    "assets": "সম্পদ",
+    "payroll": "বেতন",
+    "people": "মানুষ",
+    "employees_list": "কর্মচারীদের তালিকা",
+    "employees": "কর্মচারীদের",
+    "departments": "বিভাগসমূহ",
+    "increments": "ইনক্রিমেন্ট",
+    "product": "পণ্য",
+    "products": "পণ্য",
+    "products_list": "পণ্য তালিকা",
+    "barcode": "বারকোড",
+    "inventory_uppercase": "ইনভেন্টরি",
+    "inventory": "ইনভেন্টরি",
+    "view_inventory": "ইনভেন্টরি দেখুন",
+    "inventory_adjustment": "ইনভেন্টরি অ্যাডজাস্টমেন্ট",
+    "reports": "রিপোর্ট",
+    "balance_sheet": "ব্যালেন্স শীট",
+    "summary_report": "সারসংক্ষেপ প্রতিবেদন",
+    "profit_loss_report": "লাভ/লোকসান রিপোর্ট",
+    "expense_report": "ব্যয় রিপোর্ট",
+    "product_report": "আইটেম রিপোর্ট",
+    "inventory_report": "পরিসংখ্যা প্রতিবেদন",
+    "account": "অ্যাকাউন্ট",
+    "account_sm": "হিসাব",
+    "setup": "সেটআপ",
+    "database_backup": "ডাটাবেস ব্যাকআপ",
+    "profile": "প্রোফাইল",
+    "logout": "প্রস্থান",
+    "pricing": "মূল্য নির্ধারণ",
+    "tenants": "ভাড়াটে",
+    "overview": "ওভারভিউ",
+    "saas": "SAAS",
+    "back_landing": "ল্যান্ডিং পেজে যান",
+    "landing_page": "অবতরণ পাতা",
+    "cms": "সিএমএস",
+    "promotion": "পদোন্নতি",
+    "plans": "পরিকল্পনা সমূহ",
+    "pricing_plans": "মূল্য পরিকল্পনা",
+    "plan_features": "পরিকল্পনা বৈশিষ্ট্য",
+    "domains": "ডোমেইন ম্যানেজমেন্ট",
+    "all_domains": "সমস্ত ডোমেইন",
+    "domain_requests": "ডোমেন অনুরোধ"
+  },
+  "dashboard": {
+    "stock_alert": "স্টক সতর্কতা",
+    "recent_activities": "সাম্প্রতিক কার্যক্রম",
+    "page_title": "ড্যাশবোর্ড",
+    "breadcrumbs_current": "ড্যাশবোর্ড",
+    "breadcrumbs_active": "ড্যাশবোর্ড",
+    "bar_chart_title": "বিক্রয় বনাম ক্রয়",
+    "bar_chart_tooltip": "রিটার্ন পণ্যের খরচ বাদ দিয়ে মাসিক বিক্রয় ও ক্রয়।",
+    "pie_chart_title": "শীর্ষ বিক্রয় পণ্য",
+    "line_chart_title": "পেমেন্ট পাঠানো বনাম পেমেন্ট প্রাপ্ত",
+    "line_chart_tooltip": "পেমেন্ট পাঠানো = সরবরাহকারীর অর্থপ্রদান + ঋণ পরিশোধ<br/> পেমেন্ট রিসিভড = ক্লায়েন্ট পেমেন্ট + লোন রিসিভিড",
+    "top_clients_title": "শীর্ষ 5 ক্লায়েন্ট",
+    "summary": "সারসংক্ষেপ",
+    "summary_option_1": "আজ",
+    "summary_option_2": "গত ৭ দিন",
+    "summary_option_3": "এই মাস",
+    "summary_option_4": "এই বছর",
+    "summery_items": {
+      "purchase": "ক্রয়",
+      "purchase_return": "ক্রয় রিটার্ন",
+      "sales": "বিক্রয়",
+      "sales_return": "বিক্রয় রিটার্ন",
+      "payment_received": "ক্লায়েন্ট পেমেন্ট",
+      "payment_sent": "সরবরাহকারী পেমেন্ট",
+      "expense": "ব্যয়",
+      "balance_transfers": "ব্যালেন্স ট্রান্সফার"
+    },
+    "today": "আজ",
+    "last_7_days": "গত ৭ দিন",
+    "this_month": "এই মাস",
+    "this_year": "এই বছর"
+  },
+  "expenses": {
+    "categories": {
+      "index": {
+        "page_title": "ব্যয় বিভাগ",
+        "breadcrumbs_current": "ব্যয় বিভাগ",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "খরচ",
+        "breadcrumbs_active": "ক্যাটাগরি",
+        "delete_warning": "এই বিভাগের জন্য সমস্ত উপশ্রেণী মুছে ফেলা হবে!"
+      },
+      "create": {
+        "page_title": "ব্যয় বিভাগ তৈরি করুন",
+        "form_title": "একটি ব্যয় বিভাগ তৈরি করুন",
+        "breadcrumbs_current": "ব্যয় বিভাগ তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ক্যাটাগরি",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "বিভাগ সফলভাবে যোগ করা হয়েছে 👍"
+      },
+      "edit": {
+        "page_title": "ব্যয় বিভাগ সম্পাদনা করুন",
+        "form_title": "বিভাগ সম্পাদনা করুন",
+        "breadcrumbs_current": "ব্যয় বিভাগ সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ক্যাটাগরি",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "বিভাগ সফলভাবে আপডেট হয়েছে 👍"
+      }
+    },
+    "sub_categories": {
+      "index": {
+        "page_title": "ব্যয় সাব ক্যাটাগরি",
+        "breadcrumbs_current": "ব্যয় সাব ক্যাটাগরি",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "খরচ",
+        "breadcrumbs_active": "সাব ক্যাটাগরি",
+        "delete_warning": "এই বিভাগের জন্য সমস্ত খরচ মুছে ফেলা হবে!"
+      },
+      "create": {
+        "page_title": "ব্যয় সাব ক্যাটাগরি তৈরি করুন",
+        "form_title": "একটি ব্যয় সাব বিভাগ তৈরি করুন",
+        "breadcrumbs_current": "ব্যয় সাব ক্যাটাগরি তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সাব ক্যাটাগরি",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "উপ বিভাগ সফলভাবে যোগ করা হয়েছে 👍"
+      },
+      "edit": {
+        "page_title": "ব্যয় সাব শ্রেণী সম্পাদনা করুন",
+        "form_title": "ব্যয় সাব বিভাগ সম্পাদনা করুন",
+        "breadcrumbs_current": "ব্যয় সাব শ্রেণী সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সাব ক্যাটাগরি",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "উপ বিভাগ সফলভাবে আপডেট হয়েছে 👍"
+      }
+    },
+    "list": {
+      "common": {
+        "expense_reason": "ব্যয়ের কারণ",
+        "expense_reason_placeholder": "একটি কারণ লিখুন"
+      },
+      "index": {
+        "page_title": "খরচ",
+        "breadcrumbs_current": "খরচ",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "খরচ",
+        "breadcrumbs_active": "খরচ",
+        "delete_warning": "এই তো আর ফিরতে পারবে না!"
+      },
+      "create": {
+        "page_title": "ব্যয় তৈরি করুন",
+        "form_title": "একটি ব্যয় তৈরি করুন",
+        "breadcrumbs_current": "ব্যয় তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "খরচ",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "খরচ সফলভাবে যোগ করা হয়েছে 👍"
+      },
+      "edit": {
+        "page_title": "ব্যয় সম্পাদনা করুন",
+        "form_title": "ব্যয় সম্পাদনা করুন",
+        "breadcrumbs_current": "ব্যয় সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "খরচ",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "খরচ সফলভাবে আপডেট হয়েছে 👍"
+      },
+      "view": {
+        "page_title": "ব্যয়ের বিবরণ",
+        "breadcrumbs_current": "ব্যয়ের বিবরণ",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "খরচ",
+        "breadcrumbs_active": "বিস্তারিত",
+        "expense_details": "ব্যয়ের বিবরণ"
+      }
+    }
+  },
+  "purchases": {
+    "list": {
+      "common": {
+        "po_reference": "পিও রেফারেন্স",
+        "po_reference_placeholder": "PO রেফারেন্স লিখুন",
+        "payment_terms": "পরিশোধের শর্ত",
+        "payment_terms_placeholder": "পেমেন্ট শর্তাবলী লিখুন",
+        "purchase_tax": "ক্রয় কর",
+        "purchase_total": "মোট ক্রয়",
+        "purchase_subtotal": "ক্রয় সাবটোটাল",
+        "purchase_tax_placeholder": "একটি করের ধরন নির্বাচন করুন",
+        "total_tax": "মোট ট্যাক্স",
+        "discount": "ছাড়",
+        "discount_placeholder": "ছাড় লিখুন",
+        "transport_cost": "পরিবহন খরচ",
+        "transport_cost_placeholder": "পরিবহন খরচ লিখুন",
+        "purchase_date": "ক্রয় তারিখ",
+        "po_date": "PO তারিখ",
+        "purchased_qty": "ক্রয়কৃত পরিমাণ",
+        "returned_qty": "প্রত্যাবর্তিত পরিমাণ",
+        "current_qty": "বর্তমান পরিমাণ",
+        "purchase_no": "ক্রয় নম্বর",
+        "return_no": "রিটার্ন নম্বর",
+        "purchase_no_placeholder": "ক্রয় নম্বর লিখুন",
+        "purchase_products": "পণ্য ক্রয়",
+        "purchase_due": "ক্রয় বকেয়া"
+      },
+      "index": {
+        "page_title": "ক্রয়",
+        "breadcrumbs_current": "ক্রয়",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ক্রয়",
+        "breadcrumbs_active": "ক্রয়",
+        "delete_warning": "এই তো আর ফিরতে পারবে না!"
+      },
+      "create": {
+        "page_title": "ক্রয় তৈরি করুন",
+        "form_title": "ক্রয় তৈরি করুন",
+        "breadcrumbs_current": "ক্রয় তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ক্রয়",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "ক্রয় সফলভাবে যোগ করা হয়েছে 👍"
+      },
+      "edit": {
+        "page_title": "ক্রয় সম্পাদনা করুন",
+        "form_title": "ক্রয় সম্পাদনা করুন",
+        "breadcrumbs_current": "ক্রয় সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ক্রয়",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "ক্রয় সফলভাবে আপডেট হয়েছে 👍"
+      },
+      "view": {
+        "page_title": "ক্রয় বিবরণ",
+        "breadcrumbs_current": "ক্রয় বিবরণ",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ক্রয়",
+        "breadcrumbs_active": "বিস্তারিত"
+      }
+    },
+    "returns": {
+      "common": {
+        "return_reason": "রিটার্ন রিজন",
+        "return_reason_placeholder": "একটি কারণ লিখুন",
+        "return_date": "ফেরার তারিখ",
+        "purchase_return_no": "ক্রয় রিটার্ন নম্বর",
+        "return_products": "পণ্য ফেরত"
+      },
+      "index": {
+        "page_title": "ক্রয় রিটার্ন",
+        "breadcrumbs_current": "ক্রয় রিটার্ন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ক্রয়",
+        "breadcrumbs_active": "ক্রয় রিটার্ন",
+        "delete_warning": "এই তো আর ফিরতে পারবে না!"
+      },
+      "create": {
+        "page_title": "ক্রয় রিটার্ন তৈরি করুন",
+        "form_title": "ক্রয় রিটার্ন তৈরি করুন",
+        "breadcrumbs_current": "ক্রয় রিটার্ন তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ক্রয় রিটার্ন",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "ক্রয় রিটার্ন সফলভাবে যোগ করা হয়েছে 👍"
+      },
+      "edit": {
+        "page_title": "ক্রয় রিটার্ন সম্পাদনা করুন",
+        "form_title": "ক্রয় রিটার্ন সম্পাদনা করুন",
+        "breadcrumbs_current": "ক্রয় রিটার্ন সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ক্রয় রিটার্ন",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "ক্রয় রিটার্ন সফলভাবে আপডেট হয়েছে 👍"
+      },
+      "view": {
+        "page_title": "ক্রয় রিটার্ন বিবরণ",
+        "breadcrumbs_current": "ক্রয় রিটার্ন বিবরণ",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ক্রয় রিটার্ন",
+        "breadcrumbs_active": "বিস্তারিত"
+      }
+    }
+  },
+  "sales": {
+    "common": {
+      "quotation_no": "উদ্ধৃতি নং",
+      "quotation_date": "উদ্ধৃতি তারিখ",
+      "delivery_place": "প্রেরনের স্থান",
+      "delivery_place_placeholder": "একটি ডেলিভারি স্থান লিখুন",
+      "quotation_tax": "কোটেশন ট্যাক্স",
+      "quotation_tax_placeholder": "একটি করের ধরন নির্বাচন করুন",
+      "return_date": "ফেরার তারিখ",
+      "new_due": "নতুন বকেয়া",
+      "client_advance": "ক্লায়েন্ট অগ্রিম",
+      "invoice_total": "মোট চালান",
+      "before_return": "ফেরার আগে",
+      "invoice_return": "চালান রিটার্ন",
+      "invoice_tax": "চালান কর",
+      "invoice_tax_placeholder": "একটি করের ধরন নির্বাচন করুন"
+    },
+    "quotations": {
+      "index": {
+        "page_title": "উদ্ধৃতি",
+        "create_invoice": "চালান তৈরি করুন",
+        "breadcrumbs_current": "উদ্ধৃতি",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "উদ্ধৃতি",
+        "breadcrumbs_active": "উদ্ধৃতি",
+        "delete_warning": "এই তো আর ফিরতে পারবে না!",
+        "delete_failed": "দুঃখিত আপনি এই উদ্ধৃতি মুছে ফেলতে পারবেন না!"
+      },
+      "create": {
+        "page_title": "উদ্ধৃতি তৈরি করুন",
+        "form_title": "উদ্ধৃতি তৈরি করুন",
+        "breadcrumbs_current": "উদ্ধৃতি তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "উদ্ধৃতি",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "উদ্ধৃতি সফলভাবে যোগ করা হয়েছে 👍"
+      },
+      "edit": {
+        "page_title": "উদ্ধৃতি সম্পাদনা করুন",
+        "form_title": "উদ্ধৃতি সম্পাদনা করুন",
+        "breadcrumbs_current": "উদ্ধৃতি সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "উদ্ধৃতি",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "উদ্ধৃতি সফলভাবে আপডেট হয়েছে 👍"
+      },
+      "view": {
+        "page_title": "উদ্ধৃতি বিবরণ",
+        "breadcrumbs_current": "উদ্ধৃতি বিবরণ",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "উদ্ধৃতি",
+        "breadcrumbs_active": "বিস্তারিত",
+        "expense_details": "ব্যয়ের বিবরণ"
+      },
+      "invoice": {
+        "page_title": "চালান থেকে উদ্ধৃতি",
+        "form_title": "চালান উদ্ধৃতি তৈরি করুন",
+        "breadcrumbs_current": "চালান থেকে উদ্ধৃতি",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "উদ্ধৃতি",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "চালান সফলভাবে তৈরি করা হয়েছে 👍"
+      }
+    },
+    "invoices": {
+      "index": {
+        "page_title": "চালান",
+        "breadcrumbs_current": "চালান",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "বিক্রয়",
+        "breadcrumbs_active": "চালান",
+        "delete_warning": "এই তো আর ফিরতে পারবে না!",
+        "delete_failed": "দুঃখিত আপনি এই চালান মুছে ফেলতে পারবেন না!"
+      },
+      "create": {
+        "page_title": "চালান তৈরি করুন",
+        "form_title": "চালান তৈরি করুন",
+        "breadcrumbs_current": "চালান তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "চালান",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "চালান সফলভাবে যোগ করা হয়েছে 👍"
+      },
+      "edit": {
+        "page_title": "চালান সম্পাদনা করুন",
+        "form_title": "চালান সম্পাদনা করুন",
+        "breadcrumbs_current": "চালান সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "চালান",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "চালান সফলভাবে আপডেট হয়েছে 👍"
+      },
+      "view": {
+        "page_title": "চালান বিস্তারিত",
+        "breadcrumbs_current": "চালান বিস্তারিত",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "চালান",
+        "breadcrumbs_active": "বিস্তারিত",
+        "invoice_details": "চালান বিস্তারিত"
+      }
+    },
+    "returns": {
+      "index": {
+        "page_title": "চালান রিটার্ন",
+        "breadcrumbs_current": "চালান রিটার্ন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "চালান",
+        "breadcrumbs_active": "চালান রিটার্ন",
+        "delete_warning": "এই তো আর ফিরতে পারবে না!",
+        "delete_failed": "কিছু ভুল ছিল."
+      },
+      "create": {
+        "page_title": "চালান রিটার্ন তৈরি করুন",
+        "form_title": "চালান রিটার্ন তৈরি করুন",
+        "breadcrumbs_current": "চালান রিটার্ন তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "চালান রিটার্ন",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "ইনভয়েস রিটার্ন সফলভাবে যোগ করা হয়েছে 👍"
+      },
+      "edit": {
+        "page_title": "চালান রিটার্ন সম্পাদনা করুন",
+        "form_title": "চালান রিটার্ন সম্পাদনা করুন",
+        "breadcrumbs_current": "চালান রিটার্ন সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "চালান রিটার্ন",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "চালান রিটার্ন সফলভাবে আপডেট হয়েছে 👍"
+      },
+      "view": {
+        "page_title": "চালান রিটার্ন বিবরণ",
+        "breadcrumbs_current": "চালান রিটার্ন বিবরণ",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "চালান রিটার্ন",
+        "breadcrumbs_active": "বিস্তারিত",
+        "invoice_details": "চালান বিস্তারিত"
+      }
+    }
+  },
+  "cashbook": {
+    "common": {
+      "account_number": "হিসাব নাম্বার",
+      "account_number_placeholder": "একটি অ্যাকাউন্ট নম্বর লিখুন",
+      "branch_name": "শাখার নাম",
+      "branch_name_placeholder": "একটি শাখার নাম লিখুন",
+      "bank_name": "ব্যাংকের নাম",
+      "bank_name_placeholder": "একটি ব্যাঙ্কের নাম লিখুন",
+      "transactions": "লেনদেন",
+      "account_details": "বিস্তারিত হিসাব",
+      "total_transactions": "মোট লেনদেন",
+      "debit_amount": "ডেবিট পরিমাণ",
+      "credit_amount": "ক্রেডিট পরিমাণ",
+      "from_account": "হিসাব থেকে",
+      "to_account": "হিসাবে",
+      "transfer_reason": "স্থানান্তর কারণ"
+    },
+    "accounts": {
+      "index": {
+        "page_title": "হিসাব",
+        "breadcrumbs_current": "হিসাব",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ক্যাশবুক",
+        "breadcrumbs_third": "হিসাব",
+        "breadcrumbs_active": "হিসাব",
+        "delete_warning": "এই তো আর ফিরতে পারবে না!",
+        "delete_failed": "দুঃখিত আপনি এই অ্যাকাউন্টটি সরাতে পারবেন না!"
+      },
+      "create": {
+        "page_title": "হিসাব তৈরি কর",
+        "form_title": "একটি অ্যাকাউন্ট তৈরি করুন",
+        "breadcrumbs_current": "হিসাব তৈরি কর",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ক্যাশবুক",
+        "breadcrumbs_third": "হিসাব",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "অ্যাকাউন্ট সফলভাবে যোগ করা হয়েছে 👍"
+      },
+      "edit": {
+        "page_title": "অ্যাকাউন্ট সম্পাদনা করুন",
+        "form_title": "অ্যাকাউন্ট সম্পাদনা করুন",
+        "breadcrumbs_current": "অ্যাকাউন্ট সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ক্যাশবুক",
+        "breadcrumbs_third": "হিসাব",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "অ্যাকাউন্ট সফলভাবে আপডেট হয়েছে 👍"
+      },
+      "view": {
+        "page_title": "অ্যাকাউন্ট লেনদেন",
+        "breadcrumbs_current": "অ্যাকাউন্ট লেনদেন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "হিসাব",
+        "breadcrumbs_active": "লেনদেন",
+        "empty_transaction": "কোন লেনদেন এখনও উপলব্ধ!",
+        "empty_transaction_msg": "আপনি এই অ্যাকাউন্ট ব্যবহার করে কোনো লেনদেন করেননি। লেনদেন করার পর আপনি এখানে তালিকা দেখতে পাবেন।"
+      }
+    },
+    "balances": {
+      "index": {
+        "page_title": "ভারসাম্য সমন্বয়",
+        "add_balance": "সৃষ্টি",
+        "breadcrumbs_current": "ব্যালেন্স সমন্বয়",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ক্যাশবুক",
+        "breadcrumbs_active": "সমন্বয়",
+        "delete_warning": "এই তো আর ফিরতে পারবে না!",
+        "delete_failed": "দুঃখিত আপনি এই লেনদেন মুছে ফেলতে পারবেন না"
+      },
+      "create": {
+        "page_title": "সমন্বয় তৈরি করুন",
+        "form_title": "সমন্বয় তৈরি করুন",
+        "breadcrumbs_current": "সমন্বয় তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ক্যাশবুক",
+        "breadcrumbs_third": "সমন্বয়",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "অ্যাডজাস্টমেন্ট সফলভাবে যোগ করা হয়েছে 👍"
+      },
+      "edit": {
+        "page_title": "ব্যালেন্স সম্পাদনা করুন",
+        "form_title": "ব্যালেন্স এডিট করুন",
+        "breadcrumbs_current": "ব্যালেন্স সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ক্যাশবুক",
+        "breadcrumbs_third": "ভারসাম্য",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "ব্যালেন্স সফলভাবে আপডেট হয়েছে 👍"
+      }
+    },
+    "transfers": {
+      "index": {
+        "page_title": "ব্যালেন্স ট্রান্সফার",
+        "add_transfer": "স্থানান্তর যোগ করুন",
+        "breadcrumbs_current": "ব্যালেন্স ট্রান্সফার",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ক্যাশবুক",
+        "breadcrumbs_active": "ব্যালেন্স ট্রান্সফার",
+        "delete_warning": "এই তো আর ফিরতে পারবে না!",
+        "delete_failed": "দুঃখিত আপনি এই স্থানান্তর মুছে ফেলতে পারবেন না!"
+      },
+      "create": {
+        "page_title": "ট্রান্সফার তৈরি করুন",
+        "form_title": "একটি ব্যালেন্স ট্রান্সফার তৈরি করুন",
+        "breadcrumbs_current": "ট্রান্সফার তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ক্যাশবুক",
+        "breadcrumbs_third": "ব্যালেন্স ট্রান্সফার",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "ব্যালেন্স ট্রান্সফার সফলভাবে যোগ করা হয়েছে 👍"
+      },
+      "edit": {
+        "page_title": "ব্যালেন্স ট্রান্সফার এডিট করুন",
+        "form_title": "ব্যালেন্স ট্রান্সফার এডিট করুন",
+        "breadcrumbs_current": "ব্যালেন্স ট্রান্সফার এডিট করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ক্যাশবুক",
+        "breadcrumbs_third": "ব্যালেন্স ট্রান্সফার",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "স্থানান্তর সফলভাবে আপডেট হয়েছে 👍"
+      },
+      "view": {
+        "page_title": "ব্যালেন্স ট্রান্সফারের বিবরণ",
+        "breadcrumbs_current": "স্থানান্তর বিবরণ",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ক্যাশবুক",
+        "breadcrumbs_third": "ব্যালেন্স ট্রান্সফার",
+        "breadcrumbs_active": "বিস্তারিত"
+      }
+    },
+    "transactions": {
+      "index": {
+        "page_title": "লেনদেনের ইতিহাস",
+        "breadcrumbs_current": "লেনদেনের ইতিহাস",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ক্যাশবুক",
+        "breadcrumbs_active": "ইতিহাস"
+      }
+    }
+  },
+  "payments": {
+    "common": {
+      "due_paid": "বকেয়া বেতন",
+      "due_added": "প্রাপ্য যোগ করা হয়েছে",
+      "current_due": "বর্তমান কারণে",
+      "non_invoice_paid": "নন ইনভয়েস পেইড",
+      "non_invoice_total": "নন ইনভয়েস মোট",
+      "add_due": "ডিউ যোগ করুন",
+      "add_payment": "পেমেন্ট যোগ করুন",
+      "total_payment": "মোট পরিশোধ",
+      "total_advance": "মোট অগ্রিম (চালান রিটার্ন)",
+      "available_advance": "উপলব্ধ অগ্রিম (ক্রয় ফেরত)",
+      "select_invoice": "চালান নির্বাচন করুন",
+      "select_purchase": "ক্রয় নির্বাচন করুন",
+      "select_purchase_placeholder": "ক্রয় নম্বর অনুসন্ধান করুন",
+      "select_invoice_placeholder": "চালান নম্বর অনুসন্ধান করুন",
+      "invoice_subtotal": "চালান সাবটোটাল",
+      "non_purchase_total": "অ ক্রয় মোট",
+      "non_purchase_due": "নন-পারচেজ ডিউ",
+      "non_purchase_paid": "নন পারচেজ পেইড",
+      "purchase_details": "ক্রয় বিবরণ"
+    },
+    "clients": {
+      "invoice": {
+        "index": {
+          "page_title": "চালান পেমেন্ট",
+          "breadcrumbs_current": "চালান পেমেন্ট",
+          "breadcrumbs_first": "ড্যাশবোর্ড",
+          "breadcrumbs_second": "পেমেন্ট",
+          "breadcrumbs_active": "চালান পেমেন্ট",
+          "delete_warning": "এই তো আর ফিরতে পারবে না!",
+          "delete_failed": "দুঃখিত আপনি এই অর্থ প্রদান মুছে ফেলতে পারবেন না!"
+        },
+        "create": {
+          "page_title": "ক্লায়েন্ট ইনভয়েস পেমেন্ট তৈরি করুন",
+          "form_title": "চালান পেমেন্ট তৈরি করুন",
+          "breadcrumbs_current": "পেমেন্ট তৈরি করুন",
+          "breadcrumbs_first": "ড্যাশবোর্ড",
+          "breadcrumbs_second": "পেমেন্ট",
+          "breadcrumbs_third": "চালান পেমেন্ট",
+          "breadcrumbs_active": "সৃষ্টি",
+          "success_msg": "ইনভয়েস পেমেন্ট সফলভাবে যোগ করা হয়েছে 👍"
+        },
+        "edit": {
+          "page_title": "ক্লায়েন্ট চালান পেমেন্ট সম্পাদনা করুন",
+          "form_title": "চালান পেমেন্ট সম্পাদনা করুন",
+          "breadcrumbs_current": "অর্থপ্রদান সম্পাদনা করুন",
+          "breadcrumbs_first": "ড্যাশবোর্ড",
+          "breadcrumbs_second": "পেমেন্ট",
+          "breadcrumbs_third": "চালান পেমেন্ট",
+          "breadcrumbs_active": "সম্পাদনা করুন",
+          "success_msg": "ইনভয়েস পেমেন্ট সফলভাবে আপডেট হয়েছে 👍"
+        },
+        "view": {
+          "page_title": "চালান পরিশোধের বিবরণ",
+          "breadcrumbs_current": "চালান পরিশোধের বিবরণ",
+          "breadcrumbs_first": "ড্যাশবোর্ড",
+          "breadcrumbs_second": "পেমেন্ট",
+          "breadcrumbs_third": "চালান পেমেন্ট",
+          "breadcrumbs_active": "বিস্তারিত"
+        }
+      },
+      "non_invoice": {
+        "index": {
+          "page_title": "ক্লায়েন্ট নন ইনভয়েস পেমেন্ট",
+          "breadcrumbs_current": "নন ইনভয়েস পেমেন্ট",
+          "breadcrumbs_first": "ড্যাশবোর্ড",
+          "breadcrumbs_second": "পেমেন্ট",
+          "breadcrumbs_active": "নন ইনভয়েস পেমেন্ট",
+          "delete_warning": "এই তো আর ফিরতে পারবে না!",
+          "delete_failed": "দুঃখিত আপনি এই অর্থ প্রদান মুছে ফেলতে পারবেন না!"
+        },
+        "create": {
+          "page_title": "নন ইনভয়েস পেমেন্ট তৈরি করুন",
+          "form_title": "নন ইনভয়েস পেমেন্ট তৈরি করুন",
+          "breadcrumbs_current": "পেমেন্ট তৈরি করুন",
+          "breadcrumbs_first": "ড্যাশবোর্ড",
+          "breadcrumbs_second": "পেমেন্ট",
+          "breadcrumbs_third": "নন ইনভয়েস পেমেন্ট",
+          "breadcrumbs_active": "সৃষ্টি",
+          "success_msg": "পেমেন্ট সফলভাবে যোগ করা হয়েছে 👍"
+        },
+        "edit": {
+          "page_title": "চালান রিটার্ন সম্পাদনা করুন",
+          "form_title": "নন ইনভয়েস পেমেন্ট এডিট করুন",
+          "breadcrumbs_current": "অর্থপ্রদান সম্পাদনা করুন",
+          "breadcrumbs_first": "ড্যাশবোর্ড",
+          "breadcrumbs_second": "পেমেন্ট",
+          "breadcrumbs_third": "নন ইনভয়েস পেমেন্ট",
+          "breadcrumbs_active": "সম্পাদনা করুন",
+          "success_msg": "পেমেন্ট সফলভাবে আপডেট হয়েছে 👍"
+        }
+      }
+    },
+    "suppliers": {
+      "purchase": {
+        "index": {
+          "page_title": "পেমেন্ট ক্রয়",
+          "breadcrumbs_current": "পেমেন্ট ক্রয়",
+          "breadcrumbs_first": "ড্যাশবোর্ড",
+          "breadcrumbs_second": "পেমেন্ট",
+          "breadcrumbs_active": "পেমেন্ট ক্রয়",
+          "delete_warning": "এই তো আর ফিরতে পারবে না!",
+          "delete_failed": "কিছু ভুল ছিল."
+        },
+        "create": {
+          "page_title": "সরবরাহকারী ক্রয় অর্থপ্রদান তৈরি করুন",
+          "form_title": "ক্রয় পেমেন্ট তৈরি করুন",
+          "breadcrumbs_current": "পেমেন্ট তৈরি করুন",
+          "breadcrumbs_first": "ড্যাশবোর্ড",
+          "breadcrumbs_second": "পেমেন্ট",
+          "breadcrumbs_third": "পেমেন্ট ক্রয়",
+          "breadcrumbs_active": "সৃষ্টি",
+          "success_msg": "সরবরাহকারী পেমেন্ট সফলভাবে যোগ করা হয়েছে 👍"
+        },
+        "edit": {
+          "page_title": "সরবরাহকারী ক্রয় অর্থপ্রদান সম্পাদনা করুন",
+          "form_title": "ক্রয় পেমেন্ট সম্পাদনা করুন",
+          "breadcrumbs_current": "অর্থপ্রদান সম্পাদনা করুন",
+          "breadcrumbs_first": "ড্যাশবোর্ড",
+          "breadcrumbs_second": "পেমেন্ট",
+          "breadcrumbs_third": "পেমেন্ট ক্রয়",
+          "breadcrumbs_active": "সম্পাদনা করুন",
+          "success_msg": "পেমেন্ট সফলভাবে আপডেট হয়েছে 👍"
+        },
+        "view": {
+          "page_title": "সরবরাহকারী ক্রয় পেমেন্ট বিবরণ",
+          "breadcrumbs_current": "ক্রয় পেমেন্ট বিশদ",
+          "breadcrumbs_first": "ড্যাশবোর্ড",
+          "breadcrumbs_second": "পেমেন্ট",
+          "breadcrumbs_third": "পেমেন্ট ক্রয়",
+          "breadcrumbs_active": "বিস্তারিত"
+        }
+      },
+      "non_purchase": {
+        "index": {
+          "page_title": "সরবরাহকারী নন-পারচেজ পেমেন্ট",
+          "breadcrumbs_current": "অ ক্রয় পেমেন্ট",
+          "breadcrumbs_first": "ড্যাশবোর্ড",
+          "breadcrumbs_second": "পেমেন্ট",
+          "breadcrumbs_active": "অ ক্রয় পেমেন্ট",
+          "delete_warning": "এই তো আর ফিরতে পারবে না!",
+          "delete_failed": "দুঃখিত আপনি এই অর্থ প্রদান মুছে ফেলতে পারবেন না!"
+        },
+        "create": {
+          "page_title": "নন-পারচেজ পেমেন্ট তৈরি করুন",
+          "form_title": "অ ক্রয় পেমেন্ট তৈরি করুন",
+          "breadcrumbs_current": "পেমেন্ট তৈরি করুন",
+          "breadcrumbs_first": "ড্যাশবোর্ড",
+          "breadcrumbs_second": "পেমেন্ট",
+          "breadcrumbs_third": "অ ক্রয় পেমেন্ট",
+          "breadcrumbs_active": "সৃষ্টি",
+          "success_msg": "পেমেন্ট সফলভাবে যোগ করা হয়েছে 👍"
+        },
+        "edit": {
+          "page_title": "নন-পারচেজ পেমেন্ট সম্পাদনা করুন",
+          "form_title": "অ ক্রয় পেমেন্ট সম্পাদনা করুন",
+          "breadcrumbs_current": "অর্থপ্রদান সম্পাদনা করুন",
+          "breadcrumbs_first": "ড্যাশবোর্ড",
+          "breadcrumbs_second": "পেমেন্ট",
+          "breadcrumbs_third": "অ ক্রয় পেমেন্ট",
+          "breadcrumbs_active": "সম্পাদনা করুন",
+          "success_msg": "পেমেন্ট সফলভাবে আপডেট হয়েছে 👍"
+        }
+      }
+    }
+  },
+  "loans": {
+    "common": {
+      "authority": "কর্তৃপক্ষ",
+      "loan": "ঋণ",
+      "loan_placeholder": "একটি ঋণ নির্বাচন করুন",
+      "loan_authority": "ঋণ কর্তৃপক্ষ",
+      "authority_placeholder": "একটি কর্তৃপক্ষ নির্বাচন করুন",
+      "cc_limit": "সিসি সীমা",
+      "cc_placeholder": "সিসি ঋণের সীমা লিখুন",
+      "cash_credit_limit": "নগদ ক্রেডিট (CC) ঋণ সীমা",
+      "cash_credit_loan": "নগদ ক্রেডিট (সিসি) ঋণ",
+      "interetest_paid": "সুদ জমা",
+      "total_payable": "মোট প্রদেয়",
+      "total_loan": "মোট ঋণ",
+      "cc_term": "CC + মেয়াদ",
+      "cc_taken": "সিসি লোন নেওয়া হয়েছে",
+      "available_cc": "উপলব্ধ সিসি ঋণ",
+      "all_loans": "সমস্ত ঋণ",
+      "empty_loan": "কোন ঋণ এখনও পাওয়া যায় না!",
+      "empty_loan_msg": "আপনি এই কর্তৃপক্ষের জন্য কোনো ঋণ যোগ করেননি। ঋণ যোগ করার পর আপনি এখানে তালিকা দেখতে পাবেন।",
+      "authority_details": "কর্তৃপক্ষের বিবরণ",
+      "payable_amount": "প্রদেয় পরিমান",
+      "duration": "সময়কাল",
+      "duration_placeholder": "একটি সময়কাল লিখুন",
+      "interest_rate_placeholder": "শতাংশে সুদের হার লিখুন",
+      "available_amount": "উপলব্ধ পরিমাণ",
+      "term_loan": "মেয়াদি ঋণ",
+      "loan_type": "ঋণের ধরন",
+      "loan_reason": "ঋণের কারণ",
+      "loan_date": "ঋণের তারিখ",
+      "Loan_account": "ঋণ হিসাব",
+      "Loan_payments": "ঋণ পরিশোধ",
+      "empty_payment_msg": "আপনি এই ঋণের জন্য কোনো অর্থপ্রদান যোগ করেননি। পেমেন্ট যোগ করার পর আপনি এখানে তালিকা দেখতে পাবেন।",
+      "loan_amount": "ঋণের পরিমাণ",
+      "loan_ref": "ঋণ রেফ.",
+      "payment_ref": "পেমেন্ট রেফ.",
+      "amount_paid": "পরিমাণ অর্থ প্রদান করা"
+    },
+    "authorities": {
+      "index": {
+        "page_title": "ঋণ কর্তৃপক্ষ",
+        "breadcrumbs_current": "ঋণ কর্তৃপক্ষ",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ঋণ ব্যবস্থাপনা",
+        "breadcrumbs_active": "কর্তৃপক্ষ",
+        "delete_warning": "এই তো আর ফিরতে পারবে না!",
+        "delete_failed": "দুঃখিত আপনি এই কর্তৃপক্ষ মুছে ফেলতে পারবেন না."
+      },
+      "create": {
+        "page_title": "ঋণ কর্তৃপক্ষ তৈরি করুন",
+        "form_title": "একটি ঋণ কর্তৃপক্ষ তৈরি করুন",
+        "breadcrumbs_current": "ঋণ কর্তৃপক্ষ তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ঋণ কর্তৃপক্ষ",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "ঋণ কর্তৃপক্ষ সফলভাবে যোগ করা হয়েছে 👍"
+      },
+      "edit": {
+        "page_title": "ঋণ কর্তৃপক্ষ সম্পাদনা করুন",
+        "form_title": "ঋণ কর্তৃপক্ষ সম্পাদনা করুন",
+        "breadcrumbs_current": "কর্তৃপক্ষ সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ঋণ কর্তৃপক্ষ",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "লোন কর্তৃপক্ষ সফলভাবে আপডেট হয়েছে 👍"
+      },
+      "view": {
+        "page_title": "দেখুন ঋণ কর্তৃপক্ষ",
+        "breadcrumbs_current": "কর্তৃপক্ষের বিবরণ",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ঋণ কর্তৃপক্ষ",
+        "breadcrumbs_active": "বিস্তারিত"
+      }
+    },
+    "payments": {
+      "index": {
+        "page_title": "ঋণ পরিশোধ",
+        "breadcrumbs_current": "ঋণ পরিশোধ",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ঋণ ব্যবস্থাপনা",
+        "breadcrumbs_active": "ঋণ পরিশোধ",
+        "delete_warning": "এই তো আর ফিরতে পারবে না!",
+        "delete_failed": "কিছু ভুল ছিল."
+      },
+      "create": {
+        "page_title": "লোন পেমেন্ট তৈরি করুন",
+        "form_title": "একটি ঋণ পরিশোধ তৈরি করুন",
+        "breadcrumbs_current": "লোন পেমেন্ট তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ঋণ পরিশোধ",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "লোন পেমেন্ট সফলভাবে যোগ করা হয়েছে 👍"
+      },
+      "edit": {
+        "page_title": "লোন পেমেন্ট এডিট করুন",
+        "form_title": "ঋণ পরিশোধ সম্পাদনা করুন",
+        "breadcrumbs_current": "লোন পেমেন্ট এডিট করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ঋণ পরিশোধ",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "পেমেন্ট সফলভাবে আপডেট হয়েছে 👍"
+      },
+      "view": {
+        "page_title": "ঋণ পরিশোধের বিবরণ",
+        "breadcrumbs_current": "ঋণ পরিশোধের বিবরণ",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ঋণ পরিশোধ",
+        "breadcrumbs_active": "বিস্তারিত"
+      }
+    },
+    "list": {
+      "index": {
+        "page_title": "ঋণ",
+        "breadcrumbs_current": "ঋণ",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ঋণ ব্যবস্থাপনা",
+        "breadcrumbs_active": "ঋণ",
+        "delete_warning": "এই তো আর ফিরতে পারবে না!",
+        "delete_failed": "দুঃখিত আপনি এই ঋণ মুছে ফেলতে পারবেন না."
+      },
+      "create": {
+        "page_title": "ঋণ তৈরি করুন",
+        "form_title": "একটি ঋণ তৈরি করুন",
+        "breadcrumbs_current": "ঋণ তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ঋণ",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "লোন সফলভাবে যোগ করা হয়েছে 👍"
+      },
+      "edit": {
+        "page_title": "ঋণ সম্পাদনা করুন",
+        "form_title": "ঋণ সম্পাদনা করুন",
+        "breadcrumbs_current": "ঋণ সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ঋণ",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "লোন সফলভাবে আপডেট হয়েছে 👍"
+      },
+      "view": {
+        "page_title": "ঋণের বিবরণ",
+        "breadcrumbs_current": "ঋণের বিবরণ",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ঋণ",
+        "breadcrumbs_active": "বিস্তারিত"
+      }
+    }
+  },
+  "assets": {
+    "common": {
+      "asset_name": "সম্পদের নাম",
+      "asset_name_placeholder": "সম্পদের নাম লিখুন",
+      "asset_type": "সম্পদের ধরন",
+      "asset_type_placeholder": "একটি সম্পদের ধরন নির্বাচন করুন",
+      "asset_cost": "সম্পদ খরচ",
+      "asset_cost_placeholder": "সম্পদ খরচ লিখুন",
+      "current_value": "বর্তমান মূল্য",
+      "depreciation": "অবচয়",
+      "depreciation_type": "অবচয় প্রকার",
+      "salvage_value": "উদ্ধার মান",
+      "salvage_value_placeholder": "উদ্ধার মান",
+      "useful_life": "দরকারী জীবন",
+      "remaining_life": "অবশিষ্ট জীবন",
+      "useful_life_placeholder": "দরকারী জীবন লিখুন",
+      "added_date": "তারিখ যোগ করা হয়েছে",
+      "expired_date": "মেয়াদ শেষ হওয়ার তারিখ"
+    },
+    "types": {
+      "index": {
+        "page_title": "সম্পদের ধরন",
+        "breadcrumbs_current": "সম্পদের ধরন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সম্পদ ব্যবস্থাপনা",
+        "breadcrumbs_active": "সম্পদের ধরন",
+        "delete_warning": "এই তো আর ফিরতে পারবে না!",
+        "delete_failed": "কিছু ভুল ছিল."
+      },
+      "create": {
+        "page_title": "সম্পদের ধরন তৈরি করুন",
+        "form_title": "একটি সম্পদের ধরন তৈরি করুন",
+        "breadcrumbs_current": "সম্পদের ধরন তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সম্পদের ধরন",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "সম্পদের ধরন সফলভাবে যোগ করা হয়েছে 👍"
+      },
+      "edit": {
+        "page_title": "সম্পদের ধরন সম্পাদনা করুন",
+        "form_title": "সম্পদের ধরন সম্পাদনা করুন",
+        "breadcrumbs_current": "সম্পদের ধরন সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সম্পদের ধরন",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "সম্পদের ধরন সফলভাবে আপডেট হয়েছে 👍"
+      }
+    },
+    "list": {
+      "index": {
+        "page_title": "সম্পদ",
+        "breadcrumbs_current": "সম্পদ",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সম্পদ ব্যবস্থাপনা",
+        "breadcrumbs_active": "সম্পদ",
+        "delete_warning": "এই তো আর ফিরতে পারবে না!",
+        "delete_failed": "কিছু ভুল ছিল."
+      },
+      "create": {
+        "page_title": "সম্পদ তৈরি করুন",
+        "form_title": "একটি সম্পদ তৈরি করুন",
+        "breadcrumbs_current": "সম্পদ তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সম্পদ",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "সম্পদ সফলভাবে যোগ করা হয়েছে 👍"
+      },
+      "edit": {
+        "page_title": "সম্পদ সম্পাদনা করুন",
+        "form_title": "সম্পদ সম্পাদনা করুন",
+        "breadcrumbs_current": "সম্পদ সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সম্পদ",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "সম্পদ সফলভাবে আপডেট হয়েছে 👍"
+      },
+      "view": {
+        "page_title": "সম্পদের বিবরণ",
+        "breadcrumbs_current": "সম্পদের বিবরণ",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সম্পদ",
+        "breadcrumbs_active": "বিস্তারিত"
+      }
+    }
+  },
+  "payroll": {
+    "common": {
+      "salary_date": "বেতনের তারিখ",
+      "total_salary": "মোট বেতন",
+      "advance": "অগ্রিম",
+      "advance_placeholder": "advacne পরিমাণ লিখুন",
+      "others": "অন্যান্য",
+      "others_placeholder": "অন্যান্য পরিমাণ লিখুন",
+      "travel_allowance": "ভ্রমণ ভাতা (TA)",
+      "travel_allowance_placeholder": "একটি ভ্রমণ ভাতা লিখুন",
+      "festival_bonus": "উৎসব বোনাস",
+      "festival_bonus_placeholder": "একটি উত্সব বোনাস লিখুন",
+      "commission": "কমিশন",
+      "commission_placeholder": "একটি কমিশন লিখুন",
+      "bonus": "বোনাস",
+      "bonus_placeholder": "একটি বোনাস লিখুন",
+      "food_bill": "খাদ্য বিল",
+      "food_bill_placeholder": "একটি খাদ্য বিল লিখুন",
+      "mobile_bill": "মোবাইল বিল",
+      "mobile_bill_placeholder": "একটি মোবাইল বিল লিখুন",
+      "deduction_reason": "কর্তনের কারণ",
+      "deduction_reason_placeholder": "একটি কর্তনের কারণ লিখুন",
+      "deduction_amount": "কর্তনের পরিমাণ",
+      "deduction_amount_placeholder": "একটি কর্তনের পরিমাণ লিখুন",
+      "present_salary": "বর্তমান বেতন",
+      "salary_month": "বেতন মাস",
+      "salary_month_placeholder": "একটি বেতন মাস নির্বাচন করুন"
+    },
+    "index": {
+      "page_title": "কর্মচারী বেতন",
+      "breadcrumbs_current": "কর্মচারী বেতন",
+      "breadcrumbs_first": "ড্যাশবোর্ড",
+      "breadcrumbs_second": "বেতন",
+      "breadcrumbs_active": "বেতন",
+      "delete_warning": "এই তো আর ফিরতে পারবে না!",
+      "delete_failed": "কিছু ভুল ছিল."
+    },
+    "create": {
+      "page_title": "বেতন-ভাতা তৈরি করুন",
+      "form_title": "কর্মচারীদের বেতন তৈরি করুন",
+      "breadcrumbs_current": "বেতন-ভাতা তৈরি করুন",
+      "breadcrumbs_first": "ড্যাশবোর্ড",
+      "breadcrumbs_second": "বেতন",
+      "breadcrumbs_active": "সৃষ্টি",
+      "success_msg": "পে-রোল সফলভাবে যোগ করা হয়েছে 👍"
+    },
+    "edit": {
+      "page_title": "বেতন সম্পাদনা করুন",
+      "form_title": "বেতন সম্পাদনা করুন",
+      "breadcrumbs_current": "বেতন সম্পাদনা করুন",
+      "breadcrumbs_first": "ড্যাশবোর্ড",
+      "breadcrumbs_second": "বেতন",
+      "breadcrumbs_active": "সম্পাদনা করুন",
+      "success_msg": "পে-রোল সফলভাবে আপডেট হয়েছে 👍"
+    },
+    "view": {
+      "page_title": "বেতনের বিবরণ",
+      "breadcrumbs_current": "বেতনের বিবরণ",
+      "breadcrumbs_first": "ড্যাশবোর্ড",
+      "breadcrumbs_second": "বেতন",
+      "breadcrumbs_active": "বিস্তারিত"
+    }
+  },
+  "clients": {
+    "common": {
+      "non_invoice_transactions": "নন ইনভয়েস লেনদেন"
+    },
+    "index": {
+      "page_title": "ক্লায়েন্টদের",
+      "breadcrumbs_current": "ক্লায়েন্ট",
+      "breadcrumbs_first": "ড্যাশবোর্ড",
+      "breadcrumbs_second": "ক্লায়েন্ট",
+      "breadcrumbs_active": "ক্লায়েন্টদের",
+      "delete_warning": "এই তো আর ফিরতে পারবে না!",
+      "delete_failed": "দুঃখিত আপনি এই ক্লায়েন্ট মুছে ফেলতে পারবেন না."
+    },
+    "create": {
+      "page_title": "ক্লায়েন্ট তৈরি করুন",
+      "form_title": "একটি ক্লায়েন্ট তৈরি করুন",
+      "breadcrumbs_current": "ক্লায়েন্ট তৈরি করুন",
+      "breadcrumbs_first": "ড্যাশবোর্ড",
+      "breadcrumbs_second": "ক্লায়েন্টদের",
+      "breadcrumbs_active": "সৃষ্টি",
+      "success_msg": "ক্লায়েন্ট সফলভাবে যোগ করা হয়েছে 👍"
+    },
+    "edit": {
+      "page_title": "ক্লায়েন্ট সম্পাদনা করুন",
+      "form_title": "ক্লায়েন্ট সম্পাদনা করুন",
+      "breadcrumbs_current": "ক্লায়েন্ট সম্পাদনা করুন",
+      "breadcrumbs_first": "ড্যাশবোর্ড",
+      "breadcrumbs_second": "ক্লায়েন্টদের",
+      "breadcrumbs_active": "সম্পাদনা করুন",
+      "success_msg": "ক্লায়েন্ট সফলভাবে আপডেট হয়েছে 👍"
+    },
+    "view": {
+      "page_title": "ক্লায়েন্ট বিবরণ",
+      "breadcrumbs_current": "ক্লায়েন্ট বিবরণ",
+      "breadcrumbs_first": "ড্যাশবোর্ড",
+      "breadcrumbs_second": "ক্লায়েন্টদের",
+      "breadcrumbs_active": "বিস্তারিত"
+    }
+  },
+  "suppliers": {
+    "common": {
+      "non_purchase_transactions": "অ ক্রয় লেনদেন"
+    },
+    "index": {
+      "page_title": "সরবরাহকারীদের",
+      "breadcrumbs_current": "সরবরাহকারীদের",
+      "breadcrumbs_first": "ড্যাশবোর্ড",
+      "breadcrumbs_second": "সরবরাহকারীদের",
+      "breadcrumbs_active": "সরবরাহকারীদের",
+      "delete_warning": "এই তো আর ফিরতে পারবে না!",
+      "delete_failed": "দুঃখিত আপনি এই সরবরাহকারী মুছে ফেলতে পারবেন না."
+    },
+    "create": {
+      "page_title": "সরবরাহকারী তৈরি করুন",
+      "form_title": "একটি সরবরাহকারী তৈরি করুন",
+      "breadcrumbs_current": "সরবরাহকারী তৈরি করুন",
+      "breadcrumbs_first": "ড্যাশবোর্ড",
+      "breadcrumbs_second": "সরবরাহকারীদের",
+      "breadcrumbs_active": "সৃষ্টি",
+      "success_msg": "সরবরাহকারী সফলভাবে যোগ করা হয়েছে 👍"
+    },
+    "edit": {
+      "page_title": "সরবরাহকারী সম্পাদনা করুন",
+      "form_title": "সরবরাহকারী সম্পাদনা করুন",
+      "breadcrumbs_current": "সরবরাহকারী সম্পাদনা করুন",
+      "breadcrumbs_first": "ড্যাশবোর্ড",
+      "breadcrumbs_second": "সরবরাহকারীদের",
+      "breadcrumbs_active": "সম্পাদনা করুন",
+      "success_msg": "সরবরাহকারী সফলভাবে আপডেট হয়েছে 👍"
+    },
+    "view": {
+      "page_title": "সরবরাহকারীর বিবরণ",
+      "breadcrumbs_current": "সরবরাহকারীর বিবরণ",
+      "breadcrumbs_first": "ড্যাশবোর্ড",
+      "breadcrumbs_second": "সরবরাহকারীদের",
+      "breadcrumbs_active": "বিস্তারিত"
+    }
+  },
+  "employees": {
+    "common": {
+      "increment_date": "বৃদ্ধির তারিখ",
+      "increment_amount": "বৃদ্ধির পরিমাণ",
+      "increment_amount_placeholder": "বৃদ্ধির পরিমাণ লিখুন",
+      "increment_reason": "বৃদ্ধির কারণ",
+      "increment_reason_placeholder": "একটি কারণ লিখুন",
+      "basic_salary": "মূল বেতন",
+      "current_salary": "বর্তমান বেতন",
+      "incremented_salary": "বেতন বৃদ্ধি",
+      "birth_date": "জন্ম তারিখ",
+      "join_date": "তারিখ যোগ দিতে",
+      "employee_name": "কর্মকর্তার নাম",
+      "employee_name_placeholder": "একজন কর্মচারীর নাম লিখুন",
+      "gender": "লিঙ্গ",
+      "gender_placeholder": "একটি লিঙ্গ নির্বাচন করুন",
+      "male": "পুরুষ",
+      "female": "মহিলা",
+      "transgender": "ট্রান্সজেন্ডার",
+      "other": "অন্যান্য",
+      "blood_group": "রক্তের গ্রুপ",
+      "blood_group_placeholder": "একটি রক্তের গ্রুপ নির্বাচন করুন",
+      "religion": "ধর্ম",
+      "religion_placeholder": "একটি ধর্ম নির্বাচন করুন",
+      "islam": "ইসলাম",
+      "hinduism": "হিন্দুধর্ম",
+      "buddhists": "বৌদ্ধ",
+      "christians": "খ্রিস্টান",
+      "animists": "অ্যানিমিস্ট",
+      "appointment_date": "সাক্ষাৎকারের তারিখ",
+      "allow_login": "কর্মচারী লগইন করার অনুমতি দিন",
+      "increment_history": "ইতিহাস বৃদ্ধি"
+    },
+    "departments": {
+      "index": {
+        "page_title": "বিভাগসমূহ",
+        "breadcrumbs_current": "বিভাগসমূহ",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "কর্মচারীদের",
+        "breadcrumbs_active": "বিভাগসমূহ",
+        "delete_warning": "এই তো আর ফিরতে পারবে না!",
+        "delete_failed": "কিছু ভুল ছিল."
+      },
+      "create": {
+        "page_title": "বিভাগ তৈরি করুন",
+        "form_title": "একটি বিভাগ তৈরি করুন",
+        "breadcrumbs_current": "বিভাগ তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "বিভাগসমূহ",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "বিভাগ সফলভাবে যোগ করা হয়েছে 👍"
+      },
+      "edit": {
+        "page_title": "বিভাগ সম্পাদনা করুন",
+        "form_title": "বিভাগ সম্পাদনা করুন",
+        "breadcrumbs_current": "বিভাগ সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "বিভাগসমূহ",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "বিভাগ সফলভাবে আপডেট হয়েছে 👍"
+      }
+    },
+    "increments": {
+      "index": {
+        "page_title": "কর্মচারীদের বেতন বৃদ্ধি",
+        "breadcrumbs_current": "বেতন বৃদ্ধি",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "কর্মচারীদের",
+        "breadcrumbs_active": "ইনক্রিমেন্ট",
+        "delete_warning": "এই তো আর ফিরতে পারবে না!",
+        "delete_failed": "কিছু ভুল ছিল."
+      },
+      "create": {
+        "page_title": "বেতন বৃদ্ধি তৈরি করুন",
+        "form_title": "বেতন বৃদ্ধি তৈরি করুন",
+        "breadcrumbs_current": "বেতন বৃদ্ধি তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ইনক্রিমেন্ট",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "ইনক্রিমেন্ট সফলভাবে যোগ করা হয়েছে 👍"
+      },
+      "edit": {
+        "page_title": "বেতন বৃদ্ধি সম্পাদনা করুন",
+        "form_title": "বেতন বৃদ্ধি সম্পাদনা করুন",
+        "breadcrumbs_current": "বেতন বৃদ্ধি সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ইনক্রিমেন্ট",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "ইনক্রিমেন্ট সফলভাবে আপডেট হয়েছে 👍"
+      },
+      "view": {
+        "page_title": "বৃদ্ধি বিবরণ",
+        "breadcrumbs_current": "বৃদ্ধি বিবরণ",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ইনক্রিমেন্ট",
+        "breadcrumbs_active": "বিস্তারিত"
+      }
+    },
+    "list": {
+      "index": {
+        "page_title": "কর্মচারীদের",
+        "breadcrumbs_current": "কর্মচারীদের",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_active": "কর্মচারীদের",
+        "delete_warning": "এই তো আর ফিরতে পারবে না!",
+        "delete_failed": "কিছু ভুল ছিল."
+      },
+      "create": {
+        "page_title": "কর্মচারী তৈরি করুন",
+        "form_title": "একজন কর্মী তৈরি করুন",
+        "breadcrumbs_current": "কর্মচারী তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "কর্মচারীদের",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "কর্মচারী সফলভাবে যোগ করা হয়েছে 👍"
+      },
+      "edit": {
+        "page_title": "কর্মচারী সম্পাদনা করুন",
+        "form_title": "কর্মচারী সম্পাদনা করুন",
+        "breadcrumbs_current": "কর্মচারী সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "কর্মচারীদের",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "কর্মচারী সফলভাবে আপডেট হয়েছে 👍"
+      },
+      "view": {
+        "page_title": "কর্মচারী বিবরণ",
+        "breadcrumbs_current": "কর্মচারী বিবরণ",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "কর্মচারীদের",
+        "breadcrumbs_active": "বিস্তারিত"
+      }
+    }
+  },
+  "products": {
+    "categories": {
+      "index": {
+        "page_title": "পণের ধরন",
+        "breadcrumbs_current": "পণের ধরন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "পণ্য",
+        "breadcrumbs_active": "ক্যাটাগরি",
+        "delete_warning": "এই বিভাগের জন্য সমস্ত উপ বিভাগ মুছে ফেলা হবে!"
+      },
+      "create": {
+        "page_title": "পণ্য বিভাগ তৈরি করুন",
+        "form_title": "একটি পণ্য বিভাগ তৈরি করুন",
+        "breadcrumbs_current": "বিভাগ তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "পণ্য",
+        "breadcrumbs_third": "ক্যাটাগরি",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "বিভাগ সফলভাবে যোগ করা হয়েছে 👍"
+      },
+      "edit": {
+        "page_title": "পণ্য বিভাগ সম্পাদনা করুন",
+        "form_title": "পণ্য বিভাগ সম্পাদনা করুন",
+        "breadcrumbs_current": "পণ্য বিভাগ সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "পণ্য",
+        "breadcrumbs_third": "ক্যাটাগরি",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "বিভাগ সফলভাবে আপডেট হয়েছে 👍"
+      }
+    },
+    "sub_categories": {
+      "index": {
+        "page_title": "পণ্য উপ বিভাগ",
+        "breadcrumbs_current": "পণ্য উপ বিভাগ",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "পণ্য",
+        "breadcrumbs_active": "সাব ক্যাটাগরি",
+        "delete_warning": "এই বিভাগের জন্য সমস্ত পণ্য মুছে ফেলা হবে!"
+      },
+      "create": {
+        "page_title": "পণ্য সাব ক্যাটাগরি তৈরি করুন",
+        "form_title": "একটি পণ্য উপ বিভাগ তৈরি করুন",
+        "breadcrumbs_current": "সাব ক্যাটাগরি তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "পণ্য",
+        "breadcrumbs_third": "সাব ক্যাটাগরি",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "উপ বিভাগ সফলভাবে যোগ করা হয়েছে 👍"
+      },
+      "edit": {
+        "page_title": "পণ্য উপ বিভাগ সম্পাদনা করুন",
+        "form_title": "পণ্য উপ বিভাগ সম্পাদনা করুন",
+        "breadcrumbs_current": "পণ্য উপ বিভাগ সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "পণ্য",
+        "breadcrumbs_third": "সাব ক্যাটাগরি",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "উপ বিভাগ সফলভাবে আপডেট হয়েছে 👍"
+      }
+    },
+    "list": {
+      "common": {
+        "alert_quantity": "সতর্কতা পরিমাণ",
+        "alert_quantity_placeholder": "সতর্কতার পরিমাণ লিখুন",
+        "selling_price": "বিক্রয় মূল্য",
+        "selling_price_placeholder": "বিক্রয় মূল্য লিখুন",
+        "regular_price": "নিয়মিত দাম",
+        "regular_price_placeholder": "নিয়মিত মূল্য লিখুন",
+        "tax_type": "ট্যাক্সের ধরন",
+        "exclusive": "এক্সক্লুসিভ",
+        "inclusive": "অন্তর্ভুক্ত",
+        "product_tax": "পণ্য কর",
+        "tax_placeholder": "একটি ট্যাক্স নির্বাচন করুন",
+        "barcode_symbology": "বারকোড সিম্বোলজি",
+        "tax_amount": "করের পরিমাণ",
+        "avg_purchase_price": "গড় ক্রয় মূল্য",
+        "avg_selling_price": "গড় বিক্রয় মূল্য",
+        "stock": "স্টক",
+        "inventory_value": "ইনভেন্টরি মান",
+        "generate_barcode": "বারকোড তৈরি করুন"
+      },
+      "index": {
+        "page_title": "পণ্য",
+        "breadcrumbs_current": "পণ্য",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "পণ্য",
+        "breadcrumbs_active": "পণ্য",
+        "delete_warning": "এই তো আর ফিরতে পারবে না!"
+      },
+      "create": {
+        "page_title": "পণ্য তৈরি করুন",
+        "form_title": "একটি পণ্য তৈরি করুন",
+        "breadcrumbs_current": "পণ্য তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "পণ্য",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "পণ্য সফলভাবে যোগ করা হয়েছে 👍"
+      },
+      "edit": {
+        "page_title": "পণ্য সম্পাদনা করুন",
+        "form_title": "পণ্য সম্পাদনা করুন",
+        "breadcrumbs_current": "পণ্য সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "পণ্য",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "পণ্য সফলভাবে আপডেট হয়েছে 👍"
+      },
+      "view": {
+        "page_title": "পণ্যের বিবরণ",
+        "breadcrumbs_current": "পণ্যের বিবরণ",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "পণ্য",
+        "breadcrumbs_active": "বিস্তারিত",
+        "expense_details": "পণ্যের বিবরণ"
+      },
+      "barcode": {
+        "page_title": "বারকোড প্রিন্ট করুন",
+        "generate_barcode": "বারকোড তৈরি করুন",
+        "print_barcode": "বারকোড প্রিন্ট করুন",
+        "paper_size": "কাগজের আকার",
+        "print_qty": "প্রিন্ট পরিমাণ",
+        "breadcrumbs_current": "বারকোড প্রিন্ট করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "পণ্য",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "page_option_0": "40 প্রতি শীট (a4) (1.799 * 1.003)",
+        "page_option_1": "শীট প্রতি 30 (2.625 * 1)",
+        "page_option_2": "24 প্রতি শীট (a4) (2.48 * 1.334)",
+        "page_option_3": "20 প্রতি শীট (4 * 1)",
+        "page_option_4": "শীট প্রতি 18 (a4) (2.5 * 1.835)",
+        "page_option_5": "প্রতি শীট 14 (4 * 1.33)",
+        "page_option_6": "12 প্রতি শীট (a4) (2.5 * 2.834)",
+        "page_option_7": "10 প্রতি শীট (4 * 2)"
+      }
+    }
+  },
+  "inventory": {
+    "common": {
+      "inventory_history": "ইনভেন্টরি ইতিহাস",
+      "adjustment_no": "সমন্বয় নং",
+      "adjustment_date": "সমন্বয় তারিখ",
+      "adjustment_type": "সামঞ্জস্য প্রকার",
+      "increment": "বৃদ্ধি",
+      "decrement": "হ্রাস",
+      "adjustment_reason": "সমন্বয় কারণ",
+      "adjusted_products": "সামঞ্জস্য পণ্য"
+    },
+    "index": {
+      "page_title": "ইনভেন্টরি",
+      "breadcrumbs_current": "ইনভেন্টরি",
+      "breadcrumbs_first": "ড্যাশবোর্ড",
+      "breadcrumbs_second": "পণ্য",
+      "breadcrumbs_active": "ইনভেন্টরি"
+    },
+    "history": {
+      "page_title": "ইনভেন্টরি ইতিহাস",
+      "breadcrumbs_current": "ইনভেন্টরি ইতিহাস",
+      "breadcrumbs_first": "ড্যাশবোর্ড",
+      "breadcrumbs_second": "ইনভেন্টরি",
+      "breadcrumbs_active": "ইতিহাস"
+    },
+    "adjustments": {
+      "index": {
+        "page_title": "ইনভেন্টরি অ্যাডজাস্টমেন্ট",
+        "breadcrumbs_current": "ইনভেন্টরি অ্যাডজাস্টমেন্ট",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ইনভেন্টরি",
+        "breadcrumbs_active": "সমন্বয়",
+        "delete_warning": "এই তো আর ফিরতে পারবে না!",
+        "delete_failed": "কিছু ভুল ছিল."
+      },
+      "create": {
+        "page_title": "সমন্বয় তৈরি করুন",
+        "form_title": "সমন্বয় তৈরি করুন",
+        "breadcrumbs_current": "সমন্বয় তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সমন্বয়",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "অ্যাডজাস্টমেন্ট সফলভাবে যোগ করা হয়েছে 👍"
+      },
+      "edit": {
+        "page_title": "সামঞ্জস্য সম্পাদনা করুন",
+        "form_title": "সমন্বয় সম্পাদনা করুন",
+        "breadcrumbs_current": "সামঞ্জস্য সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সমন্বয়",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "অ্যাডজাস্টমেন্ট সফলভাবে আপডেট হয়েছে 👍"
+      },
+      "view": {
+        "page_title": "সামঞ্জস্য বিবরণ",
+        "breadcrumbs_current": "সামঞ্জস্য বিবরণ",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সমন্বয়",
+        "breadcrumbs_active": "বিস্তারিত"
+      }
+    }
+  },
+  "reports": {
+    "stock_in": "স্টক ইন",
+    "stock_out": "মজুত শেষ",
+    "total_quantity": "মোট পরিমাণ",
+    "incomes": "আয়",
+    "liabilities": "দায়",
+    "security_asset": "মোট নিরাপত্তা/সম্পদ",
+    "supplier_dues": "সরবরাহকারীর পাওনা",
+    "client_dues": "গ্রাহকের পাওনা",
+    "bank_loan": "ব্যাংক ঋণ",
+    "bank_balance": "ব্যাঙ্ক ব্যালেন্স",
+    "income_liabilities": "(আয় - দায়)",
+    "total_asset": "মোট সম্পদ",
+    "view_report": "দেখুন রিপোর্ট",
+    "monthly_summery": "মাসিক সারাংশ",
+    "particulars": "বিশেষ",
+    "opening_balance": "ওপেনিং ব্যালেন্স",
+    "invoice_sales": "চালান বিক্রয়",
+    "invoice_dues": "চালান বকেয়া",
+    "accounts_collection": "হিসাব সংগ্রহ",
+    "general": "সাধারণ",
+    "loan_interest": "ঋণের সুদ",
+    "asset_depreciation": "সম্পদের অবমূল্যায়ন",
+    "transfer": "স্থানান্তর",
+    "transfer_from": "থেকে ব্যালেন্স ট্রান্সফার",
+    "closing_balance": "অর্থ শেষ",
+    "report_type": "প্রতিবেদনের প্রকার",
+    "gross_profit_Loss": "মোট লাভ/ক্ষতি",
+    "net_profit_Loss": "নিট লাভ/ক্ষতি",
+    "sold_qty": "বিক্রির পরিমাণ",
+    "profit": "লাভ",
+    "loss": "ক্ষতি",
+    "total_sales_avg": "মোট বিক্রয় (গড়)",
+    "total_purchased_avg": "মোট ক্রয় (গড়)",
+    "income_statement": "আয় বিবৃতি",
+    "total_sales": "ক্সতদ",
+    "cost_of_goods_sold": "বিক্রি সামগ্রীর খরচ",
+    "positive_adjusted": "ইতিবাচক সমন্বয়",
+    "negative_adjusted": "নেতিবাচক সামঞ্জস্য",
+    "total_adjusted": "টোটাল অ্যাডজাস্টেড",
+    "gross_profit": "পুরো লাভ",
+    "gross_loss": "গ্রস লস",
+    "operating_expenses": "অপারেটিং খরচ",
+    "salaries": "বেতন",
+    "general_expenses": "সাধারণ খরচ",
+    "total_expense": "সর্বমোট খরচ",
+    "net_profit": "মোট লাভ",
+    "net_loss": "নেট ক্ষতি",
+    "date_range": "তারিখের পরিসীমা",
+    "stock_in_hand": "হাতে স্টক",
+    "balance_sheet": {
+      "page_title": "ব্যালেন্স শীট",
+      "breadcrumbs_current": "ব্যালেন্স শীট",
+      "breadcrumbs_first": "ড্যাশবোর্ড",
+      "breadcrumbs_second": "রিপোর্ট",
+      "breadcrumbs_active": "ব্যালেন্স শীট"
+    },
+    "summary": {
+      "page_title": "সারসংক্ষেপ প্রতিবেদন",
+      "breadcrumbs_current": "সারসংক্ষেপ প্রতিবেদন",
+      "breadcrumbs_first": "ড্যাশবোর্ড",
+      "breadcrumbs_second": "রিপোর্ট",
+      "breadcrumbs_active": "সারসংক্ষেপ প্রতিবেদন"
+    },
+    "profit_loss": {
+      "empty_msg_title": "খালি লাভ/লোকসান!",
+      "empty_msg_text": "দুঃখিত, আপনার নির্বাচিত বিভাগ এবং তারিখ সীমার জন্য কোন লাভ/ক্ষতি পাওয়া যায়নি।",
+      "page_title": "লাভ/লোকসান রিপোর্ট",
+      "breadcrumbs_current": "লাভ/লোকসান রিপোর্ট",
+      "breadcrumbs_first": "ড্যাশবোর্ড",
+      "breadcrumbs_second": "রিপোর্ট",
+      "breadcrumbs_active": "লাভ/লোকসান রিপোর্ট"
+    },
+    "expense": {
+      "empty_msg_title": "খালি খরচ!",
+      "empty_msg_text": "দুঃখিত, আপনার নির্বাচিত বিভাগ এবং তারিখ ব্যাপ্তির জন্য কোন খরচ পাওয়া যায়নি।",
+      "page_title": "ব্যয় রিপোর্ট",
+      "breadcrumbs_current": "ব্যয় রিপোর্ট",
+      "breadcrumbs_first": "ড্যাশবোর্ড",
+      "breadcrumbs_second": "রিপোর্ট",
+      "breadcrumbs_active": "ব্যয় রিপোর্ট"
+    },
+    "product": {
+      "empty_msg_title": "খালি !",
+      "empty_msg_text": "দুঃখিত, আপনার নির্বাচিত আইটেম এবং তারিখ ব্যাপ্তির জন্য কোনো স্টক ইন বা স্টক আউট পাওয়া যায়নি।",
+      "page_title": "আইটেম রিপোর্ট",
+      "breadcrumbs_current": "আইটেম রিপোর্ট",
+      "breadcrumbs_first": "ড্যাশবোর্ড",
+      "breadcrumbs_second": "রিপোর্ট",
+      "breadcrumbs_active": "আইটেম রিপোর্ট"
+    },
+    "inventory": {
+      "empty_msg_title": "খালি জায়!",
+      "empty_msg_text": "দুঃখিত, আপনার নির্বাচিত বিভাগ এবং তারিখ ব্যাপ্তির জন্য কোন তালিকা পাওয়া যায়নি।",
+      "page_title": "পরিসংখ্যা প্রতিবেদন",
+      "breadcrumbs_current": "পরিসংখ্যা প্রতিবেদন",
+      "breadcrumbs_first": "ড্যাশবোর্ড",
+      "breadcrumbs_second": "রিপোর্ট",
+      "breadcrumbs_active": "পরিসংখ্যা প্রতিবেদন"
+    }
+  },
+  "setup": {
+    "common": {
+      "sort_code": "শর্ট কোড",
+      "sort_code_placeholder": "একটি সংক্ষিপ্ত কোড লিখুন"
+    },
+    "index": {
+      "page_title": "সেটআপ",
+      "breadcrumbs_current": "সেটআপ",
+      "breadcrumbs_first": "ড্যাশবোর্ড",
+      "breadcrumbs_active": "সেটআপ",
+      "menu": {
+        "item_one": {
+          "title": "সাধারণ",
+          "description": "সাধারণ সেটিংস যেমন, সাইটের শিরোনাম, সাইটের বিবরণ, ঠিকানা ইত্যাদি।",
+          "link_text": "সেটিং পরিবর্তন করুন"
+        },
+        "item_two": {
+          "title": "মুদ্রা",
+          "description": "আপনি সিস্টেমে ব্যবহার করতে যাচ্ছেন বিভিন্ন ধরনের মুদ্রা পরিচালনা করুন।",
+          "link_text": "মুদ্রা"
+        },
+        "item_three": {
+          "title": "ইউনিট",
+          "description": "আপনি সিস্টেমে ব্যবহার করতে যাচ্ছেন যে পরিমাপের জন্য ইউনিট প্রকারগুলি পরিচালনা করুন।",
+          "link_text": "ইউনিট"
+        },
+        "item_four": {
+          "title": "ভূমিকা এবং অনুমতি",
+          "description": "যারা সিস্টেম ব্যবহার করতে যাচ্ছেন তাদের জন্য ভূমিকা এবং অনুমতিগুলি পরিচালনা করুন৷",
+          "link_text": "ভূমিকা এবং অনুমতি"
+        },
+        "item_five": {
+          "title": "ভ্যাট হার",
+          "description": "ভ্যাট ব্যবস্থাপনার জন্য ভ্যাট হার পরিচালনা করুন যা আপনি সিস্টেমে ব্যবহার করতে যাচ্ছেন।",
+          "link_text": "ভ্যাট হার"
+        },
+        "item_six": {
+          "title": "ব্র্যান্ড",
+          "description": "আপনি সিস্টেমে ব্যবহার করতে যাচ্ছেন যে ব্র্যান্ড পরিচালনা করুন.",
+          "link_text": "ব্র্যান্ড"
+        },
+        "item_seven": {
+          "title": "মুল্য পরিশোধ পদ্ধতি",
+          "description": "আপনি সিস্টেমে যে অর্থপ্রদানের পদ্ধতিগুলি ব্যবহার করতে যাচ্ছেন তা পরিচালনা করুন৷",
+          "link_text": "মুল্য পরিশোধ পদ্ধতি"
+        },
+        "item_eight": {
+          "title": "ব্যবহারকারীর অনুমতি",
+          "description": "আপনি একটি ভূমিকা বরাদ্দ করতে যাচ্ছেন যে অনুমতি পরিচালনা করুন.",
+          "link_text": "ব্যবহারকারীর অনুমতি"
+        }
+      }
+    },
+    "general_settings": {
+      "index": {
+        "page_title": "সাধারণ সেটিংস",
+        "breadcrumbs_current": "সাধারণ সেটিংস",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সেটআপ",
+        "breadcrumbs_active": "সাধারণ সেটিংস আপডেট করুন",
+        "form_title": "সাধারণ সেটিংস আপডেট করুন",
+        "success_message": "সেটিংস সফলভাবে আপডেট হয়েছে 👍",
+        "company_info": {
+          "info_title": "আপনার কোম্পানি তথ্য যোগ করুন",
+          "company_tagline": "কোম্পানির ট্যাগলাইন",
+          "company_tagline_placeholder": "কোম্পানির ট্যাগলাইন",
+          "email_address": "ইমেইল ঠিকানা",
+          "email_address_placeholder": "একটি ইমেইল ঠিকানা প্রবেশ করুন",
+          "phone_number": "ফোন নম্বর",
+          "phone_number_placeholder": "ফোন নম্বর"
+        },
+        "code_prefixes": {
+          "prefix_title": "কোড উপসর্গ যোগ করুন",
+          "client_prefix": "ক্লায়েন্ট উপসর্গ",
+          "client_prefix_placeholder": "একটি ক্লায়েন্ট উপসর্গ লিখুন",
+          "supplier_prefix": "সরবরাহকারী উপসর্গ",
+          "supplier_prefix_placeholder": "একটি সরবরাহকারী উপসর্গ লিখুন",
+          "employee_prefix": "কর্মচারী উপসর্গ",
+          "employee_prefix_placeholder": "একটি কর্মচারী উপসর্গ লিখুন",
+          "product_category_prefix": "পণ্য বিভাগ উপসর্গ",
+          "product_category_prefix_placeholder": "একটি পণ্য বিভাগ প্রিফিক্স লিখুন",
+          "product_sub_category_prefix": "প্রোডাক্ট সাব ক্যাটাগরি প্রিফিক্স",
+          "product_sub_category_prefix_placeholder": "একটি সাব ক্যাটাগরি প্রিফিক্স লিখুন",
+          "product_prefix": "পণ্য উপসর্গ",
+          "product_prefix_placeholder": "একটি পণ্য উপসর্গ লিখুন",
+          "expense_category_prefix": "ব্যয় বিভাগ উপসর্গ",
+          "expense_category_prefix_placeholder": "একটি ব্যয় বিভাগ প্রিফিক্স লিখুন",
+          "expense_sub_category_prefix": "ব্যয় সাব ক্যাটাগরি উপসর্গ",
+          "expense_sub_category_prefix_placeholder": "একটি ব্যয় উপ-শ্রেণীর উপসর্গ লিখুন",
+          "purchase_prefix": "ক্রয় উপসর্গ",
+          "purchase_prefix_placeholder": "একটি ক্রয় উপসর্গ লিখুন",
+          "purchase_return_prefix": "ক্রয় রিটার্ন উপসর্গ",
+          "purchase_return_prefix_placeholder": "একটি ক্রয় রিটার্ন প্রিফিক্স লিখুন",
+          "quotation_prefix": "উদ্ধৃতি উপসর্গ",
+          "quotation_prefix_placeholder": "একটি উদ্ধৃতি উপসর্গ লিখুন",
+          "invoice_prefix": "চালান উপসর্গ",
+          "invoice_prefix_placeholder": "একটি চালান উপসর্গ লিখুন",
+          "invoice_return_prefix": "চালান রিটার্ন উপসর্গ",
+          "invoice_return_prefix_placeholder": "একটি চালান রিটার্ন প্রিফিক্স লিখুন",
+          "invoice_adjustment_prefix": "ইনভেন্টরি অ্যাডজাস্টমেন্ট প্রিফিক্স",
+          "invoice_adjustment_prefix_placeholder": "একটি ইনভেন্টরি অ্যাডজাস্টমেন্ট প্রিফিক্স লিখুন"
+        },
+        "default_elements": {
+          "default_elements_title": "আপনার ডিফল্ট উপাদান যোগ করুন",
+          "default_currency": "ডিফল্ট মুদ্রা",
+          "select_a_currency": "একটি মুদ্রা নির্বাচন করুন",
+          "default_language": "নির্ধারিত ভাষা",
+          "english_en": "স্প্যানিশ (en)",
+          "hindi_hi": "না (হাই)",
+          "bangla_bn": "বাংলা (বিএন)",
+          "copyright_text": "কপিরাইট টেক্সট",
+          "copyright_text_placeholder": "কপিরাইট টেক্সট",
+          "default_client": "ডিফল্ট ক্লায়েন্ট",
+          "default_account": "ডিফল্ট অ্যাকাউন্ট",
+          "select_a_account": "একটি অ্যাকাউন্ট নির্বাচন করুন",
+          "select_a_client": "একটি ক্লায়েন্ট নির্বাচন করুন",
+          "default_vat_rate": "ডিফল্ট ভ্যাট হার",
+          "select_a_vat_rate": "একটি ভ্যাট হার নির্বাচন করুন"
+        },
+        "logo": {
+          "white_logo": "সাদা লোগো",
+          "black_logo": "কালো লোগো",
+          "small_logo": "ছোট লোগো",
+          "favicon": "ফেভিকন"
+        },
+        "trial_day_count_placeholder": "ট্রায়াল দিন গণনা"
+      }
+    },
+    "currencies": {
+      "common": {
+        "symbol": "প্রতীক",
+        "symbol_placeholder": "একটি প্রতীক লিখুন",
+        "currency_position": "মুদ্রার অবস্থান",
+        "position_drop_down_item_one": "বাম সারিবদ্ধ",
+        "position_drop_down_item_two": "ডান সারিবদ্ধ"
+      },
+      "index": {
+        "page_title": "মুদ্রা",
+        "breadcrumbs_current": "মুদ্রা",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সেটআপ",
+        "breadcrumbs_active": "মুদ্রা",
+        "table": {
+          "position": "অবস্থান",
+          "preview": "পূর্বরূপ"
+        }
+      },
+      "create": {
+        "page_title": "মুদ্রা তৈরি করুন",
+        "breadcrumbs_current": "মুদ্রা তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সেটআপ",
+        "breadcrumbs_third": "মুদ্রা",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "মুদ্রা সফলভাবে যোগ করা হয়েছে 👍",
+        "form_title": "একটি মুদ্রা তৈরি করুন"
+      },
+      "edit": {
+        "page_title": "মুদ্রা সম্পাদনা করুন",
+        "breadcrumbs_current": "মুদ্রা সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সেটআপ",
+        "breadcrumbs_third": "মুদ্রা",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "মুদ্রা সফলভাবে আপডেট হয়েছে 👍",
+        "form_title": "মুদ্রা সম্পাদনা করুন"
+      }
+    },
+    "units": {
+      "index": {
+        "page_title": "ইউনিট",
+        "breadcrumbs_current": "ইউনিট",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সেটআপ",
+        "breadcrumbs_active": "ইউনিট"
+      },
+      "create": {
+        "page_title": "ইউনিট তৈরি করুন",
+        "breadcrumbs_current": "ইউনিট তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সেটআপ",
+        "breadcrumbs_third": "ইউনিট",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "ইউনিট সফলভাবে যোগ করা হয়েছে 👍",
+        "form_title": "ইউনিট তৈরি করুন"
+      },
+      "edit": {
+        "page_title": "ইউনিট সম্পাদনা করুন",
+        "breadcrumbs_current": "ইউনিট সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সেটআপ",
+        "breadcrumbs_third": "ইউনিট",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "ইউনিট সফলভাবে আপডেট হয়েছে 👍",
+        "form_title": "ইউনিট সম্পাদনা করুন"
+      }
+    },
+    "permissions": {
+      "common": {
+        "slug": "স্লাগ",
+        "slug_placeholder": "একটি স্লাগ লিখুন",
+        "guard_name": "গার্ডের নাম",
+        "guard_name_placeholder": "একটি প্রহরীর নাম লিখুন"
+      },
+      "index": {
+        "page_title": "অনুমতি",
+        "breadcrumbs_current": "অনুমতি",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সেটআপ",
+        "breadcrumbs_active": "অনুমতি"
+      },
+      "create": {
+        "page_title": "অনুমতি তৈরি করুন",
+        "form_title": "অনুমতি তৈরি করুন",
+        "breadcrumbs_current": "অনুমতি তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সেটআপ",
+        "breadcrumbs_third": "অনুমতি",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "অনুমতি সফলভাবে যোগ করা হয়েছে 👍"
+      },
+      "edit": {
+        "page_title": "অনুমতি সম্পাদনা করুন",
+        "form_title": "অনুমতি সম্পাদনা করুন",
+        "breadcrumbs_current": "অনুমতি সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সেটআপ",
+        "breadcrumbs_third": "অনুমতি",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "অনুমতি সফলভাবে আপডেট হয়েছে 👍"
+      }
+    },
+    "role_and_permission": {
+      "index": {
+        "page_title": "ভূমিকা এবং অনুমতি",
+        "breadcrumbs_current": "ভূমিকা এবং অনুমতি",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সেটআপ",
+        "breadcrumbs_active": "ভূমিকা এবং অনুমতি",
+        "role_name": "নামভূমিকা"
+      },
+      "create": {
+        "page_title": "ভূমিকা তৈরি করুন",
+        "breadcrumbs_current": "ভূমিকা তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সেটআপ",
+        "breadcrumbs_third": "ভূমিকা এবং অনুমতি",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "ভূমিকা সফলভাবে যোগ করা হয়েছে 👍",
+        "form_title": "ভূমিকা তৈরি করুন",
+        "select_permission": "অনুমতি নির্বাচন করুন:"
+      },
+      "edit": {
+        "page_title": "ভূমিকা সম্পাদনা করুন",
+        "breadcrumbs_current": "ভূমিকা সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সেটআপ",
+        "breadcrumbs_third": "ভূমিকা এবং অনুমতি",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "ভূমিকা সফলভাবে আপডেট হয়েছে 👍",
+        "form_title": "ভূমিকা সম্পাদনা করুন",
+        "update_permission": "অনুমতি আপডেট করুন:"
+      }
+    },
+    "vat_rates": {
+      "common": {
+        "rate_in_percent": "হার (% এ গণনা করা হয়েছে)",
+        "rate_palceholder": "একটি হার লিখুন"
+      },
+      "index": {
+        "page_title": "ভ্যাট হার",
+        "breadcrumbs_current": "ভ্যাট হার",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সেটআপ",
+        "breadcrumbs_active": "ভ্যাট হার",
+        "rate": "হার"
+      },
+      "create": {
+        "page_title": "ভ্যাট রেট তৈরি করুন",
+        "breadcrumbs_current": "ভ্যাট রেট তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সেটআপ",
+        "breadcrumbs_third": "ভ্যাট হার",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "ভ্যাট হার সফলভাবে যোগ করা হয়েছে 👍",
+        "form_title": "একটি ভ্যাট হার তৈরি করুন"
+      },
+      "edit": {
+        "page_title": "ভ্যাট হার সম্পাদনা করুন",
+        "breadcrumbs_current": "ভ্যাট হার সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সেটআপ",
+        "breadcrumbs_third": "ভ্যাট হার",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "ভ্যাট হার সফলভাবে আপডেট হয়েছে 👍",
+        "form_title": "ভ্যাট হার সম্পাদনা করুন"
+      }
+    },
+    "brands": {
+      "common": {
+        "brand_name": "পরিচিতিমুলক নাম",
+        "brand_name_placeholder": "ব্র্যান্ডের নাম লিখুন"
+      },
+      "index": {
+        "page_title": "ব্র্যান্ড",
+        "breadcrumbs_current": "ব্র্যান্ড",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সেটআপ",
+        "breadcrumbs_active": "ব্র্যান্ড",
+        "brand_logo_view": "ব্র্যান্ড লোগো দেখুন"
+      },
+      "create": {
+        "page_title": "ব্র্যান্ড তৈরি করুন",
+        "breadcrumbs_current": "ব্র্যান্ড তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সেটআপ",
+        "breadcrumbs_third": "ব্র্যান্ড",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "ব্র্যান্ড সফলভাবে যোগ করা হয়েছে 👍",
+        "form_title": "ব্র্যান্ড তৈরি করুন"
+      },
+      "view": {
+        "page_title": "ব্র্যান্ডের বিবরণ",
+        "breadcrumbs_current": "ব্র্যান্ডের বিবরণ",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সেটআপ",
+        "breadcrumbs_third": "ব্র্যান্ড",
+        "breadcrumbs_active": "বিস্তারিত"
+      },
+      "edit": {
+        "page_title": "ব্র্যান্ড সম্পাদনা করুন",
+        "breadcrumbs_current": "ব্র্যান্ড সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সেটআপ",
+        "breadcrumbs_third": "ব্র্যান্ড",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "ব্র্যান্ড সফলভাবে আপডেট হয়েছে 👍",
+        "form_title": "ব্র্যান্ড সম্পাদনা করুন"
+      }
+    },
+    "payment_methods": {
+      "index": {
+        "page_title": "মুল্য পরিশোধ পদ্ধতি",
+        "breadcrumbs_current": "মুল্য পরিশোধ পদ্ধতি",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সেটআপ",
+        "breadcrumbs_active": "মুল্য পরিশোধ পদ্ধতি"
+      },
+      "create": {
+        "page_title": "পেমেন্ট পদ্ধতি তৈরি করুন",
+        "breadcrumbs_current": "পেমেন্ট পদ্ধতি তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সেটআপ",
+        "breadcrumbs_third": "মুল্য পরিশোধ পদ্ধতি",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "পেমেন্ট পদ্ধতি সফলভাবে যোগ করা হয়েছে 👍",
+        "form_title": "একটি পেমেন্ট পদ্ধতি তৈরি করুন"
+      },
+      "edit": {
+        "page_title": "অর্থপ্রদানের পদ্ধতি সম্পাদনা করুন",
+        "breadcrumbs_current": "অর্থপ্রদানের পদ্ধতি সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সেটআপ",
+        "breadcrumbs_third": "মুল্য পরিশোধ পদ্ধতি",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "পেমেন্ট পদ্ধতি সফলভাবে আপডেট হয়েছে 👍",
+        "form_title": "অর্থপ্রদানের পদ্ধতি সম্পাদনা করুন"
+      }
+    },
+    "plans": {
+      "view": {
+        "page_title": "পরিকল্পনা সমূহ"
+      }
+    },
+    "advanced_settings": {
+      "index": {
+        "page_title": "পেমেন্ট সেটিংস",
+        "breadcrumbs_first": "সেটআপ",
+        "breadcrumbs_second": "পেমেন্ট সেটিংস",
+        "breadcrumbs_current": "পেমেন্ট সেটিংস",
+        "breadcrumbs_active": "পেমেন্ট সেটিংস"
+      }
+    }
+  },
+  "user_profile": {
+    "form_title": "আপনার প্রোফাইল আপডেট করুন",
+    "page_title": "প্রফাইল হালনাগাদ",
+    "breadcrumbs_current": "প্রফাইল হালনাগাদ",
+    "breadcrumbs_first": "ড্যাশবোর্ড",
+    "breadcrumbs_active": "হালনাগাদ",
+    "current_password": "বর্তমান পাসওয়ার্ড",
+    "current_password_placeholder": "বর্তমান পাসওয়ার্ড লিখুন",
+    "new_password": "নতুন পাসওয়ার্ড",
+    "new_password_placeholder": "নতুন পাসস্বরদ দিন",
+    "confirm_password": "পাসওয়ার্ড নিশ্চিত করুন",
+    "confirm_password_placeholder": "নিশ্চিত পাসওয়ার্ড লিখুন",
+    "success_msg": "প্রোফাইল সফলভাবে আপডেট করা হয়েছে 👍"
+  },
+  "stock_alert": {
+    "page_title": "স্টক সতর্কতা পণ্য",
+    "breadcrumbs_current": "স্টক সতর্কতা পণ্য",
+    "breadcrumbs_first": "ড্যাশবোর্ড",
+    "breadcrumbs_active": "সতর্কতা পণ্য"
+  },
+  "backup": {
+    "page_title": "ডাটাবেস ব্যাকআপ",
+    "breadcrumbs_current": "ডাটাবেস ব্যাকআপ",
+    "breadcrumbs_first": "ড্যাশবোর্ড",
+    "breadcrumbs_active": "ব্যাকআপ",
+    "export": "রপ্তানি",
+    "format": "বিন্যাস",
+    "format_sql": "SQL (.sql)",
+    "success_msg": "ব্যাকআপ সফলভাবে ডাউনলোড করা হয়েছে 👍"
+  },
+  "permission_denied": {
+    "page_title": "অনুমতি অস্বীকার করা হয়েছে",
+    "breadcrumbs_current": "অনুমতি অস্বীকার করা হয়েছে",
+    "breadcrumbs_first": "ড্যাশবোর্ড",
+    "breadcrumbs_active": "অনুমতি অস্বীকার করা হয়েছে",
+    "error_msg": "আপনার এই পৃষ্ঠাটি দেখার অনুমতি নেই৷",
+    "error_code": "ত্রুটি কোড: 403 নিষিদ্ধ।"
+  },
+  "error_not_found": {
+    "error_404": "404",
+    "error_404_title": "পৃষ্ঠা খুঁজে পাওয়া যায়নি",
+    "error_404_msg": "দুঃখিত, অনুরোধ করা URL এই সার্ভারে পাওয়া যায়নি. আমরা এই সবই জানি!",
+    "back_to_dashboard": "ড্যাশবোর্ডে ফিরে যান",
+    "back_to_login": "প্রবেশ করতে পেছান"
+  },
+  "sidebar_control": {
+    "customize_wharf": "Wharf কাস্টমাইজ করুন",
+    "dark_mode": "ডার্ক মোড",
+    "header_options": "হেডার অপশন",
+    "fixed": "স্থির",
+    "no_border": "সীমানা নেই",
+    "sidebar_options": "সাইডবার অপশন",
+    "sidebar_dark": "সাইডবার ডার্ক",
+    "collapsed": "সাইডবার ভেঙে পড়েছে",
+    "sidebar_fixed": "সাইডবার ফিক্সড",
+    "sidebar_mini": "সাইডবার মিনি",
+    "nav_flat_style": "এনভি ফ্ল্যাট স্টাইল",
+    "nav_legacy_style": "এনভি লিগ্যাসি স্টাইল",
+    "nav_child_indent": "এনভি চাইল্ড ইন্ডেন্ট",
+    "disable_hover": "হোভার/ফোকাস অটো-প্রসারণ অক্ষম করুন"
+  },
+  "pos": {
+    "page_title": "POS",
+    "breadcrumbs_current": "বিক্রয় তৈরি করুন",
+    "breadcrumbs_first": "ড্যাশবোর্ড",
+    "breadcrumbs_second": "চালান",
+    "breadcrumbs_active": "POS",
+    "available": "পাওয়া যায়",
+    "pos": "POS",
+    "complete_order": "সংরক্ষণ",
+    "complete_order_and_add_payment": "সেভ এবং পেমেন্ট",
+    "add_payment": "পেমেন্ট যোগ করুন",
+    "invoice_receipt": "চালান প্রাপ্তি",
+    "not_enough_items": "উপাদান পর্যাপ্ত না!",
+    "receipt_text": "আমাদের সাথে কেনাকাটা করার জন্য আপনাকে ধন্যবাদ. অনুগ্রহ করে আবার আসবেন!"
+  },
+  "billing": {
+    "form_title": "বিলিং সেটিংস",
+    "name": "নাম",
+    "name_placeholder": "কার্ডের ওপর নাম",
+    "invoice": "চালান",
+    "page_title": "বিলিং",
+    "card_details": "কার্ডের বিবরণ",
+    "breadcrumbs_current": "বিলিং সেটিংস",
+    "breadcrumbs_first": "ড্যাশবোর্ড",
+    "breadcrumbs_active": "বিলিং সেটিংস"
+  },
+  "settings": {
+    "name": "ল্যান্ডিং পৃষ্ঠা সেটিংস",
+    "breadcrumbs_current": "ল্যান্ডিং পৃষ্ঠা সেটিংস",
+    "breadcrumbs_first": "ড্যাশবোর্ড",
+    "breadcrumbs_active": "ল্যান্ডিং পৃষ্ঠা সেটিংস",
+    "success_msg": "ল্যান্ডিং পৃষ্ঠা সেটিংস সফলভাবে আপডেট হয়েছে 👍৷",
+    "form_title": "ল্যান্ডিং পৃষ্ঠা সেটিংস",
+    "page_title": "ল্যান্ডিং পৃষ্ঠা সেটিংস"
+  },
+  "central": {
+    "current_plan": "বর্তমান পরিকল্পনা",
+    "trial_start": "ট্রায়াল শুরু হয়েছে এ",
+    "trial_end": "ট্রায়াল শেষ হয় এ",
+    "tenant_id": "ভাড়াটে আইডি",
+    "used": "ব্যবহৃত",
+    "remaining": "অবশিষ্ট",
+    "pages": {
+      "edit": {
+        "page_title": "সম্পাদনা পাতা",
+        "breadcrumbs_current": "সম্পাদনা পাতা",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "পাতা",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "পৃষ্ঠা সফলভাবে আপডেট হয়েছে 👍",
+        "form_title": "সম্পাদনা পাতা"
+      },
+      "name": "পাতা",
+      "slug": "স্লাগ",
+      "type": "টাইপ",
+      "index": {
+        "page_title": "পাতা",
+        "breadcrumbs_current": "পাতা",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_active": "পাতা",
+        "delete_confirm_button": "মুছে ফেলা",
+        "brand_logo_view": "ব্র্যান্ড লোগো দেখুন"
+      },
+      "create": {
+        "page_title": "পাতা তৈরি করুন",
+        "breadcrumbs_current": "পাতা তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "পাতা",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "পৃষ্ঠা সফলভাবে যোগ করা হয়েছে 👍",
+        "form_title": "একটি পাতা তৈরি করুন"
+      },
+      "name_placeholder": "পৃষ্ঠার নাম",
+      "content": "বিষয়বস্তু",
+      "information": "তথ্য",
+      "need_help": "সাহায্য দরকার"
+    },
+    "newsletters": {
+      "subject": "বিষয়",
+      "subject_placeholder": "বিষয় লিখুন",
+      "greeting": "শুভেচ্ছা",
+      "greeting_placeholder": "অভিবাদন লিখুন",
+      "body": "শরীর",
+      "create": {
+        "page_title": "মেইল পাঠাও",
+        "breadcrumbs_current": "মেইল পাঠাও",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "মেইল পাঠাও",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "মেল সফলভাবে পাঠানো হয়েছে 👍",
+        "form_title": "মেইল পাঠাও"
+      }
+    },
+    "setting_images": {
+      "index": {
+        "delete_confirm_button": "মুছে ফেলা",
+        "page_title": "ফ্রন্টএন্ড সেটিং ইমেজ",
+        "breadcrumbs_current": "ফ্রন্টএন্ড সেটিং ইমেজ",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সেটআপ",
+        "breadcrumbs_active": "ফ্রন্টএন্ড সেটিং ইমেজ"
+      },
+      "edit": {
+        "page_title": "ফ্রন্টএন্ড সেটিং ইমেজ সম্পাদনা করুন",
+        "breadcrumbs_current": "ফ্রন্টএন্ড সেটিং ইমেজ সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সেটআপ",
+        "breadcrumbs_third": "ফ্রন্টএন্ড সেটিং ইমেজ",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "ফ্রন্টএন্ড সেটিং ইমেজ সফলভাবে আপডেট হয়েছে 👍",
+        "form_title": "ফ্রন্টএন্ড সেটিং ইমেজ সম্পাদনা করুন",
+        "image": "ছবি",
+        "title": "শিরোনাম",
+        "title_placeholder": "শিরোনাম",
+        "description": "বর্ণনা",
+        "description_placeholder": "বর্ণনা"
+      },
+      "create": {
+        "page_title": "ফ্রন্টএন্ড সেটিং ইমেজ তৈরি করুন",
+        "breadcrumbs_current": "ফ্রন্টএন্ড সেটিং ইমেজ তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "সেটআপ",
+        "breadcrumbs_third": "ফ্রন্টএন্ড সেটিং ইমেজ",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "ফ্রন্টএন্ড সেটিং ইমেজ সফলভাবে যোগ করা হয়েছে 👍",
+        "form_title": "ফ্রন্টএন্ড সেটিং ইমেজ তৈরি করুন",
+        "image": "ছবি",
+        "title": "শিরোনাম",
+        "title_placeholder": "শিরোনাম",
+        "description": "বর্ণনা",
+        "description_placeholder": "বর্ণনা"
+      },
+      "image": "ছবি",
+      "title": "শিরোনাম",
+      "title_placeholder": "শিরোনাম লিখুন",
+      "description": "বর্ণনা",
+      "description_placeholder": "বর্ণনা লিখুন",
+      "name": "নাম",
+      "name_placeholder": "রত",
+      "type": "টাইপ",
+      "image_align_left": "বাম সারিবদ্ধ করুন"
+    },
+    "tenants": {
+      "create": {
+        "page_title": "ভাড়াটে তৈরি করুন",
+        "breadcrumbs_current": "ভাড়াটে তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ভাড়াটে",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "ভাড়াটিয়া সফলভাবে যোগ করা হয়েছে 👍",
+        "form_title": "ভাড়াটে তৈরি করুন"
+      },
+      "edit": {
+        "page_title": "ভাড়াটে সম্পাদনা করুন",
+        "breadcrumbs_current": "ভাড়াটে সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ভাড়াটে",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "ভাড়াটে সফলভাবে আপডেট হয়েছে 👍",
+        "form_title": "ভাড়াটে সম্পাদনা করুন"
+      },
+      "index": {
+        "deleted": "মুছে ফেলা হয়েছে",
+        "delete_title": "ভাড়াটে মুছুন",
+        "delete_warning": "আপনি কি এই ভাড়াটেকে মুছতে চান?",
+        "delete_success": "ভাড়াটে সফলভাবে মুছে ফেলা হয়েছে 👍",
+        "delete_confirm_text": "হ্যাঁ, এটা মুছে ফেলুন!",
+        "page_title": "ভাড়াটে",
+        "breadcrumbs_current": "ভাড়াটে",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_active": "ভাড়াটে",
+        "s_no": "S.No",
+        "domain": "ডোমেইন",
+        "name_and_email": "নাম ও ইমেইল",
+        "plan": "পরিকল্পনা",
+        "trial_ends_at": "ট্রায়াল শেষ হয় এ",
+        "banned": "নিষিদ্ধ",
+        "send_email": "ইমেইল পাঠান",
+        "action": "কর্ম",
+        "false": "মিথ্যা",
+        "true": "সত্য",
+        "create": "সৃষ্টি",
+        "edit": "সম্পাদনা করুন",
+        "delete": "মুছে ফেলা",
+        "ban": "নিষেধাজ্ঞা",
+        "unban": "নিষেধাজ্ঞা মুক্ত করুন",
+        "view": "দেখুন",
+        "export_table": "রপ্তানি টেবিল",
+        "print_table": "পিডিএফ রপ্তানি করুন",
+        "send_notification": "ইমেইল পাঠান",
+        "impersonate": "ছদ্মবেশী",
+        "failed": "ব্যর্থ হয়েছে",
+        "on_trial": "বিচারে",
+        "is_subscribed": "সাবস্ক্রাইব করা হয়েছে"
+      },
+      "view": {
+        "breadcrumbs_current": "ভাড়াটে বিবরণ",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "ভাড়াটে",
+        "breadcrumbs_active": "বিস্তারিত",
+        "page_title": "ভাড়াটে বিবরণ"
+      }
+    },
+    "send_notification": {
+      "create": {
+        "success_msg": "বিজ্ঞপ্তি সফলভাবে পাঠানো হয়েছে 👍",
+        "page_title": "বিজ্ঞপ্তি পাঠান"
+      },
+      "page_title": "বিজ্ঞপ্তি পাঠান",
+      "breadcrumbs_current": "বিজ্ঞপ্তি পাঠান",
+      "breadcrumbs_first": "ড্যাশবোর্ড",
+      "breadcrumbs_active": "বিজ্ঞপ্তি পাঠান",
+      "form_title": "বিজ্ঞপ্তি পাঠান",
+      "subject": "বিষয়",
+      "subject_placeholder": "বিষয় লিখুন",
+      "message": "বার্তা",
+      "message_placeholder": "বার্তা লিখুন",
+      "send": "পাঠান",
+      "success_msg": "বিজ্ঞপ্তি সফলভাবে পাঠানো হয়েছে 👍",
+      "greeting": "শুভেচ্ছা",
+      "greeting_placeholder": "অভিবাদন লিখুন",
+      "body": "শরীর"
+    },
+    "plans_items": {
+      "create": {
+        "page_title": "আইটেম তৈরি করুন",
+        "breadcrumbs_current": "আইটেম তৈরি করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "আইটেম",
+        "breadcrumbs_active": "সৃষ্টি",
+        "success_msg": "আইটেম সফলভাবে যোগ করা হয়েছে 👍",
+        "form_title": "একটি আইটেম তৈরি করুন"
+      },
+      "edit": {
+        "page_title": "আইটেম সম্পাদনা করুন",
+        "breadcrumbs_current": "আইটেম সম্পাদনা করুন",
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "আইটেম",
+        "breadcrumbs_active": "সম্পাদনা করুন",
+        "success_msg": "আইটেম সফলভাবে আপডেট হয়েছে 👍",
+        "form_title": "পরিকল্পনা সম্পাদনা করুন"
+      },
+      "index": {
+        "breadcrumbs_first": "বাড়ি",
+        "breadcrumbs_current": "পরিকল্পনা আইটেম",
+        "page_title": "পরিকল্পনা আইটেম",
+        "delete_confirm_button": "মুছে ফেলা"
+      },
+      "name": "নাম",
+      "name_placeholder": "আইটেমটির নাম",
+      "plan": "পরিকল্পনা",
+      "item": "আইটেম"
+    },
+    "dashboard": {
+      "summery_items": {
+        "tenants_count": "ভাড়াটে",
+        "domains_count": "ডোমেইন",
+        "on_trial_tenants_count": "ট্রায়াল ভাড়াটেদের উপর",
+        "pending_amount": "মুলতুবি থাকা পরিমাণ",
+        "available_amount": "উপলব্ধ পরিমাণ"
+      },
+      "top_plans": "শীর্ষ পরিকল্পনা",
+      "subscription_count": "সদস্যতা",
+      "top_clients_title": "শীর্ষ ক্লায়েন্ট"
+    },
+    "plans": {
+      "image": "ছবি",
+      "name": "নাম",
+      "amount": "পরিমাণ",
+      "currency": "মুদ্রা",
+      "interval": "অন্তর",
+      "description": "বর্ণনা",
+      "status": "স্ট্যাটাস",
+      "action": "কর্ম",
+      "index": {
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_active": "পরিকল্পনা সমূহ",
+        "breadcrumbs_current": "পরিকল্পনা সমূহ",
+        "page_title": "পরিকল্পনা সমূহ",
+        "delete_confirm_button": "মুছে ফেলা"
+      },
+      "create": {
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "পরিকল্পনা সমূহ",
+        "breadcrumbs_current": "পরিকল্পনা তৈরি করুন",
+        "form_title": "একটি পরিকল্পনা তৈরি করুন",
+        "page_title": "পরিকল্পনা তৈরি করুন",
+        "success_msg": "পরিকল্পনা সফলভাবে যোগ করা হয়েছে 👍"
+      },
+      "edit": {
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "পরিকল্পনা সমূহ",
+        "breadcrumbs_current": "পরিকল্পনা সম্পাদনা করুন",
+        "form_title": "পরিকল্পনা সম্পাদনা করুন",
+        "page_title": "পরিকল্পনা সম্পাদনা করুন",
+        "success_msg": "সফলভাবে আপডেট"
+      },
+      "limit_clients": "ক্লায়েন্ট সীমিত করুন",
+      "limit_suppliers": "সীমা সরবরাহকারী",
+      "limit_employees": "কর্মচারীদের সীমাবদ্ধতা",
+      "limit_domains": "সীমাবদ্ধ ডোমেন",
+      "limit_purchases": "সীমিত ক্রয়",
+      "limit_invoices": "চালান সীমিত করুন",
+      "0_means_unlimited": "0 মানে সীমাহীন",
+      "name_placeholder": "পরিকল্পনার নাম লিখুন",
+      "description_placeholder": "পরিকল্পনার বিবরণ লিখুন",
+      "amount_placeholder": "পরিমাণ",
+      "limit_clients_placeholder": "ক্লায়েন্টদের সীমাবদ্ধ করুন",
+      "limit_employees_placeholder": "কর্মীদের সীমাবদ্ধ করুন",
+      "limit_domains_placeholder": "ডোমেইন সীমিত করুন",
+      "limit_purchases_placeholder": "সীমিত ক্রয়",
+      "limit_invoices_placeholder": "চালান সীমিত করুন",
+      "limit_suppliers_placeholder": "সীমিত সরবরাহকারী"
+    },
+    "setup": {
+      "general_settings": {
+        "index": {
+          "default_elements": {
+            "facebook_link": "ফেসবুক লিংক",
+            "twitter_link": "টুইটার লিঙ্ক",
+            "instagram_link": "ইনস্টাগ্রাম লিঙ্ক",
+            "linkedin_link": "লিঙ্কডইন লিঙ্ক",
+            "default_language": "নির্ধারিত ভাষা",
+            "copyright_text": "কপিরাইট টেক্সট",
+            "default_elements_title": "ডিফল্ট উপাদান",
+            "english_en": "ইংরেজি",
+            "hindi_hi": "না",
+            "copyright_text_placeholder": "কপিরাইট টেক্সট",
+            "facebook_link_placeholder": "ফেসবুক লিংক",
+            "instagram_link_placeholder": "ইনস্টাগ্রাম লিঙ্ক",
+            "twitter_link_placeholder": "টুইটার লিঙ্ক",
+            "linkedin_link_placeholder": "লিঙ্কডইন লিঙ্ক"
+          },
+          "company_info": {
+            "company_tagline": "কোম্পানির ট্যাগলাইন",
+            "trial_day_count": "ট্রায়াল দিন গণনা"
+          }
+        }
+      },
+      "index": {
+        "menu": {
+          "item_one": {
+            "title": "সাধারণ সেটিংস",
+            "description": "সাধারণ সেটিংস যেমন, সাইটের শিরোনাম, সাইটের বিবরণ, ঠিকানা ইত্যাদি।",
+            "link_text": "সেটিং পরিবর্তন করুন"
+          },
+          "item_two": {
+            "title": "পেমেন্ট সেটিংস",
+            "description": "পেমেন্ট সেটিংস পরিচালনা করুন। আপনার স্ট্রাইপ তথ্য যোগ করুন.",
+            "link_text": "সেটিংস্ পরিবর্তন করুন"
+          },
+          "item_three": {
+            "title": "ভূমিকা এবং অনুমতি",
+            "description": "তাদের কর্মীদের নিয়োগ করার জন্য ভূমিকা এবং অনুমতিগুলি পরিচালনা করুন।",
+            "link_text": "ভূমিকা এবং অনুমতি"
+          },
+          "item_four": {
+            "title": "ইউজার ম্যানেজমেন্ট",
+            "description": "সিস্টেম ব্যবহারকারী তৈরি করুন এবং ব্যবহারকারীদের পৃথক ভূমিকা বরাদ্দ করুন।",
+            "link_text": "ব্যবহারকারী পরিচালনা করুন"
+          }
+        }
+      },
+      "user_management": {
+        "index": {
+          "breadcrumbs_first": "ড্যাশবোর্ড",
+          "breadcrumbs_second": "সেটআপ",
+          "breadcrumbs_current": "ব্যবহারকারীদের",
+          "page_title": "ব্যবহারকারীদের",
+          "delete_confirm_button": "নিশ্চিত করুন"
+        },
+        "create": {
+          "breadcrumbs_first": "ড্যাশবোর্ড",
+          "breadcrumbs_second": "সেটআপ",
+          "breadcrumbs_third": "ব্যবহারকারীদের",
+          "breadcrumbs_current": "সৃষ্টি",
+          "form_title": "একটি নতুন ব্যবহারকারী তৈরি করুন",
+          "page_title": "ব্যবহারকারী তৈরি করুন",
+          "success_msg": "সফলভাবে তৈরি"
+        },
+        "edit": {
+          "breadcrumbs_first": "ড্যাশবোর্ড",
+          "breadcrumbs_second": "সেটআপ",
+          "breadcrumbs_third": "ব্যবহারকারীদের",
+          "breadcrumbs_current": "সম্পাদনা করুন",
+          "form_title": "ব্যবহারকারী সম্পাদনা করুন",
+          "page_title": "ব্যবহারকারী সম্পাদনা করুন",
+          "success_msg": "সফলভাবে আপডেট"
+        }
+      }
+    },
+    "features": {
+      "create": {
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "বৈশিষ্ট্য",
+        "breadcrumbs_current": "সৃষ্টি",
+        "form_title": "বৈশিষ্ট্য তৈরি করুন",
+        "page_title": "বৈশিষ্ট্য",
+        "success_msg": "সফলভাবে তৈরি"
+      },
+      "name": "নাম",
+      "name_placeholder": "নাম",
+      "edit": {
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_second": "বৈশিষ্ট্য",
+        "breadcrumbs_current": "সম্পাদনা করুন",
+        "form_title": "বৈশিষ্ট্য সম্পাদনা",
+        "page_title": "বৈশিষ্ট্য",
+        "success_msg": "সফলভাবে আপডেট"
+      },
+      "index": {
+        "breadcrumbs_first": "ড্যাশবোর্ড",
+        "breadcrumbs_current": "বৈশিষ্ট্য",
+        "page_title": "বৈশিষ্ট্য",
+        "delete_confirm_button": "নিশ্চিত করুন"
+      }
+    }
+  },
+  "You Are Subscribed!": "আপনি সাবস্ক্রাইব করেছেন!",
+  "You Have Cancelled the Subscription!": "আপনি সাবস্ক্রিপশন বাতিল করেছেন!",
+  "You Have Resumed the Subscription!": "আপনি সাবস্ক্রিপশন পুনরায় শুরু করেছেন!",
+  "find_domain": "ডোমেন খুঁজুন",
+  "Sign Up Instantly Free for": "বিনামূল্যে জন্য অবিলম্বে সাইন আপ করুন",
+  "days, no credit card required": "দিন, কোন ক্রেডিট কার্ড প্রয়োজন",
+  "Central Admin": "কেন্দ্রীয় প্রশাসক",
+  "Login as super manager": "সুপার ম্যানেজার হিসেবে লগইন করুন",
+  "Login as super salesman": "সুপার সেলসম্যান হিসেবে লগইন করুন",
+  "Something went wrong, please try again!": "কিছু ভুল হয়েছে আবার চেষ্টা করুন!",
+  "Send": "পাঠান",
+  "We've sent an email to": "আমরা একটি ইমেল পাঠিয়েছি",
+  "Please click the confirmation link in it to finalize your account": "আপনার অ্যাকাউন্ট চূড়ান্ত করতে এটির নিশ্চিতকরণ লিঙ্কে ক্লিক করুন",
+  "Didn't get the email? Please check your spam folder or": "ইমেইল পাননি? আপনার স্প্যাম ফোল্ডার চেক করুন বা",
+  "Resend Verification": "যাচাই আবার পাঠাতে",
+  "Don't have any account? Click here!": "কোন অ্যাকাউন্ট নেই? এখানে ক্লিক করুন!",
+  "You are not allowed to do this in demo version": "আপনাকে ডেমো সংস্করণে এটি করার অনুমতি নেই",
+  "Sent To": "প্রেরিত",
+  "All": "সব",
+  "Tenants": "ভাড়াটে",
+  "Subscribers": "সাবস্ক্রাইবার",
+  "pages": {
+    "name_placeholder": "নাম"
+  },
+  "plans": {
+    "limit_suppliers_placeholder": "সীমিত সরবরাহকারী",
+    "index": {
+      "brand_logo_view": "পরিকল্পনা লোগো"
+    },
+    "view_title": "পরিকল্পনা দেখুন",
+    "name": "নাম",
+    "api_id": "API আইডি",
+    "amount": "পরিমাণ",
+    "currency": "মুদ্রা",
+    "interval": "অন্তর",
+    "product_id": "পণ্য আইডি",
+    "description": "বর্ণনা",
+    "created_at": "এ নির্মিত",
+    "updated_at": "এ আপডেট"
+  },
+  "Pricing features": "মূল্য নির্ধারণ বৈশিষ্ট্য",
+  "Select pricing features": "মূল্য বৈশিষ্ট্য নির্বাচন করুন",
+  "title": "শিরোনাম",
+  "Save": "সংরক্ষণ",
+  "Close": "বন্ধ",
+  "tenants": {
+    "create": {
+      "success_msg": "সফলভাবে তৈরি"
+    },
+    "edit": {
+      "success_msg": "সফলভাবে আপডেট"
+    },
+    "index": {
+      "delete_failed": "মুছে ফেলতে ব্যর্থ হয়েছে",
+      "ban_failed": "নিষেধাজ্ঞা ব্যর্থ হয়েছে"
+    }
+  },
+  "Select a status": "একটি স্থিতি নির্বাচন করুন",
+  "subscription_invoices": {
+    "create": {
+      "success_msg": "সফলভাবে তৈরি"
+    },
+    "list": {
+      "index": {
+        "page_title": "সাবস্ক্রিপশন ইনভয়েস"
+      }
+    }
+  },
+  "retry": "পুনরায় চেষ্টা করা",
+  "Subscribed to": "সদস্যতা নিয়েছে",
+  "Plan": "পরিকল্পনা",
+  "Switch My Plan": "আমার পরিকল্পনা পরিবর্তন করুন",
+  "Cancel Subscription": "সদস্যতা বাতিল করুন",
+  "Manual subscription by Admin is active": "অ্যাডমিন দ্বারা ম্যানুয়াল সদস্যতা সক্রিয়",
+  "You can cancel it from the admin": "আপনি অ্যাডমিন থেকে এটি বাতিল করতে পারেন",
+  "Manually subscribed by": "দ্বারা ম্যানুয়ালি সদস্যতা",
+  "Manually subscribed at": "ম্যানুয়ালি সাবস্ক্রাইব করা হয়েছে",
+  "You have cancelled your subscription and your account is still active until": "আপনি আপনার সদস্যতা বাতিল করেছেন এবং আপনার অ্যাকাউন্ট এখনও পর্যন্ত সক্রিয় থাকবে৷",
+  "Or, You Can": "অথবা, আপনি পারেন",
+  "Resume Subscription": "সাবস্ক্রিপশন পুনরায় শুরু করুন",
+  "Admin have cancelled your subscription": "অ্যাডমিন আপনার সদস্যতা বাতিল করেছে",
+  "Contact to Admin for re enable the subscription": "সাবস্ক্রিপশন পুনরায় সক্রিয় করার জন্য অ্যাডমিনের সাথে যোগাযোগ করুন",
+  "You are on Trial Period for the": "আপনি এর জন্য ট্রায়াল পিরিয়ডে আছেন",
+  "plan": "পরিকল্পনা",
+  "You have": "তোমার আছে",
+  "days left on your trial": "আপনার বিচারের দিন বাকি",
+  "Client Limit": "ক্লায়েন্ট সীমা",
+  "Domains Limit": "ডোমেন সীমা",
+  "Employee Limit": "কর্মচারী সীমা",
+  "Supplier Limit": "সরবরাহকারী সীমা",
+  "Subscribe to a plan below": "নীচের একটি পরিকল্পনা সদস্যতা",
+  "Switch Plan": "পরিকল্পনা পরিবর্তন করুন",
+  "Subscribe": "সাবস্ক্রাইব",
+  "newsletter": {
+    "success_msg": "সফলভাবে সদস্যতা",
+    "error_msg": "কিছু ভুল হয়েছে আবার চেষ্টা করুন!"
+  },
+  "Client limit": "ক্লায়েন্ট সীমা",
+  "Domain limit": "ডোমেনের সীমা",
+  "Employees limit": "কর্মচারীদের সীমা",
+  "Suppliers limit": "সরবরাহকারীর সীমা",
+  "Purchase limit": "ক্রয় সীমা",
+  "Invoice limit": "চালান সীমা",
+  "Newsletter": "নিউজলেটার",
+  "Upload Your CSV file": "আপনার CSV ফাইল আপলোড করুন",
+  "Download Demo CSV File": "ডেমো CSV ফাইল ডাউনলোড করুন",
+  "domain-requests": {
+    "create": {
+      "form_title": "ডোমেন অনুরোধ তৈরি করুন",
+      "page_title": "ডোমেন অনুরোধ",
+      "success_msg": "ডোমেন অনুরোধ সফলভাবে তৈরি করা হয়েছে",
+      "breadcrumbs_first": "ড্যাশবোর্ড",
+      "breadcrumbs_second": "ডোমেন অনুরোধ",
+      "breadcrumbs_current": "সৃষ্টি",
+      "breadcrumbs_active": "সৃষ্টি"
+    },
+    "domain": "ডোমেইন",
+    "index": {
+      "page_title": "ডোমেন অনুরোধ",
+      "delete_warning": "আপনি কি সত্যিই এই ডোমেন অনুরোধ মুছে দিতে চান?",
+      "delete_failed": "মুছে ফেলতে ব্যর্থ হয়েছে",
+      "delete_success": "সফলভাবে মুছে ফেলা হয়েছে৷",
+      "breadcrumbs_first": "ড্যাশবোর্ড",
+      "breadcrumbs_current": "ডোমেন অনুরোধ",
+      "breadcrumbs_active": "ডোমেন অনুরোধ",
+      "delete_confirm_button": "নিশ্চিত করুন",
+      "delete_cancel_button": "বাতিল করুন"
+    }
+  },
+  "Instructions": "নির্দেশনা",
+  "Download the zip folder": "জিপ ফোল্ডারটি ডাউনলোড করুন",
+  "Populate the products\\.csv with your product information": "আপনার পণ্যের তথ্য দিয়ে পণ্য\\.csv পূরণ করুন",
+  "You can get the ids related to product to their corresponding CSV file": "আপনি তাদের সংশ্লিষ্ট CSV ফাইলে পণ্য সম্পর্কিত আইডি পেতে পারেন",
+  "Example: sub_cat_id in sub-categories\\.csv": "উদাহরণ: সাব-বিভাগে sub_cat_id\\.csv",
+  "Download Template": "টেমপ্লেট ডাউনলোড করুন",
+  "no_action_available": "কোন কর্ম উপলব্ধ",
+  "Subscriber": "গ্রাহক",
+  "Users": "ব্যবহারকারীদের",
+  "User": "ব্যবহারকারী",
+  "You need to add an A record to your DNS with IP": "আপনাকে আইপি সহ আপনার ডিএনএসে একটি রেকর্ড যুক্ত করতে হবে",
+  "template": {
+    "home": "বাড়ি",
+    "about": "আমাদের সম্পর্কে",
+    "features": "বৈশিষ্ট্য",
+    "modules": "মডিউল",
+    "pricing": "মূল্য নির্ধারণ",
+    "contact": "যোগাযোগ",
+    "sign_in": "সাইন ইন করুন",
+    "register": "নিবন্ধন",
+    "information": "তথ্য",
+    "need_help": "সাহায্য দরকার?",
+    "contact_us": "যোগাযোগ করুন",
+    "whats_included": "কি অন্তর্ভুক্ত",
+    "buy_now": "এখন কেন"
+  },
+  "impersonate": {
+    "title": "আমরা আপনার সাইট নির্মাণ করছি",
+    "des": "আমাদের 🤖 রোবট আপনার ওয়েবসাইট তৈরি করার সময় অনুগ্রহ করে অপেক্ষা করুন।<br> এটি এক মিনিটের বেশি সময় নেওয়া উচিত নয়।"
+  }
+}

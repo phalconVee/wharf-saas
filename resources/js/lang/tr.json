@@ -1,0 +1,3094 @@
+{
+  "Plan switched!": "Plan başarıyla değiştirildi!",
+  "Delete": "Silmek",
+  "Import Clients": "İstemcileri İçe Aktar",
+  "Billing History": "Faturalandırma Geçmişi",
+  "Net Total": "Net toplam",
+  "Transaction Type": "işlem tipi",
+  "Transaction Description": "işlem açıklaması",
+  "Amount": "Tutar",
+  "Currency": "Para birimi",
+  "Created At": "Oluşturulma Tarihi",
+  "Payment Status": "Ödeme Durumu",
+  "Stripe Fee": "Şerit Ücreti",
+  "You are on trial version! Your trial ends": "Deneme sürümündesiniz! Deneme süreniz sona eriyor",
+  "domains": {
+    "index": {
+      "breadcrumbs_current": "Tüm Etki Alanları",
+      "breadcrumbs_active": "Tüm Etki Alanları",
+      "breadcrumbs_first": "Gösterge Paneli",
+      "page_title": "Tüm Etki Alanları",
+      "delete_warning": "Bu alanı silmek istediğinizden emin misiniz?",
+      "delete_failed": "Silinemedi"
+    },
+    "list": {
+      "index": {
+        "breadcrumbs_current": "Alan Yönetimi",
+        "breadcrumbs_active": "Alan Yönetimi",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "page_title": "Alan Yönetimi",
+        "delete_warning": "Bu alanı silmek istediğinizden emin misiniz?",
+        "delete_failed": "Silinemedi"
+      }
+    },
+    "create": {
+      "breadcrumbs_current": "Etki Alanı Oluştur",
+      "breadcrumbs_active": "Etki Alanı Oluştur",
+      "breadcrumbs_first": "Gösterge Paneli",
+      "breadcrumbs_second": "Alan Yönetimi",
+      "page_title": "Etki Alanı Oluştur",
+      "form_title": "Etki Alanı Oluştur",
+      "success_msg": "Başarıyla oluşturuldu"
+    },
+    "no_action_available": "İşlem yok",
+    "domain": "Alan adı",
+    "domain_placeholder": "Alan adını girin",
+    "make_primary": "Birincil yap",
+    "make_primary_success_msg": "Başarıyla birincil yapıldı"
+  },
+  "message": {
+    "billing_page": "Faturalandırma Sayfası"
+  },
+  "why_us_cards": "Neden biz kartlar",
+  "features": "Özellikler",
+  "explorers": "kaşifler",
+  "all_features": "Tüm özellikler",
+  "software_overview_images": "Yazılıma genel bakış resimleri",
+  "testimonials": "referanslar",
+  "brands": "markalar",
+  "ok": "Tamam",
+  "cancel": "İptal",
+  "error_alert_title": "Hata...",
+  "error_alert_text": "Bir şeyler yanlış gitti! Lütfen tekrar deneyin.",
+  "token_expired_alert_title": "Oturum süresi doldu!",
+  "token_expired_alert_text": "Devam etmek için lütfen tekrar giriş yapın.",
+  "login": "Giriş yapmak",
+  "register": "Kayıt ol",
+  "page_not_found": "Sayfa bulunamadı",
+  "go_home": "Eve git",
+  "logout": "Çıkış Yap",
+  "email": "E-posta",
+  "remember_me": "Beni hatırla",
+  "password": "Şifre",
+  "forgot_password": "Parolanızı mı unuttunuz?",
+  "confirm_password": "Şifreyi Onayla",
+  "name": "İsim",
+  "toggle_navigation": "Gezinmeyi aç/kapat",
+  "home": "Ev",
+  "you_are_logged_in": "Giriş yaptınız!",
+  "reset_password": "Şifreyi yenile",
+  "send_password_reset_link": "Link gönder",
+  "profile": "Profil",
+  "your_info": "Bilgileriniz",
+  "info_updated": "Bilgileriniz güncellendi!",
+  "update": "Güncelleme",
+  "your_password": "Şifreniz",
+  "password_updated": "Şifreniz güncellenmiştir!",
+  "new_password": "Yeni Şifre",
+  "login_with": "İle giriş",
+  "register_with": "ile kaydolun",
+  "verify_email": "E-mail'i doğrula",
+  "send_verification_link": "Doğrulama Bağlantısını Gönder",
+  "resend_verification_link": "Doğrulama Bağlantısı Yeniden Gönderilsin mi?",
+  "failed_to_verify_email": "E-posta doğrulanamadı.",
+  "verify_email_address": "Size doğrulama bağlantısı içeren bir e-posta gönderdik.",
+  "reset_email_text": "Şifre sıfırlama bağlantısını almak için lütfen e-posta adresinizi girin!",
+  "sorry": "Afedersiniz",
+  "no_data_found": "Veri bulunamadı",
+  "login_txt": "Oturumunuza devam etmek için lütfen giriş yapın!",
+  "email_placeholder": "E-posta adresinizi giriniz",
+  "password_placeholder": "Şifrenizi girin",
+  "developed_by": "Tarafından geliştirilmiş",
+  "per_page": "Sayfa başına",
+  "available": "Mevcut",
+  "find": "Bulmak",
+  "domain": "Alan adı",
+  "primary_domain": "Birincil Etki Alanı",
+  "register_invite": "Hiç hesabınız yok mu? Buraya Tıkla!",
+  "already_registered": "Zaten kayıtlı?",
+  "register_policy": "Hizmet Şartlarını ve Gizlilik Politikasını kabul ediyorum.",
+  "register_page_title": "14 gün boyunca anında ücretsiz üye olun, kredi kartı gerekmez…",
+  "register_next_step": "Bir adım daha 👍",
+  "email_sent": "adresine bir e-posta gönderdik.",
+  "confirm_account": "Hesabınızı sonlandırmak için lütfen içindeki onay bağlantısını tıklayın.",
+  "check_email": "E-postayı almadınız mı? Lütfen spam klasörünüzü kontrol edin veya",
+  "please": "Lütfen",
+  "common": {
+    "id": "İD",
+    "fallback": "Geri çekilmek",
+    "send_mail": "Posta göndermek",
+    "subscribed_at": "Abone Olunma Tarihi",
+    "primary": "Öncelik",
+    "business-start": "İş Başlangıç",
+    "content": "İçerik",
+    "information": "Bilgi",
+    "need_help": "Yardıma ihtiyacınız var",
+    "true": "Doğru",
+    "false": "Yanlış",
+    "points": "Puan",
+    "point_placeholder": "Puan girin",
+    "button_text": "Düğme Metni",
+    "button_text_placeholder": "Düğme metnini girin",
+    "button_link": "Düğme Bağlantısı",
+    "button_link_placeholder": "Düğme bağlantısını girin",
+    "about_us_tagline": "Hakkımızda",
+    "about_us_tagline_placeholder": "Hakkımızda sloganını girin",
+    "about_us_description": "Hakkımızda Açıklama",
+    "about_us_description_placeholder": "Hakkımızda açıklamasını girin",
+    "about_us_title": "Hakkımızda Başlık",
+    "about_us_title_placeholder": "hakkımızda başlık girin",
+    "why_us_tagline": "Neden Biz Sloganı",
+    "why_us_tagline_placeholder": "Neden biz sloganını girin",
+    "why_us_description": "Neden Biz Açıklama",
+    "why_us_description_placeholder": "Neden biz açıklamasını girin",
+    "why_us_title": "Neden Biz Başlık",
+    "why_us_title_placeholder": "Neden biz başlığını girin",
+    "business_start_section_tagline": "İşe Başlama Bölümü Tanıtımı",
+    "business_start_section_tagline_placeholder": "İşe başlama bölümü sloganını girin",
+    "business_start_section_description": "İşe Başlama Bölümü Açıklama",
+    "business_start_section_description_placeholder": "İşe başlama bölümü açıklamasını girin",
+    "business_start_section_title": "İşe Başlama Bölüm Başlığı",
+    "business_start_section_title_placeholder": "İşe başlama bölümü başlığını girin",
+    "business_start_support_list": "İş Başlangıç Destek Listesi",
+    "business_start_support_item_placeholder": "İşe başlama destek listesine girin",
+    "features_section_tagline": "Özellik Bölümü Tanıtımı",
+    "features_section_tagline_placeholder": "Özellik bölümü sloganını girin",
+    "features_section_description": "Özellik Bölümü Açıklama",
+    "features_section_description_placeholder": "Özellik bölümü açıklamasını girin",
+    "features_section_title": "Özellik Bölümü Başlığı",
+    "features_section_title_placeholder": "Özellik bölümü başlığını girin",
+    "all_features_section_tagline": "Tüm Özellikler Bölüm Tanıtımı",
+    "all_features_section_tagline_placeholder": "Tüm özellikler bölümü sloganını girin",
+    "all_features_section_title": "Tüm Özellikler Bölüm Başlığı",
+    "all_features_section_title_placeholder": "Tüm özellikler bölüm başlığını girin",
+    "get_started_box_title": "Başlayın Kutu Başlığı",
+    "get_started_box_title_placeholder": "Başlarken kutusu başlığını girin",
+    "get_started_box_description": "Başlarken Kutu Açıklaması",
+    "get_started_box_description_placeholder": "Başlarken kutusu açıklamasını girin",
+    "get_started_box_button_text": "Başlayın Kutu Düğme Metni",
+    "get_started_box_button_text_placeholder": "Başlarken kutusu düğmesi metnini girin",
+    "get_started_box_button_link": "Başlayın Kutu Düğmesi Bağlantısı",
+    "get_started_box_button_link_placeholder": "Başlarken kutusu düğmesi bağlantısını girin",
+    "all_features_and_get_started": "Tüm Özellikler ve Başlayın",
+    "software_overview_section_tagline": "Yazılıma Genel Bakış Bölüm Tanıtımı",
+    "software_overview_section_tagline_placeholder": "Yazılıma genel bakış bölümü sloganını girin",
+    "software_overview_section_title": "Yazılıma Genel Bakış Bölüm Başlığı",
+    "software_overview_section_title_placeholder": "Yazılıma genel bakış bölüm başlığını girin",
+    "pricing_plan_section_tagline": "Fiyatlandırma Planı Bölüm Açıklaması",
+    "pricing_plan_section_tagline_placeholder": "Fiyatlandırma planı bölümü sloganını girin",
+    "pricing_plan_section_title": "Fiyatlandırma Planı Bölüm Başlığı",
+    "pricing_plan_section_title_placeholder": "Fiyatlandırma planı bölüm başlığını girin",
+    "software_overview_and_pricing_plan": "Yazılıma Genel Bakış ve Fiyatlandırma Planı",
+    "testimonial_and_newsletter": "Görüş ve Bülten",
+    "testimonial_section_tagline": "Referans Bölümü Tanıtımı",
+    "testimonial_section_tagline_placeholder": "Referans bölümü sloganını girin",
+    "testimonial_section_title": "Referans Bölümü Başlığı",
+    "testimonial_section_title_placeholder": "Referans bölümü başlığını girin",
+    "newsletter_section_tagline": "Bülten Bölümü Sloganı",
+    "newsletter_section_tagline_placeholder": "Bülten bölümü sloganını girin",
+    "newsletter_section_title": "Bülten Bölüm Başlığı",
+    "newsletter_section_title_placeholder": "Bülten bölüm başlığını girin",
+    "newsletter_section_description": "Bülten Bölümü Açıklama",
+    "newsletter_section_description_placeholder": "Bülten bölümü açıklamasını girin",
+    "about_us": "Hakkımızda",
+    "why-us": "Neden biz",
+    "business_start": "İş Başlangıç",
+    "features": "Özellikler",
+    "all-features-and-get-started": "Tüm Özellikler ve Başlayın",
+    "software-overview-and-pricing-plan": "Yazılıma Genel Bakış ve Fiyatlandırma Planı",
+    "testimonial-and-newsletter": "Görüş ve Bülten",
+    "hero": "Kahraman",
+    "hero_tagline": "Kahraman Sloganı",
+    "hero_tagline_placeholder": "Kahraman sloganınızı girin",
+    "hero_title": "Kahraman Ünvanı",
+    "hero_title_placeholder": "Kahraman unvanınızı girin",
+    "hero_description": "Kahraman Açıklaması",
+    "hero_description_placeholder": "Kahraman açıklamanızı girin",
+    "hero_demo_button_text": "Kahraman Demo Düğme Metni",
+    "hero_demo_button_text_placeholder": "Kahraman Demo Düğme Metnini Girin",
+    "hero_demo_button_link": "Kahraman Demo Düğmesi Bağlantısı",
+    "hero_demo_button_link_placeholder": "Bir demo sayfasına bağlantı girin",
+    "hero_get_started_button_text": "Kahraman Başla Düğme Metni",
+    "hero_get_started_button_text_placeholder": "Kahraman Başlarken Düğme Metni Girin",
+    "hero_get_started_button_link": "Kahraman Başlayın Düğmesi Bağlantısı",
+    "hero_get_started_button_link_placeholder": "Bir sayfaya veya sayfa şablonuna bağlantı girin",
+    "company_placeholder": "Şirketinizin adını girin",
+    "domain_placeholder": "Alan adınızı girin",
+    "password_confirmation": "Parolanızı doğrulayın",
+    "password_confirmation_placeholder": "Parolanızı doğrulayın",
+    "ban": "yasakla",
+    "ban_success": "Kullanıcı başarıyla yasaklandı",
+    "unban": "yasağı kaldır",
+    "unban_success": "Kullanıcının yasağı başarıyla kaldırıldı",
+    "tenant_id": "Kiracı Kimliği",
+    "domain": "Alan adı",
+    "company": "Şirket",
+    "plan": "Plan",
+    "trial_ends_at": "Deneme Bitiş Tarihi",
+    "banned": "yasaklandı",
+    "clients_limit": "Müşteri Sınırı",
+    "suppliers_limit": "Tedarikçi Sınırı",
+    "employee_limit": "Çalışan Sınırı",
+    "domains_limit": "Alan Adı Sınırı",
+    "purchases_limit": "Satın Alma Limiti",
+    "invoices_limit": "Fatura Limiti",
+    "to": "İle",
+    "from": "İtibaren",
+    "s_no": "#",
+    "more_info": "Daha fazla bilgi",
+    "name": "İsim",
+    "name_placeholder": "İsim girin",
+    "password": "Şifre",
+    "password_placeholder": "Şifrenizi girin",
+    "default_password": "Şifre (Varsayılan şifre: 12345678)",
+    "code": "kod",
+    "code_placeholder": "Bir kod girin",
+    "product_name": "Ürün adı",
+    "product_name_placeholder": "bir ürün seçin",
+    "sub_category_code": "Alt Kategori Kodu",
+    "sub_category": "Alt Kategori",
+    "sub_category_name": "Alt Kategori Adı",
+    "category": "Kategori",
+    "category_name": "Kategori adı",
+    "category_name_placeholder": "bir kategori seç",
+    "account": "Hesap",
+    "account_placeholder": "Bir hesap seçin",
+    "available_balance": "Kalan bakiye",
+    "amount": "Tutar",
+    "amount_placeholder": "Bir miktar girin",
+    "cheque_no": "Kontrol No.",
+    "cheque_placeholder": "Bir kontrol numarası girin",
+    "voucher_no": "Fiş numarası",
+    "voucher_placeholder": "Bir kupon numarası girin",
+    "receipt_no": "Fiş No",
+    "receipt_no_placeholder": "Makbuz numarası girin",
+    "date": "Tarih",
+    "note": "Not",
+    "created_by": "Tarafından yaratıldı",
+    "choose_file": "Dosya seçin",
+    "image_alt": "Ekli Resim",
+    "note_placeholder": "Notunuzu buraya yazın!",
+    "status": "Durum",
+    "action": "Eylem",
+    "active": "Aktif",
+    "in_active": "etkin değil",
+    "expired": "Süresi doldu",
+    "email": "E-posta",
+    "email_placeholder": "E-posta adresinizi giriniz",
+    "phone": "Telefon",
+    "address": "Adres",
+    "address_placeholder": "Bir adres girin",
+    "modal_header": "Ekli Resim Önizleme",
+    "modal_body": "Varsayılan gövde",
+    "export_table": "Tabloyu Dışa Aktar",
+    "print_table": "Tabloyu Yazdır",
+    "delete_title": "Emin misin?",
+    "update_title": "Emin misin?",
+    "delete_confirm_text": "Onaylamak",
+    "update_confirm_text": "Onaylamak",
+    "deleted": "Silindi!",
+    "updated": "Güncellenmiş!",
+    "delete_success": "Başarıyla silindi.",
+    "update_success": "Başarıyla güncellendi.",
+    "failed": "Arızalı!",
+    "delete_failed": "Yanlış bir şey vardı.",
+    "update_failed": "Yanlış bir şey vardı.",
+    "error_msg": "Opps...bir şeyler ters gitti 😔",
+    "image_error": "Lütfen boyutu 2 MB'den küçük olan geçerli bir küçük resim seçin",
+    "close": "Kapat",
+    "search": "Arama...",
+    "create": "Oluşturmak",
+    "view": "görüş",
+    "edit": "Düzenlemek",
+    "delete": "Silmek",
+    "image": "resim",
+    "preview": "Ön izleme",
+    "no_preview": "Önizleme yok",
+    "save": "Kaydetmek",
+    "save_changes": "Değişiklikleri Kaydet",
+    "back": "Geri",
+    "print": "Yazdır",
+    "reset": "Sıfırla",
+    "supplier": "Tedarikçi",
+    "supplier_placeholder": "Bir tedarikçi seçin",
+    "products": "Ürün:% s",
+    "select_products": "Ürünleri Seçin",
+    "select_products_placeholder": "Ürünleri ara",
+    "reference": "Referans",
+    "reference_placeholder": "Referans girin",
+    "quantity": "Miktar",
+    "purchase_price": "Alış fiyatı",
+    "unit_price": "Birim fiyat",
+    "unit_cost": "Birim maliyet",
+    "unit_tax": "Birim Vergisi",
+    "tax": "Vergi",
+    "subtotal": "ara toplam",
+    "return_subtotal": "Dönüş Ara Toplamı",
+    "new_subtotal": "Yeni Ara Toplam",
+    "return_amount": "İade Tutarı",
+    "return_cost": "İade Ürünlerinin Maliyeti",
+    "total": "Toplam",
+    "net_total": "Net toplam",
+    "due": "Vadesi dolmuş",
+    "transport": "Ulaşım",
+    "add_payment": "Ödeme Ekle?",
+    "add_payment_placeholder": "Bir seçenek seçin",
+    "yes": "Evet",
+    "no": "Numara",
+    "paid": "Paralı",
+    "total_paid": "Toplam Ödenen",
+    "paid_amount": "Ödenen miktar",
+    "paid_amount_placeholder": "Bir miktar girin",
+    "total_due": "Toplam Vade",
+    "account_receivable": "Alacak hesapları",
+    "account_payable": "Borç Hesabı",
+    "total_price": "Toplam fiyat",
+    "return_price": "İade Fiyatı",
+    "price": "Fiyat",
+    "total_return": "Toplam getiri",
+    "discount": "İndirim",
+    "discount_placeholder": "indirim girin",
+    "supplier_details": "Tedarikçi Ayrıntıları",
+    "client_details": "Müşteri Detayları",
+    "supplier_id": "tedarikçi kimliği",
+    "client_id": "Müşteri Kimliği",
+    "client_name": "Müşteri Adı",
+    "supplier_name": "sağlayıcı adı",
+    "company_name": "Firma Adı",
+    "company_name_placeholder": "Bir şirket adı girin",
+    "contact_number": "İletişim numarası",
+    "contact_number_placeholder": "Bir iletişim numarası girin",
+    "payment_history": "ödeme geçmişi",
+    "payment_date": "Ödeme tarihi",
+    "empty_payment": "Henüz ödeme yapılmadı!",
+    "empty_payment_msg": "Bu satın alma işlemi için herhangi bir ödeme eklemediniz/eklemediniz. Ödemeleri ekledikten sonra listeyi burada göreceksiniz.",
+    "purchases": "satın almalar",
+    "purchases_placeholder": "Bir satın alma seçin",
+    "total_tax": "Toplam vergi",
+    "invoice_tax": "Fatura Vergisi",
+    "transport_cost": "Taşıma Maliyeti",
+    "transport_cost_placeholder": "Taşıma maliyetini girin",
+    "total_discount": "Toplam indirim",
+    "discount_type": "İndirim Türü",
+    "fixed": "Sabit",
+    "percentage": "Yüzde",
+    "client": "Müşteri",
+    "client_placeholder": "Bir müşteri seçin",
+    "payment_terms": "Ödeme şartları",
+    "payment_terms_placeholder": "Ödeme koşullarını girin",
+    "po_reference": "PO Referansları",
+    "po_reference_placeholder": "PO referansı girin",
+    "invoice_qty": "Fatura Miktarı",
+    "current_qty": "Mevcut Miktar",
+    "return_qty": "İade Miktarı",
+    "invoices": "faturalar",
+    "invoices_placeholder": "Bir fatura seçin",
+    "return_reason": "İade Nedeni",
+    "return_reason_placeholder": "Bir neden girin",
+    "invoice_due": "Fatura Vadesi",
+    "non_invoice_due": "Fatura Değil İki",
+    "invoice_date": "Fatura tarihi",
+    "invoice_no": "Fatura No",
+    "invoice_return_no": "Fatura İade No",
+    "return_no": "İade No",
+    "return_products": "İade Ürünleri",
+    "insufficient_stock": "Yetersiz stok",
+    "invoice_products": "Fatura Ürünleri",
+    "created_at": "Oluşturulma Tarihi",
+    "reason": "Sebep",
+    "type": "Tip",
+    "credit": "Kredi",
+    "debit": "borç",
+    "payment_type": "Ödeme şekli",
+    "invoice_total": "Fatura toplamı",
+    "invoice_details": "Fatura detayları",
+    "payment_details": "Ödeme detayları",
+    "ref_no": "Referans Numara",
+    "reference_no": "Referans Numarası",
+    "payable": "ödenebilir",
+    "interest": "Faiz",
+    "installment": "Taksit",
+    "error": "Hata!",
+    "per": "Başına",
+    "day": "Gün",
+    "week": "Hafta",
+    "month": "Ay",
+    "year": "Yıl",
+    "daily": "Günlük",
+    "monthly": "Aylık",
+    "yearly": "Yıllık",
+    "employee": "Çalışan",
+    "employee_placeholder": "Bir çalışan seçin",
+    "designation": "atama",
+    "designation_placeholder": "Bir tanım girin",
+    "emp_name": "Emp Adı",
+    "emp_id": "Çalışan Kimliği",
+    "employee_details": "Çalışan bilgileri",
+    "department": "Departman",
+    "department_placeholder": "Departman",
+    "balance": "Denge",
+    "salary": "Aylık maaş",
+    "salary_placeholder": "maaş girin",
+    "profile_picture": "Profil fotoğrafı",
+    "role": "rol",
+    "role_placeholder": "Bir rol seçin",
+    "unit": "Birim",
+    "unit_placeholder": "Bir birim seçin",
+    "brand": "Marka",
+    "brand_placeholder": "Bir marka seçin",
+    "item_code": "Ürün Kodu",
+    "item_code_placeholder": "Ürün kodunu girin",
+    "item_model": "Ürün Modeli",
+    "item_model_placeholder": "Bir model girin",
+    "item_name": "Öğe adı",
+    "item_name_placeholder": "İsim girin",
+    "rendering_fails": "Oluşturma başarısız.",
+    "product": "Ürün",
+    "transactions": "işlemler",
+    "empty_table": "Üzgünüz 😔 veri bulunamadı",
+    "stock_alert_msg": "Stok uyarı miktarından daha az!",
+    "stock_notification": "Ürün Miktarı Uyarıları",
+    "stock_notification_empty": "Bildirim yok",
+    "delete_warning": "Buna geri dönemeyeceksiniz!",
+    "update_warning": "Buna geri dönemeyeceksiniz!",
+    "add_balance": "Bakiye Ekle",
+    "remove_balance": "Bakiyeyi Kaldır",
+    "qty": "miktar",
+    "item": "Öğe",
+    "sold_by": "Tarafından satılan",
+    "all_features": "Tüm özellikler",
+    "success_msg": "Başarı!",
+    "software_overview": "Yazılıma Genel Bakış",
+    "business_start_support_list_placeholder": "İş Başlangıç Destek Listesi",
+    "explorers": "kaşifler",
+    "points_placeholder": "Puan",
+    "why_us": "Neden biz",
+    "stripe_public_key": "Şerit Genel Anahtar",
+    "stripe_private_key": "Şeritli Özel Anahtar",
+    "plan_placeholder": "Plan",
+    "download": "İndirmek",
+    "commission": "komisyon",
+    "invoice_tax_placeholder": "Fatura Vergisi",
+    "requested_domain": "İstenen Etki Alanı",
+    "pending": "Askıda olması",
+    "connected": "bağlı",
+    "rejected": "Reddedildi",
+    "removed": "Kaldırıldı",
+    "tenant": "Kiracı",
+    "welcome_mail": "Hoş Geldiniz Postası Gönderin",
+    "tenant_name": "Kiracı adı",
+    "tenant_email": "Kiracı E-postası",
+    "modified_by": "Tarafından tasarlandı",
+    "host": "Ev sahibi",
+    "value": "Değer",
+    "custom_html": "Özel HTML",
+    "custom_html_placeholder": "Özel HTML (Buraya SEO ile ilgili etiketler, google analytics, facebook piksel kodları vb. ekleyebilirsiniz.)",
+    "pricing_plan": "Fiyatlandırma Planı"
+  },
+  "topbar": {
+    "new_invoice": "Yeni fatura",
+    "new_expense": "Yeni Gider",
+    "new_purchase": "Yeni Satın Alma",
+    "new_quotation": "Yeni Teklif",
+    "profile": "Profil",
+    "setup": "Kurmak",
+    "logout": "Çıkış Yap"
+  },
+  "sidebar": {
+    "Billing History": "Faturalandırma Geçmişi",
+    "tenant": {
+      "settings": "Ayarlar"
+    },
+    "domain_management": "Alan Yönetimi",
+    "domain": "Alan adı",
+    "domain_request": "Alan İsteği",
+    "newsletters": {
+      "create": "aboneler"
+    },
+    "pages": {
+      "create": "Sayfalar"
+    },
+    "items": "Öğeler",
+    "dashboard": "Gösterge Paneli",
+    "activities": "AKTİVİTELER",
+    "expenses": "Masraflar",
+    "categories": "Kategoriler",
+    "sub_categories": "Alt Kategoriler",
+    "expenses_list": "Gider Listesi",
+    "purchases": "satın almalar",
+    "purchases_list": "Satın Alma Listesi",
+    "returns_list": "İade Listesi",
+    "sales": "Satış",
+    "quotations_list": "Alıntılar Listesi",
+    "invoices_list": "Fatura Listesi",
+    "accounting": "MUHASEBE",
+    "cashbook": "Kasa defteri",
+    "accounts": "Hesaplar",
+    "balance_adjustments": "Denge Ayarlamaları",
+    "balance_transfers": "Bakiye Transferleri",
+    "transaction_history": "işlem geçmişi",
+    "payments": "ödemeler",
+    "suppliers": "Tedarikçiler",
+    "non_purchase": "Satın Alma Dışı",
+    "purchase": "Satın alma",
+    "clients": "Müşteriler",
+    "non_invoice": "Faturasız",
+    "invoice": "Fatura",
+    "loan_management": "Kredi Yönetimi",
+    "authorities": "Yetkililer",
+    "loans": "krediler",
+    "asset_management": "Varlık Yönetimi",
+    "types": "Türler",
+    "assets": "Varlıklar",
+    "payroll": "Maaş bordrosu",
+    "people": "İNSANLAR",
+    "employees_list": "Çalışan Listesi",
+    "employees": "Çalışanlar",
+    "departments": "Bölümler",
+    "increments": "artışlar",
+    "product": "ÜRÜN",
+    "products": "Ürün:% s",
+    "products_list": "Ürün listesi",
+    "barcode": "Barkod",
+    "inventory_uppercase": "ENVANTER",
+    "inventory": "Envanter",
+    "view_inventory": "Envanteri Görüntüle",
+    "inventory_adjustment": "Envanter Ayarı",
+    "reports": "RAPORLAR",
+    "balance_sheet": "Bilanço",
+    "summary_report": "Özet raporu",
+    "profit_loss_report": "Kar/Zarar Raporu",
+    "expense_report": "Gider raporu",
+    "product_report": "Öğe Raporu",
+    "inventory_report": "Envanter raporu",
+    "account": "HESAP",
+    "account_sm": "Hesap",
+    "setup": "Kurmak",
+    "database_backup": "Veritabanı Yedekleme",
+    "profile": "Profil",
+    "logout": "Çıkış Yap",
+    "pricing": "fiyatlandırma",
+    "tenants": "Kiracılar",
+    "overview": "genel bakış",
+    "saas": "SAAS",
+    "back_landing": "Açılış Sayfasına Git",
+    "landing_page": "Açılış sayfası",
+    "cms": "İYS",
+    "promotion": "Terfi",
+    "plans": "Planlar",
+    "pricing_plans": "Fiyatlandırma Planları",
+    "plan_features": "Plan Özellikleri",
+    "domains": "Alan Yönetimi",
+    "all_domains": "Tüm Etki Alanları",
+    "domain_requests": "Etki Alanı İstekleri"
+  },
+  "dashboard": {
+    "stock_alert": "Stok Uyarısı",
+    "recent_activities": "Son Aktiviteler",
+    "page_title": "Gösterge Paneli",
+    "breadcrumbs_current": "Gösterge Paneli",
+    "breadcrumbs_active": "Gösterge Paneli",
+    "bar_chart_title": "Satışlar ve Satın Almalar",
+    "bar_chart_tooltip": "İade edilen ürünlerin maliyeti düşüldükten sonra aylık satışlar ve satın almalar.",
+    "pie_chart_title": "En Çok Satan Ürünler",
+    "line_chart_title": "Gönderilen Ödeme ve Alınan Ödeme",
+    "line_chart_tooltip": "Gönderilen Ödeme = Tedarikçi Ödemesi + Kredi Ödemesi<br/> Alınan Ödeme = Müşteri Ödemesi + Alınan Kredi",
+    "top_clients_title": "En İyi 5 Müşteri",
+    "summary": "Özet",
+    "summary_option_1": "Bugün",
+    "summary_option_2": "Son 7 gün",
+    "summary_option_3": "Bu ay",
+    "summary_option_4": "Bu yıl",
+    "summery_items": {
+      "purchase": "Satın alma",
+      "purchase_return": "Satın alım iadesi",
+      "sales": "Satış",
+      "sales_return": "Satış İadesi",
+      "payment_received": "Müşteri Ödemesi",
+      "payment_sent": "Tedarikçi Ödemesi",
+      "expense": "gider",
+      "balance_transfers": "Bakiye Transferleri"
+    },
+    "today": "Bugün",
+    "last_7_days": "Son 7 gün",
+    "this_month": "Bu ay",
+    "this_year": "Bu yıl"
+  },
+  "expenses": {
+    "categories": {
+      "index": {
+        "page_title": "Gider Kategorileri",
+        "breadcrumbs_current": "Gider Kategorileri",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Masraflar",
+        "breadcrumbs_active": "Kategoriler",
+        "delete_warning": "Bu kategori için tüm alt kategoriler silinecek!"
+      },
+      "create": {
+        "page_title": "Gider Kategorisi Oluştur",
+        "form_title": "Bir gider kategorisi oluşturun",
+        "breadcrumbs_current": "Gider Kategorisi Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kategoriler",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Kategori başarıyla eklendi 👍"
+      },
+      "edit": {
+        "page_title": "Gider Kategorisini Düzenle",
+        "form_title": "Kategoriyi düzenle",
+        "breadcrumbs_current": "Gider Kategorisini Düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kategoriler",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Kategori başarıyla güncellendi 👍"
+      }
+    },
+    "sub_categories": {
+      "index": {
+        "page_title": "Gider Alt Kategorileri",
+        "breadcrumbs_current": "Gider Alt Kategorileri",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Masraflar",
+        "breadcrumbs_active": "Alt Kategoriler",
+        "delete_warning": "Bu kategori için tüm harcamalar silinecek!"
+      },
+      "create": {
+        "page_title": "Gider Alt Kategorisi Oluştur",
+        "form_title": "Bir gider alt kategorisi oluşturun",
+        "breadcrumbs_current": "Gider Alt Kategorisi Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Alt Kategoriler",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Alt kategori başarıyla eklendi 👍"
+      },
+      "edit": {
+        "page_title": "Gider Alt Kategorisini Düzenle",
+        "form_title": "Gider alt kategorisini düzenle",
+        "breadcrumbs_current": "Gider Alt Kategorisini Düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Alt Kategoriler",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Alt kategori başarıyla güncellendi 👍"
+      }
+    },
+    "list": {
+      "common": {
+        "expense_reason": "Gider Nedeni",
+        "expense_reason_placeholder": "Bir neden girin"
+      },
+      "index": {
+        "page_title": "Masraflar",
+        "breadcrumbs_current": "Masraflar",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Masraflar",
+        "breadcrumbs_active": "Masraflar",
+        "delete_warning": "Buna geri dönemeyeceksiniz!"
+      },
+      "create": {
+        "page_title": "Gider Oluştur",
+        "form_title": "Gider oluştur",
+        "breadcrumbs_current": "Gider Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Masraflar",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Gider başarıyla eklendi 👍"
+      },
+      "edit": {
+        "page_title": "Gideri düzenle",
+        "form_title": "Gideri düzenle",
+        "breadcrumbs_current": "Gideri düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Masraflar",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Gider başarıyla güncellendi 👍"
+      },
+      "view": {
+        "page_title": "Gider Ayrıntıları",
+        "breadcrumbs_current": "Gider Ayrıntıları",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Masraflar",
+        "breadcrumbs_active": "Detaylar",
+        "expense_details": "Gider Ayrıntıları"
+      }
+    }
+  },
+  "purchases": {
+    "list": {
+      "common": {
+        "po_reference": "PO Referansları",
+        "po_reference_placeholder": "PO referansı girin",
+        "payment_terms": "Ödeme şartları",
+        "payment_terms_placeholder": "Ödeme koşullarını girin",
+        "purchase_tax": "Alım vergisi",
+        "purchase_total": "Toplam Satın Alma",
+        "purchase_subtotal": "Satınalma Ara Toplamı",
+        "purchase_tax_placeholder": "Bir vergi türü seçin",
+        "total_tax": "Toplam vergi",
+        "discount": "İndirim",
+        "discount_placeholder": "indirim girin",
+        "transport_cost": "Taşıma Maliyeti",
+        "transport_cost_placeholder": "Taşıma maliyetini girin",
+        "purchase_date": "Satınalma tarihi",
+        "po_date": "PO Tarihi",
+        "purchased_qty": "Satın alınan miktar",
+        "returned_qty": "iade edilen miktar",
+        "current_qty": "Mevcut Miktar",
+        "purchase_no": "Satın Alma No",
+        "return_no": "İade No",
+        "purchase_no_placeholder": "Satın alma numarasını girin",
+        "purchase_products": "Ürünleri Satın Al",
+        "purchase_due": "Satın Alma Süresi"
+      },
+      "index": {
+        "page_title": "satın almalar",
+        "breadcrumbs_current": "satın almalar",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "satın almalar",
+        "breadcrumbs_active": "satın almalar",
+        "delete_warning": "Buna geri dönemeyeceksiniz!"
+      },
+      "create": {
+        "page_title": "Satın Alma Oluştur",
+        "form_title": "Satın alma oluştur",
+        "breadcrumbs_current": "Satın Alma Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "satın almalar",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Satın alma başarıyla eklendi 👍"
+      },
+      "edit": {
+        "page_title": "Satın Alımı Düzenle",
+        "form_title": "Satın almayı düzenle",
+        "breadcrumbs_current": "Satın Alımı Düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "satın almalar",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Satın alma başarıyla güncellendi 👍"
+      },
+      "view": {
+        "page_title": "Satınalma detayları",
+        "breadcrumbs_current": "Satınalma detayları",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "satın almalar",
+        "breadcrumbs_active": "Detaylar"
+      }
+    },
+    "returns": {
+      "common": {
+        "return_reason": "İade Nedeni",
+        "return_reason_placeholder": "Bir neden girin",
+        "return_date": "Dönüş tarihi",
+        "purchase_return_no": "Satın Alma İadesi No",
+        "return_products": "İade Ürünleri"
+      },
+      "index": {
+        "page_title": "Satın Alma İadeleri",
+        "breadcrumbs_current": "Satın Alma İadeleri",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "satın almalar",
+        "breadcrumbs_active": "Satın Alma İadeleri",
+        "delete_warning": "Buna geri dönemeyeceksiniz!"
+      },
+      "create": {
+        "page_title": "Satın Alma İadesi Oluştur",
+        "form_title": "Satın alma iadesi oluştur",
+        "breadcrumbs_current": "Satın Alma İadesi Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Satın Alma İadeleri",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Satın alma iadesi başarıyla eklendi 👍"
+      },
+      "edit": {
+        "page_title": "Satın Alma İadesini Düzenle",
+        "form_title": "Satın alma iadesini düzenle",
+        "breadcrumbs_current": "Satın Alma İadesini Düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Satın Alma İadeleri",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Satın alma iadesi başarıyla güncellendi 👍"
+      },
+      "view": {
+        "page_title": "Satın Alma İade Ayrıntıları",
+        "breadcrumbs_current": "Satın Alma İade Ayrıntıları",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Satın Alma İadeleri",
+        "breadcrumbs_active": "Detaylar"
+      }
+    }
+  },
+  "sales": {
+    "common": {
+      "quotation_no": "Teklif No",
+      "quotation_date": "Teklif tarihi",
+      "delivery_place": "Teslimat yeri",
+      "delivery_place_placeholder": "Bir teslimat yeri girin",
+      "quotation_tax": "Teklif Vergisi",
+      "quotation_tax_placeholder": "Bir vergi türü seçin",
+      "return_date": "Dönüş tarihi",
+      "new_due": "yeni vade",
+      "client_advance": "Müşteri Avansı",
+      "invoice_total": "Fatura toplamı",
+      "before_return": "Dönüşten Önce",
+      "invoice_return": "Fatura İadesi",
+      "invoice_tax": "Fatura Vergisi",
+      "invoice_tax_placeholder": "Bir vergi türü seçin"
+    },
+    "quotations": {
+      "index": {
+        "page_title": "alıntılar",
+        "create_invoice": "Fatura oluşturmak",
+        "breadcrumbs_current": "alıntılar",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "alıntılar",
+        "breadcrumbs_active": "alıntılar",
+        "delete_warning": "Buna geri dönemeyeceksiniz!",
+        "delete_failed": "Maalesef bu alıntıyı silemezsiniz!"
+      },
+      "create": {
+        "page_title": "Teklif Oluştur",
+        "form_title": "Teklif oluştur",
+        "breadcrumbs_current": "Teklif Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "alıntılar",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Alıntı başarıyla eklendi 👍"
+      },
+      "edit": {
+        "page_title": "Teklifi Düzenle",
+        "form_title": "Teklifi düzenle",
+        "breadcrumbs_current": "Teklifi Düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "alıntılar",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Teklif başarıyla güncellendi 👍"
+      },
+      "view": {
+        "page_title": "Teklif Ayrıntıları",
+        "breadcrumbs_current": "Teklif Ayrıntıları",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "alıntılar",
+        "breadcrumbs_active": "Detaylar",
+        "expense_details": "Gider Ayrıntıları"
+      },
+      "invoice": {
+        "page_title": "Fatura Teklifi",
+        "form_title": "Fatura için teklif oluştur",
+        "breadcrumbs_current": "Fatura Teklifi",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "alıntılar",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Fatura başarıyla oluşturuldu 👍"
+      }
+    },
+    "invoices": {
+      "index": {
+        "page_title": "faturalar",
+        "breadcrumbs_current": "faturalar",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Satış",
+        "breadcrumbs_active": "faturalar",
+        "delete_warning": "Buna geri dönemeyeceksiniz!",
+        "delete_failed": "Maalesef bu faturayı silemezsiniz!"
+      },
+      "create": {
+        "page_title": "Fatura oluşturmak",
+        "form_title": "Fatura oluşturmak",
+        "breadcrumbs_current": "Fatura oluşturmak",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "faturalar",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Fatura başarıyla eklendi 👍"
+      },
+      "edit": {
+        "page_title": "Faturayı Düzenle",
+        "form_title": "Faturayı düzenle",
+        "breadcrumbs_current": "Faturayı Düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "faturalar",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Fatura başarıyla güncellendi 👍"
+      },
+      "view": {
+        "page_title": "Fatura detayları",
+        "breadcrumbs_current": "Fatura detayları",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "faturalar",
+        "breadcrumbs_active": "Detaylar",
+        "invoice_details": "Fatura detayları"
+      }
+    },
+    "returns": {
+      "index": {
+        "page_title": "Fatura İadeleri",
+        "breadcrumbs_current": "Fatura İadeleri",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "faturalar",
+        "breadcrumbs_active": "Fatura İadeleri",
+        "delete_warning": "Buna geri dönemeyeceksiniz!",
+        "delete_failed": "Yanlış bir şey vardı."
+      },
+      "create": {
+        "page_title": "Fatura İadesi Oluştur",
+        "form_title": "Fatura iadesi oluştur",
+        "breadcrumbs_current": "Fatura İadesi Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Fatura İadeleri",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Fatura iadesi başarıyla eklendi 👍"
+      },
+      "edit": {
+        "page_title": "Fatura İadesini Düzenle",
+        "form_title": "Fatura iadesini düzenle",
+        "breadcrumbs_current": "Fatura İadesini Düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Fatura İadeleri",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Fatura iadesi başarıyla güncellendi 👍"
+      },
+      "view": {
+        "page_title": "Fatura İade Detayları",
+        "breadcrumbs_current": "Fatura İade Detayları",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Fatura İadeleri",
+        "breadcrumbs_active": "Detaylar",
+        "invoice_details": "Fatura detayları"
+      }
+    }
+  },
+  "cashbook": {
+    "common": {
+      "account_number": "Hesap numarası",
+      "account_number_placeholder": "Bir hesap numarası girin",
+      "branch_name": "Şube Adı",
+      "branch_name_placeholder": "Bir şube adı girin",
+      "bank_name": "Banka adı",
+      "bank_name_placeholder": "Bir banka adı girin",
+      "transactions": "işlemler",
+      "account_details": "hesap detayları",
+      "total_transactions": "Toplam İşlemler",
+      "debit_amount": "Borç miktarı",
+      "credit_amount": "Kredi miktarı",
+      "from_account": "Hesaptan",
+      "to_account": "Hesabına",
+      "transfer_reason": "Transfer Nedeni"
+    },
+    "accounts": {
+      "index": {
+        "page_title": "Hesaplar",
+        "breadcrumbs_current": "Hesaplar",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "kasa defteri",
+        "breadcrumbs_third": "Hesaplar",
+        "breadcrumbs_active": "Hesaplar",
+        "delete_warning": "Buna geri dönemeyeceksiniz!",
+        "delete_failed": "Üzgünüz, bu hesabı kaldıramazsınız!"
+      },
+      "create": {
+        "page_title": "Hesap oluştur",
+        "form_title": "Hesap oluştur",
+        "breadcrumbs_current": "Hesap oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "kasa defteri",
+        "breadcrumbs_third": "Hesaplar",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Hesap başarıyla eklendi 👍"
+      },
+      "edit": {
+        "page_title": "Hesabı düzenlemek",
+        "form_title": "Hesabı düzenlemek",
+        "breadcrumbs_current": "Hesabı düzenlemek",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "kasa defteri",
+        "breadcrumbs_third": "Hesaplar",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Hesap başarıyla güncellendi 👍"
+      },
+      "view": {
+        "page_title": "Hesap İşlemleri",
+        "breadcrumbs_current": "Hesap İşlemleri",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Hesaplar",
+        "breadcrumbs_active": "işlemler",
+        "empty_transaction": "Henüz bir işlem mevcut değil!",
+        "empty_transaction_msg": "Bu hesabı kullanarak herhangi bir işlem yapmadınız. İşlemi yaptıktan sonra listeyi burada göreceksiniz."
+      }
+    },
+    "balances": {
+      "index": {
+        "page_title": "Denge Ayarlamaları",
+        "add_balance": "Oluşturmak",
+        "breadcrumbs_current": "Denge Ayarlamaları",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "kasa defteri",
+        "breadcrumbs_active": "ayarlamalar",
+        "delete_warning": "Buna geri dönemeyeceksin!",
+        "delete_failed": "Üzgünüz, bu işlemi silemezsiniz"
+      },
+      "create": {
+        "page_title": "Ayar Oluştur",
+        "form_title": "Düzenleme oluştur",
+        "breadcrumbs_current": "Ayar Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "kasa defteri",
+        "breadcrumbs_third": "ayarlamalar",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Ayar başarıyla eklendi 👍"
+      },
+      "edit": {
+        "page_title": "Bakiyeyi Düzenle",
+        "form_title": "Bakiyeyi düzenle",
+        "breadcrumbs_current": "Bakiyeyi Düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "kasa defteri",
+        "breadcrumbs_third": "Bakiyeler",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Bakiye başarıyla güncellendi 👍"
+      }
+    },
+    "transfers": {
+      "index": {
+        "page_title": "Bakiye Transferleri",
+        "add_transfer": "Transfer Ekle",
+        "breadcrumbs_current": "Bakiye Transferleri",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "kasa defteri",
+        "breadcrumbs_active": "Bakiye Transferleri",
+        "delete_warning": "Buna geri dönemeyeceksiniz!",
+        "delete_failed": "Maalesef bu aktarımı silemezsiniz!"
+      },
+      "create": {
+        "page_title": "Transfer Oluştur",
+        "form_title": "Bakiye transferi oluştur",
+        "breadcrumbs_current": "Transfer Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "kasa defteri",
+        "breadcrumbs_third": "Bakiye Transferleri",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Bakiye transferi başarıyla eklendi 👍"
+      },
+      "edit": {
+        "page_title": "Bakiye Transferini Düzenle",
+        "form_title": "Bakiye transferini düzenle",
+        "breadcrumbs_current": "Bakiye Transferini Düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "kasa defteri",
+        "breadcrumbs_third": "Bakiye Transferleri",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Aktarım başarıyla güncellendi 👍"
+      },
+      "view": {
+        "page_title": "Bakiye Transfer Detayları",
+        "breadcrumbs_current": "Transfer Detayları",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "kasa defteri",
+        "breadcrumbs_third": "Bakiye Transferleri",
+        "breadcrumbs_active": "Detaylar"
+      }
+    },
+    "transactions": {
+      "index": {
+        "page_title": "işlem geçmişi",
+        "breadcrumbs_current": "işlem geçmişi",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "kasa defteri",
+        "breadcrumbs_active": "Tarih"
+      }
+    }
+  },
+  "payments": {
+    "common": {
+      "due_paid": "Vadesi Ödenen",
+      "due_added": "Son Eklendi",
+      "current_due": "Mevcut Vade",
+      "non_invoice_paid": "Fatura Ödenmemiş",
+      "non_invoice_total": "Fatura Dışı Toplam",
+      "add_due": "Son Ödeme Tarihini Ekle",
+      "add_payment": "Ödeme Ekle",
+      "total_payment": "Toplam ödeme",
+      "total_advance": "Toplam Avans(Fatura İadesi)",
+      "available_advance": "Mevcut Avans(Satın Alma İadesi)",
+      "select_invoice": "Fatura Seç",
+      "select_purchase": "Satın Al'ı seçin",
+      "select_purchase_placeholder": "Satın alma numarasını ara",
+      "select_invoice_placeholder": "Fatura numarasını ara",
+      "invoice_subtotal": "Fatura Ara Toplamı",
+      "non_purchase_total": "Satın Alma Dışı Toplam",
+      "non_purchase_due": "Satın Alma Vadesi Gelmedi",
+      "non_purchase_paid": "Satın Alma Ödenmemiş",
+      "purchase_details": "Satınalma detayları"
+    },
+    "clients": {
+      "invoice": {
+        "index": {
+          "page_title": "Fatura Ödemeleri",
+          "breadcrumbs_current": "Fatura Ödemeleri",
+          "breadcrumbs_first": "Gösterge Paneli",
+          "breadcrumbs_second": "ödemeler",
+          "breadcrumbs_active": "Fatura Ödemeleri",
+          "delete_warning": "Buna geri dönemeyeceksiniz!",
+          "delete_failed": "Maalesef bu ödemeyi silemezsiniz!"
+        },
+        "create": {
+          "page_title": "Müşteri Fatura Ödemesi Oluştur",
+          "form_title": "Fatura ödemesi oluştur",
+          "breadcrumbs_current": "Ödeme Oluştur",
+          "breadcrumbs_first": "Gösterge Paneli",
+          "breadcrumbs_second": "ödemeler",
+          "breadcrumbs_third": "Fatura Ödemeleri",
+          "breadcrumbs_active": "Oluşturmak",
+          "success_msg": "Fatura ödeme başarıyla eklendi 👍"
+        },
+        "edit": {
+          "page_title": "Müşteri Fatura Ödemesini Düzenle",
+          "form_title": "Fatura ödemesini düzenle",
+          "breadcrumbs_current": "Ödemeyi Düzenle",
+          "breadcrumbs_first": "Gösterge Paneli",
+          "breadcrumbs_second": "ödemeler",
+          "breadcrumbs_third": "Fatura Ödemeleri",
+          "breadcrumbs_active": "Düzenlemek",
+          "success_msg": "Fatura ödeme başarıyla güncellendi 👍"
+        },
+        "view": {
+          "page_title": "Fatura Ödeme Ayrıntıları",
+          "breadcrumbs_current": "Fatura Ödeme Ayrıntıları",
+          "breadcrumbs_first": "Gösterge Paneli",
+          "breadcrumbs_second": "ödemeler",
+          "breadcrumbs_third": "Fatura Ödemeleri",
+          "breadcrumbs_active": "Detaylar"
+        }
+      },
+      "non_invoice": {
+        "index": {
+          "page_title": "Müşteri Faturasız Ödemeler",
+          "breadcrumbs_current": "Faturasız Ödemeler",
+          "breadcrumbs_first": "Gösterge Paneli",
+          "breadcrumbs_second": "ödemeler",
+          "breadcrumbs_active": "Faturasız Ödemeler",
+          "delete_warning": "Buna geri dönemeyeceksiniz!",
+          "delete_failed": "Maalesef bu ödemeyi silemezsiniz!"
+        },
+        "create": {
+          "page_title": "Faturasız Ödeme Oluştur",
+          "form_title": "Faturasız ödeme oluştur",
+          "breadcrumbs_current": "Ödeme Oluştur",
+          "breadcrumbs_first": "Gösterge Paneli",
+          "breadcrumbs_second": "ödemeler",
+          "breadcrumbs_third": "Faturasız Ödemeler",
+          "breadcrumbs_active": "Oluşturmak",
+          "success_msg": "Ödeme başarıyla eklendi 👍"
+        },
+        "edit": {
+          "page_title": "Fatura İadesini Düzenle",
+          "form_title": "Faturasız ödemeyi düzenle",
+          "breadcrumbs_current": "Ödemeyi Düzenle",
+          "breadcrumbs_first": "Gösterge Paneli",
+          "breadcrumbs_second": "ödemeler",
+          "breadcrumbs_third": "Faturasız Ödemeler",
+          "breadcrumbs_active": "Düzenlemek",
+          "success_msg": "Ödeme başarıyla güncellendi 👍"
+        }
+      }
+    },
+    "suppliers": {
+      "purchase": {
+        "index": {
+          "page_title": "Satın Alma Ödemeleri",
+          "breadcrumbs_current": "Satın Alma Ödemeleri",
+          "breadcrumbs_first": "Gösterge Paneli",
+          "breadcrumbs_second": "ödemeler",
+          "breadcrumbs_active": "Satın Alma Ödemeleri",
+          "delete_warning": "Buna geri dönemeyeceksiniz!",
+          "delete_failed": "Yanlış bir şey vardı."
+        },
+        "create": {
+          "page_title": "Tedarikçi Satın Alma Ödemesi Oluştur",
+          "form_title": "Satın alma ödemesi oluştur",
+          "breadcrumbs_current": "Ödeme Oluştur",
+          "breadcrumbs_first": "Gösterge Paneli",
+          "breadcrumbs_second": "ödemeler",
+          "breadcrumbs_third": "Satın Alma Ödemeleri",
+          "breadcrumbs_active": "Oluşturmak",
+          "success_msg": "Tedarikçi ödemesi başarıyla eklendi 👍"
+        },
+        "edit": {
+          "page_title": "Tedarikçi Satın Alma Ödemesini Düzenle",
+          "form_title": "Satın alma ödemesini düzenle",
+          "breadcrumbs_current": "Ödemeyi Düzenle",
+          "breadcrumbs_first": "Gösterge Paneli",
+          "breadcrumbs_second": "ödemeler",
+          "breadcrumbs_third": "Satın Alma Ödemeleri",
+          "breadcrumbs_active": "Düzenlemek",
+          "success_msg": "Ödeme başarıyla güncellendi 👍"
+        },
+        "view": {
+          "page_title": "Tedarikçi Satın Alma Ödeme Ayrıntıları",
+          "breadcrumbs_current": "Satın Alma Ödeme Ayrıntıları",
+          "breadcrumbs_first": "Gösterge Paneli",
+          "breadcrumbs_second": "ödemeler",
+          "breadcrumbs_third": "Satın Alma Ödemeleri",
+          "breadcrumbs_active": "Detaylar"
+        }
+      },
+      "non_purchase": {
+        "index": {
+          "page_title": "Tedarikçi Satın Alma Dışı Ödemeler",
+          "breadcrumbs_current": "Satın Alma Dışı Ödemeler",
+          "breadcrumbs_first": "Gösterge Paneli",
+          "breadcrumbs_second": "ödemeler",
+          "breadcrumbs_active": "Satın Alma Dışı Ödemeler",
+          "delete_warning": "Buna geri dönemeyeceksiniz!",
+          "delete_failed": "Maalesef bu ödemeyi silemezsiniz!"
+        },
+        "create": {
+          "page_title": "Satın Alma Dışı Ödeme Oluştur",
+          "form_title": "Satın alma dışı ödeme oluştur",
+          "breadcrumbs_current": "Ödeme Oluştur",
+          "breadcrumbs_first": "Gösterge Paneli",
+          "breadcrumbs_second": "ödemeler",
+          "breadcrumbs_third": "Satın Alma Dışı Ödemeler",
+          "breadcrumbs_active": "Oluşturmak",
+          "success_msg": "Ödeme başarıyla eklendi 👍"
+        },
+        "edit": {
+          "page_title": "Satın Alma Dışı Ödemeyi Düzenle",
+          "form_title": "Satın alma dışı ödemeyi düzenle",
+          "breadcrumbs_current": "Ödemeyi Düzenle",
+          "breadcrumbs_first": "Gösterge Paneli",
+          "breadcrumbs_second": "ödemeler",
+          "breadcrumbs_third": "Satın Alma Dışı Ödemeler",
+          "breadcrumbs_active": "Düzenlemek",
+          "success_msg": "Ödeme başarıyla güncellendi 👍"
+        }
+      }
+    }
+  },
+  "loans": {
+    "common": {
+      "authority": "Yetki",
+      "loan": "Borç",
+      "loan_placeholder": "Bir kredi seçin",
+      "loan_authority": "Kredi Kurumu",
+      "authority_placeholder": "Bir otorite seçin",
+      "cc_limit": "CC Sınırı",
+      "cc_placeholder": "cc kredi limitini girin",
+      "cash_credit_limit": "Nakit Kredi (CC) Kredi Limiti",
+      "cash_credit_loan": "Nakit Kredi(CC) Kredisi",
+      "interetest_paid": "Faiz ödemesi",
+      "total_payable": "Toplam Borç",
+      "total_loan": "Toplam Kredi",
+      "cc_term": "CC + Dönem",
+      "cc_taken": "CC Kredisi Alındı",
+      "available_cc": "Kullanılabilir CC Kredisi",
+      "all_loans": "Tüm Krediler",
+      "empty_loan": "Henüz kredi yok!",
+      "empty_loan_msg": "Bu yetki için herhangi bir kredi eklemediniz. Kredi ekledikten sonra listeyi burada göreceksiniz.",
+      "authority_details": "Yetki Ayrıntıları",
+      "payable_amount": "Ödenebilir miktar",
+      "duration": "Süre",
+      "duration_placeholder": "Bir süre girin",
+      "interest_rate_placeholder": "Yüzde olarak bir faiz oranı girin",
+      "available_amount": "Mevcut Miktar",
+      "term_loan": "Vadeli Kredi",
+      "loan_type": "Kredi Türü",
+      "loan_reason": "Kredi Nedeni",
+      "loan_date": "Kredi Tarihi",
+      "Loan_account": "Borç hesabı",
+      "Loan_payments": "Borç ödemeleri",
+      "empty_payment_msg": "Bu kredi için herhangi bir ödeme eklemediniz. Ödemeleri ekledikten sonra listeyi burada göreceksiniz.",
+      "loan_amount": "Kredi miktarı",
+      "loan_ref": "Kredi Referansı",
+      "payment_ref": "Ödeme Referansı",
+      "amount_paid": "Ödenen miktar"
+    },
+    "authorities": {
+      "index": {
+        "page_title": "Kredi Makamları",
+        "breadcrumbs_current": "Kredi Makamları",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kredi Yönetimi",
+        "breadcrumbs_active": "Yetkililer",
+        "delete_warning": "Buna geri dönemeyeceksiniz!",
+        "delete_failed": "Maalesef bu yetkiyi silemezsiniz."
+      },
+      "create": {
+        "page_title": "Kredi Otoritesi Oluştur",
+        "form_title": "Bir kredi yetkilisi oluşturun",
+        "breadcrumbs_current": "Kredi Otoritesi Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kredi Makamları",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Kredi yetkisi başarıyla eklendi 👍"
+      },
+      "edit": {
+        "page_title": "Kredi Otoritesini Düzenle",
+        "form_title": "Kredi yetkilisini düzenle",
+        "breadcrumbs_current": "Yetkiliyi Düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kredi Makamları",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Kredi yetkisi başarıyla güncellendi 👍"
+      },
+      "view": {
+        "page_title": "Kredi Otoritesini Görüntüle",
+        "breadcrumbs_current": "Yetki Ayrıntıları",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kredi Makamları",
+        "breadcrumbs_active": "Detaylar"
+      }
+    },
+    "payments": {
+      "index": {
+        "page_title": "Borç ödemeleri",
+        "breadcrumbs_current": "Borç ödemeleri",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kredi Yönetimi",
+        "breadcrumbs_active": "Borç ödemeleri",
+        "delete_warning": "Buna geri dönemeyeceksin!",
+        "delete_failed": "Yanlış bir şey vardı."
+      },
+      "create": {
+        "page_title": "Kredi Ödemesi Oluştur",
+        "form_title": "Kredi ödemesi oluşturun",
+        "breadcrumbs_current": "Kredi Ödemesi Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Borç ödemeleri",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Kredi ödemesi başarıyla eklendi 👍"
+      },
+      "edit": {
+        "page_title": "Kredi Ödemesini Düzenle",
+        "form_title": "Kredi ödemesini düzenle",
+        "breadcrumbs_current": "Kredi Ödemesini Düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Borç ödemeleri",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Ödeme başarıyla güncellendi 👍"
+      },
+      "view": {
+        "page_title": "Kredi Ödeme Detayları",
+        "breadcrumbs_current": "Kredi Ödeme Detayları",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Borç ödemeleri",
+        "breadcrumbs_active": "Detaylar"
+      }
+    },
+    "list": {
+      "index": {
+        "page_title": "krediler",
+        "breadcrumbs_current": "krediler",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kredi Yönetimi",
+        "breadcrumbs_active": "krediler",
+        "delete_warning": "Buna geri dönemeyeceksiniz!",
+        "delete_failed": "Maalesef bu krediyi silemezsiniz."
+      },
+      "create": {
+        "page_title": "Kredi Oluştur",
+        "form_title": "Kredi oluştur",
+        "breadcrumbs_current": "Kredi Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "krediler",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Kredi başarıyla eklendi 👍"
+      },
+      "edit": {
+        "page_title": "Krediyi Düzenle",
+        "form_title": "Krediyi düzenle",
+        "breadcrumbs_current": "Krediyi Düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "krediler",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Kredi başarıyla güncellendi 👍"
+      },
+      "view": {
+        "page_title": "Kredi Detayları",
+        "breadcrumbs_current": "Kredi Detayları",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "krediler",
+        "breadcrumbs_active": "Detaylar"
+      }
+    }
+  },
+  "assets": {
+    "common": {
+      "asset_name": "Varlık Adı",
+      "asset_name_placeholder": "Varlık adını girin",
+      "asset_type": "Varlık türü",
+      "asset_type_placeholder": "Bir varlık türü seçin",
+      "asset_cost": "Varlık Maliyeti",
+      "asset_cost_placeholder": "Varlık maliyetini girin",
+      "current_value": "Mevcut değer",
+      "depreciation": "Amortisman",
+      "depreciation_type": "Amortisman Türü",
+      "salvage_value": "Kurtarma Değeri",
+      "salvage_value_placeholder": "Kurtarma Değeri",
+      "useful_life": "Faydalı Ömür",
+      "remaining_life": "Kalan ömür",
+      "useful_life_placeholder": "Kullanım ömrüne girin",
+      "added_date": "Eklenme Tarihi",
+      "expired_date": "Son kullanma tarihi"
+    },
+    "types": {
+      "index": {
+        "page_title": "Varlık Türleri",
+        "breadcrumbs_current": "Varlık Türleri",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Varlık Yönetimi",
+        "breadcrumbs_active": "Varlık Türleri",
+        "delete_warning": "Buna geri dönemeyeceksin!",
+        "delete_failed": "Yanlış bir şey vardı."
+      },
+      "create": {
+        "page_title": "Varlık Türü Oluştur",
+        "form_title": "Bir varlık türü oluşturun",
+        "breadcrumbs_current": "Varlık Türü Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Varlık Türleri",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Varlık türü başarıyla eklendi 👍"
+      },
+      "edit": {
+        "page_title": "Varlık Türünü Düzenle",
+        "form_title": "Öğe türünü düzenle",
+        "breadcrumbs_current": "Varlık Türünü Düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Varlık Türleri",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Varlık Türü başarıyla güncellendi 👍"
+      }
+    },
+    "list": {
+      "index": {
+        "page_title": "Varlıklar",
+        "breadcrumbs_current": "Varlıklar",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Varlık Yönetimi",
+        "breadcrumbs_active": "Varlıklar",
+        "delete_warning": "Buna geri dönemeyeceksiniz!",
+        "delete_failed": "Yanlış bir şey vardı."
+      },
+      "create": {
+        "page_title": "Varlık Oluştur",
+        "form_title": "Bir varlık oluştur",
+        "breadcrumbs_current": "Varlık Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Varlıklar",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Öğe başarıyla eklendi 👍"
+      },
+      "edit": {
+        "page_title": "Varlığı Düzenle",
+        "form_title": "Öğeyi düzenle",
+        "breadcrumbs_current": "Varlığı Düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Varlıklar",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Öğe başarıyla güncellendi 👍"
+      },
+      "view": {
+        "page_title": "Varlık Ayrıntıları",
+        "breadcrumbs_current": "Varlık Ayrıntıları",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Varlıklar",
+        "breadcrumbs_active": "Detaylar"
+      }
+    }
+  },
+  "payroll": {
+    "common": {
+      "salary_date": "Maaş Tarihi",
+      "total_salary": "Toplam maaş",
+      "advance": "İlerlemek",
+      "advance_placeholder": "Ön ödeme miktarını girin",
+      "others": "Diğerleri",
+      "others_placeholder": "Diğer tutarı girin",
+      "travel_allowance": "Seyahat Ödeneği(TA)",
+      "travel_allowance_placeholder": "Seyahat ödeneği girin",
+      "festival_bonus": "Festival Bonusu",
+      "festival_bonus_placeholder": "Bir festival bonusu girin",
+      "commission": "komisyon",
+      "commission_placeholder": "Bir komisyon girin",
+      "bonus": "Bonus",
+      "bonus_placeholder": "bir bonus girin",
+      "food_bill": "yemek faturası",
+      "food_bill_placeholder": "Bir yemek faturası girin",
+      "mobile_bill": "Mobil Fatura",
+      "mobile_bill_placeholder": "Bir mobil fatura girin",
+      "deduction_reason": "Kesinti Nedeni",
+      "deduction_reason_placeholder": "Bir kesinti nedeni girin",
+      "deduction_amount": "Kesinti Tutarı",
+      "deduction_amount_placeholder": "Bir kesinti tutarı girin",
+      "present_salary": "Mevcut maaş",
+      "salary_month": "Maaş Ayı",
+      "salary_month_placeholder": "Bir maaş ayı seçin"
+    },
+    "index": {
+      "page_title": "Çalışan Bordrosu",
+      "breadcrumbs_current": "Çalışan Bordrosu",
+      "breadcrumbs_first": "Gösterge Paneli",
+      "breadcrumbs_second": "Maaş bordrosu",
+      "breadcrumbs_active": "Maaş bordrosu",
+      "delete_warning": "Buna geri dönemeyeceksin!",
+      "delete_failed": "Yanlış bir şey vardı."
+    },
+    "create": {
+      "page_title": "Bordro Oluştur",
+      "form_title": "Çalışan bordrosu oluşturun",
+      "breadcrumbs_current": "Bordro Oluştur",
+      "breadcrumbs_first": "Gösterge Paneli",
+      "breadcrumbs_second": "Maaş bordrosu",
+      "breadcrumbs_active": "Oluşturmak",
+      "success_msg": "Bordro başarıyla eklendi 👍"
+    },
+    "edit": {
+      "page_title": "Bordroyu Düzenle",
+      "form_title": "Bordroyu düzenle",
+      "breadcrumbs_current": "Bordroyu Düzenle",
+      "breadcrumbs_first": "Gösterge Paneli",
+      "breadcrumbs_second": "Maaş bordrosu",
+      "breadcrumbs_active": "Düzenlemek",
+      "success_msg": "Bordro başarıyla güncellendi 👍"
+    },
+    "view": {
+      "page_title": "Bordro Detayları",
+      "breadcrumbs_current": "Bordro Detayları",
+      "breadcrumbs_first": "Gösterge Paneli",
+      "breadcrumbs_second": "Maaş bordrosu",
+      "breadcrumbs_active": "Detaylar"
+    }
+  },
+  "clients": {
+    "common": {
+      "non_invoice_transactions": "Fatura Dışı İşlemler"
+    },
+    "index": {
+      "page_title": "Müşteriler",
+      "breadcrumbs_current": "Müşteriler",
+      "breadcrumbs_first": "Gösterge Paneli",
+      "breadcrumbs_second": "Müşteriler",
+      "breadcrumbs_active": "Müşteriler",
+      "delete_warning": "Buna geri dönemeyeceksin!",
+      "delete_failed": "Maalesef bu istemciyi silemezsiniz."
+    },
+    "create": {
+      "page_title": "İstemci Oluştur",
+      "form_title": "Müşteri oluştur",
+      "breadcrumbs_current": "İstemci Oluştur",
+      "breadcrumbs_first": "Gösterge Paneli",
+      "breadcrumbs_second": "Müşteriler",
+      "breadcrumbs_active": "Oluşturmak",
+      "success_msg": "İstemci başarıyla eklendi 👍"
+    },
+    "edit": {
+      "page_title": "İstemciyi Düzenle",
+      "form_title": "İstemciyi düzenle",
+      "breadcrumbs_current": "İstemciyi düzenle",
+      "breadcrumbs_first": "Gösterge Paneli",
+      "breadcrumbs_second": "Müşteriler",
+      "breadcrumbs_active": "Düzenlemek",
+      "success_msg": "İstemci başarıyla güncellendi 👍"
+    },
+    "view": {
+      "page_title": "Müşteri Detayları",
+      "breadcrumbs_current": "Müşteri Detayları",
+      "breadcrumbs_first": "Gösterge Paneli",
+      "breadcrumbs_second": "Müşteriler",
+      "breadcrumbs_active": "Detaylar"
+    }
+  },
+  "suppliers": {
+    "common": {
+      "non_purchase_transactions": "Satın Alma Dışı İşlemler"
+    },
+    "index": {
+      "page_title": "Tedarikçiler",
+      "breadcrumbs_current": "Tedarikçiler",
+      "breadcrumbs_first": "Gösterge Paneli",
+      "breadcrumbs_second": "Tedarikçiler",
+      "breadcrumbs_active": "Tedarikçiler",
+      "delete_warning": "Buna geri dönemeyeceksiniz!",
+      "delete_failed": "Maalesef bu tedarikçiyi silemezsiniz."
+    },
+    "create": {
+      "page_title": "Tedarikçi Oluştur",
+      "form_title": "Tedarikçi oluştur",
+      "breadcrumbs_current": "Tedarikçi Oluştur",
+      "breadcrumbs_first": "Gösterge Paneli",
+      "breadcrumbs_second": "Tedarikçiler",
+      "breadcrumbs_active": "Oluşturmak",
+      "success_msg": "Tedarikçi başarıyla eklendi 👍"
+    },
+    "edit": {
+      "page_title": "Tedarikçiyi Düzenle",
+      "form_title": "Tedarikçiyi düzenle",
+      "breadcrumbs_current": "Tedarikçiyi Düzenle",
+      "breadcrumbs_first": "Gösterge Paneli",
+      "breadcrumbs_second": "Tedarikçiler",
+      "breadcrumbs_active": "Düzenlemek",
+      "success_msg": "Tedarikçi başarıyla güncellendi 👍"
+    },
+    "view": {
+      "page_title": "Tedarikçi Ayrıntıları",
+      "breadcrumbs_current": "Tedarikçi Ayrıntıları",
+      "breadcrumbs_first": "Gösterge Paneli",
+      "breadcrumbs_second": "Tedarikçiler",
+      "breadcrumbs_active": "Detaylar"
+    }
+  },
+  "employees": {
+    "common": {
+      "increment_date": "Artış Tarihi",
+      "increment_amount": "Artış Miktarı",
+      "increment_amount_placeholder": "Artış miktarını girin",
+      "increment_reason": "Artış Nedeni",
+      "increment_reason_placeholder": "Bir neden girin",
+      "basic_salary": "Temel maaş",
+      "current_salary": "Cari Maaş",
+      "incremented_salary": "Maaş artışı",
+      "birth_date": "Doğum günü",
+      "join_date": "Üyelik Tarihi",
+      "employee_name": "İşçi adı",
+      "employee_name_placeholder": "Bir çalışan adı girin",
+      "gender": "Cinsiyet",
+      "gender_placeholder": "Bir cinsiyet seçin",
+      "male": "Erkek",
+      "female": "Dişi",
+      "transgender": "transseksüel",
+      "other": "Başka",
+      "blood_group": "Kan grubu",
+      "blood_group_placeholder": "Bir kan grubu seçin",
+      "religion": "Din",
+      "religion_placeholder": "Bir din seçin",
+      "islam": "İslâm",
+      "hinduism": "Hinduizm",
+      "buddhists": "Budistler",
+      "christians": "Hıristiyanlar",
+      "animists": "animistler",
+      "appointment_date": "Randevu Tarihi",
+      "allow_login": "Çalışan Girişine İzin Ver",
+      "increment_history": "Artış Geçmişi"
+    },
+    "departments": {
+      "index": {
+        "page_title": "Bölümler",
+        "breadcrumbs_current": "Bölümler",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Çalışanlar",
+        "breadcrumbs_active": "Bölümler",
+        "delete_warning": "Buna geri dönemeyeceksiniz!",
+        "delete_failed": "Yanlış bir şey vardı."
+      },
+      "create": {
+        "page_title": "Departman Oluştur",
+        "form_title": "Bir departman oluştur",
+        "breadcrumbs_current": "Departman Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Bölümler",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Bölüm başarıyla eklendi 👍"
+      },
+      "edit": {
+        "page_title": "Departmanı Düzenle",
+        "form_title": "Bölümü düzenle",
+        "breadcrumbs_current": "Departmanı Düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Bölümler",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Bölüm başarıyla güncellendi 👍"
+      }
+    },
+    "increments": {
+      "index": {
+        "page_title": "Çalışan Maaş Artışları",
+        "breadcrumbs_current": "Maaş Artışları",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Çalışanlar",
+        "breadcrumbs_active": "artışlar",
+        "delete_warning": "Buna geri dönemeyeceksiniz!",
+        "delete_failed": "Yanlış bir şey vardı."
+      },
+      "create": {
+        "page_title": "Maaş Artışı Oluştur",
+        "form_title": "Maaş artışı oluştur",
+        "breadcrumbs_current": "Maaş Artışı Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "artışlar",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Artış başarıyla eklendi 👍"
+      },
+      "edit": {
+        "page_title": "Maaş Artışını Düzenle",
+        "form_title": "Maaş artışını düzenle",
+        "breadcrumbs_current": "Maaş Artışını Düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "artışlar",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Artış başarıyla güncellendi 👍"
+      },
+      "view": {
+        "page_title": "Artış Ayrıntıları",
+        "breadcrumbs_current": "Artış Ayrıntıları",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "artışlar",
+        "breadcrumbs_active": "Detaylar"
+      }
+    },
+    "list": {
+      "index": {
+        "page_title": "Çalışanlar",
+        "breadcrumbs_current": "Çalışanlar",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_active": "Çalışanlar",
+        "delete_warning": "Buna geri dönemeyeceksiniz!",
+        "delete_failed": "Yanlış bir şey vardı."
+      },
+      "create": {
+        "page_title": "Çalışan Oluştur",
+        "form_title": "Bir çalışan oluşturun",
+        "breadcrumbs_current": "Çalışan Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Çalışanlar",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Çalışan başarıyla eklendi 👍"
+      },
+      "edit": {
+        "page_title": "Çalışanı Düzenle",
+        "form_title": "Çalışanı düzenle",
+        "breadcrumbs_current": "Çalışanı Düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Çalışanlar",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Çalışan başarıyla güncellendi 👍"
+      },
+      "view": {
+        "page_title": "Çalışan bilgileri",
+        "breadcrumbs_current": "Çalışan bilgileri",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Çalışanlar",
+        "breadcrumbs_active": "Detaylar"
+      }
+    }
+  },
+  "products": {
+    "categories": {
+      "index": {
+        "page_title": "ürün kategorileri",
+        "breadcrumbs_current": "ürün kategorileri",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Ürün:% s",
+        "breadcrumbs_active": "Kategoriler",
+        "delete_warning": "Bu kategori için tüm alt kategoriler silinecek!"
+      },
+      "create": {
+        "page_title": "Ürün Kategorisi Oluştur",
+        "form_title": "Bir ürün kategorisi oluşturun",
+        "breadcrumbs_current": "Kategori Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Ürün:% s",
+        "breadcrumbs_third": "Kategoriler",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Kategori başarıyla eklendi 👍"
+      },
+      "edit": {
+        "page_title": "Ürün Kategorisini Düzenle",
+        "form_title": "Ürün kategorisini düzenle",
+        "breadcrumbs_current": "Ürün Kategorisini Düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Ürün:% s",
+        "breadcrumbs_third": "Kategoriler",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Kategori başarıyla güncellendi 👍"
+      }
+    },
+    "sub_categories": {
+      "index": {
+        "page_title": "Ürün Alt Kategorileri",
+        "breadcrumbs_current": "Ürün Alt Kategorileri",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Ürün:% s",
+        "breadcrumbs_active": "Alt Kategoriler",
+        "delete_warning": "Bu kategorideki tüm ürünler silinecek!"
+      },
+      "create": {
+        "page_title": "Ürün Alt Kategorisi Oluştur",
+        "form_title": "Bir ürün alt kategorisi oluşturun",
+        "breadcrumbs_current": "Alt Kategori Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Ürün:% s",
+        "breadcrumbs_third": "Alt Kategoriler",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Alt kategori başarıyla eklendi 👍"
+      },
+      "edit": {
+        "page_title": "Ürün Alt Kategorisini Düzenle",
+        "form_title": "Ürün alt kategorisini düzenle",
+        "breadcrumbs_current": "Ürün Alt Kategorisini Düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Ürün:% s",
+        "breadcrumbs_third": "Alt Kategoriler",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Alt kategori başarıyla güncellendi 👍"
+      }
+    },
+    "list": {
+      "common": {
+        "alert_quantity": "Uyarı Miktarı",
+        "alert_quantity_placeholder": "Uyarı miktarını girin",
+        "selling_price": "Satış fiyatı",
+        "selling_price_placeholder": "Satış fiyatını girin",
+        "regular_price": "Normal fiyat",
+        "regular_price_placeholder": "Normal fiyatı girin",
+        "tax_type": "Vergi Türü",
+        "exclusive": "Özel",
+        "inclusive": "Dahil",
+        "product_tax": "Ürün Vergisi",
+        "tax_placeholder": "Bir vergi seçin",
+        "barcode_symbology": "Barkod Sembololojisi",
+        "tax_amount": "Vergi miktarı",
+        "avg_purchase_price": "Ort. Alış fiyatı",
+        "avg_selling_price": "Ort. Satış fiyatı",
+        "stock": "Stoklamak",
+        "inventory_value": "Envanter Değeri",
+        "generate_barcode": "Barkod Oluştur"
+      },
+      "index": {
+        "page_title": "Ürün:% s",
+        "breadcrumbs_current": "Ürün:% s",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Ürün:% s",
+        "breadcrumbs_active": "Ürün:% s",
+        "delete_warning": "Buna geri dönemeyeceksin!"
+      },
+      "create": {
+        "page_title": "Ürün Oluştur",
+        "form_title": "Bir ürün oluşturun",
+        "breadcrumbs_current": "Ürün Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Ürün:% s",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Ürün başarıyla eklendi 👍"
+      },
+      "edit": {
+        "page_title": "Ürünü Düzenle",
+        "form_title": "Ürünü düzenle",
+        "breadcrumbs_current": "Ürünü Düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Ürün:% s",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Ürün başarıyla güncellendi 👍"
+      },
+      "view": {
+        "page_title": "Ürün Detayları",
+        "breadcrumbs_current": "Ürün Detayları",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Ürün:% s",
+        "breadcrumbs_active": "Detaylar",
+        "expense_details": "Ürün Detayları"
+      },
+      "barcode": {
+        "page_title": "Barkodu Yazdır",
+        "generate_barcode": "Barkod Oluştur",
+        "print_barcode": "Barkodu Yazdır",
+        "paper_size": "Kağıt boyutu",
+        "print_qty": "Baskı Miktarı",
+        "breadcrumbs_current": "Barkodu Yazdır",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Ürün:% s",
+        "breadcrumbs_active": "Düzenlemek",
+        "page_option_0": "yaprak başına 40 (a4) (1.799 * 1.003)",
+        "page_option_1": "yaprak başına 30 (2.625 * 1)",
+        "page_option_2": "Sayfa başına 24 (a4) (2,48 * 1,334)",
+        "page_option_3": "yaprak başına 20 (4 * 1)",
+        "page_option_4": "Sayfa başına 18 (a4) (2,5 * 1.835)",
+        "page_option_5": "yaprak başına 14 (4 * 1.33)",
+        "page_option_6": "yaprak başına 12 (a4) (2,5 * 2.834)",
+        "page_option_7": "yaprak başına 10 (4 * 2)"
+      }
+    }
+  },
+  "inventory": {
+    "common": {
+      "inventory_history": "Envanter Geçmişi",
+      "adjustment_no": "Ayar No",
+      "adjustment_date": "Ayar Tarihi",
+      "adjustment_type": "Ayar Türü",
+      "increment": "artış",
+      "decrement": "Azaltma",
+      "adjustment_reason": "Düzenleme Nedeni",
+      "adjusted_products": "Düzeltilmiş Ürünler"
+    },
+    "index": {
+      "page_title": "Envanter",
+      "breadcrumbs_current": "Envanter",
+      "breadcrumbs_first": "Gösterge Paneli",
+      "breadcrumbs_second": "Ürün:% s",
+      "breadcrumbs_active": "Envanter"
+    },
+    "history": {
+      "page_title": "Envanter Geçmişi",
+      "breadcrumbs_current": "Envanter Geçmişi",
+      "breadcrumbs_first": "Gösterge Paneli",
+      "breadcrumbs_second": "Envanter",
+      "breadcrumbs_active": "Tarih"
+    },
+    "adjustments": {
+      "index": {
+        "page_title": "Envanter Düzenlemeleri",
+        "breadcrumbs_current": "Envanter Düzenlemeleri",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Envanter",
+        "breadcrumbs_active": "ayarlamalar",
+        "delete_warning": "Buna geri dönemeyeceksiniz!",
+        "delete_failed": "Yanlış bir şey vardı."
+      },
+      "create": {
+        "page_title": "Düzenleme Oluştur",
+        "form_title": "Düzenleme oluştur",
+        "breadcrumbs_current": "Ayar Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "ayarlamalar",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Ayar başarıyla eklendi 👍"
+      },
+      "edit": {
+        "page_title": "Düzenlemeyi Düzenle",
+        "form_title": "Düzenlemeyi düzenle",
+        "breadcrumbs_current": "Düzenlemeyi Düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "ayarlamalar",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Ayar başarıyla güncellendi 👍"
+      },
+      "view": {
+        "page_title": "Ayar Ayrıntıları",
+        "breadcrumbs_current": "Ayar Ayrıntıları",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "ayarlamalar",
+        "breadcrumbs_active": "Detaylar"
+      }
+    }
+  },
+  "reports": {
+    "stock_in": "Stokta",
+    "stock_out": "Stokta yok",
+    "total_quantity": "Toplam miktar",
+    "incomes": "gelirler",
+    "liabilities": "yükümlülükler",
+    "security_asset": "Toplam Güvenlik/Varlık",
+    "supplier_dues": "Tedarikçi Aidatları",
+    "client_dues": "Müşterinin Aidatları",
+    "bank_loan": "Banka borcu",
+    "bank_balance": "Banka hesap bakiyesi",
+    "income_liabilities": "(Gelir - Yükümlülükler)",
+    "total_asset": "Toplam varlık",
+    "view_report": "Raporu görüntüle",
+    "monthly_summery": "Aylık Özet",
+    "particulars": "Ayrıntılar",
+    "opening_balance": "Açılış bilançosu",
+    "invoice_sales": "Fatura Satışları",
+    "invoice_dues": "Fatura Aidatları",
+    "accounts_collection": "Hesap Koleksiyonu",
+    "general": "Genel",
+    "loan_interest": "Borç faizi",
+    "asset_depreciation": "Varlık Amortismanı",
+    "transfer": "Aktar",
+    "transfer_from": "Bakiye Transferi",
+    "closing_balance": "Kapanış bakiyesi",
+    "report_type": "Rapor türü",
+    "gross_profit_Loss": "Brüt Kar/Zarar",
+    "net_profit_Loss": "Net kâr (zarar",
+    "sold_qty": "Satılan Miktar",
+    "profit": "Kâr",
+    "loss": "Kayıp",
+    "total_sales_avg": "Toplam Satışlar (Ortalama)",
+    "total_purchased_avg": "Toplam Satın Alma (Ortalama)",
+    "income_statement": "Gelir Tablosu",
+    "total_sales": "Toplam satış",
+    "cost_of_goods_sold": "Satılan malın maliyeti",
+    "positive_adjusted": "Pozitif Düzeltilmiş",
+    "negative_adjusted": "Negatif Düzeltilmiş",
+    "total_adjusted": "Toplam Düzeltilmiş",
+    "gross_profit": "Brüt kazanç",
+    "gross_loss": "Brüt Zarar",
+    "operating_expenses": "İşletim giderleri",
+    "salaries": "Maaşlar",
+    "general_expenses": "Genel Giderler",
+    "total_expense": "Toplam Gider",
+    "net_profit": "Net kazanç",
+    "net_loss": "Net kayıp",
+    "date_range": "Tarih aralığı",
+    "stock_in_hand": "Eldeki Stok",
+    "balance_sheet": {
+      "page_title": "Bilanço",
+      "breadcrumbs_current": "Bilanço",
+      "breadcrumbs_first": "Gösterge Paneli",
+      "breadcrumbs_second": "Raporlar",
+      "breadcrumbs_active": "Bilanço"
+    },
+    "summary": {
+      "page_title": "Özet raporu",
+      "breadcrumbs_current": "Özet raporu",
+      "breadcrumbs_first": "Gösterge Paneli",
+      "breadcrumbs_second": "Raporlar",
+      "breadcrumbs_active": "Özet raporu"
+    },
+    "profit_loss": {
+      "empty_msg_title": "Boş kar/zarar!",
+      "empty_msg_text": "Üzgünüz, seçtiğiniz kategori ve tarih aralığı için kar/zarar bulunamadı.",
+      "page_title": "Kar/Zarar Raporu",
+      "breadcrumbs_current": "Kar/Zarar Raporu",
+      "breadcrumbs_first": "Gösterge Paneli",
+      "breadcrumbs_second": "Raporlar",
+      "breadcrumbs_active": "Kar/Zarar Raporu"
+    },
+    "expense": {
+      "empty_msg_title": "Boş harcamalar!",
+      "empty_msg_text": "Üzgünüz, seçtiğiniz kategori ve tarih aralığı için masraf bulunamadı.",
+      "page_title": "Gider raporu",
+      "breadcrumbs_current": "Gider raporu",
+      "breadcrumbs_first": "Gösterge Paneli",
+      "breadcrumbs_second": "Raporlar",
+      "breadcrumbs_active": "Gider raporu"
+    },
+    "product": {
+      "empty_msg_title": "Boş!",
+      "empty_msg_text": "Üzgünüz, seçtiğiniz ürün ve tarih aralığı için stokta bulunan veya biten stok bulunamadı.",
+      "page_title": "Öğe Raporu",
+      "breadcrumbs_current": "Öğe Raporu",
+      "breadcrumbs_first": "Gösterge Paneli",
+      "breadcrumbs_second": "Raporlar",
+      "breadcrumbs_active": "Öğe Raporu"
+    },
+    "inventory": {
+      "empty_msg_title": "Boş envanter!",
+      "empty_msg_text": "Üzgünüz, seçtiğiniz kategori ve tarih aralığı için envanter bulunamadı.",
+      "page_title": "Envanter raporu",
+      "breadcrumbs_current": "Envanter raporu",
+      "breadcrumbs_first": "Gösterge Paneli",
+      "breadcrumbs_second": "Raporlar",
+      "breadcrumbs_active": "Envanter raporu"
+    }
+  },
+  "setup": {
+    "common": {
+      "sort_code": "Kısa kod",
+      "sort_code_placeholder": "Kısa bir kod girin"
+    },
+    "index": {
+      "page_title": "Kurmak",
+      "breadcrumbs_current": "Kurmak",
+      "breadcrumbs_first": "Gösterge Paneli",
+      "breadcrumbs_active": "Kurmak",
+      "menu": {
+        "item_one": {
+          "title": "Genel",
+          "description": "Site başlığı, site açıklaması, adres vb. genel ayarlar.",
+          "link_text": "Ayarları değiştir"
+        },
+        "item_two": {
+          "title": "para birimleri",
+          "description": "Sistemde kullanacağınız çeşitli para birimlerini yönetin.",
+          "link_text": "para birimleri"
+        },
+        "item_three": {
+          "title": "Birimler",
+          "description": "Sistemde kullanacağınız ölçüm için birim tiplerini yönetin.",
+          "link_text": "Birimler"
+        },
+        "item_four": {
+          "title": "Rol ve İzinler",
+          "description": "Sistemi kullanacak kullanıcılar için Rolleri ve İzinleri Yönetin.",
+          "link_text": "Roller ve İzinler"
+        },
+        "item_five": {
+          "title": "KDV Oranları",
+          "description": "Sistemde kullanacağınız KDV yönetimi için KDV oranlarını yönetin.",
+          "link_text": "KDV Oranları"
+        },
+        "item_six": {
+          "title": "markalar",
+          "description": "Sistemde kullanacağınız markaları yönetin.",
+          "link_text": "markalar"
+        },
+        "item_seven": {
+          "title": "Ödeme metodları",
+          "description": "Sistemde kullanacağınız ödeme yöntemlerini yönetin.",
+          "link_text": "Ödeme metodları"
+        },
+        "item_eight": {
+          "title": "Kullanıcı İzinleri",
+          "description": "Bir role atayacağınız izni yönetin.",
+          "link_text": "Kullanıcı İzinleri"
+        }
+      }
+    },
+    "general_settings": {
+      "index": {
+        "page_title": "Genel Ayarlar",
+        "breadcrumbs_current": "Genel Ayarlar",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kurmak",
+        "breadcrumbs_active": "Genel ayarları güncelle",
+        "form_title": "Genel ayarları güncelle",
+        "success_message": "Ayarlar başarıyla güncellendi 👍",
+        "company_info": {
+          "info_title": "Şirket Bilgilerinizi Ekleyin",
+          "company_tagline": "Şirket Sloganı",
+          "company_tagline_placeholder": "Şirket Sloganı",
+          "email_address": "E-posta Adresi",
+          "email_address_placeholder": "Bir e-mail adresi girin",
+          "phone_number": "Telefon numarası",
+          "phone_number_placeholder": "Telefon numarası"
+        },
+        "code_prefixes": {
+          "prefix_title": "Kod öneklerini ekleyin",
+          "client_prefix": "İstemci Öneki",
+          "client_prefix_placeholder": "Bir istemci öneki girin",
+          "supplier_prefix": "Tedarikçi Öneki",
+          "supplier_prefix_placeholder": "Bir tedarikçi öneki girin",
+          "employee_prefix": "Çalışan Öneki",
+          "employee_prefix_placeholder": "Bir çalışan öneki girin",
+          "product_category_prefix": "Ürün Kategorisi Öneki",
+          "product_category_prefix_placeholder": "Bir ürün kategorisi ön eki girin",
+          "product_sub_category_prefix": "Ürün Alt Kategori Öneki",
+          "product_sub_category_prefix_placeholder": "Bir alt Kategori Öneki girin",
+          "product_prefix": "Ürün Öneki",
+          "product_prefix_placeholder": "Bir ürün öneki girin",
+          "expense_category_prefix": "Gider Kategorisi Öneki",
+          "expense_category_prefix_placeholder": "Bir gider kategorisi ön eki girin",
+          "expense_sub_category_prefix": "Gider Alt Kategori Öneki",
+          "expense_sub_category_prefix_placeholder": "Bir gider alt kategorisi öneki girin",
+          "purchase_prefix": "Satın Alma Öneki",
+          "purchase_prefix_placeholder": "Bir satın alma öneki girin",
+          "purchase_return_prefix": "Satın Alma İade Ön Eki",
+          "purchase_return_prefix_placeholder": "Bir satın alma iadesi ön eki girin",
+          "quotation_prefix": "Teklif Öneki",
+          "quotation_prefix_placeholder": "Bir teklif öneki girin",
+          "invoice_prefix": "Fatura Öneki",
+          "invoice_prefix_placeholder": "Bir fatura öneki girin",
+          "invoice_return_prefix": "Fatura İade Ön Eki",
+          "invoice_return_prefix_placeholder": "Bir fatura iade ön eki girin",
+          "invoice_adjustment_prefix": "Envanter Düzenleme Öneki",
+          "invoice_adjustment_prefix_placeholder": "Bir envanter düzenleme öneki girin"
+        },
+        "default_elements": {
+          "default_elements_title": "Varsayılan öğelerinizi ekleyin",
+          "default_currency": "Varsayılan Para Birimi",
+          "select_a_currency": "Bir para birimi seçin",
+          "default_language": "Varsayılan dil",
+          "english_en": "İspanyolca (tr)",
+          "hindi_hi": "hayır (merhaba)",
+          "bangla_bn": "Bangla (milyar)",
+          "copyright_text": "Telif Hakkı Metni",
+          "copyright_text_placeholder": "Telif Hakkı Metni",
+          "default_client": "Varsayılan İstemci",
+          "default_account": "Varsayılan Hesap",
+          "select_a_account": "Bir hesap seçin",
+          "select_a_client": "Bir müşteri seçin",
+          "default_vat_rate": "Varsayılan KDV Oranı",
+          "select_a_vat_rate": "Bir KDV Oranı Seçin"
+        },
+        "logo": {
+          "white_logo": "Beyaz Logo",
+          "black_logo": "Siyah Logo",
+          "small_logo": "Küçük Logo",
+          "favicon": "Favicon"
+        },
+        "trial_day_count_placeholder": "Deneme Günü Sayısı"
+      }
+    },
+    "currencies": {
+      "common": {
+        "symbol": "Sembol",
+        "symbol_placeholder": "Bir sembol girin",
+        "currency_position": "Para Birimi Pozisyonu",
+        "position_drop_down_item_one": "Sola hizala",
+        "position_drop_down_item_two": "Sağa hizala"
+      },
+      "index": {
+        "page_title": "para birimleri",
+        "breadcrumbs_current": "para birimleri",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kurmak",
+        "breadcrumbs_active": "para birimleri",
+        "table": {
+          "position": "Durum",
+          "preview": "Ön izleme"
+        }
+      },
+      "create": {
+        "page_title": "Para Birimi Oluştur",
+        "breadcrumbs_current": "Para Birimi Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kurmak",
+        "breadcrumbs_third": "para birimleri",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Para birimi başarıyla eklendi 👍",
+        "form_title": "Para birimi oluştur"
+      },
+      "edit": {
+        "page_title": "Para Birimi Düzenle",
+        "breadcrumbs_current": "Para birimini düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kurmak",
+        "breadcrumbs_third": "para birimleri",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Para birimi başarıyla güncellendi 👍",
+        "form_title": "Para birimini düzenle"
+      }
+    },
+    "units": {
+      "index": {
+        "page_title": "Birimler",
+        "breadcrumbs_current": "Birimler",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kurmak",
+        "breadcrumbs_active": "Birimler"
+      },
+      "create": {
+        "page_title": "Birim Oluştur",
+        "breadcrumbs_current": "Birim Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kurmak",
+        "breadcrumbs_third": "Birimler",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Ünite başarıyla eklendi 👍",
+        "form_title": "Birim oluştur"
+      },
+      "edit": {
+        "page_title": "Birimi Düzenle",
+        "breadcrumbs_current": "Birimi Düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kurmak",
+        "breadcrumbs_third": "Birimler",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Ünite başarıyla güncellendi 👍",
+        "form_title": "Birimi düzenle"
+      }
+    },
+    "permissions": {
+      "common": {
+        "slug": "sümüklü böcek",
+        "slug_placeholder": "Bir bilgi girin",
+        "guard_name": "Koruma Adı",
+        "guard_name_placeholder": "Bir koruma adı girin"
+      },
+      "index": {
+        "page_title": "izinler",
+        "breadcrumbs_current": "izinler",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kurmak",
+        "breadcrumbs_active": "izinler"
+      },
+      "create": {
+        "page_title": "İzin Oluştur",
+        "form_title": "İzin oluştur",
+        "breadcrumbs_current": "İzin Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kurmak",
+        "breadcrumbs_third": "izinler",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "İzin başarıyla eklendi 👍"
+      },
+      "edit": {
+        "page_title": "İzni Düzenle",
+        "form_title": "İzni düzenle",
+        "breadcrumbs_current": "İzni Düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kurmak",
+        "breadcrumbs_third": "izinler",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "İzin başarıyla güncellendi 👍"
+      }
+    },
+    "role_and_permission": {
+      "index": {
+        "page_title": "Roller ve İzinler",
+        "breadcrumbs_current": "Roller ve İzinler",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kurmak",
+        "breadcrumbs_active": "Roller ve İzinler",
+        "role_name": "Rol ismi"
+      },
+      "create": {
+        "page_title": "Rol Oluştur",
+        "breadcrumbs_current": "Rol Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kurmak",
+        "breadcrumbs_third": "Roller ve İzinler",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Rol başarıyla eklendi 👍",
+        "form_title": "Rol oluştur",
+        "select_permission": "İzinleri Seçin:"
+      },
+      "edit": {
+        "page_title": "Rolü Düzenle",
+        "breadcrumbs_current": "Rolü Düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kurmak",
+        "breadcrumbs_third": "Roller ve İzinler",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Rol başarıyla güncellendi 👍",
+        "form_title": "Rolü düzenle",
+        "update_permission": "İzinleri Güncelle:"
+      }
+    },
+    "vat_rates": {
+      "common": {
+        "rate_in_percent": "Oran (% olarak hesaplanmıştır)",
+        "rate_palceholder": "Bir ücret girin"
+      },
+      "index": {
+        "page_title": "KDV Oranları",
+        "breadcrumbs_current": "KDV Oranları",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kurmak",
+        "breadcrumbs_active": "KDV Oranları",
+        "rate": "Oran"
+      },
+      "create": {
+        "page_title": "KDV Oranı Oluştur",
+        "breadcrumbs_current": "KDV Oranı Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kurmak",
+        "breadcrumbs_third": "KDV Oranları",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "KDV Oranı başarıyla eklendi 👍",
+        "form_title": "KDV oranı oluşturun"
+      },
+      "edit": {
+        "page_title": "KDV Oranını Düzenle",
+        "breadcrumbs_current": "KDV Oranını Düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kurmak",
+        "breadcrumbs_third": "KDV Oranları",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "KDV Oranı başarıyla güncellendi 👍",
+        "form_title": "KDV oranını düzenle"
+      }
+    },
+    "brands": {
+      "common": {
+        "brand_name": "Marka adı",
+        "brand_name_placeholder": "Marka adını girin"
+      },
+      "index": {
+        "page_title": "markalar",
+        "breadcrumbs_current": "markalar",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kurmak",
+        "breadcrumbs_active": "markalar",
+        "brand_logo_view": "Marka Logo Görünümü"
+      },
+      "create": {
+        "page_title": "Marka Yarat",
+        "breadcrumbs_current": "Marka Yarat",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kurmak",
+        "breadcrumbs_third": "markalar",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Marka başarıyla eklendi 👍",
+        "form_title": "Marka oluştur"
+      },
+      "view": {
+        "page_title": "Marka Detayları",
+        "breadcrumbs_current": "Marka Detayları",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kurmak",
+        "breadcrumbs_third": "markalar",
+        "breadcrumbs_active": "Detaylar"
+      },
+      "edit": {
+        "page_title": "Markayı Düzenle",
+        "breadcrumbs_current": "Markayı Düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kurmak",
+        "breadcrumbs_third": "markalar",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Marka başarıyla güncellendi 👍",
+        "form_title": "Markayı düzenle"
+      }
+    },
+    "payment_methods": {
+      "index": {
+        "page_title": "Ödeme metodları",
+        "breadcrumbs_current": "Ödeme metodları",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kurmak",
+        "breadcrumbs_active": "Ödeme metodları"
+      },
+      "create": {
+        "page_title": "Ödeme Yöntemi Oluştur",
+        "breadcrumbs_current": "Ödeme Yöntemi Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kurmak",
+        "breadcrumbs_third": "Ödeme metodları",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Ödeme Yöntemi başarıyla eklendi 👍",
+        "form_title": "Bir ödeme yöntemi oluşturun"
+      },
+      "edit": {
+        "page_title": "Ödeme Yöntemini Düzenle",
+        "breadcrumbs_current": "Ödeme yöntemini düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kurmak",
+        "breadcrumbs_third": "Ödeme metodları",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Ödeme yöntemi başarıyla güncellendi 👍",
+        "form_title": "Ödeme yöntemini düzenle"
+      }
+    },
+    "plans": {
+      "view": {
+        "page_title": "Planlar"
+      }
+    },
+    "advanced_settings": {
+      "index": {
+        "page_title": "Ödeme Ayarları",
+        "breadcrumbs_first": "Kurmak",
+        "breadcrumbs_second": "Ödeme Ayarları",
+        "breadcrumbs_current": "Ödeme Ayarları",
+        "breadcrumbs_active": "Ödeme Ayarları"
+      }
+    }
+  },
+  "user_profile": {
+    "form_title": "profilinizi güncelleyin",
+    "page_title": "Profili Güncelle",
+    "breadcrumbs_current": "Profili Güncelle",
+    "breadcrumbs_first": "Gösterge Paneli",
+    "breadcrumbs_active": "Güncelleme",
+    "current_password": "Mevcut Şifre",
+    "current_password_placeholder": "Güncel şifrenizi giriniz",
+    "new_password": "Yeni Şifre",
+    "new_password_placeholder": "Yeni şifreyi girin",
+    "confirm_password": "Şifreyi Onayla",
+    "confirm_password_placeholder": "Onay şifresini girin",
+    "success_msg": "Profil başarıyla güncellendi 👍"
+  },
+  "stock_alert": {
+    "page_title": "Stok Uyarı Ürünleri",
+    "breadcrumbs_current": "Stok Uyarı Ürünleri",
+    "breadcrumbs_first": "Gösterge Paneli",
+    "breadcrumbs_active": "Uyarı Ürünleri"
+  },
+  "backup": {
+    "page_title": "Veritabanı Yedekleme",
+    "breadcrumbs_current": "Veritabanı Yedekleme",
+    "breadcrumbs_first": "Gösterge Paneli",
+    "breadcrumbs_active": "Destek olmak",
+    "export": "İhracat",
+    "format": "Biçim",
+    "format_sql": "SQL (.sql)",
+    "success_msg": "Yedekleme başarıyla indirildi 👍"
+  },
+  "permission_denied": {
+    "page_title": "İzin reddedildi",
+    "breadcrumbs_current": "İzin reddedildi",
+    "breadcrumbs_first": "Gösterge Paneli",
+    "breadcrumbs_active": "İzin reddedildi",
+    "error_msg": "Bu sayfayı görüntüleme izniniz yok.",
+    "error_code": "hata kodu:403 yasak."
+  },
+  "error_not_found": {
+    "error_404": "404",
+    "error_404_title": "Sayfa bulunamadı",
+    "error_404_msg": "Üzgünüz, istenen URL bu sunucuda bulunamadı. Tüm bildiğimiz bu!",
+    "back_to_dashboard": "Gösterge Tablosuna Geri Dön",
+    "back_to_login": "Girişe geri dön"
+  },
+  "sidebar_control": {
+    "customize_wharf": "Wharf'ı Özelleştir",
+    "dark_mode": "Karanlık Mod",
+    "header_options": "Başlık Seçenekleri",
+    "fixed": "Sabit",
+    "no_border": "Sınır yok",
+    "sidebar_options": "Kenar Çubuğu Seçenekleri",
+    "sidebar_dark": "Kenar Çubuğu Koyu",
+    "collapsed": "Kenar Çubuğu Daraltılmış",
+    "sidebar_fixed": "Kenar çubuğu Sabit",
+    "sidebar_mini": "Kenar Çubuğu Mini",
+    "nav_flat_style": "Gezinti Düz Stil",
+    "nav_legacy_style": "Gezinme Eski Stili",
+    "nav_child_indent": "Gezinti Alt Girinti",
+    "disable_hover": "Vurgulu/Odak Otomatik Genişletmeyi Devre Dışı Bırak"
+  },
+  "pos": {
+    "page_title": "POS",
+    "breadcrumbs_current": "İndirim Yarat",
+    "breadcrumbs_first": "Gösterge Paneli",
+    "breadcrumbs_second": "faturalar",
+    "breadcrumbs_active": "POS",
+    "available": "Mevcut",
+    "pos": "POS",
+    "complete_order": "Kaydetmek",
+    "complete_order_and_add_payment": "Kaydet ve Ödeme",
+    "add_payment": "Ödeme Ekle",
+    "invoice_receipt": "Fatura makbuzu",
+    "not_enough_items": "Yetersiz öğeler!",
+    "receipt_text": "Bizden alışveriş yaptığınız için teşekkür ederiz. Lütfen tekrar gel!"
+  },
+  "billing": {
+    "form_title": "Faturalandırma Ayarları",
+    "name": "İsim",
+    "name_placeholder": "Karttaki isim",
+    "invoice": "Fatura",
+    "page_title": "faturalandırma",
+    "card_details": "Kart detayları",
+    "breadcrumbs_current": "Faturalandırma Ayarları",
+    "breadcrumbs_first": "Gösterge Paneli",
+    "breadcrumbs_active": "Faturalandırma Ayarları"
+  },
+  "settings": {
+    "name": "Açılış Sayfası Ayarları",
+    "breadcrumbs_current": "Açılış Sayfası Ayarları",
+    "breadcrumbs_first": "Gösterge Paneli",
+    "breadcrumbs_active": "Açılış Sayfası Ayarları",
+    "success_msg": "Açılış Sayfası Ayarları başarıyla güncellendi 👍",
+    "form_title": "Açılış Sayfası Ayarları",
+    "page_title": "Açılış Sayfası Ayarları"
+  },
+  "central": {
+    "current_plan": "Mevcut Plan",
+    "trial_start": "Deneme Başladı",
+    "trial_end": "Deneme Bitiş Tarihi",
+    "tenant_id": "Kiracı Kimliği",
+    "used": "Kullanılmış",
+    "remaining": "Geriye kalan",
+    "pages": {
+      "edit": {
+        "page_title": "Sayfayı düzenle",
+        "breadcrumbs_current": "Sayfayı düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Sayfalar",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Sayfa başarıyla güncellendi 👍",
+        "form_title": "Sayfayı düzenle"
+      },
+      "name": "Sayfalar",
+      "slug": "sümüklü böcek",
+      "type": "Tip",
+      "index": {
+        "page_title": "Sayfalar",
+        "breadcrumbs_current": "Sayfalar",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_active": "Sayfalar",
+        "delete_confirm_button": "Silmek",
+        "brand_logo_view": "Marka Logo Görünümü"
+      },
+      "create": {
+        "page_title": "Sayfa oluştur",
+        "breadcrumbs_current": "Sayfa oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Sayfalar",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Sayfa başarıyla eklendi 👍",
+        "form_title": "Bir sayfa yarat"
+      },
+      "name_placeholder": "Sayfanın adı",
+      "content": "İçerik",
+      "information": "Bilgi",
+      "need_help": "Yardıma ihtiyacınız var"
+    },
+    "newsletters": {
+      "subject": "Ders",
+      "subject_placeholder": "Konuyu girin",
+      "greeting": "Selamlama",
+      "greeting_placeholder": "Karşılama girin",
+      "body": "Gövde",
+      "create": {
+        "page_title": "Posta göndermek",
+        "breadcrumbs_current": "Posta göndermek",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Posta göndermek",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Posta başarıyla gönderildi 👍",
+        "form_title": "Posta göndermek"
+      }
+    },
+    "setting_images": {
+      "index": {
+        "delete_confirm_button": "Silmek",
+        "page_title": "Ön Uç Ayar Resimleri",
+        "breadcrumbs_current": "Ön Uç Ayar Resimleri",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kurmak",
+        "breadcrumbs_active": "Ön Uç Ayar Resimleri"
+      },
+      "edit": {
+        "page_title": "Ön Uç Ayar Resmini Düzenle",
+        "breadcrumbs_current": "Ön Uç Ayar Resmini Düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kurmak",
+        "breadcrumbs_third": "Ön Uç Ayar Resimleri",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Ön Uç Ayar Resmi başarıyla güncellendi 👍",
+        "form_title": "Ön Uç Ayar Resmini Düzenle",
+        "image": "resim",
+        "title": "Başlık",
+        "title_placeholder": "Başlık",
+        "description": "Tanım",
+        "description_placeholder": "Tanım"
+      },
+      "create": {
+        "page_title": "Ön Uç Ayar Resmi Oluştur",
+        "breadcrumbs_current": "Ön Uç Ayar Resmi Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kurmak",
+        "breadcrumbs_third": "Ön Uç Ayar Resimleri",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Ön Uç Ayar Resmi başarıyla eklendi 👍",
+        "form_title": "Ön Uç Ayar Resmi Oluştur",
+        "image": "resim",
+        "title": "Başlık",
+        "title_placeholder": "Başlık",
+        "description": "Tanım",
+        "description_placeholder": "Tanım"
+      },
+      "image": "resim",
+      "title": "Başlık",
+      "title_placeholder": "Başlık girin",
+      "description": "Tanım",
+      "description_placeholder": "Açıklama girin",
+      "name": "İsim",
+      "name_placeholder": "İsim giriniz",
+      "type": "Tip",
+      "image_align_left": "Sola hizalamak"
+    },
+    "tenants": {
+      "create": {
+        "page_title": "Kiracı Oluştur",
+        "breadcrumbs_current": "Kiracı Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kiracılar",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Kiracı başarıyla eklendi 👍",
+        "form_title": "Kiracı oluştur"
+      },
+      "edit": {
+        "page_title": "Kiracıyı Düzenle",
+        "breadcrumbs_current": "Kiracıyı Düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kiracılar",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Kiracı başarıyla güncellendi 👍",
+        "form_title": "Kiracıyı düzenle"
+      },
+      "index": {
+        "deleted": "silindi",
+        "delete_title": "Kiracıyı Sil",
+        "delete_warning": "Bu kiracıyı silmek istediğinizden emin misiniz?",
+        "delete_success": "Kiracı başarıyla silindi 👍",
+        "delete_confirm_text": "Evet, silin!",
+        "page_title": "Kiracılar",
+        "breadcrumbs_current": "Kiracılar",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_active": "Kiracılar",
+        "s_no": "S.Hayır",
+        "domain": "Alan adı",
+        "name_and_email": "Ad ve E-posta",
+        "plan": "Plan",
+        "trial_ends_at": "Deneme Bitiş Tarihi",
+        "banned": "yasaklandı",
+        "send_email": "Eposta gönder",
+        "action": "Eylem",
+        "false": "Yanlış",
+        "true": "Doğru",
+        "create": "Oluşturmak",
+        "edit": "Düzenlemek",
+        "delete": "Silmek",
+        "ban": "yasakla",
+        "unban": "yasağı kaldır",
+        "view": "görüş",
+        "export_table": "Tabloyu Dışa Aktar",
+        "print_table": "PDF'yi dışa aktar",
+        "send_notification": "Eposta gönder",
+        "impersonate": "kimliğine bürün",
+        "failed": "Arızalı",
+        "on_trial": "Deneme",
+        "is_subscribed": "Abone olundu"
+      },
+      "view": {
+        "breadcrumbs_current": "Kiracı Ayrıntıları",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Kiracılar",
+        "breadcrumbs_active": "Detaylar",
+        "page_title": "Kiracı Ayrıntıları"
+      }
+    },
+    "send_notification": {
+      "create": {
+        "success_msg": "Bildirim başarıyla gönderildi 👍",
+        "page_title": "Bildirim Gönder"
+      },
+      "page_title": "Bildirim Gönder",
+      "breadcrumbs_current": "Bildirim Gönder",
+      "breadcrumbs_first": "Gösterge Paneli",
+      "breadcrumbs_active": "Bildirim Gönder",
+      "form_title": "Bildirim Gönder",
+      "subject": "Ders",
+      "subject_placeholder": "Konuyu girin",
+      "message": "İleti",
+      "message_placeholder": "Mesaj girin",
+      "send": "Göndermek",
+      "success_msg": "Bildirim başarıyla gönderildi 👍",
+      "greeting": "Selamlama",
+      "greeting_placeholder": "Karşılama girin",
+      "body": "Gövde"
+    },
+    "plans_items": {
+      "create": {
+        "page_title": "Öğe Oluştur",
+        "breadcrumbs_current": "Öğe Oluştur",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Öğeler",
+        "breadcrumbs_active": "Oluşturmak",
+        "success_msg": "Öğe başarıyla eklendi 👍",
+        "form_title": "Öğe Oluştur"
+      },
+      "edit": {
+        "page_title": "Ögeyi düzenle",
+        "breadcrumbs_current": "Ögeyi düzenle",
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Öğeler",
+        "breadcrumbs_active": "Düzenlemek",
+        "success_msg": "Öğe başarıyla güncellendi 👍",
+        "form_title": "Planı düzenle"
+      },
+      "index": {
+        "breadcrumbs_first": "Ev",
+        "breadcrumbs_current": "Plan Öğeleri",
+        "page_title": "Plan Öğeleri",
+        "delete_confirm_button": "Silmek"
+      },
+      "name": "İsim",
+      "name_placeholder": "öğenin adı",
+      "plan": "Plan",
+      "item": "Öğe"
+    },
+    "dashboard": {
+      "summery_items": {
+        "tenants_count": "Kiracılar",
+        "domains_count": "Etki Alanları",
+        "on_trial_tenants_count": "Deneme Kiracılarında",
+        "pending_amount": "Bekleyen miktar",
+        "available_amount": "Mevcut Miktar"
+      },
+      "top_plans": "En İyi Planlar",
+      "subscription_count": "abonelikler",
+      "top_clients_title": "En İyi Müşteriler"
+    },
+    "plans": {
+      "image": "resim",
+      "name": "İsim",
+      "amount": "Tutar",
+      "currency": "Para birimi",
+      "interval": "Aralık",
+      "description": "Tanım",
+      "status": "Durum",
+      "action": "Eylem",
+      "index": {
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_active": "Planlar",
+        "breadcrumbs_current": "Planlar",
+        "page_title": "Planlar",
+        "delete_confirm_button": "Silmek"
+      },
+      "create": {
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Planlar",
+        "breadcrumbs_current": "Plan Oluştur",
+        "form_title": "Bir plan oluşturun",
+        "page_title": "Plan Oluştur",
+        "success_msg": "Plan başarıyla eklendi 👍"
+      },
+      "edit": {
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Planlar",
+        "breadcrumbs_current": "Planı Düzenle",
+        "form_title": "Planı düzenle",
+        "page_title": "Planı Düzenle",
+        "success_msg": "Başarıyla güncellendi"
+      },
+      "limit_clients": "Müşterileri Sınırla",
+      "limit_suppliers": "Tedarikçileri Sınırla",
+      "limit_employees": "Çalışanları Sınırla",
+      "limit_domains": "Etki Alanlarını Sınırla",
+      "limit_purchases": "Satın Almaları Sınırla",
+      "limit_invoices": "Faturaları Sınırla",
+      "0_means_unlimited": "0 sınırsız anlamına gelir",
+      "name_placeholder": "Plan adını girin",
+      "description_placeholder": "Plan açıklamasını girin",
+      "amount_placeholder": "Tutar",
+      "limit_clients_placeholder": "Müşterileri sınırla",
+      "limit_employees_placeholder": "Çalışanları sınırlayın",
+      "limit_domains_placeholder": "Alan adlarını sınırla",
+      "limit_purchases_placeholder": "Satın alma işlemlerini sınırlayın",
+      "limit_invoices_placeholder": "Faturaları sınırla",
+      "limit_suppliers_placeholder": "Tedarikçileri sınırla"
+    },
+    "setup": {
+      "general_settings": {
+        "index": {
+          "default_elements": {
+            "facebook_link": "Facebook Bağlantısı",
+            "twitter_link": "Twitter Bağlantısı",
+            "instagram_link": "Instagram Bağlantısı",
+            "linkedin_link": "LinkedIn Bağlantısı",
+            "default_language": "Varsayılan dil",
+            "copyright_text": "Telif Hakkı Metni",
+            "default_elements_title": "Varsayılan Öğe",
+            "english_en": "ingilizce",
+            "hindi_hi": "Hayır",
+            "copyright_text_placeholder": "Telif Hakkı Metni",
+            "facebook_link_placeholder": "Facebook Bağlantısı",
+            "instagram_link_placeholder": "Instagram Bağlantısı",
+            "twitter_link_placeholder": "Twitter Bağlantısı",
+            "linkedin_link_placeholder": "LinkedIn Bağlantısı"
+          },
+          "company_info": {
+            "company_tagline": "Şirket Sloganı",
+            "trial_day_count": "Deneme Günü Sayısı"
+          }
+        }
+      },
+      "index": {
+        "menu": {
+          "item_one": {
+            "title": "Genel Ayarlar",
+            "description": "Site başlığı, site açıklaması, adres vb. genel ayarlar.",
+            "link_text": "Ayarları değiştir"
+          },
+          "item_two": {
+            "title": "Ödeme Ayarları",
+            "description": "Ödeme ayarlarını yönetin. Şerit bilgilerinizi ekleyin.",
+            "link_text": "Ayarları değiştir"
+          },
+          "item_three": {
+            "title": "Rol ve İzinler",
+            "description": "Çalışanlara atamak için Rolleri ve İzinleri yönetin.",
+            "link_text": "Roller ve İzinler"
+          },
+          "item_four": {
+            "title": "Kullanıcı yönetimi",
+            "description": "Sistem kullanıcısı oluşturun ve kullanıcılara bireysel rol atayın.",
+            "link_text": "Kullanıcıyı Yönet"
+          }
+        }
+      },
+      "user_management": {
+        "index": {
+          "breadcrumbs_first": "Gösterge Paneli",
+          "breadcrumbs_second": "Kurmak",
+          "breadcrumbs_current": "Kullanıcılar",
+          "page_title": "Kullanıcılar",
+          "delete_confirm_button": "Onaylamak"
+        },
+        "create": {
+          "breadcrumbs_first": "Gösterge Paneli",
+          "breadcrumbs_second": "Kurmak",
+          "breadcrumbs_third": "Kullanıcılar",
+          "breadcrumbs_current": "Oluşturmak",
+          "form_title": "Yeni bir kullanıcı oluştur",
+          "page_title": "Kullanıcı oluştur",
+          "success_msg": "Başarıyla oluşturuldu"
+        },
+        "edit": {
+          "breadcrumbs_first": "Gösterge Paneli",
+          "breadcrumbs_second": "Kurmak",
+          "breadcrumbs_third": "Kullanıcılar",
+          "breadcrumbs_current": "Düzenlemek",
+          "form_title": "Kullanıcıyı düzenle",
+          "page_title": "kullanıcıyı düzenle",
+          "success_msg": "Başarıyla güncellendi"
+        }
+      }
+    },
+    "features": {
+      "create": {
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Özellikler",
+        "breadcrumbs_current": "Oluşturmak",
+        "form_title": "Özellik Oluştur",
+        "page_title": "Özellik",
+        "success_msg": "Başarıyla oluşturuldu"
+      },
+      "name": "İsim",
+      "name_placeholder": "İsim",
+      "edit": {
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_second": "Özellikler",
+        "breadcrumbs_current": "Düzenlemek",
+        "form_title": "Özellik Düzenleme",
+        "page_title": "Özellik",
+        "success_msg": "Başarıyla güncellendi"
+      },
+      "index": {
+        "breadcrumbs_first": "Gösterge Paneli",
+        "breadcrumbs_current": "Özellikler",
+        "page_title": "Özellikler",
+        "delete_confirm_button": "Onaylamak"
+      }
+    }
+  },
+  "You Are Subscribed!": "Abonesin!",
+  "You Have Cancelled the Subscription!": "Aboneliği İptal Ettiniz!",
+  "You Have Resumed the Subscription!": "Aboneliği Sürdürdünüz!",
+  "find_domain": "Etki Alanı Bul",
+  "Sign Up Instantly Free for": "Anında Ücretsiz Kaydolun",
+  "days, no credit card required": "gün, kredi kartı gerekmez",
+  "Central Admin": "Merkezi Yönetici",
+  "Login as super manager": "Süper yönetici olarak giriş yap",
+  "Login as super salesman": "Süper satıcı olarak giriş yapın",
+  "Something went wrong, please try again!": "Bir şeyler ters gitti lütfen tekrar deneyin!",
+  "Send": "Göndermek",
+  "We've sent an email to": "adresine bir e-posta gönderdik.",
+  "Please click the confirmation link in it to finalize your account": "Hesabınızı sonlandırmak için lütfen içindeki onay bağlantısını tıklayın",
+  "Didn't get the email? Please check your spam folder or": "E-postayı almadınız mı? Lütfen spam klasörünüzü kontrol edin veya",
+  "Resend Verification": "Onaylamayı tekrar gönder",
+  "Don't have any account? Click here!": "Hiç hesabınız yok mu? Buraya Tıkla!",
+  "You are not allowed to do this in demo version": "Bunu demo sürümde yapmanıza izin verilmiyor",
+  "Sent To": "A gönderildi",
+  "All": "Herşey",
+  "Tenants": "Kiracılar",
+  "Subscribers": "aboneler",
+  "pages": {
+    "name_placeholder": "İsim"
+  },
+  "plans": {
+    "limit_suppliers_placeholder": "Tedarikçileri sınırla",
+    "index": {
+      "brand_logo_view": "Plan Logosu"
+    },
+    "view_title": "Planı Görüntüle",
+    "name": "İsim",
+    "api_id": "API kimliği",
+    "amount": "Tutar",
+    "currency": "Para birimi",
+    "interval": "Aralık",
+    "product_id": "ürün kimliği",
+    "description": "Tanım",
+    "created_at": "Oluşturulma Tarihi",
+    "updated_at": "Güncellenme Tarihi"
+  },
+  "Pricing features": "Fiyatlandırma özellikleri",
+  "Select pricing features": "Fiyatlandırma özelliklerini seçin",
+  "title": "Başlık",
+  "Save": "Kaydetmek",
+  "Close": "Kapat",
+  "tenants": {
+    "create": {
+      "success_msg": "Başarıyla oluşturuldu"
+    },
+    "edit": {
+      "success_msg": "Başarıyla güncellendi"
+    },
+    "index": {
+      "delete_failed": "Silinemedi",
+      "ban_failed": "Yasaklama başarısız oldu"
+    }
+  },
+  "Select a status": "Bir durum seçin",
+  "subscription_invoices": {
+    "create": {
+      "success_msg": "Başarıyla oluşturuldu"
+    },
+    "list": {
+      "index": {
+        "page_title": "Abonelik Faturaları"
+      }
+    }
+  },
+  "retry": "yeniden dene",
+  "Subscribed to": "Abone olunan",
+  "Plan": "Plan",
+  "Switch My Plan": "Planımı Değiştir",
+  "Cancel Subscription": "Aboneliği iptal et",
+  "Manual subscription by Admin is active": "Yönetici tarafından manuel abonelik etkin",
+  "You can cancel it from the admin": "adminden iptal edebilirsin",
+  "Manually subscribed by": "tarafından manuel olarak abone olunan",
+  "Manually subscribed at": "Manuel olarak abone olunan",
+  "You have cancelled your subscription and your account is still active until": "Aboneliğinizi iptal ettiniz ve hesabınız şu tarihe kadar aktif durumda.",
+  "Or, You Can": "Veya, Yapabilirsin",
+  "Resume Subscription": "Aboneliği Sürdür",
+  "Admin have cancelled your subscription": "Yönetici aboneliğinizi iptal etti",
+  "Contact to Admin for re enable the subscription": "Aboneliği yeniden etkinleştirmek için Yönetici ile iletişime geçin",
+  "You are on Trial Period for the": "için Deneme Süresindesiniz",
+  "plan": "Plan",
+  "You have": "Var",
+  "days left on your trial": "deneme sürenizde kalan günler",
+  "Client Limit": "Müşteri Sınırı",
+  "Domains Limit": "Alan Adı Sınırı",
+  "Employee Limit": "Çalışan Sınırı",
+  "Supplier Limit": "Tedarikçi Sınırı",
+  "Subscribe to a plan below": "Aşağıdaki bir plana abone olun",
+  "Switch Plan": "Planı Değiştir",
+  "Subscribe": "Abone olmak",
+  "newsletter": {
+    "success_msg": "Başarıyla Abone Oldunuz",
+    "error_msg": "Bir şeyler ters gitti lütfen tekrar deneyin!"
+  },
+  "Client limit": "Müşteri sınırı",
+  "Domain limit": "Alan sınırı",
+  "Employees limit": "Çalışan sınırı",
+  "Suppliers limit": "Tedarikçi sınırı",
+  "Purchase limit": "Satın alma limiti",
+  "Invoice limit": "fatura sınırı",
+  "Newsletter": "Bülten",
+  "Upload Your CSV file": "CSV dosyanızı yükleyin",
+  "Download Demo CSV File": "Demo CSV Dosyasını İndirin",
+  "domain-requests": {
+    "create": {
+      "form_title": "Alan İsteği Oluştur",
+      "page_title": "Alan İsteği",
+      "success_msg": "Etki Alanı İsteği başarıyla oluşturuldu",
+      "breadcrumbs_first": "Gösterge Paneli",
+      "breadcrumbs_second": "Etki Alanı İstekleri",
+      "breadcrumbs_current": "Oluşturmak",
+      "breadcrumbs_active": "Oluşturmak"
+    },
+    "domain": "Alan adı",
+    "index": {
+      "page_title": "Etki Alanı İstekleri",
+      "delete_warning": "Bu Etki Alanı İsteğini gerçekten silmek istiyor musunuz?",
+      "delete_failed": "Silinemedi",
+      "delete_success": "Başarıyla silindi",
+      "breadcrumbs_first": "Gösterge Paneli",
+      "breadcrumbs_current": "Etki Alanı İstekleri",
+      "breadcrumbs_active": "Etki Alanı İstekleri",
+      "delete_confirm_button": "Onaylamak",
+      "delete_cancel_button": "İptal"
+    }
+  },
+  "Instructions": "Talimatlar",
+  "Download the zip folder": "Zip klasörünü indirin",
+  "Populate the products\\.csv with your product information": "Ürünleri\\.csv ürün bilgilerinizle doldurun",
+  "You can get the ids related to product to their corresponding CSV file": "Ürünle ilgili kimlikleri ilgili CSV dosyasına alabilirsiniz.",
+  "Example: sub_cat_id in sub-categories\\.csv": "Örnek: sub-categories\\.csv içindeki sub_cat_id",
+  "Download Template": "Şablonu İndir",
+  "no_action_available": "İşlem yok",
+  "Subscriber": "Abone",
+  "Users": "Kullanıcılar",
+  "User": "kullanıcı",
+  "You need to add an A record to your DNS with IP": "IP ile DNS'inize bir A kaydı eklemeniz gerekiyor",
+  "template": {
+    "home": "Ev",
+    "about": "Hakkımızda",
+    "features": "Özellikler",
+    "modules": "Modüller",
+    "pricing": "fiyatlandırma",
+    "contact": "İletişim",
+    "sign_in": "Kayıt olmak",
+    "register": "Kayıt ol",
+    "information": "Bilgi",
+    "need_help": "Yardıma mı ihtiyacınız var?",
+    "contact_us": "Bize Ulaşın",
+    "whats_included": "Neler Dahil",
+    "buy_now": "Şimdi al"
+  },
+  "impersonate": {
+    "title": "sitenizi inşa ediyoruz",
+    "des": "🤖 robotlarımız web sitenizi oluştururken lütfen bekleyin.<br> Bir dakikadan fazla sürmemelidir."
+  }
+}
